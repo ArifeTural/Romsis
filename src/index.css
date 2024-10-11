@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+.navbar {
+    height: 15vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  
+}
+
+.nav-text {
+    color: grey !important;
+    font-size: 1.2rem !important;
+    font-weight: bolder !important;
+}
+
+.nav-text:hover {
+    text-decoration: underline;
+    color: red !important;
+}
+
+.teklif-nav {
+    font-size: 1.2rem !important;
+    font-weight: bolder !important;
+    background: #F84715 !important;
+    border-radius: 10px !important;
+}
+
+
+.h-video{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* .by-yazi-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100vh;
+}
+
+.byon-card{
+  
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:1rem !important;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.by-card-yapi{
+  
+    box-shadow: 5px 10px 10px grey;
+    cursor: pointer;
+    position: relative; 
+    color: gray !important;
+    width: 60%;
+   
+}
+
+
+.by-card-yapi:hover .card-text {
+    visibility: visible !important;
+    opacity: 1; 
+    display: flex;
+   
+}
+
+
+
+.yazilim-card{
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+   
+}
+
+.card-yapi {
+    width: 16rem !important;
+    height: 10rem !important;
+    box-shadow: 5px 10px 10px grey;
+    cursor: pointer;
+    position: relative; 
+    color: aliceblue !important;
+   
+}
+
+.by-card-tit{
+    font-size: 3rem !important;
+    font-weight: bold !important;
+    width: 100%;
+    position: absolute;
+    margin-top: 50% !important;
+    margin-left: 50% !important;
+    transform: translate(-45%, -40%);
+    text-shadow: 10px 10px 10px;
+    color: whitesmoke !important;
+}
+
+.by-card-yapi:hover .by-card-tit {
+    transform: translate(-50%, -400%);
+    font-weight: bolder;
+
+
+}
+
+.card-tex{
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease; 
+    position: absolute;
+    transform: translate(0%, -200%);
+    font-weight: bolder;
+    color: white;
+}
+
+.by-card-yapi:hover .card-tex {
+    transform: translate(0%, 200%);
+    
+}
+
+.card-tit{
+    
+    font-weight: bold !important;
+    font-size: 1.5rem !important;
+    margin-top: 50% !important;
+    transform: translate(0%, 0%);
+    background: linear-gradient(to right, rgb(95, 85, 85), rgba(245, 245, 245, 0.143));
+
+}
+
+.card-text {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease; 
+    position: absolute;
+    transform: translate(0%, -100%);
+    font-weight: bolder;
+   
+}
+
+.card-yapi:hover {
+    width: 20rem !important;
+    height: 20rem !important;
+}
+
+.card-yapi:hover .card-text {
+    visibility: visible !important;
+    opacity: 1; 
+}
+
+.card-yapi:hover .card-tit {
+    transform: translate(0%, -350%);
+    font-weight: bolder;
+
+
+} */
+
+.r-container{
+    font-family: "Protest Strike", sans-serif;
+    width: 100%;
+    text-align: center;
+    color: rgb(126, 115, 115);
+}
+
+.referans{
+  
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+
+
+ }
+ 
+ .r-card{
+    border: 3px solid rgb(230, 230, 234);
+    width: 5rem;
+    height: 5rem;
+    box-shadow: 5px 5px 10px gray;
+ }
+
+ .referans-card{
+    width: 100%;
+  
+ }
+ 
+.ofis{
+    border-right: 2px dashed rgb(144, 73, 73);
+    color: grey;
+    
+}
+.ofis h1 {
+    text-align: center;
+    color: rgb(144, 73, 73);
+}
+.ofis h4{
+    color: rgb(144, 73, 73);
+} 
+.ofis span{
+    font-weight: bolder;
+    color: rgb(144, 73, 73);
+    font-size: larger;
+}
+
+.i-form{
+    color: grey;
+   
+}
+
+.i-form h1{
+    color:rgb(144, 73, 73);
+}
+
+.i-button{
+    width: 100%;
+    background: rgb(144, 73, 73)!important;
+    font-size: 1.2rem !important;
+    font-weight: bolder !important;
+}
+
+footer{
+    margin-top: 2rem;
+    padding: 2rem;
+    width: 100%;
+    background: #F3EEEE;
+
+}
+.f-container{
+  
+    width: 100%;
+    display: flex;
+}
+
+
+.fa{
+    display: flex;
+    gap: 2rem;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+
+}
+
+.fa-brands{
+
+    transition: transform 2s;
+
+}
+
+.fa-brands:hover{
+    color: #8A1C4A;
+    transform: rotate(360deg) scale(2);
+   
+    
+}
+
+.cözümler{
+    font-size: 1.2rem;
+}
+
+.kurumsal{
+    font-size: 1.2rem;
+  
+}
+
+.kurumsal-card{
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+
