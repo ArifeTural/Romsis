@@ -57,3 +57,27 @@ export const referans =[
     },
   ];
   export default referans;
+
+  export const board =[
+    {
+      id:1,
+      image:"/image/ajet.png",
+      title:"AJet",
+    },
+    {
+      id:2,
+      image:"/image/pegasus.png",
+      title:"Peagsus",
+    },
+    {
+      id:3,
+      image:"/image/mga.png",
+      title:"Mavi Gök Airlines",
+    },
+    {
+      id:4,
+      image:"/image/freebird.png",
+      title:"Freebird Airlines",
+    },
+  ];
+

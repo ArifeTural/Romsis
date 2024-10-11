@@ -68,26 +68,7 @@ export const byon =[
 
   },
 ]
-export const board =[
-  {
-    id:1,
-    img:"./image/byOn/food-tray-760x475@2x.jpg",
-    title:"Uçak içi yükleme",
-    text:"",
-  },
-  {
-    id:2,
-    img:"./image/byOn/ucakkredikarti.jpg",
-    title:"Uçak içi satış ve stok yönetimi",
-    text:"",
-  },
-  {
-    id:3,
-    img:"./image/byOn/singapore-airlines-farm-to-airplane-e1553897689861.webp",
-    title:"Uçuş sonrası muhasebe raporlama işlemi",
-    text:"",
-  },
-]
+
 
 
 
