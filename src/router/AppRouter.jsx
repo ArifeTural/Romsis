@@ -9,6 +9,7 @@ import Kurumsal from '../pages/Kurumsal'
 import Iletisim from '../pages/Iletisim'
 import Navbar from '../components/Navbar'
 import Teklif from '../pages/Teklif'
+import Footer from '../components/Footer'
 
 
 const AppRouter = () => {
@@ -25,6 +26,7 @@ const AppRouter = () => {
             <Route path='/dashboard/teklif' element={<Teklif/>}/>
             <Route path='*'element={<Home/>}/>
         </Routes>
+        <Footer/>
     </BrowserRouter>
   )
 }
