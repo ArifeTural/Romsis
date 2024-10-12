@@ -20,7 +20,11 @@
     font-weight: bolder !important;
     background: #F84715 !important;
     border-radius: 10px !important;
-} 
+}
+
+footer{
+    background: rgb(238, 234, 234) !important;
+}
 
 .h-video{
     width: 100%;
