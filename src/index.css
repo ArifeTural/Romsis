@@ -11,24 +11,8 @@
     box-sizing: border-box;
   
 }
-
-.navbar {
-    height: 15vh;
-    position: fixed;
-    top: 0;
-    width: 100%;
-  
-}
-
-.nav-text {
-    color: grey !important;
-    font-size: 1.2rem !important;
-    font-weight: bolder !important;
-}
-
-.nav-text:hover {
-    text-decoration: underline;
-    color: red !important;
+.navbar{
+    background: rgb(238, 234, 234) !important;
 }
 
 .teklif-nav {
@@ -36,8 +20,7 @@
     font-weight: bolder !important;
     background: #F84715 !important;
     border-radius: 10px !important;
-}
-
+} 
 
 .h-video{
     width: 100%;

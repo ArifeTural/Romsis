@@ -16,10 +16,10 @@ const Navbar = () => {
     const location = useLocation();
 
     return (
-        <nav className="navbar navbar-expand-md navbar-light bg-light">
+        <nav className="navbar navbar-expand-md navbar-light  ">
             <div className="container-fluid">
                 <Link to="/" className="navbar-brand">
-                    <img src={logo} alt="romsis" width={250} />     
+                    <img src={logo} alt="romsis" width={200} />     
                 </Link>
 
                 <button 
@@ -40,8 +40,8 @@ const Navbar = () => {
                                 <NavLink 
                                     className={`nav-link ${
                                         item.title === "Teklif Al"
-                                            ? "teklif-nav btn btn-danger text-light px-3 py-2"
-                                            : "nav-text"
+                                            ? "teklif-nav btn btn-danger text-light px-3 py-2 fw-bolder"
+                                            : "nav-text text-secondary fw-bolder fs-5"
                                     } ${
                                         location.pathname === item.path 
                                             ? "active text-decoration-underline text-danger-emphasis" 

@@ -30,7 +30,7 @@ function Home() {
 
 {/* <Row className='by-yazi-container '>
         {/* BUY ON BOARD */}
-
+{/* 
         <Col className="byon-card">
   {byon.map((y) => {
     const { id, title, text, image } = y;
@@ -46,11 +46,11 @@ function Home() {
         </Card>
     );
   })}
-      </Col>
+      </Col> */} 
 
 {/* YAZILIM */}
 
-      <Col className="yazilim-card">
+      {/* <Col className="yazilim-card">
   {yazilim.map((y) => {
     const { id, title, text, image } = y;
     return (
