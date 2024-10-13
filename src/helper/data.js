@@ -11,20 +11,18 @@ export const data = [
 
 
 export const yazilim =[
-
   {
     id:1,
-    image:"./image/yazilim/mobiluygulama.jpg",
-    title:"Mobil Uygulama",
-    text:"Kullanıcı dostu mobil uygulamalar ile işletmenizi cebinize taşıyoruz",
+    image:"./image/yazilim/by-board.jpg",
+    title:"",
+    text:"",
 
   },
   {
-   id:2,
-   image:"./image/yazilim/UI_UX-Design.jpg",
-   title:"UI & UX",
-   text:"Kullanıcıları cezbedenakıcı ve sezgisel UI & UX çözümleri sunuyoruz.",
-
+    id:2,
+    image:"./image/yazilim/by-board.jpg",
+    title:"BY ON BOARD",
+    text:"Yolcularamıza uçuş sırasında konfor, güvenlik ve ikram hizmetlerini kapsayan bir deneyim sunuyoruz.",
 
   },
   {
@@ -50,24 +48,23 @@ export const yazilim =[
 
   },
   {
-   id:6,
-   image:"./image/yazilim/dijitalpazarlama.jpg",
-   title:"Dijital Pazarlama",
-   text:"Markanızın çevrimiçi etkisini arttıran dijital pazarlama kampanyaları yürütüyoruz",
-
+    id:6,
+    image:"./image/yazilim/mobiluygulama.jpg",
+    title:"Mobil Uygulama",
+    text:"Kullanıcı dostu mobil uygulamalar ile işletmenizi cebinize taşıyoruz",
 
   },
-]
-
-export const byon =[
   {
-    id:0,
-    image:"./image/yazilim/by-board.jpg",
-    title:"BY ON BOARD",
-    text:"Yolcularamıza uçuş sırasında konfor, güvenlik ve ikram hizmetlerini kapsayan bir deneyim sunuyoruz.",
+    id:7,
+    image:"./image/yazilim/UI_UX-Design.jpg",
+    title:"UI & UX",
+    text:"Kullanıcıları cezbedenakıcı ve sezgisel UI & UX çözümleri sunuyoruz.",
+ 
+ 
+   },
+  ]
 
-  },
-]
+
 
 
 
