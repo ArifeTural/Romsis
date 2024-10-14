@@ -150,11 +150,13 @@ Col a {
   }
   .content p{
     visibility: hidden;
+
+  }
+  
+  .content:hover{
+    opacity: 0.5;
   }
 
-  .content:hover{
-   opacity: 0.2;
-  }
   .content:hover p{
     visibility: visible;
  

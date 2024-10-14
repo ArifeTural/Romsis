@@ -27,7 +27,7 @@ function Home() {
   {yazilim.map((yz, index) => {
     const { image, id, title, text } = yz;
     return (
-      <div key={id} className={`content content${index + 1}`} style={{ backgroundImage: `url(${image})` }}>
+      <div key={id} className={`content content${index + 1}`} style={{ backgroundImage: `url(${image})`}}>
         <h3 className='content-h3'>{title}</h3>
         <p className='content-p'>{text}</p>
       </div>

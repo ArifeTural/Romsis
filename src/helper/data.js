@@ -42,7 +42,7 @@ export const yazilim =[
   },
   {
     id:5,
-    image:"./image/yazilim/ticaret.jpg",
+    image:"./image/yazilim/ticaret.webp",
     title:"E-Ticaret",
     text:"Kullanıcı dostu ve satış odaklı profesyonel e-ticaret siteleri oluşturuyoruz",
 
