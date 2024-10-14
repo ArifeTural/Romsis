@@ -108,7 +108,7 @@ Col a {
     gap: 10px; 
     justify-content: center;
     align-items: center;
-    padding: 5rem;
+    padding: 7rem;
  
   }
   
@@ -165,6 +165,15 @@ Col a {
   .content1 h3{
     color: black !important;
   }
+
+  .referans{
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 4rem;
+    justify-content: center;
+
+}
 
 
 

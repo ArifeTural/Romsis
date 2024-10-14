@@ -37,11 +37,14 @@ function Home() {
 </div>
 
 {/* REFERANSLAR */}
-<div>
+<div className='text-center'>
+  <h2>REFERANSLARIMIZ</h2>
+</div>
+<div className='referans'>
 {referans.map((arife)=>{
   const {id, image} = arife
   return(
-    <div className="card" style={{ width: "10rem" }} key={id}>
+    <div className="referanslar-card" style={{ width: "8rem" }} key={id}>
   <img src={image} className="card-img-top" alt="..." />
 
 </div>

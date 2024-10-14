@@ -1,59 +1,63 @@
 export const referans =[
     {
       id:1,
-      image:"./image/ajet.png",
+      image:"./image/referans/ajet.png",
     },
     {
       id:2,
-      image:"./image/basar.png",
+      image:"./image/referans/basar.png",
     },
     {
       id:3,
-      image:"./image/bni.png",
+      image:"./image/referans/bni.png",
     },
     {
       id:4,
-      image:"./image/duran.png",
+      image:"./image/referans/sait.png",
     },
     {
       id:5,
-      image:"./image/freebird.png",
+      image:"./image/referans/freebird.png",
     },
     {
       id:6,
-      image:"./image/guler.png",
+      image:"./image/referans/guler.png",
     },
     {
       id:7,
-      image:"./image/jms.png",
+      image:"./image/referans/jamak.png",
     },
     {
       id:8,
-      image:"./image/kiwi.png",
+      image:"./image/referans/kiwi.png",
     },
     {
       id:9,
-      image:"./image/libraff.png",
+      image:"./image/referans/yükselen.png",
     },
     {
       id:10,
-      image:"./image/merkez.png",
+      image:"./image/referans/merkez.png",
     },
     {
       id:11,
-      image:"./image/mga.png",
+      image:"./image/referans/mga.png",
     },
     {
       id:12,
-      image:"./image/pegasus.png",
+      image:"./image/referans/pegasus.png",
     },
     {
       id:13,
-      image:"./image/polyplex.png",
+      image:"./image/referans/polyplex.png",
     },
     {
       id:14,
-      image:"./image/teas.png",
+      image:"./image/referans/teas.png",
+    },
+    {
+      id:15,
+      image:"./image/referans/adore.png",
     },
   ];
 
@@ -61,22 +65,22 @@ export const referans =[
   export const board =[
     {
       id:1,
-      image:"/image/ajet.png",
+      image:"/image/referans/ajet.png",
       title:"AJet",
     },
     {
       id:2,
-      image:"/image/pegasus.png",
+      image:"/image/referans/pegasus.png",
       title:"Peagsus",
     },
     {
       id:3,
-      image:"/image/mga.png",
+      image:"/image/referans/mga.png",
       title:"Mavi Gök Airlines",
     },
     {
       id:4,
-      image:"/image/freebird.png",
+      image:"/image/referans/freebird.png",
       title:"Freebird Airlines",
     },
   ];
