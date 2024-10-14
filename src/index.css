@@ -181,13 +181,16 @@ opacity: 0.5;
   }
 
   .content1 h3{
+    padding-left: 10rem; ;
     color: #af1c06!important;
-    font-size: 5rem !important;
+    font-size: 3rem !important;
     text-align: end !important;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   .content1 p{
     color: black !important;
+    text-align: end !important;
+
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
   }
@@ -205,6 +208,9 @@ opacity: 0.5;
    box-shadow: 10px 10px 10px lightgrey;
 }
 
+.h-refe{
+    color:#af1c06 !important;
+}
 
 
  /* İLETİŞİM */

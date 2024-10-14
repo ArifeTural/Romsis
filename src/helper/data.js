@@ -14,7 +14,7 @@ export const yazilim =[
   {
     id: 1,
     image: "",
-    title: "NELER YAPIYORUZ ?",
+    title: "NE YAPIYORUZ ?",
     text: "Romsis olarak her zaman yanınızda olmaya ve kalıcı çözümler sunmaya hazırız",
   },
   {

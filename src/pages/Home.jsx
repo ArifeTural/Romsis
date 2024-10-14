@@ -7,7 +7,7 @@ function Home() {
     <div>
       {/* SLAYT */}
       <div className='carousel'>
-        <div className='carousel-bg'></div> {/* Arka plan katmanı */}
+        <div className='carousel-bg'></div>
         <Carousel className='carousel-content'>
           {data.map((item) => {
             const { image, id } = item;
@@ -36,9 +36,10 @@ function Home() {
   })}
 </div>
 
+
 {/* REFERANSLAR */}
 <div className='text-center'>
-  <h2>REFERANSLARIMIZ</h2>
+  <h2 ><a href="" className=' h-refe font-monospace fw-bolder  fs-1' > İş Ortaklarımız</a></h2>
 </div>
 <div className='referans'>
 {referans.map((arife)=>{
