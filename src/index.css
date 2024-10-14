@@ -285,6 +285,25 @@ opacity: 0.5;
     align-items: center;
 }
 
+.ref{
+    margin: 2rem;
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+    justify-content: center;
+}
+
+
+.ref-card{
+    border: 2px solid rgba(128, 128, 128, 0.688);
+    opacity: 0.5;
+}
+
+.ref-card:hover{
+    opacity: 1;
+}
+
 
 
 
