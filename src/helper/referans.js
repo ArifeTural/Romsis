@@ -56,7 +56,7 @@ export const referans =[
       image:"./image/teas.png",
     },
   ];
-  export default referans;
+
 
   export const board =[
     {

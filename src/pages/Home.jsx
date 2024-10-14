@@ -1,5 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 import { data, yazilim } from "../helper/data";
+import { referans } from '../helper/referans';
 
 function Home() {
   return (
@@ -22,7 +23,7 @@ function Home() {
         </Carousel>
       </div>
 
-      {/* Dinamik veri çekimi */}
+      {/* NELER YAPIYORUZ */}
       <div className='container'>
   {yazilim.map((yz, index) => {
     const { image, id, title, text } = yz;
@@ -33,6 +34,21 @@ function Home() {
       </div>
     );
   })}
+</div>
+
+{/* REFERANSLAR */}
+<div>
+{referans.map((arife)=>{
+  const {id, image} = arife
+  return(
+    <div className="card" style={{ width: "10rem" }} key={id}>
+  <img src={image} className="card-img-top" alt="..." />
+
+</div>
+
+  )
+})}
+
 </div>
 
     </div>
