@@ -12,11 +12,10 @@ export const data = [
 
 export const yazilim =[
   {
-    id:1,
-    image:"",
-    title:"NELER YAPIYORUZ ?",
-    text:"",
-
+    id: 1,
+    image: "",
+    title: "NELER YAPIYORUZ ?",
+    text: "Romsis olarak her zaman yanınızda olmaya ve kalıcı çözümler sunmaya hazırız",
   },
   {
     id:2,
@@ -29,7 +28,7 @@ export const yazilim =[
     id:3,
     image:"./image/yazilim/webtasarimjpg..jpg",
     title:"Web Tasarım",
-    text:"Markanızı dijital dünyada öne çıkaran dijital web siteleri tasarlıyoruz ",
+    text:"Mobil uyumlu ve SEO odaklı web sitelerinin çevrimiçi varlığını artırıyoruz.",
 
   },
   {
@@ -44,21 +43,21 @@ export const yazilim =[
     id:5,
     image:"./image/yazilim/ticaret.webp",
     title:"E-Ticaret",
-    text:"Kullanıcı dostu ve satış odaklı profesyonel e-ticaret siteleri oluşturuyoruz",
+    text:"İşinizi online dünyada büyütmenizi sağlayacak e-ticaret çözümleri sunuyoruz.",
 
   },
   {
     id:6,
     image:"./image/yazilim/mobiluygulama.jpg",
     title:"Mobil Uygulama",
-    text:"Kullanıcı dostu mobil uygulamalar ile işletmenizi cebinize taşıyoruz",
+    text:"İşinizi cebinize sığdıran mobil uygulamalar geliştiriyoruz.",
 
   },
   {
     id:7,
     image:"./image/yazilim/ui-ux-tasarim.png",
     title:"UI & UX",
-    text:"Kullanıcıları cezbedenakıcı ve sezgisel UI & UX çözümleri sunuyoruz.",
+    text:"Hem göz alıcı hem de kolay kullanılabilir UI & UX çözümleri sunuyoruz.",
  
  
    },

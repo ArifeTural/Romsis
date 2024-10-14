@@ -44,7 +44,7 @@ function Home() {
 {referans.map((arife)=>{
   const {id, image} = arife
   return(
-    <div className="referanslar-card" style={{ width: "8rem" }} key={id}>
+    <div className="referans-card" style={{ width: "8rem" }} key={id}>
   <img src={image} className="card-img-top" alt="..." />
 
 </div>

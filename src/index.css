@@ -129,8 +129,8 @@ Col a {
     border:none;
     color: white;
     cursor: pointer;
-  
-    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
   }
   
   .content3,
@@ -145,34 +145,64 @@ Col a {
   .content h3{
     font-size: 3rem;
     font-weight: bold;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
-  }
-  .content p{
-    visibility: hidden;
 
   }
+  .content2 p,
+  .content3 p,
+  .content4 p,
+  .content5 p,
+  .content6 p,
+  .content7 p{
+    visibility: hidden;
+  
+  }
+.content2 ,
+.content3 ,
+.content4 ,
+.content6 ,
+.content5 ,
+.content7 {
+opacity: 0.5;
+}
+
+  
   
   .content:hover{
-    opacity: 0.5;
+    opacity: 1;
   }
 
   .content:hover p{
     visibility: visible;
- 
+  }
+  .content:hover h3{
+    visibility: visible;
   }
 
   .content1 h3{
+    color: #af1c06!important;
+    font-size: 5rem !important;
+    text-align: end !important;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .content1 p{
     color: black !important;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
   }
 
   .referans{
+    margin: 2rem;
     display: flex; 
     flex-wrap: wrap;
     gap: 2rem;
-    padding: 4rem;
+    padding: 2rem;
     justify-content: center;
+}
 
+.referans-card{
+   box-shadow: 10px 10px 10px lightgrey;
 }
 
 
