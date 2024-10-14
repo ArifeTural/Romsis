@@ -28,8 +28,8 @@ function Home() {
     const { image, id, title, text } = yz;
     return (
       <div key={id} className={`content content${index + 1}`} style={{ backgroundImage: `url(${image})` }}>
-        <h3>{title}</h3>
-        <p>{text}</p>
+        <h3 className='content-h3'>{title}</h3>
+        <p className='content-p'>{text}</p>
       </div>
     );
   })}

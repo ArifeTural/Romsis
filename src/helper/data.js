@@ -13,8 +13,8 @@ export const data = [
 export const yazilim =[
   {
     id:1,
-    image:"./image/yazilim/by-board.jpg",
-    title:"",
+    image:"",
+    title:"NELER YAPIYORUZ ?",
     text:"",
 
   },
@@ -27,14 +27,14 @@ export const yazilim =[
   },
   {
     id:3,
-    image:"./image/yazilim/webtasarimjpg.jpg",
+    image:"./image/yazilim/webtasarimjpg..jpg",
     title:"Web Tasarım",
     text:"Markanızı dijital dünyada öne çıkaran dijital web siteleri tasarlıyoruz ",
 
   },
   {
    id:4,
-   image:"./image/yazilim/weyazilim.jpg",
+   image:"./image/yazilim/webbyazilim.jpg",
    title:"Web Yazılım",
    text:"Güçlü ve güvenli web yazılımları ile firmanızın dijital dönüşümünü kodluyoruz",
 
@@ -56,7 +56,7 @@ export const yazilim =[
   },
   {
     id:7,
-    image:"./image/yazilim/UI_UX-Design.jpg",
+    image:"./image/yazilim/ui-ux-tasarim.png",
     title:"UI & UX",
     text:"Kullanıcıları cezbedenakıcı ve sezgisel UI & UX çözümleri sunuyoruz.",
  
