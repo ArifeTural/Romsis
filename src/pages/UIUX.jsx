@@ -1,9 +1,9 @@
 import React from 'react'
 
-const UI&UX = () => {
+const UIUX = () => {
   return (
     <div>UI&UX</div>
   )
 }
 
-export default UI&UX
+export default UIUX

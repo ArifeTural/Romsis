@@ -6,11 +6,11 @@ const Navbar = () => {
     const navigation = [
         { title: "Anasayfa", path: "/dashboard" },
         { title: "Buy On Board", path: "/dashboard/byOnBoard" },
-        { title: "Özel Yazılım Hizmetleri", path: "/dashboard/ozelYazilim", subpages: [
+        { title: "Özel Yazılım Hizmetleri", subpages: [
             { title: "Mobil Uygulama", path: "/dashboard/ozelYazilim/MobilUygulama" },
-            { title: "UI & UX ", path: "/dashboard/ozelYazilim/UI&UX" },
-            { title: "Web Tasarım", path: "/dashboard/ozelYazilim/WebTasarım" },
-            { title: "Web Yazılım", path: "/dashboard/ozelYazilim/WebYazılım" },
+            { title: "UI & UX", path: "/dashboard/ozelYazilim/UIUX" },
+            { title: "Web Tasarım", path: "/dashboard/ozelYazilim/WebTasarim" },
+            { title: "Web Yazılım", path: "/dashboard/ozelYazilim/WebYazilim" },
             { title: "Wms Depo Yönetim Sistemleri", path: "/dashboard/ozelYazilim/Wms" }
         ]},
         { title: "Kurumsal", path: "/dashboard/kurumsal" },
@@ -62,7 +62,7 @@ const Navbar = () => {
                                     <>
                                         <a 
                                             className="nav-link dropdown-toggle nav-text text-secondary fw-bolder fs-5" 
-                                            href="#" 
+                                            href="#"  // Menüyü açmak için sadece "#" kullanıyoruz, sayfaya yönlendirme yapmıyor.
                                             id="navbarDropdown" 
                                             role="button" 
                                             data-bs-toggle="dropdown" 
@@ -98,7 +98,6 @@ const Navbar = () => {
 }
 
 export default Navbar;
-
 
 
 
