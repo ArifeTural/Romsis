@@ -269,6 +269,26 @@ opacity: 0.5;
 
 
 
+.mobil-card{
+    width: 100%;
+    height: 30vh !important;
+   
+    background-image: url(./assets/uygulama.webp);
+    background-position: center;
+    background-size: cover; 
+}
+
+.card-img-overlay{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
 
 
 

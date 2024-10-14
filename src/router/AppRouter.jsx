@@ -12,6 +12,7 @@ import Iletisim from '../pages/Iletisim';
 import Teklif from '../pages/Teklif';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import Hakkımızda from '../pages/Hakkımızda';
 
 const AppRouter = () => {
   return (
@@ -26,6 +27,7 @@ const AppRouter = () => {
         <Route path='/dashboard/ozelYazilim/WebYazilim' element={<WebYazilim />} />
         <Route path='/dashboard/ozelYazilim/Wms' element={<Wms />} />
         <Route path='/dashboard/kurumsal' element={<Kurumsal />} />
+        <Route path='/dashboard/hakkımızda' element={<Hakkımızda />} />
         <Route path='/dashboard/iletisim' element={<Iletisim />} />
         <Route path='/dashboard/teklif' element={<Teklif />} />
         <Route path='*' element={<Home />} />

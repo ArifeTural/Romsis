@@ -13,7 +13,8 @@ const Navbar = () => {
             { title: "Web Yazılım", path: "/dashboard/ozelYazilim/WebYazilim" },
             { title: "Wms Depo Yönetim Sistemleri", path: "/dashboard/ozelYazilim/Wms" }
         ]},
-        { title: "Kurumsal", path: "/dashboard/kurumsal" },
+        { title: "Referanslarımız", path: "/dashboard/kurumsal" },
+        { title: "Hakkımızda", path: "/dashboard/hakkımızda" },
         { title: "İletişim", path: "/dashboard/iletisim" },
         { title: "Teklif Al", path: "/dashboard/teklif" },
     ];
