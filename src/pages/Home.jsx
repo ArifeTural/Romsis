@@ -39,7 +39,7 @@ function Home() {
 
 {/* REFERANSLAR */}
 <div className='text-center'>
-  <h2 ><a href="" className=' h-refe font-monospace fw-bolder  fs-1' > İş Ortaklarımız</a></h2>
+  <h2 ><a href="" className='h-refe font-monospace fw-bolder  fs-1 text-secondary' > İş Ortaklarımız</a></h2>
 </div>
 <div className='referans'>
 {referans.map((arife)=>{

@@ -6,7 +6,13 @@ const Navbar = () => {
     const navigation = [
         { title: "Anasayfa", path: "/dashboard" },
         { title: "Buy On Board", path: "/dashboard/byOnBoard" },
-        { title: "Özel Yazılım Hizmetleri", path: "/dashboard/ozelYazilim" },
+        { title: "Özel Yazılım Hizmetleri", path: "/dashboard/ozelYazilim", subpages: [
+            { title: "Mobil Uygulama", path: "/dashboard/ozelYazilim/MobilUygulama" },
+            { title: "UI & UX ", path: "/dashboard/ozelYazilim/UI&UX" },
+            { title: "Web Tasarım", path: "/dashboard/ozelYazilim/WebTasarım" },
+            { title: "Web Yazılım", path: "/dashboard/ozelYazilim/WebYazılım" },
+            { title: "Wms Depo Yönetim Sistemleri", path: "/dashboard/ozelYazilim/Wms" }
+        ]},
         { title: "Kurumsal", path: "/dashboard/kurumsal" },
         { title: "İletişim", path: "/dashboard/iletisim" },
         { title: "Teklif Al", path: "/dashboard/teklif" },
@@ -16,7 +22,7 @@ const Navbar = () => {
     const location = useLocation();
 
     return (
-        <nav className="navbar navbar-expand-md navbar-light  ">
+        <nav className="navbar navbar-expand-md navbar-light">
             <div className="container-fluid">
                 <Link to="/" className="navbar-brand">
                     <img src={logo} alt="romsis" width={200} />     
@@ -36,21 +42,52 @@ const Navbar = () => {
                 <div className={`collapse navbar-collapse ${show ? "show" : ""}`} id="navbarNav">
                     <ul className="navbar-nav ms-auto">
                         {navigation.map((item) => (
-                            <li className="nav-item" key={item.title}>
-                                <NavLink 
-                                    className={`nav-link ${
-                                        item.title === "Teklif Al"
-                                            ? "teklif-nav btn btn-danger text-light px-3 py-2 fw-bolder"
-                                            : "nav-text text-secondary fw-bolder fs-5"
-                                    } ${
-                                        location.pathname === item.path 
-                                            ? "active text-decoration-underline text-danger-emphasis" 
-                                            : ""
-                                    }`} 
-                                    to={item.path}
-                                >
-                                    {item.title}
-                                </NavLink>
+                            <li className={`nav-item ${item.subpages ? "dropdown" : ""}`} key={item.title}>
+                                {!item.subpages ? (
+                                    <NavLink 
+                                        className={`nav-link ${
+                                            item.title === "Teklif Al"
+                                                ? "teklif-nav btn btn-danger text-light px-3 py-2 fw-bolder"
+                                                : "nav-text text-secondary fw-bolder fs-5"
+                                        } ${
+                                            location.pathname === item.path 
+                                                ? "active text-decoration-underline text-danger-emphasis" 
+                                                : ""
+                                        }`} 
+                                        to={item.path}
+                                    >
+                                        {item.title}
+                                    </NavLink>
+                                ) : (
+                                    <>
+                                        <a 
+                                            className="nav-link dropdown-toggle nav-text text-secondary fw-bolder fs-5" 
+                                            href="#" 
+                                            id="navbarDropdown" 
+                                            role="button" 
+                                            data-bs-toggle="dropdown" 
+                                            aria-expanded="false"
+                                        >
+                                            {item.title}
+                                        </a>
+                                        <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            {item.subpages.map((subitem) => (
+                                                <li key={subitem.title}>
+                                                    <NavLink 
+                                                        className={`dropdown-item ${
+                                                            location.pathname === subitem.path 
+                                                                ? "active text-decoration-underline text-danger-emphasis" 
+                                                                : ""
+                                                        }`} 
+                                                        to={subitem.path}
+                                                    >
+                                                        {subitem.title}
+                                                    </NavLink>
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    </>
+                                )}
                             </li>
                         ))}
                     </ul>
@@ -61,7 +98,6 @@ const Navbar = () => {
 }
 
 export default Navbar;
-
 
 
 
