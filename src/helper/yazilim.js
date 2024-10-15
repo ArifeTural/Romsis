@@ -144,12 +144,6 @@ export const webtasarim =[
       title:'Bootstrap',
       description: 'Hızlı ve kolay bir şekilde duyarlı web siteleri oluşturmak için kullanılan popüler bir CSS framework\'üdür. Önceden tanımlanmış stiller ve bileşenler sunar.'
     },
-    {
-      id: 12,
-      iamge:"/image/teknoloji/sass.png",
-      title: 'SASS',
-      description: 'CSS için bir ön işleyici olan SASS, daha düzenli ve ölçeklenebilir stiller oluşturmanıza olanak tanır. Değişkenler, nesting ve mixin gibi özellikler sunar.'
-    },
 
   ];
 
@@ -220,12 +214,7 @@ export const webtasarim =[
       title:'Bootstrap',
 
     },
-    {
-      id: 12,
-      iamge:"/image/teknoloji/sass.png",
-      title: 'SASS',
 
-    },
 
   ];
   

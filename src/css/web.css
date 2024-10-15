@@ -1,7 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.web-tasarim-img{
+    margin-top: 3rem;
+    box-shadow: #4d1709 0px 10px 15px;
+    max-width: 90%;
+    animation-name: foto;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse; 
+    transition: all 10s;
+  
+}
+
+
+
+.web-tas-giris{
+    color:#0077A2 ;
+} 
+
+.web-tas-surec-title{
+    color: #932e15 !important;
+}
+
+.web-tas-surec{
+    color:#01336dbe !important;
+}
+
 .web-teknoloji-container{
+    margin-bottom: 3rem;
     width: 100%;
     max-height: 50vh;
 
 }
-  
+
+@keyframes foto {
+    0%{
+        transform:  scaleX(100%);
+
+    }
+
+   
+    100%{
+        transform: scaleX(300%)
+    }
+
+    
+}
 
