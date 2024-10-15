@@ -217,5 +217,30 @@ export const webtasarim =[
 
 
   ];
+
+
+  export const bilgiKartlari = [
+    {
+      id: 1,
+      title: 'Frontend Teknolojileri',
+      description: 'Kullanıcı arayüzleri HTML, CSS ve JavaScript ile tasarlanır. React, Angular gibi frameworkler bu aşamada önemlidir.',
+      modalTitle: 'Frontend Teknolojileri',
+      modalContent: 'Frontend, web yazılımında kullanıcıyla etkileşime geçen ilk katmandır. Bu katman HTML ile yapılandırılır, CSS ile tasarlanır ve JavaScript ile dinamikleştirilir. Framework olarak React, Angular, Vue.js gibi modern çözümler kullanılabilir.'
+    },
+    {
+      id: 2,
+      title: 'Backend Teknolojileri',
+      description: 'Sunucu tarafında işlevleri yöneten Python, Node.js, PHP gibi dillerle veriler işlenir.',
+      modalTitle: 'Backend Teknolojileri',
+      modalContent: 'Backend, web yazılımında sunucu tarafında gerçekleşen işlemleri yönetir. Bu katmanda Python, Node.js, PHP, Ruby gibi teknolojiler verileri işler, oturum yönetimi yapar ve API’ler aracılığıyla frontend’e veri sağlar.'
+    },
+    {
+      id: 3,
+      title: 'Veritabanı Yönetimi',
+      description: 'Veritabanları web yazılımında önemli bir rol oynar. MySQL, MongoDB gibi sistemler tercih edilir.',
+      modalTitle: 'Veritabanı Yönetimi',
+      modalContent: 'Veritabanı yönetimi, bir web uygulamasının en önemli yapı taşlarından biridir. Veritabanları, verilerin güvenli ve verimli bir şekilde saklanmasını sağlar. SQL tabanlı MySQL veya NoSQL tabanlı MongoDB yaygın seçeneklerdir.'
+    }
+  ];
   
   
