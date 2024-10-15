@@ -3,16 +3,21 @@ import { Helmet } from 'react-helmet';
 import { bilgiKartlari } from '../helper/yazilim';
 import { Carousel, Card } from 'react-bootstrap';
 import { tekno, teknoloji } from '../helper/yazilim';
+import webt from "../assets/w-yazilim.jpg";
 
 const WebYazilim = () => {
   return (
     <div className="container mt-5">
+
+
       {/* SEO Meta Tag'ler */}
       <Helmet>
         <title>Web Yazılım Hizmetleri | Frontend, Backend ve Veritabanı Çözümleri</title>
         <meta name="description" content="Modern web yazılım hizmetlerimiz ile işletmeniz için frontend, backend ve veritabanı çözümleri sunuyoruz. Profesyonel ve ölçeklenebilir yazılım geliştirme hizmetleri hakkında detaylı bilgiler edinin." />
         <meta name="keywords" content="web yazılım, frontend, backend, veritabanı yönetimi, web geliştirme, yazılım çözümleri, web tasarım" />
       </Helmet>
+
+
 
       {/* Başlık Bölümü */}
       <header className="text-center mb-5">
@@ -21,6 +26,10 @@ const WebYazilim = () => {
           İşletmeniz için modern ve ölçeklenebilir web yazılım çözümleri sunuyoruz. Profesyonel web geliştirme, frontend ve backend teknolojileriyle güçlü, güvenilir ve hızlı dijital platformlar oluşturuyoruz.
         </p>
       </header>
+
+      <div className=' '>
+    <img src={webt} alt="" className='web-yazilim-img'  />
+    </div>
 
       {/* Geniş Bilgi Kartları */}
       <section className="mb-5">
