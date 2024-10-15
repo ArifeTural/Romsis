@@ -77,20 +77,156 @@ export const webtasarim =[
 
   ];
 
-  export const tekno= [
+  export const tekno = [
     {
       id: 1,
-      title: 'Html 5',
-      description: 'Özel hazırlanmış kurumsal siteleri için esnek ve kullanımı kolay olan WordPress platformunu kullanıyoruz. WordPress’in çekirdek altyapısına özel entegrasyonlar sağlıyoruz ve müşteri ihtiyaçlarına özel çözümler geliştiriyoruz.'
+      image:"/image/teknoloji/html.png",
+      title: 'HTML',
+      description: 'Web sayfalarının iskeletini oluşturan temel işaretleme dilidir. İçerik yapısını tanımlamak için kullanılır.'
     },
     {
       id: 2,
+      image:"/image/teknoloji/social.png",
       title: 'CSS',
-      description: 'PHP ile güçlü ve güvenilir web uygulamaları oluşturuyoruz. Laravel gibi modern çerçeveleri kullanarak, projelerinizi hızlıca geliştiriyoruz.'
+      description: 'Web sayfalarının stil ve görünümünü düzenleyen dil. Renkler, yazı tipleri ve sayfa düzenlemeleri için kullanılır.'
     },
     {
       id: 3,
-      title: 'Vue.js',
-      description: 'Modern ve dinamik kullanıcı arayüzleri oluşturmak için Vue.js çerçevesini kullanıyoruz. Bu sayede projelerinizi daha interaktif hale getiriyoruz.'
+      image:"/image/teknoloji/atom.png",
+      title: 'React',
+      description: 'Kullanıcı arayüzü bileşenlerini oluşturmak için kullanılan popüler bir JavaScript kütüphanesidir.'
     },
+    {
+      id: 4,
+      image:"/image/teknoloji/wordpress.png",
+      title: 'WordPress',
+      description: 'Dünyanın en popüler içerik yönetim sistemidir (CMS). Kullanıcı dostu yapısıyla web siteleri oluşturmak için kullanılır.'
+    },
+    {
+      id: 5,
+      image:"/image/teknoloji/js.png",
+      title: 'JavaScript',
+      description: 'Web sayfalarına interaktif özellikler ekleyen, tarayıcı üzerinde çalışan bir programlama dilidir.'
+    },
+    {
+      id: 6,
+      image:"/image/teknoloji/document.png",
+      title: 'Vue.js',
+      description: 'Modern kullanıcı arayüzleri oluşturmak için kullanılan, hafif ve esnek bir JavaScript framework\'üdür.'
+    },
+    {
+      id: 7,
+      image:"/image/teknoloji/figma.png",
+      title: 'Figma',
+      description: 'Web ve mobil uygulama arayüzlerinin tasarlanması için kullanılan bulut tabanlı bir tasarım aracıdır.'
+    },
+    {
+      id: 8,
+      image:"/image/teknoloji/mysql.png",
+      title: 'MySQL',
+      description: 'Web uygulamalarında veritabanı yönetimi için kullanılan popüler bir açık kaynaklı veritabanı yönetim sistemidir.'
+    },
+    {
+      id: 9,
+      image:"/image/teknoloji/nodejs.png",
+      title: 'Node.js',
+      description: 'Sunucu tarafında JavaScript çalıştıran açık kaynaklı bir platformdur. Yüksek performanslı web uygulamaları geliştirmek için kullanılır.'
+    },
+    {
+      id: 10,
+      image:"/image/teknoloji/php.png",
+      title: 'PHP',
+      description: 'Sunucu tarafında çalışan bir betik dilidir ve dinamik web sayfaları oluşturmak için yaygın olarak kullanılır.'
+    },
+    {
+      id: 11,
+      image:"/image/teknoloji/bootstrap.png",
+      title:'Bootstrap',
+      description: 'Hızlı ve kolay bir şekilde duyarlı web siteleri oluşturmak için kullanılan popüler bir CSS framework\'üdür. Önceden tanımlanmış stiller ve bileşenler sunar.'
+    },
+    {
+      id: 12,
+      iamge:"/image/teknoloji/sass.png",
+      title: 'SASS',
+      description: 'CSS için bir ön işleyici olan SASS, daha düzenli ve ölçeklenebilir stiller oluşturmanıza olanak tanır. Değişkenler, nesting ve mixin gibi özellikler sunar.'
+    },
+
   ];
+
+  export const teknoloji = [
+    {
+      id: 1,
+      image:"/image/teknoloji/html.png",
+      title: 'HTML',
+    
+    },
+    {
+      id: 2,
+      image:"/image/teknoloji/social.png",
+      title: 'CSS',
+    
+    },
+    {
+      id: 3,
+      image:"/image/teknoloji/atom.png",
+      title: 'React',
+
+    },
+    {
+      id: 4,
+      image:"/image/teknoloji/wordpress.png",
+      title: 'WordPress',
+
+    },
+    {
+      id: 5,
+      image:"/image/teknoloji/js.png",
+      title: 'JavaScript',
+   
+    },
+    {
+      id: 6,
+      image:"/image/teknoloji/document.png",
+      title: 'Vue.js',
+  
+    },
+    {
+      id: 7,
+      image:"/image/teknoloji/figma.png",
+      title: 'Figma',
+   
+    },
+    {
+      id: 8,
+      image:"/image/teknoloji/mysql.png",
+      title: 'MySQL',
+
+    },
+    {
+      id: 9,
+      image:"/image/teknoloji/nodejs.png",
+      title: 'Node.js',
+
+    },
+    {
+      id: 10,
+      image:"/image/teknoloji/php.png",
+      title: 'PHP',
+
+    },
+    {
+      id: 11,
+      image:"/image/teknoloji/bootstrap.png",
+      title:'Bootstrap',
+
+    },
+    {
+      id: 12,
+      iamge:"/image/teknoloji/sass.png",
+      title: 'SASS',
+
+    },
+
+  ];
+  
+  

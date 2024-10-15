@@ -3,7 +3,7 @@ import web from "../assets/webtasarım.jpg"
 import "../css/web.css"
 import Card from 'react-bootstrap/Card';
 import { Carousel } from 'react-bootstrap';
-import { tekno, webtasarim } from '../helper/yazilim';
+import { tekno, teknoloji, webtasarim } from '../helper/yazilim';
 
 
 
@@ -45,21 +45,40 @@ const WebTasarım = () => {
     <div className='web-tas-surec-title'>
       <h2>Hangi Teknolojileri Kullanıyoruz</h2>
     </div>
-    <div>
-    <Carousel>
-      {tekno.map((tech) => (
-        <Carousel.Item key={tech.id}>
-       
-          <div className="card p-4 text-center">
-          <img src="" alt="" />
-            <h3>{tech.title}</h3>
-            <p>{tech.description}</p>
-          </div>
-        </Carousel.Item>
-      ))}
-    </Carousel>
-
+    <div className='web-teknoloji-container d-flex justify-content-center'>
+    <Carousel className="carousel-custom">
+  {tekno.map((tech) => (
+    <Carousel.Item key={tech.id} className="carousel-item-custom">
+      <div className="d-flex justify-content-center">
+        <img
+          className="d-block"
+          src={tech.image}
+          alt={tech.title}
+          style={{ height: '200px', objectFit: 'cover' }} 
+        />
+      </div>
+      <div className="card p-4 text-center">
+        <h3>{tech.title}</h3>
+        <p>{tech.description}</p>
+      </div>
+    </Carousel.Item>
+  ))}
+</Carousel>
     </div>
+    <div className='d-flex flex-wrap gap-5 justify-content-center' >
+    {teknoloji.map((tekno)=>{
+      const {id, image} = tekno
+      return(
+        <Card style={{ width: '5rem' }} key={id} >
+      <Card.Img variant="top" src={image} />
+   
+    </Card>
+
+      )
+    })}
+
+
+</div>
 
    
 
