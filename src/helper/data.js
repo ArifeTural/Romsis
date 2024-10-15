@@ -65,6 +65,85 @@ export const yazilim =[
 
 
 
+  export const tarih =[
+    {
+      id:1,
+      title:"2001",
+      text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. In architecto omnis a commodi accusamus perferendis esse maxime labore, alias harum aliquam libero minus quisquam laudantium. Quisquam praesentium nemo tenetur aliquid",
+   
+   
+     },
+    {
+      id:2,
+      title:"2010",
+      text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. In architecto omnis a commodi accusamus perferendis esse maxime labore, alias harum aliquam libero minus quisquam laudantium. Quisquam praesentium nemo tenetur aliquid",
+   
+   
+     },
+    {
+      id:3,
+      title:"2012",
+      text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. In architecto omnis a commodi accusamus perferendis esse maxime labore, alias harum aliquam libero minus quisquam laudantium. Quisquam praesentium nemo tenetur aliquid",
+   
+   
+     },
+    {
+      id:4,
+      title:"2016",
+      text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. In architecto omnis a commodi accusamus perferendis esse maxime labore, alias harum aliquam libero minus quisquam laudantium. Quisquam praesentium nemo tenetur aliquid",
+   
+   
+     },
+    {
+      id:5,
+      title:"2017",
+      text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. In architecto omnis a commodi accusamus perferendis esse maxime labore, alias harum aliquam libero minus quisquam laudantium. Quisquam praesentium nemo tenetur aliquid",
+   
+   
+     },
 
+
+  ]
+
+  export const ekip =[
+    {
+      id:1,
+      image:"/image/user.jpg",
+      title1:"ARİFE TURAL",
+      title2:"Frontend Devoloper"
+    },
+    {
+      id:2,
+      image:"/image/user.jpg",
+      title1:"ARİFE TURAL",
+      title2:"Frontend Devoloper"
+    },
+    {
+      id:3,
+      image:"/image/user.jpg",
+      title1:"ARİFE TURAL",
+      title2:"Frontend Devoloper"
+    },
+    {
+      id:4,
+      image:"/image/user.jpg",
+      title1:"ARİFE TURAL",
+      title2:"Frontend Devoloper"
+    },
+    {
+      id:5,
+      image:"/image/user.jpg",
+      title1:"ARİFE TURAL",
+      title2:"Frontend Devoloper"
+    },
+    {
+      id:6,
+      image:"/image/user.jpg",
+      title1:"ARİFE TURAL",
+      title2:"Frontend Devoloper"
+    },
+
+
+  ]
 
 
