@@ -1,13 +1,19 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Helmet } from 'react-helmet';
 import { bilgiKartlari } from '../helper/yazilim';
 import { Carousel, Card } from 'react-bootstrap';
-import { tekno, teknoloji } from '../helper/yazilim';
+import { tekno} from '../helper/yazilim';
 import webt from "../assets/w-yazilim.jpg";
 
 const WebYazilim = () => {
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  const handleSelect = (selectedIndex) => {
+    setActiveIndex(selectedIndex);
+  };
   return (
     <div className="container mt-2">
+    
 
 
       {/* SEO Meta Tag'ler */}
@@ -69,43 +75,46 @@ const WebYazilim = () => {
       </section>
 
  
-      <section className="mb-5">
-        <h2 className="wt-teknoloji text-center">Hangi Teknolojileri Kullanıyoruz?</h2>
-        <div className="web-teknoloji-container d-flex justify-content-center">
-          <Carousel className="carousel-custom">
-            {tekno.map((tech) => (
-              <Carousel.Item key={tech.id} className="carousel-item-custom">
-                <div className="d-flex justify-content-center">
-                  <img
-                    className="d-block"
-                    src={tech.image}
-                    alt={tech.title}
-                    style={{ height: '200px', objectFit: 'cover' }}
-                  />
-                </div>
-                <div className="card border-5 p-4 text-center mt-2">
-                  <h3 className='fs-1 fw-bold'>{tech.title}</h3>
-                  <p className='fs-5'>{tech.description}</p>
-                </div>
-              </Carousel.Item>
-            ))}
-          </Carousel>
-        </div>
-      </section>
-
-
-      <section className="mb-5">
-        <div className="d-flex flex-wrap gap-5 justify-content-center">
-          {teknoloji.map((tekno) => {
-            const { id, image } = tekno;
-            return (
-              <Card style={{ width: '5rem' }} key={id} className='border-0'>
-                <Card.Img variant="top" src={image} />
-              </Card>
-            );
-          })}
-        </div>
-      </section>
+      <div className='web-teknoloji-container mt-5 p-5'>
+      <h2 className='web-tas-surec-title m-5 pt-4 fs-1'> Hangi Teknolojileri Kullanıyoruz:</h2>
+      <Carousel activeIndex={activeIndex} onSelect={handleSelect} className="carousel-custom tek-ana">
+        {tekno.map((tech) => (
+          <Carousel.Item key={tech.id} className="carousel-item-custom ">
+            <div className="carousel-image-container d-flex justify-content-center">
+              <img
+                className="carousel-image d-block"
+                src={tech.image}
+                alt={tech.title}
+                style={{ height: '200px', objectFit: 'cover' }} 
+              />
+            </div>
+            <div className="carousel-card border-5 p-4 text-center mt-2">
+              <h3 className='carousel-card-title fs-1 fw-bold'>{tech.title}</h3>
+              <p className='carousel-card-description fs-4'>{tech.description}</p>
+            </div>
+          </Carousel.Item>
+        ))}
+      </Carousel>
+      <div className="carousel-indicators-custom d-flex justify-content-center mt-5">
+        {tekno.map((tech, index) => (
+          <div
+            key={tech.id}
+            className={`indicator-image ${activeIndex === index ? 'active' : ''}`}
+            style={{
+              backgroundImage: `url(${tech.image})`,
+              width: '70px', 
+              height: '70px', 
+              borderRadius: '50%', 
+              margin: '0 5px',
+              backgroundSize: 'cover',
+              cursor: 'pointer',
+              border: activeIndex === index ? '2px solid #007bff' : 'none', 
+            }}
+            onClick={() => handleSelect(index)}
+          />
+        ))}
+      </div>
+    </div>
 
   
     </div>

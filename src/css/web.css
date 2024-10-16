@@ -8,6 +8,7 @@
     margin-top: 3rem;
     box-shadow: #4d1709 0px 10px 15px;
     width: 90%;  
+    max-height: 60vh;
 }
 
 
@@ -22,7 +23,7 @@
 
 .carousel-container{
     max-height: 50vh;
-    background-color: #0077a24e;
+
 }
 .carousel-container .card{
     background-color: #022C61;

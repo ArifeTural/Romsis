@@ -130,7 +130,7 @@ export const webtasarim =[
       id: 9,
       image:"/image/teknoloji/nodejs.png",
       title: 'Node.js',
-      description: 'Sunucu tarafında JavaScript çalıştıran açık kaynaklı bir platformdur. Yüksek performanslı web uygulamaları geliştirmek için kullanılır.'
+      description: 'JavaScript çalıştıran açık kaynaklı bir platformdur. Yüksek performanslı web uygulamaları geliştirmek için kullanılır.'
     },
     {
       id: 10,
@@ -142,7 +142,7 @@ export const webtasarim =[
       id: 11,
       image:"/image/teknoloji/bootstrap.png",
       title:'Bootstrap',
-      description: 'Hızlı ve kolay bir şekilde duyarlı web siteleri oluşturmak için kullanılan popüler bir CSS framework\'üdür. Önceden tanımlanmış stiller ve bileşenler sunar.'
+      description: 'Hızlı ve kolay bir şekilde duyarlı web siteleri oluşturmak için kullanılan popüler bir CSS framework\'üdür. '
     },
 
   ];

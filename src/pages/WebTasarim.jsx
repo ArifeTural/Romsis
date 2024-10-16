@@ -36,7 +36,7 @@ const WebTasarim = () => {
         <h2 className='fs-1'>Web sitenizi tasarlarken izleyeceğimiz süreç:</h2>
       </div>
 
-      {/* 3D Carousel Yapısı */}
+      {/* SÜREÇ */}
       <Carousel interval={5000} className='carousel-container d-flex align-items-center '>
             {webtasarim.map((item, index) => (
                 <Carousel.Item key={item.id}>
@@ -78,6 +78,7 @@ const WebTasarim = () => {
       {/* Hangi Teknolojileri Kullanıyoruz Bölümü */}
       
       <div className='web-teknoloji-container mt-5 p-5'>
+      <h2 className='web-tas-surec-title m-5 pt-4 fs-1'> Hangi Teknolojileri Kullanıyoruz:</h2>
       <Carousel activeIndex={activeIndex} onSelect={handleSelect} className="carousel-custom tek-ana">
         {tekno.map((tech) => (
           <Carousel.Item key={tech.id} className="carousel-item-custom ">
