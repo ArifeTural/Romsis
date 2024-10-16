@@ -230,7 +230,7 @@ export const webtasarim =[
     {
       id: 2,
       title: 'Backend Teknolojileri',
-      description: 'Sunucu tarafında işlevleri yöneten Python, Node.js, PHP gibi dillerle veriler işlenir.',
+      description: 'Sunucu tarafında işlevleri yöneten Python, Node.js, PHP, Javascript gibi dillerle veriler işlenir.',
       modalTitle: 'Backend Teknolojileri',
       modalContent: 'Backend, web yazılımında sunucu tarafında gerçekleşen işlemleri yönetir. Bu katmanda Python, Node.js, PHP, Ruby gibi teknolojiler verileri işler, oturum yönetimi yapar ve API’ler aracılığıyla frontend’e veri sağlar.'
     },

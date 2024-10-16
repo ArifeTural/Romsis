@@ -7,7 +7,7 @@ import webt from "../assets/w-yazilim.jpg";
 
 const WebYazilim = () => {
   return (
-    <div className="container mt-5">
+    <div className="container mt-2">
 
 
       {/* SEO Meta Tag'ler */}
@@ -20,8 +20,8 @@ const WebYazilim = () => {
 
 
       {/* Başlık Bölümü */}
-      <header className="text-center mb-5">
-        <h1>Modern Web Yazılım Çözümleri</h1>
+      <header className="text-center mb-3">
+        <h1 className='wt-baslik'>MODERN WEB YAZILIM ÇÖZÜMLERİ</h1>
         <p className="lead">
           İşletmeniz için modern ve ölçeklenebilir web yazılım çözümleri sunuyoruz. Profesyonel web geliştirme, frontend ve backend teknolojileriyle güçlü, güvenilir ve hızlı dijital platformlar oluşturuyoruz.
         </p>
@@ -31,17 +31,16 @@ const WebYazilim = () => {
     <img src={webt} alt="" className='web-yazilim-img'  />
     </div>
 
-      {/* Geniş Bilgi Kartları */}
-      <section className="mb-5">
-        <h2 className="text-center mb-4">Web Yazılımının Ana Bileşenleri</h2>
+      <section className="m-5">
+        <h2 className="wt-bilesenler text-center mb-4">Web Yazılımının Ana Bileşenleri</h2>
         <div className="row">
           {bilgiKartlari.map((kart) => (
             <div key={kart.id} className="col-md-4 mb-4">
-              <div className="card h-100 shadow-sm">
+              <div className="card border-0 h-100 shadow-lg text-center">
                 <div className="card-body">
-                  <h3 className="card-title">{kart.title}</h3>
-                  <p className="card-text">{kart.description}</p>
-                  <button className="btn btn-primary" data-bs-toggle="modal" data-bs-target={`#modal${kart.id}`}>
+                  <h3 className="wt-card-title card-title">{kart.title}</h3>
+                  <p className="wt-card-text">{kart.description}</p>
+                  <button className="btn" data-bs-toggle="modal" data-bs-target={`#modal${kart.id}`}>
                     Detaylı Bilgi
                   </button>
                 </div>
@@ -69,9 +68,9 @@ const WebYazilim = () => {
         </div>
       </section>
 
-      {/* Hangi Teknolojileri Kullanıyoruz Bölümü */}
+ 
       <section className="mb-5">
-        <h2 className="text-center">Hangi Teknolojileri Kullanıyoruz?</h2>
+        <h2 className="wt-teknoloji text-center">Hangi Teknolojileri Kullanıyoruz?</h2>
         <div className="web-teknoloji-container d-flex justify-content-center">
           <Carousel className="carousel-custom">
             {tekno.map((tech) => (
@@ -94,9 +93,8 @@ const WebYazilim = () => {
         </div>
       </section>
 
-      {/* Teknoloji İkonları Bölümü */}
+
       <section className="mb-5">
-        <h2 className="text-center mb-4">Teknolojiler</h2>
         <div className="d-flex flex-wrap gap-5 justify-content-center">
           {teknoloji.map((tekno) => {
             const { id, image } = tekno;
