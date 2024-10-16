@@ -7,14 +7,7 @@
 .web-tasarim-img{
     margin-top: 3rem;
     box-shadow: #4d1709 0px 10px 15px;
-    max-width: 90%;
-    animation-name: foto;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    animation-direction: alternate-reverse; 
-    transition: all 10s;
-  
+    width: 90%;  
 }
 
 
@@ -27,15 +20,26 @@
     color: #932e15 !important;
 }
 
-.web-tas-surec{
-    color:#01336dbe !important;
+.carousel-container{
+    max-height: 50vh;
+    background-color: #0077a24e;
+}
+.carousel-container .card{
+    background-color: #022C61;
+    color: whitesmoke;
+
+}
+.sonraki-card{
+    opacity: 0.3;
 }
 
-.web-teknoloji-container{
-    margin-bottom: 3rem;
-    width: 100%;
-    max-height: 50vh;
 
+.carousel-card-description{
+    padding: 2rem !important;
+    border: 5px solid #0077A2;
+}
+.tek-ana{
+    max-height: 50vh;
 }
 
 .wt-baslik{
@@ -77,19 +81,11 @@
 }
 
 
-@keyframes foto {
-    0%{
-        transform:  scaleX(100%);
 
-    }
+  
 
-   
-    100%{
-        transform: scaleX(300%)
-    }
 
-    
-}
+
 
 
 
