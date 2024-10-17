@@ -28,13 +28,15 @@ const WebYazilim = () => {
       {/* Başlık Bölümü */}
       <header className="text-center mb-3">
         <h1 className='wt-baslik'>MODERN WEB YAZILIM ÇÖZÜMLERİ</h1>
-        <p className="lead">
-          İşletmeniz için modern ve ölçeklenebilir web yazılım çözümleri sunuyoruz. Profesyonel web geliştirme, frontend ve backend teknolojileriyle güçlü, güvenilir ve hızlı dijital platformlar oluşturuyoruz.
-        </p>
+        <img src={webt} alt="" className='web-yazilim-img'  />
+      
       </header>
 
       <div className=' '>
-    <img src={webt} alt="" className='web-yazilim-img'  />
+      <p className="lead">
+          İşletmeniz için modern ve ölçeklenebilir web yazılım çözümleri sunuyoruz. Profesyonel web geliştirme, frontend ve backend teknolojileriyle güçlü, güvenilir ve hızlı dijital platformlar oluşturuyoruz.
+        </p>
+  
     </div>
 
       <section className="m-5">

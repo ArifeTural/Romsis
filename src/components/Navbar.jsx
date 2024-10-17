@@ -5,7 +5,11 @@ import { Link, NavLink, useLocation } from 'react-router-dom';
 const Navbar = () => {
     const navigation = [
         { title: "Anasayfa", path: "/dashboard" },
-        { title: "Buy On Board", path: "/dashboard/byOnBoard" },
+        { title: "Buy On Board", subpages: [
+            { title: "Buy On Board", path: "/dashboard/byOnBoard" },
+            { title: "In-flight", path: "/dashboard/inflight" },
+        ] },
+    
         { title: "Özel Yazılım Hizmetleri", subpages: [
             { title: "Mobil Uygulama", path: "/dashboard/ozelYazilim/MobilUygulama" },
             { title: "UI & UX", path: "/dashboard/ozelYazilim/UIUX" },
@@ -13,8 +17,11 @@ const Navbar = () => {
             { title: "Web Yazılım", path: "/dashboard/ozelYazilim/WebYazilim" },
             { title: "Wms Depo Yönetim Sistemleri", path: "/dashboard/ozelYazilim/Wms" }
         ]},
-        { title: "Referanslarımız", path: "/dashboard/kurumsal" },
-        { title: "Hakkımızda", path: "/dashboard/hakkımızda" },
+        { title: "Kurumsal",  subpages: [
+            { title: "Hakkımızda", path: "/dashboard/hakkımızda" },
+            { title: "Referanslarımız", path: "/dashboard/Kurumsal" },
+            { title: "Sıkça Sorulan Sorular", path: "/dashboard/sorular" },
+        ] },
         { title: "İletişim", path: "/dashboard/iletisim" },
         { title: "Teklif Al", path: "/dashboard/teklif" },
     ];

@@ -13,6 +13,8 @@ import Teklif from '../pages/Teklif';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Hakkımızda from '../pages/Hakkımızda';
+import Sorular from '../pages/Sorular';
+import Inflight from '../pages/Inflight';
 
 const AppRouter = () => {
   return (
@@ -30,6 +32,9 @@ const AppRouter = () => {
         <Route path='/dashboard/hakkımızda' element={<Hakkımızda />} />
         <Route path='/dashboard/iletisim' element={<Iletisim />} />
         <Route path='/dashboard/teklif' element={<Teklif />} />
+        <Route path='/dashboard/sorular' element={<Sorular />} />
+        <Route path='/dashboard/inflight' element={<Inflight />} />
+
         <Route path='*' element={<Home />} />
       </Routes>
       <Footer />
