@@ -115,8 +115,16 @@ color: #c23411 !important;
 
 
 .first-img-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 90vh;
    display: flex;
 
+}
+
+.first-img{  
+max-height: 600px !important;
 }
 
 

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Card, Button, Collapse } from 'react-bootstrap';
-import { Helmet } from 'react-helmet'; // Meta bilgileri için ekleme
+import { Helmet } from 'react-helmet';
+import giris from "../assets/mobil-giris.png"
 
 const MobilUygulama = () => {
     const [openIos, setOpenIos] = useState(false);
@@ -20,36 +21,17 @@ const MobilUygulama = () => {
           <meta name="keywords" content="mobil uygulama, iOS uygulama, Android uygulama, çapraz platform, akıllı saat uygulaması, UI UX mobil, mobil arayüz, mobil yazılım" />
         </Helmet>
 
-        <header >
-          <Container  className="mobil-giris-cont" >
-            <Row className='mobil-giris-row' >
-              <Col >
-                <h1 className='mobil-giris-cont-bas text-center'>Mobil Uygulama Hizmetleri</h1>
-              </Col>
-              {/* <Col className="d-flex justify-content-end">
-                <nav className='d-flex flex-column gap-1 text-center '>
-                  <a href="#ios" className="mobil-giris-nav">iOS Uygulama</a>
-                  <a href="#android" className="mobil-giris-nav">Android Uygulama</a>
-                  <a href="#cross-platform" className="mobil-giris-nav">Çapraz Platform</a>
-                  <a href="#watch" className="mobil-giris-nav">Akıllı Saat</a>
-                  <a href="#uiux" className="mobil-giris-nav">Mobil Sistemler & Arayüz</a>
-                </nav>
-              </Col> */}
-            </Row>
-          </Container>
-        </header>
   
        
-        <section className="first-img-text">
+        <section className="first-img-text ">
 
         <Container>
-          <img src="" alt="" />
+          <img className='first-img' src={giris} alt="" />
         </Container>
           <Container className='first-text'>
             <h2 className='fs-1'>Geleceğin Mobil Uygulamaları</h2>
             <p className='fs-4 text-center text-secondary'>
-              Hem iOS hem Android platformlarında mükemmel performans gösteren,
-              kullanıcı dostu ve yenilikçi mobil uygulamalar geliştiriyoruz.
+            "Hem iOS hem de Android platformlarında mükemmel performans gösteren, kullanıcı dostu ve yenilikçi mobil uygulamalar geliştiriyoruz. Modern teknolojileri kullanarak, her iki platformda da yüksek verimlilikle çalışan ve kullanıcı deneyimini ön planda tutan çözümler sunuyoruz. Amacımız, müşterilerimizin ihtiyaçlarına tam anlamıyla yanıt veren, etkileyici ve işlevsel uygulamalar oluşturmaktır.
             </p>
           </Container>
         </section>
