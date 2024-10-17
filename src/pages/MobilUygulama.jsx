@@ -21,29 +21,33 @@ const MobilUygulama = () => {
         </Helmet>
 
         <header >
-          <Container className="" >
-            <Row>
-              <Col>
-                <h1 className='text-center'>Mobil Uygulama Hizmetleri</h1>
+          <Container  className="mobil-giris-cont" >
+            <Row className='mobil-giris-row' >
+              <Col >
+                <h1 className='mobil-giris-cont-bas text-center'>Mobil Uygulama Hizmetleri</h1>
               </Col>
-              <Col className="d-flex justify-content-end">
-                <nav className='d-flex flex-column gap-1 text-center'>
-                  <a href="#ios" className="fw-bold mx-3 border border-3 rounded-pill p-2">iOS Uygulama</a>
-                  <a href="#android" className="fw-bold mx-3 border border-3 rounded-pill p-2">Android Uygulama</a>
-                  <a href="#cross-platform" className="fw-bold mx-3 border border-3 rounded-pill p-2">Çapraz Platform</a>
-                  <a href="#watch" className="fw-bold mx-3 border border-3 rounded-pill p-2">Akıllı Saat</a>
-                  <a href="#uiux" className="fw-bold mx-3 border border-3 rounded-pill p-2">Mobil Sistemler & Arayüz</a>
+              {/* <Col className="d-flex justify-content-end">
+                <nav className='d-flex flex-column gap-1 text-center '>
+                  <a href="#ios" className="mobil-giris-nav">iOS Uygulama</a>
+                  <a href="#android" className="mobil-giris-nav">Android Uygulama</a>
+                  <a href="#cross-platform" className="mobil-giris-nav">Çapraz Platform</a>
+                  <a href="#watch" className="mobil-giris-nav">Akıllı Saat</a>
+                  <a href="#uiux" className="mobil-giris-nav">Mobil Sistemler & Arayüz</a>
                 </nav>
-              </Col>
+              </Col> */}
             </Row>
           </Container>
         </header>
   
        
-        <section className="bg-light ">
-          <Container>
+        <section className="first-img-text">
+
+        <Container>
+          <img src="" alt="" />
+        </Container>
+          <Container className='first-text'>
             <h2 className='fs-1'>Geleceğin Mobil Uygulamaları</h2>
-            <p className='fs-4 text-center'>
+            <p className='fs-4 text-center text-secondary'>
               Hem iOS hem Android platformlarında mükemmel performans gösteren,
               kullanıcı dostu ve yenilikçi mobil uygulamalar geliştiriyoruz.
             </p>
@@ -131,7 +135,7 @@ const MobilUygulama = () => {
                 </Card>
               </Col>
               <Col id="watch" md={6} className="mb-4">
-                <Card>
+             <Card>
                   <Card.Body>
                     <Card.Title className="fs-3 text-center">Akıllı Saat Uygulama Sistemleri</Card.Title>
                     <Card.Text className="fs-5">
@@ -185,6 +189,16 @@ const MobilUygulama = () => {
             </Row>
           </Container>
         </section>
+        <div>
+        <div>
+        <h2 className='text-center'>
+Yaptığımız İşler
+        </h2>
+        </div>
+          <div>
+            <img src="" alt="" />
+          </div>
+        </div>
       </div>
     );
 };

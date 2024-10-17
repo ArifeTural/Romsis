@@ -82,6 +82,52 @@
 }
 
 
+.mobil-giris-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center ;
+    padding: 2rem;
+    max-height: 50vh;
+}
+.mobil-giris-row {
+ 
+    display: flex;
+    align-items: center; /* Dikeyde ortalar */
+    justify-content: space-between; /* İki kolon arasına eşit boşluk bırakır */
+    height: 100%; /* Yüksekliği ayarlamak için gerekli */
+  }
+  
+.mobil-giris-cont-bas{
+
+color: #c23411 !important;
+    
+}
+
+.mobil-giris-nav{
+    font-weight: bold;
+    color: #626668 !important;
+    border: 2px solid #7a7e7f !important;
+ 
+    padding: 0.3rem;
+    border-radius: 20px;
+}
+
+
+.first-img-text{
+   display: flex;
+
+}
+
+
+.first-text{
+   
+
+}
+
+.first-text h2{
+    color:#ae4227;
+}
 
   
 

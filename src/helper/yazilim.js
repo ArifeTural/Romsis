@@ -80,143 +80,127 @@ export const webtasarim =[
   export const tekno = [
     {
       id: 1,
-      image:"/image/teknoloji/html.png",
+      image: "/image/teknoloji/html.png",
       title: 'HTML',
       description: 'Web sayfalarının iskeletini oluşturan temel işaretleme dilidir. İçerik yapısını tanımlamak için kullanılır.'
     },
     {
       id: 2,
-      image:"/image/teknoloji/social.png",
+      image: "/image/teknoloji/social.png",
       title: 'CSS',
       description: 'Web sayfalarının stil ve görünümünü düzenleyen dil. Renkler, yazı tipleri ve sayfa düzenlemeleri için kullanılır.'
     },
     {
       id: 3,
-      image:"/image/teknoloji/atom.png",
+      image: "/image/teknoloji/atom.png",
       title: 'React',
       description: 'Kullanıcı arayüzü bileşenlerini oluşturmak için kullanılan popüler bir JavaScript kütüphanesidir.'
     },
     {
       id: 4,
-      image:"/image/teknoloji/wordpress.png",
+      image: "/image/teknoloji/wordpress.png",
       title: 'WordPress',
       description: 'Dünyanın en popüler içerik yönetim sistemidir (CMS). Kullanıcı dostu yapısıyla web siteleri oluşturmak için kullanılır.'
     },
     {
       id: 5,
-      image:"/image/teknoloji/js.png",
+      image: "/image/teknoloji/js.png",
       title: 'JavaScript',
       description: 'Web sayfalarına interaktif özellikler ekleyen, tarayıcı üzerinde çalışan bir programlama dilidir.'
     },
     {
       id: 6,
-      image:"/image/teknoloji/document.png",
+      image: "/image/teknoloji/document.png",
       title: 'Vue.js',
       description: 'Modern kullanıcı arayüzleri oluşturmak için kullanılan, hafif ve esnek bir JavaScript framework\'üdür.'
     },
     {
       id: 7,
-      image:"/image/teknoloji/figma.png",
+      image: "/image/teknoloji/figma.png",
       title: 'Figma',
       description: 'Web ve mobil uygulama arayüzlerinin tasarlanması için kullanılan bulut tabanlı bir tasarım aracıdır.'
     },
     {
       id: 8,
-      image:"/image/teknoloji/mysql.png",
+      image: "/image/teknoloji/mysql.png",
       title: 'MySQL',
       description: 'Web uygulamalarında veritabanı yönetimi için kullanılan popüler bir açık kaynaklı veritabanı yönetim sistemidir.'
     },
     {
       id: 9,
-      image:"/image/teknoloji/nodejs.png",
+      image: "/image/teknoloji/nodejs.png",
       title: 'Node.js',
       description: 'JavaScript çalıştıran açık kaynaklı bir platformdur. Yüksek performanslı web uygulamaları geliştirmek için kullanılır.'
     },
     {
       id: 10,
-      image:"/image/teknoloji/php.png",
+      image: "/image/teknoloji/php.png",
       title: 'PHP',
       description: 'Sunucu tarafında çalışan bir betik dilidir ve dinamik web sayfaları oluşturmak için yaygın olarak kullanılır.'
     },
     {
       id: 11,
-      image:"/image/teknoloji/bootstrap.png",
+      image: "/image/teknoloji/bootstrap.png",
       title:'Bootstrap',
-      description: 'Hızlı ve kolay bir şekilde duyarlı web siteleri oluşturmak için kullanılan popüler bir CSS framework\'üdür. '
+      description: 'Hızlı ve kolay bir şekilde duyarlı web siteleri oluşturmak için kullanılan popüler bir CSS framework\'üdür.'
     },
-
+    {
+      id: 12,
+      image: "/image/teknoloji/aspnet.png",
+      title: 'ASP.NET',
+      description: 'Microsoft tarafından geliştirilmiş web uygulamaları oluşturmak için kullanılan bir framework\'tür.'
+    },
+    {
+      id: 13,
+      image: "/image/teknoloji/csharp.png",
+      title: 'C#',
+      description: 'Microsoft tarafından geliştirilen, çeşitli uygulamalar için kullanılan modern, nesne tabanlı bir programlama dilidir.'
+    },
+    {
+      id: 14,
+      image: "/image/teknoloji/pyton.png",
+      title: 'Python',
+      description: 'Kolay okunabilir ve geniş kullanım alanına sahip, yüksek seviyeli bir programlama dilidir.'
+    },
+    {
+      id: 15,
+      image: "/image/teknoloji/oracle.webp",
+      title: 'Oracle',
+      description: 'Güçlü ve güvenilir bir veritabanı yönetim sistemidir. Büyük ölçekli veritabanları için yaygın olarak kullanılır.'
+    },
+    {
+      id: 16,
+      image: "/image/teknoloji/tailwind.png",
+      title: 'Tailwind CSS',
+      description: 'Kullanıcı arayüzü tasarımında hız sağlayan yardımcı sınıflara dayalı bir CSS framework\'üdür.'
+    },
+    {
+      id: 17,
+      image: "/image/teknoloji/flutter.jpg",
+      title: 'Flutter',
+      description: 'Google tarafından geliştirilen, çapraz platform mobil uygulamalar oluşturmak için kullanılan bir UI framework\'üdür.'
+    },
+    {
+      id: 18,
+      image: "/image/teknoloji/docker.webp",
+      title: 'Docker',
+      description: 'Uygulamaların izole edilmiş ortamlarda çalıştırılmasını sağlayan bir konteyner platformudur.'
+    },
+    {
+      id: 19,
+      image: "/image/teknoloji/mangodb.png",
+      title: 'MongoDB',
+      description: 'NoSQL veri yapısına dayanan, büyük verileri depolamak ve yönetmek için kullanılan popüler bir veritabanıdır.'
+    },
+    {
+      id: 20,
+      image: "/image/teknoloji/ruby.png",
+      title: 'Ruby',
+      description: 'Dinamik, nesne yönelimli bir programlama dilidir ve özellikle web uygulamaları geliştirmede kullanılır.'
+    }
   ];
-
-  export const teknoloji = [
-    {
-      id: 1,
-      image:"/image/teknoloji/html.png",
-      title: 'HTML',
-    
-    },
-    {
-      id: 2,
-      image:"/image/teknoloji/social.png",
-      title: 'CSS',
-    
-    },
-    {
-      id: 3,
-      image:"/image/teknoloji/atom.png",
-      title: 'React',
-
-    },
-    {
-      id: 4,
-      image:"/image/teknoloji/wordpress.png",
-      title: 'WordPress',
-
-    },
-    {
-      id: 5,
-      image:"/image/teknoloji/js.png",
-      title: 'JavaScript',
-   
-    },
-    {
-      id: 6,
-      image:"/image/teknoloji/document.png",
-      title: 'Vue.js',
   
-    },
-    {
-      id: 7,
-      image:"/image/teknoloji/figma.png",
-      title: 'Figma',
-   
-    },
-    {
-      id: 8,
-      image:"/image/teknoloji/mysql.png",
-      title: 'MySQL',
 
-    },
-    {
-      id: 9,
-      image:"/image/teknoloji/nodejs.png",
-      title: 'Node.js',
-
-    },
-    {
-      id: 10,
-      image:"/image/teknoloji/php.png",
-      title: 'PHP',
-
-    },
-    {
-      id: 11,
-      image:"/image/teknoloji/bootstrap.png",
-      title:'Bootstrap',
-
-    },
-
-
-  ];
 
 
   export const bilgiKartlari = [
