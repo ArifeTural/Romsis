@@ -128,13 +128,58 @@ max-height: 600px !important;
 }
 
 
-.first-text{
-   
+.first-text h2{
+    color:#ae4227;
+}
+
+.hizmet-bas{
+    color:#ae4227;
+
+} 
+
+#ios{
+    background-image: url(../assets/bg-ios.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-top:3rem ;
+}
+
+#android{
+    background-image: url(../assets/bg-android.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-top: 3rem;
 
 }
 
-.first-text h2{
-    color:#ae4227;
+#cross-platform{
+  background-image: url(../assets/bg-capraz.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding-top: 3rem;
+
+}
+
+#watch{
+    background-image: url(../assets/bg-saat.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-top: 3rem;
+
+
+}
+
+#uiux{
+background-image: url(../assets/bg-uı.jpg);
+background-size: cover;
+background-position: center;
+color: white;
+padding-top: 3rem;
+
 }
 
   

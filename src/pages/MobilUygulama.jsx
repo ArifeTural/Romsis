@@ -28,7 +28,7 @@ const MobilUygulama = () => {
         <Container>
           <img className='first-img' src={giris} alt="" />
         </Container>
-          <Container className='first-text'>
+          <Container className='first-text '>
             <h2 className='fs-1'>Geleceğin Mobil Uygulamaları</h2>
             <p className='fs-4 text-center text-secondary'>
             "Hem iOS hem de Android platformlarında mükemmel performans gösteren, kullanıcı dostu ve yenilikçi mobil uygulamalar geliştiriyoruz. Modern teknolojileri kullanarak, her iki platformda da yüksek verimlilikle çalışan ve kullanıcı deneyimini ön planda tutan çözümler sunuyoruz. Amacımız, müşterilerimizin ihtiyaçlarına tam anlamıyla yanıt veren, etkileyici ve işlevsel uygulamalar oluşturmaktır.
@@ -38,10 +38,11 @@ const MobilUygulama = () => {
   
       
         <section className="py-5">
+        <h2 className='hizmet-bas text-center fs-1'> Hizmetlerimiz</h2>
           <Container>
             <Row className='d-flex flex-wrap justify-content-center' >
-              <Col id="ios" md={6} className="mb-4">
-                <Card>
+              <Col  md={6} className="mb-4 ">
+                <Card id="ios">
                   <Card.Body>
                     <Card.Title className="fs-3 text-center">iOS Mobil Uygulama Hizmetleri</Card.Title>
                     <Card.Text className="fs-5">
@@ -59,18 +60,18 @@ const MobilUygulama = () => {
                       <div id="ios-details" className="mt-3">
                         <Card.Text className="fs-5">
                           <strong>Detaylı Bilgi:</strong> iOS uygulama geliştirme sürecimizde, kullanıcı deneyimi ön planda
-                          tutulur. Swift ve Objective-C dillerinde uzman ekibimiz, performansı yüksek, güvenli ve etkili uygulamalar üretir.
+                          tutulur. <br /> Swift ve Objective-C dillerinde uzman ekibimiz, performansı yüksek, güvenli ve etkili uygulamalar üretir.
                         </Card.Text>
                       </div>
                     </Collapse>
                   </Card.Body>
                 </Card>
               </Col>
-              <Col id="android" md={6} className="mb-4">
-                <Card>
+              <Col  md={6} className="mb-4 ">
+                <Card id="android">
                   <Card.Body>
-                    <Card.Title className="fs-3 text-center">Android Mobil Uygulama Hizmetleri</Card.Title>
-                    <Card.Text className="fs-5">
+                    <Card.Title className="fs-3 text-center text-white">Android Mobil Uygulama Hizmetleri</Card.Title>
+                    <Card.Text className="fs-5 text-white">
                       Android cihazlar için genişletilebilir, ölçeklenebilir ve güvenli uygulamalar sunuyoruz.
                     </Card.Text>
                     <Button
@@ -83,7 +84,7 @@ const MobilUygulama = () => {
                     </Button>
                     <Collapse in={openAndroid}>
                       <div id="android-details" className="mt-3">
-                        <Card.Text className="fs-5">
+                        <Card.Text className="fs-5 text-white">
                           <strong>Detaylı Bilgi:</strong> Android uygulamaları, Java ve Kotlin ile geliştirilmektedir. Uygulamalarımız geniş bir cihaz yelpazesinde sorunsuz çalışır ve Google Play Store standartlarına uygun olarak tasarlanır.
                         </Card.Text>
                       </div>
@@ -91,8 +92,8 @@ const MobilUygulama = () => {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col id="cross-platform" md={6} className="mb-4">
-                <Card>
+              <Col  md={6} className="mb-4">
+                <Card id="cross-platform">
                   <Card.Body>
                     <Card.Title className="fs-3 text-center">Çapraz Platform Uygulama Hizmetleri</Card.Title>
                     <Card.Text className="fs-5">
@@ -116,8 +117,8 @@ const MobilUygulama = () => {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col id="watch" md={6} className="mb-4">
-             <Card>
+              <Col  md={6} className="mb-4">
+             <Card id="watch" >
                   <Card.Body>
                     <Card.Title className="fs-3 text-center">Akıllı Saat Uygulama Sistemleri</Card.Title>
                     <Card.Text className="fs-5">
@@ -134,7 +135,8 @@ const MobilUygulama = () => {
                     <Collapse in={openWatch}>
                       <div id="watch-details" className="mt-3">
                         <Card.Text className="fs-5">
-                          <strong>Detaylı Bilgi:</strong> Akıllı saat uygulamalarında, kullanıcı dostu arayüzler ve enerji verimliliği ön plandadır. Giyilebilir teknolojiler için optimize edilmiş uygulamalar sunuyoruz.
+                          <strong>Detaylı Bilgi:</strong> Akıllı saat uygulamalarında, kullanıcı dostu arayüzler ve enerji verimliliği ön plandadır. 
+                          <br />Giyilebilir teknolojiler için optimize edilmiş uygulamalar geliştiriyoruz ve sunuyoruz.
                         </Card.Text>
                       </div>
                     </Collapse>
@@ -143,12 +145,13 @@ const MobilUygulama = () => {
               </Col>
   
      
-              <Col id="uiux" md={6} className="mb-4">
-                <Card>
+              <Col  md={6} className="mb-4">
+                <Card id="uiux">
                   <Card.Body>
                     <Card.Title className="fs-3 text-center">Mobil Sistem & Arayüz Geliştirme</Card.Title>
-                    <Card.Text>
+                    <Card.Text className='fs-5'>
                       Mobil arayüzlerinizi modern ve kullanıcı dostu tasarımlarla güçlendiriyoruz.
+
                     </Card.Text>
                     <Button 
                       onClick={() => setOpenUiux(!openUiux)}
@@ -160,8 +163,9 @@ const MobilUygulama = () => {
                     </Button>
                     <Collapse in={openUiux}>
                       <div id="uiux-details" className="mt-3">
-                        <Card.Text>
-                          <strong>Detaylı Bilgi:</strong> Mobil uygulamalarda arayüz tasarımı, kullanıcıların uygulamayı etkili bir şekilde kullanabilmesi için son derece önemlidir. Tasarımlarımız kullanıcı deneyimi odaklıdır.
+                        <Card.Text className='fs-5'>
+                          <strong>Detaylı Bilgi:</strong> Mobil uygulamalarda arayüz tasarımı, kullanıcıların uygulamayı etkili bir şekilde kullanabilmesi için son derece önemlidir. 
+                          Tasarımlarımız kullanıcıların talepleri doğrultusunda hazırlanmıştır ve deneyimi odaklıdır.
                         </Card.Text>
                       </div>
                     </Collapse>
@@ -173,7 +177,7 @@ const MobilUygulama = () => {
         </section>
         <div>
         <div>
-        <h2 className='text-center'>
+        <h2 className='hizmet-bas text-center'>
 Yaptığımız İşler
         </h2>
         </div>

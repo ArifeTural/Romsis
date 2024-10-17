@@ -146,7 +146,7 @@ export const webtasarim =[
     },
     {
       id: 12,
-      image: "/image/teknoloji/aspnet.png",
+      image: "/image/teknoloji/word-image-720-1.png",
       title: 'ASP.NET',
       description: 'Microsoft tarafından geliştirilmiş web uygulamaları oluşturmak için kullanılan bir framework\'tür.'
     },
@@ -158,13 +158,13 @@ export const webtasarim =[
     },
     {
       id: 14,
-      image: "/image/teknoloji/pyton.png",
+      image: "/image/teknoloji/python.jpg",
       title: 'Python',
       description: 'Kolay okunabilir ve geniş kullanım alanına sahip, yüksek seviyeli bir programlama dilidir.'
     },
     {
       id: 15,
-      image: "/image/teknoloji/oracle.webp",
+      image: "/image/teknoloji/Oracle-Logo.jpg",
       title: 'Oracle',
       description: 'Güçlü ve güvenilir bir veritabanı yönetim sistemidir. Büyük ölçekli veritabanları için yaygın olarak kullanılır.'
     },
@@ -176,25 +176,25 @@ export const webtasarim =[
     },
     {
       id: 17,
-      image: "/image/teknoloji/flutter.jpg",
+      image: "/image/teknoloji/flutter-icon-2048x2048-ufx4idi8.png",
       title: 'Flutter',
       description: 'Google tarafından geliştirilen, çapraz platform mobil uygulamalar oluşturmak için kullanılan bir UI framework\'üdür.'
     },
     {
       id: 18,
-      image: "/image/teknoloji/docker.webp",
+      image: "/image/teknoloji/docker.png",
       title: 'Docker',
       description: 'Uygulamaların izole edilmiş ortamlarda çalıştırılmasını sağlayan bir konteyner platformudur.'
     },
     {
       id: 19,
-      image: "/image/teknoloji/mangodb.png",
+      image: "/image/teknoloji/Untitled.png",
       title: 'MongoDB',
       description: 'NoSQL veri yapısına dayanan, büyük verileri depolamak ve yönetmek için kullanılan popüler bir veritabanıdır.'
     },
     {
       id: 20,
-      image: "/image/teknoloji/ruby.png",
+      image: "/image/teknoloji/ruby-icon-1024x1024-u3yoql71.png",
       title: 'Ruby',
       description: 'Dinamik, nesne yönelimli bir programlama dilidir ve özellikle web uygulamaları geliştirmede kullanılır.'
     }
