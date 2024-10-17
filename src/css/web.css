@@ -4,44 +4,85 @@
     box-sizing: border-box;
 }
 
-.web-tasarim-img{
-    margin-top: 3rem;
-    box-shadow: #4d1709 0px 10px 15px;
-    width: 90%;  
-    max-height: 60vh;
-}
-
-
-
-.web-tas-giris{
-    color:#0077A2 ;
-} 
-
-.web-tas-surec-title{
-    color: #932e15 !important;
-}
-
-.carousel-container{
+/* Genel Düzenlemeler */
+.tek-ana {
     max-height: 50vh;
-
-}
-.carousel-container .card{
-    background-color: #022C61;
-    color: whitesmoke;
-
-}
-.sonraki-card{
-    opacity: 0.3;
-}
-
-
-.carousel-card-description{
-    padding: 2rem !important;
+  }
+  
+  .carousel-item-custom {
+    max-width: 100%;
+  }
+  
+  /* Carousel image düzenlemesi */
+  .carousel-image-container {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .carousel-image {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  
+  /* Carousel kart düzeni */
+  .carousel-card {
+    background-color: #f8f9fa;
     border: 5px solid #0077A2;
-}
-.tek-ana{
-    max-height: 50vh;
-}
+    padding: 2rem;
+  }
+  
+  .carousel-card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .carousel-card-description {
+    padding-top: 1rem;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* Indicators container */
+  .carousel-indicators-custom {
+    margin-top: 2rem;
+  }
+  
+  .indicator-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-size: cover;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .indicator-image.active {
+    border: 2px solid #007bff;
+  }
+  
+  /* Medya Sorguları */
+  @media (max-width: 768px) {
+    .tek-ana {
+      max-height: none;
+    }
+  
+    .carousel-image {
+      height: 150px;
+      object-fit: contain;
+    }
+  
+    .carousel-card {
+      padding: 1rem;
+    }
+  
+    .indicator-image {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  
+  
 
 .wt-baslik{
     color: #b12b09d2!important;
@@ -75,6 +116,11 @@
     color: whitesmoke !important;
 }
 
+
+.web-teknoloji-container{
+    width: 70%;
+ height:50%;
+}
 .wt-teknoloji{
     color: #932e15;
     font-size: 3rem;
@@ -146,6 +192,7 @@ max-height: 600px !important;
     padding-top:3rem ;
     opacity: 0.7;
 }
+
 
 #android{
     background-image: url(../assets/bg-android.jpg);
