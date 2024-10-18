@@ -3,9 +3,9 @@ export const steps = [
   {
     title: "1. Planlama ve Araştırma",
     content: [
-      "Hedef Belirleme: Web sitesinin amacını belirleyin (bilgi verme, ürün satışı, portföy sergileme vb.).",
-      "Hedef Kitle: Hedef kitlenizi tanımlayın ve onların ihtiyaçlarını anlamaya çalışın.",
-      "Rakip Analizi: Benzer siteleri inceleyerek güçlü ve zayıf yönlerini belirleyin.",
+      "Hedef belirliyoruz.",
+      "Hedef kitle belirliyoruz.",
+      "Rakip Analizi yapıyoruz.",
     ],
     img: "/image/planning.png", 
     alt: "Planlama ve Araştırma",
@@ -14,8 +14,8 @@ export const steps = [
   {
     title: "2. Tasarım",
     content: [
-      "Görsel Tasarım: Renk paleti, tipografi, görsel unsurlar ve stil kılavuzları belirleyin.",
-      "Prototip Oluşturma: Kullanıcı deneyimini test etmek için interaktif prototipler oluşturun.",
+      "Görsel Tasarım yapıyoruz.",
+      "Prototip Oluşturuyoruz.",
     ],
     img: "/image/software.png", 
     alt: "Tasarım", 
@@ -23,8 +23,8 @@ export const steps = [
   {
     title: "3. Kodlama",
     content: [
-      "Frontend Geliştirme: HTML, CSS ve JavaScript kullanarak tasarımı hayata geçirin.",
-      "Backend Geliştirme: Sunucu tarafında çalışan uygulamayı geliştirin (veritabanı bağlantıları, API entegrasyonları vb.).",
+      "Frontend geliştiriyoruz. ",
+      "Backend geliştiriyoruz.",
     ],
     img: "/image/web-development.png",
     alt: "Geliştirme", 
@@ -32,9 +32,9 @@ export const steps = [
   {
     title: "4. Test Etme",
     content: [
-      "Kullanılabilirlik Testi: Kullanıcıların web sitesini nasıl kullandığını gözlemleyin.",
-      "Fonksiyonel Testler: Tüm işlevlerin düzgün çalıştığını doğrulayın (form gönderimleri, bağlantılar, vb.).",
-      "Tarayıcı ve Cihaz Testi: Farklı tarayıcılarda ve cihazlarda siteyi test edin.",
+      "Kullanılabilirlik testi yapıyoruz.",
+      "Fonksiyonel testler yapıyoruz.",
+      "Tarayıcı ve cihaz testi yaıyoruz.",
     ],
     img: "/image/design-software.png", 
     alt: "Test Etme", 
@@ -42,8 +42,8 @@ export const steps = [
   {
     title: "5. Yayınlama",
     content: [
-      "Domain ve Hosting: Web sitesini barındırmak için bir alan adı ve hosting hizmeti satın alın.",
-      "Yayınlama: Web sitesini canlıya alın ve kullanıcıların erişimine açın.",
+      "Domain ve hosting hizmeti veriyoruz.",
+      "Yayınlıyoruz.",
     ],
     img: "/image/ux.png", 
     alt: "Yayınlama", 
@@ -51,8 +51,8 @@ export const steps = [
   {
     title: "6. Bakım ve Güncelleme",
     content: [
-      "Performans İzleme: Web sitesinin performansını takip edin (hız, trafik, kullanıcı etkileşimi vb.).",
-      "Güncellemeler: İçerikleri düzenli olarak güncelleyin ve gerekirse yeni özellikler ekleyin.",
+      "Performans izleme gerçekleştiriyoruz.",
+      "Düzenli güncellemeler yapıyoruz.",
     ],
     img: "/image/app-development.png", 
     alt: "Bakım ve Güncelleme", 

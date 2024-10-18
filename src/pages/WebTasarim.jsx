@@ -26,7 +26,22 @@ const WebTasarim = () => {
   <p className='fs-2 text-center'>Markanızın dijitaldeki yüzünü güçlü kılmak için modern, kullanıcı odaklı ve mobil uyumlu web tasarımlarımızla fark yaratıyoruz. SEO uyumlu çözümlerimizle, hedef kitlenize kolayca ulaşmanızı sağlıyoruz.</p>
  </div>
 
+
+ <div className='mt-5 d-flex flex-wrap justify-content-center align-items-center gap-5'>
+<div>
+<h2 className='fs-1 fw-bolder mb-4' >Neler Yapıyoruz?</h2>
+  <img src={soru} alt="soruisareti" width={200}/>
+</div>
+   
+      <ul>
+        {hizmetler.map((hizmet, index) => (
+          <li key={index} className='fs-4 ml-5 ' >{hizmet}</li>
+        ))}
+      </ul>
+    </div>
+
  <div className="container my-4">
+ <h2 className='fs-1 fw-bolder text-center'> Nasıl Yapıyoruz ?</h2>
       <div className="row">
         {steps.map((step, index) => (
           <div key={index} className="col-12 col-sm-6 col-md-4 col-lg-2 mb-4">
@@ -55,18 +70,7 @@ const WebTasarim = () => {
 
 
 
-<div className='mt-5 d-flex flex-wrap justify-content-center align-items-center gap-5'>
-<div>
-<h2 className='fs-1 fw-bolder mb-4' >Neler Yapıyoruz?</h2>
-  <img src={soru} alt="soruisareti" width={200}/>
-</div>
-   
-      <ul>
-        {hizmetler.map((hizmet, index) => (
-          <li key={index} className='fs-4 ml-5 ' >{hizmet}</li>
-        ))}
-      </ul>
-    </div>
+
 </div>
   );
 }
