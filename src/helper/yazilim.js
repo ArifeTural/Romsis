@@ -1,81 +1,64 @@
-export const webtasarim =[
-    {
-      id:1,
-      title:"İhtiyaç Analizi ve Planlama",
-      text:"Başarılı bir web tasarımının ilk adımı, işletmenizin hedeflerini ve kullanıcı beklentilerini anlamaktan geçer. Bu aşamada:",
-      li1:"Hedef kitleniz analiz edilir.",
-      li2:"Rakip siteler incelenir.",
-      li3:"Web sitesinin amacı ve fonksiyonları netleştirilir.",
-      li4:"Proje süreci detaylandırılır.",
-      text2:"Bu analiz, tasarım aşamasında atılacak adımları şekillendirir ve projenin sorunsuz ilerlemesini sağlar.",
-   
-   
-     },
-    {
-      id:2,
-      title:" Site Haritası ve Prototip Oluşturma",
-      text:"Planlama aşamasından sonra, web sitenizin mimarisi ve kullanıcı deneyimi üzerinde çalışırız. Bu aşamada:",
-      li1:"Site haritası oluşturularak sayfalar arasında nasıl bir hiyerarşi kurulacağı belirlenir.",
-      li2:"Wireframe ve prototipler oluşturularak tasarımın ilk aşaması somut hale getirilir.",
-      text2:"Kullanıcı dostu bir deneyim sunmak için, ziyaretçilerin sitenizi kolayca gezinebilmelerini sağlayan bir yapı tasarlarız.",
-   
-   
-     },
-    {
-      id:3,
-      title:"Görsel Tasarım (UI/UX)",
-      text:"Markanızın kimliğini yansıtan ve ziyaretçilerin ilgisini çekecek bir web tasarımı oluştururuz. Tasarım aşamasında:",
-      li1:"Renk paletleri, yazı tipleri ve görseller seçilir.",
-      li2:"Web sitesinin genel stil ve estetiği şekillendirilir.",
-      li3:"Kullanıcı deneyimi (UX) odaklı bir tasarım stratejisi geliştirilir.",
-      text2:"Web siteniz, hem estetik açıdan etkileyici hem de kullanıcılar için rahat bir gezinti deneyimi sunacak şekilde tasarlanır.",
-   
-   
-     },
-    {
-      id:4,
-      title:" Geliştirme (Kodlama)",
-      text:"Tasarım aşaması tamamlandıktan sonra, sitenizi dinamik ve fonksiyonel hale getirmek için geliştirme aşamasına geçilir. Bu aşamada:",
-      li1:"Ön yüz geliştirme (Frontend)",
-      li2:"Arka yüz geliştirme (Backend)",
-      text2:"Web siteniz, hem masaüstü hem de mobil cihazlarda mükemmel bir deneyim sunacak şekilde optimize edilir.",
-   
-   
-     },
-    {
-      id:5,
-      title:"Test ve Optimizasyon",
-      text:"Web sitesi tamamlandıktan sonra her detayını titizlikle test ederiz. Bu aşamada:",
-      li1:"Tarayıcı uyumluluğu ve mobil cihaz performansı test edilir.",
-      li2:"Fonksiyonel testler ile form, link ve diğer etkileşimler kontrol edilir.",
-      li3:"Kullanıcı deneyimi test edilerek, web sitesinin hız ve kullanılabilirliği optimize edilir.",
-      text2:"Herhangi bir hata veya aksaklık olmadan sitenizin sorunsuz çalıştığından emin oluruz.",
-   
-   
-     },
-    {
-      id:6,
-      title:"Yayına Alma (Launch)",
-      text:"Web sitesi tamamlandıktan sonra her detayını titizlikle test ederiz. Bu aşamada:",
-      li1:"Alan adı ve hosting ayarları yapılır.",
-      li2:"Web sitesi, canlı sunucuya yüklenir ve yayınlanır.",
-      li3:"SEO uyumlu içerik ve teknik optimizasyonlarla sitenizin arama motorlarında görünürlüğü artırılır.",
-      text2:"Markanızı dijital dünyada başarıyla temsil eden web sitenizi, güçlü bir başlangıç yapmanız için yayına alıyoruz.",
-   
-   
-     },
-    {
-      id:7,
-      title:"Bakım ve Güncellemeler",
-      text:"Web siteniz yayına alındıktan sonra da yanınızdayız. Sürekli güncel ve performanslı kalması için:",
-      li1:"Güvenlik güncellemeleri yapılır.",
-      li2:"İçerik yönetimi ve yeni özellik eklemeleri yapılır.",
-      li3:"Performans ve SEO izlemeleri düzenli olarak gerçekleştirilir.",
-      text2:"Web siteniz her zaman güncel, güvenli ve hızlı kalacak şekilde düzenli bakım hizmetleri sunarız.",
-     },
 
+export const steps = [
+  {
+    title: "1. Planlama ve Araştırma",
+    content: [
+      "Hedef Belirleme: Web sitesinin amacını belirleyin (bilgi verme, ürün satışı, portföy sergileme vb.).",
+      "Hedef Kitle: Hedef kitlenizi tanımlayın ve onların ihtiyaçlarını anlamaya çalışın.",
+      "Rakip Analizi: Benzer siteleri inceleyerek güçlü ve zayıf yönlerini belirleyin.",
+    ],
+    img: "/image/planning.png", 
+    alt: "Planlama ve Araştırma",
+  },
 
-  ];
+  {
+    title: "2. Tasarım",
+    content: [
+      "Görsel Tasarım: Renk paleti, tipografi, görsel unsurlar ve stil kılavuzları belirleyin.",
+      "Prototip Oluşturma: Kullanıcı deneyimini test etmek için interaktif prototipler oluşturun.",
+    ],
+    img: "/image/software.png", 
+    alt: "Tasarım", 
+  },
+  {
+    title: "3. Kodlama",
+    content: [
+      "Frontend Geliştirme: HTML, CSS ve JavaScript kullanarak tasarımı hayata geçirin.",
+      "Backend Geliştirme: Sunucu tarafında çalışan uygulamayı geliştirin (veritabanı bağlantıları, API entegrasyonları vb.).",
+    ],
+    img: "/image/web-development.png",
+    alt: "Geliştirme", 
+  },
+  {
+    title: "4. Test Etme",
+    content: [
+      "Kullanılabilirlik Testi: Kullanıcıların web sitesini nasıl kullandığını gözlemleyin.",
+      "Fonksiyonel Testler: Tüm işlevlerin düzgün çalıştığını doğrulayın (form gönderimleri, bağlantılar, vb.).",
+      "Tarayıcı ve Cihaz Testi: Farklı tarayıcılarda ve cihazlarda siteyi test edin.",
+    ],
+    img: "/image/design-software.png", 
+    alt: "Test Etme", 
+  },
+  {
+    title: "5. Yayınlama",
+    content: [
+      "Domain ve Hosting: Web sitesini barındırmak için bir alan adı ve hosting hizmeti satın alın.",
+      "Yayınlama: Web sitesini canlıya alın ve kullanıcıların erişimine açın.",
+    ],
+    img: "/image/ux.png", 
+    alt: "Yayınlama", 
+  },
+  {
+    title: "6. Bakım ve Güncelleme",
+    content: [
+      "Performans İzleme: Web sitesinin performansını takip edin (hız, trafik, kullanıcı etkileşimi vb.).",
+      "Güncellemeler: İçerikleri düzenli olarak güncelleyin ve gerekirse yeni özellikler ekleyin.",
+    ],
+    img: "/image/app-development.png", 
+    alt: "Bakım ve Güncelleme", 
+  },
+];
+
 
   export const tekno = [
     {

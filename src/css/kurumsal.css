@@ -4,9 +4,11 @@
     box-sizing: border-box;
 }
 
-body{
+.soru-ana{
     background-color: rgba(245, 225, 218, 0.693) !important;
 }
+
+
 
 .sorular-baslik{
     color: brown;
