@@ -3,20 +3,18 @@ import { Helmet } from 'react-helmet';
 
 const UIUX = () => {
   return (
-    <div className="bg-light">
+    <div className="">
       <Helmet>
         <title>UI/UX Tasarımı | Kullanıcı Deneyimini Yeniden Tanımlayın</title>
         <meta name="description" content="UI/UX tasarım sürecimiz ile kullanıcı deneyimini en üst düzeye çıkarın. Projeleriniz için en iyi tasarım çözümlerini sunuyoruz." />
         <meta name="keywords" content="UI/UX, kullanıcı deneyimi, tasarım, prototipleme, kullanıcı testleri, tasarım araçları" />
       </Helmet>
 
-      {/* Hero Bölümü */}
-      <section className="text-center">
-        <h1 className="display-4">UI/UX tasarımında en iyi sonuçlar için bizimle çalışın.</h1>
-   
-      </section>
 
-      <section>
+      <section className='uiux-cont'>
+
+      <h1 className="display-4">UI/UX tasarımında en iyi sonuçlar için bizimle çalışın.</h1>
+      
       <h2 className="fs-3">Güncel Tasarım Trendleri:</h2>
       <ul>
         <li>1. Minimalist Tasarım</li>
@@ -150,7 +148,7 @@ const UIUX = () => {
 
       {/* Kullanılan Teknolojiler ve Araçlar */}
  
-      <section className="py-5 bg-light text-center">
+      <section className="py-5 text-center">
       <div className="container">
         <h2 className="display-5 mb-4">Kullanılan Teknolojiler ve Araçlar</h2>
         <div
