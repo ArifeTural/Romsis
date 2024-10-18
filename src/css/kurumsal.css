@@ -2,6 +2,28 @@
     border: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #EFEFEF !important;
 }
 
+body{
+    background-color: rgba(245, 225, 218, 0.693) !important;
+}
+
+.sorular-baslik{
+    color: brown;
+    font-weight: bold;
+}
+
+.soru-cont{
+    padding: 0;
+}
+
+.kart-baslik{
+    font-weight: bold;
+    font-size: 1.2rem !important;
+
+}
+
+.icon-btn{
+    color: brown !important;
+    font-size: 2rem;
+}

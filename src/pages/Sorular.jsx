@@ -14,12 +14,13 @@ const Sorular = () => {
   };
 
   return (
-    <div>
+    <div className='soru-ana'>
+    <div className='d-flex flex-column justify-content-center'>
     <h2 className='text-center m-5 sorular-baslik'>SIKÇA SORULAN SORULAR</h2>
     {soruCevap.map(({ id, question, answer }) => (
-<Container className='soru-cont' key={id} >
+<Container className='soru-cont p-2' key={id} >
 <div className="kart-cont card w-100 mb-3">
-<div className="card-body">
+<div className="card-body d-flex flex-wrap justify-content-between">
 <p className="card-text kart-baslik">
              {id} - {question}
 </p>
@@ -32,7 +33,7 @@ const Sorular = () => {
     </a>
 ) : (
     <>
-        <div className=" kart-cont-iki card w-100">
+        <div className="card w-100 border-0">
             <div className="ikinci-kart">
               
                 <p className="kart-yazi card-text">{answer}</p>
@@ -48,6 +49,8 @@ const Sorular = () => {
 </Container>
      ))}
  </div>
+    </div>
+
   )
 }
 
