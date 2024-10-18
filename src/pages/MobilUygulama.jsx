@@ -23,18 +23,25 @@ const MobilUygulama = () => {
 
   
        
-        <section className="first-img-text ">
+        <section className="first-img-text">
+  <Container>
+    <Row className="d-flex flex-wrap justify-content-between text-center align-items-center">
+      {/* Resim */}
+      <Col md={6} className="d-flex justify-content-center">
+        <img className='first-img' src={giris} alt="Mobil uygulama resmi" />
+      </Col>
 
-        <Container>
-          <img className='first-img' src={giris} alt="" />
-        </Container>
-          <Container className='first-text '>
-            <h2 className='fs-1'>Geleceğin Mobil Uygulamaları</h2>
-            <p className='fs-4 text-center text-secondary'>
-            "Hem iOS hem de Android platformlarında mükemmel performans gösteren, kullanıcı dostu ve yenilikçi mobil uygulamalar geliştiriyoruz. Modern teknolojileri kullanarak, her iki platformda da yüksek verimlilikle çalışan ve kullanıcı deneyimini ön planda tutan çözümler sunuyoruz. Amacımız, müşterilerimizin ihtiyaçlarına tam anlamıyla yanıt veren, etkileyici ve işlevsel uygulamalar oluşturmaktır.
-            </p>
-          </Container>
-        </section>
+      {/* Metin */}
+      <Col md={6} className="first-text">
+        <h2 className='fs-1'>Geleceğin Mobil Uygulamaları</h2>
+        <p className='fs-4 text-center text-secondary'>
+          "Hem iOS hem de Android platformlarında mükemmel performans gösteren, kullanıcı dostu ve yenilikçi mobil uygulamalar geliştiriyoruz. Modern teknolojileri kullanarak, her iki platformda da yüksek verimlilikle çalışan ve kullanıcı deneyimini ön planda tutan çözümler sunuyoruz. Amacımız, müşterilerimizin ihtiyaçlarına tam anlamıyla yanıt veren, etkileyici ve işlevsel uygulamalar oluşturmaktır.
+        </p>
+      </Col>
+    </Row>
+  </Container>
+</section>
+
   
       
         <section className="py-5">
