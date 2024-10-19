@@ -18,7 +18,7 @@ const UIUX = () => {
 
       <img src={giris} alt="" className='ui-giris-img' />
 
-      <h1 className="display-4 text-center m-3">UI/UX tasarımında en iyi sonuçlar için bizimle çalışın</h1>
+      <h1 className=" ui-baslik">UI/UX tasarımında en iyi sonuçlar için bizimle çalışın</h1>
       
       <div className='row d-flex flex-wrap justify-content-center align-items-center m-5 pt-5'>
   <div className='col-12 col-md-6 d-flex justify-content-center'>
@@ -26,8 +26,8 @@ const UIUX = () => {
   </div>
   
   <div className='col-12 col-md-6 '>
-    <h2 className="fs-3">Güncel Tasarım Trendleri:</h2>
-    <ul className='fs-5'>
+    <h2 className="guncel-baslik fs-3">Güncel Tasarım Trendleri:</h2>
+    <ul className='fs-5 text-success'>
       <li> Minimalist Tasarım</li>
       <li> Karanlık Mod</li>
       <li> Mikro Etkileşimler</li>
@@ -43,14 +43,14 @@ const UIUX = () => {
       {/* UI/UX Süreci */}
       <section className="py-5 text-center">
         <div className="container">
-          <h2 className="display-5 mb-4">UI/UX Sürecimiz</h2>
+          <h2 className="ui-baslik display-5 mb-4">UI/UX Sürecimiz</h2>
           <div className="row">
             {/* Kullanıcı Araştırması Kartı */}
             <div className="col-md-4 mb-4">
               <div className="card shadow-lg">
                 <div className="card-body">
-                  <h5 className="card-title">1. Kullanıcı Araştırması</h5>
-                  <ul className="card-text">
+                  <h5 className="card-title alt-baslik">1. Kullanıcı Araştırması</h5>
+                  <ul className="card-text surec-ul">
                     <li>Kullanıcı profilleri oluşturma</li>
                     <li>Anket ve görüşmelerle veri toplama</li>
                     <li>Kullanıcı ihtiyaçlarını belirleme</li>
@@ -62,8 +62,8 @@ const UIUX = () => {
             <div className="col-md-4 mb-4">
               <div className="card shadow-lg">
                 <div className="card-body">
-                  <h5 className="card-title">2. Tanımlama ve Analiz</h5>
-                  <ul className="card-text">
+                  <h5 className="card-title alt-baslik">2. Tanımlama ve Analiz</h5>
+                  <ul className="card-text surec-ul">
                     <li>Kullanıcı ihtiyaçlarını belirlemek için veri analizi</li>
                     <li>Kullanıcı profilleri  oluşturma</li>
                     <li>Yolculuk haritaları oluşturma</li>
@@ -75,8 +75,8 @@ const UIUX = () => {
             <div className="col-md-4 mb-4">
               <div className="card shadow-lg">
                 <div className="card-body">
-                  <h5 className="card-title">3. Prototipleme</h5>
-                  <ul className="card-text">
+                  <h5 className="card-title alt-baslik">3. Prototipleme</h5>
+                  <ul className="card-text surec-ul">
                     <li>Wireframe tasarımları oluşturma</li>
                     <li>Interaktif prototipler geliştirme</li>
                     <li>Kullanıcı geri bildirimlerine göre revize etme</li>
@@ -88,8 +88,8 @@ const UIUX = () => {
             <div className="col-md-4 mb-4">
               <div className="card shadow-lg">
                 <div className="card-body">
-                  <h5 className="card-title">4. Tasarım</h5>
-                  <ul className="card-text">
+                  <h5 className="card-title alt-baslik">4. Tasarım</h5>
+                  <ul className="card-text surec-ul">
                     <li>Renk paletleri ve tipografi belirleme</li>
                     <li>Tasarımın estetik yönlerini oluşturma</li>
                     <li>Tasarımın işlevsel yönlerini oluşturma</li>
@@ -101,8 +101,8 @@ const UIUX = () => {
             <div className="col-md-4 mb-4">
               <div className="card shadow-lg">
                 <div className="card-body">
-                  <h5 className="card-title">5. Kullanıcı Testleri</h5>
-                  <ul className="card-text">
+                  <h5 className="card-title alt-baslik">5. Kullanıcı Testleri</h5>
+                  <ul className="card-text surec-ul">
                     <li>Prototiplerle kullanıcı testleri yapma</li>
                     <li>Geri bildirim toplama ve analiz etme</li>
                     <li>Tasarımı son kullanıcıya göre optimize etme</li>
@@ -114,8 +114,8 @@ const UIUX = () => {
             <div className="col-md-4 mb-4">
               <div className="card shadow-lg">
                 <div className="card-body">
-                  <h5 className="card-title">6. İterasyon</h5>
-                  <ul className="card-text">
+                  <h5 className="card-title alt-baslik">6. İterasyon</h5>
+                  <ul className="card-text surec-ul">
                     <li>Geri bildirimlere dayanarak tasarımı geliştirme</li>
                     <li>Sürekli revizyon süreçleri</li>
                     <li>Sürekli iyileştirme süreçleri</li>
@@ -127,8 +127,8 @@ const UIUX = () => {
             <div className="col-md-4 mb-4">
               <div className="card shadow-lg">
                 <div className="card-body">
-                  <h5 className="card-title">7. Geliştirme</h5>
-                  <ul className="card-text">
+                  <h5 className="card-title alt-baslik">7. Geliştirme</h5>
+                  <ul className="card-text surec-ul">
                     <li>Tasarımın geliştirilmesi ve kodlama süreci</li>
                     <li>Kodlama süreci</li>
                     <li>Nihai ürünün oluşturulması</li>
@@ -140,8 +140,8 @@ const UIUX = () => {
             <div className="col-md-4 mb-4">
               <div className="card shadow-lg">
                 <div className="card-body">
-                  <h5 className="card-title">8. Yayınlama ve İzleme</h5>
-                  <ul className="card-text">
+                  <h5 className="card-title alt-baslik">8. Yayınlama ve İzleme</h5>
+                  <ul className="card-text surec-ul">
                     <li>Ürünün pazara sürülmesi</li>
                     <li>Ürünün pazarda izlenmesi</li>
                     <li>Kullanıcı geri bildirimlerinin izlenmesi</li>
@@ -153,8 +153,8 @@ const UIUX = () => {
             <div className="col-md-4 mb-4">
               <div className="card shadow-lg">
                 <div className="card-body">
-                  <h5 className="card-title">9. Sürekli İyileştirme</h5>
-                  <ul className="card-text">
+                  <h5 className="card-title alt-baslik">9. Sürekli İyileştirme</h5>
+                  <ul className="card-text surec-ul">
                     <li>Yeni kullanıcı ihtiyaçlarına göre güncellemeler</li>
                     <li>Ürünü sürekli olarak geliştirme</li>
                     <li>Ürünü sürekli destek sağlama</li>
@@ -171,22 +171,22 @@ const UIUX = () => {
  
       <section className="py-5 text-center">
   <div className="container">
-    <h2 className="display-5 mb-4">Kullanılan Teknolojiler ve Araçlar</h2>
+    <h2 className="display-5 mb-4 ui-baslik">Kullanılan Teknolojiler ve Araçlar</h2>
     <div className="row justify-content-center text-center">
       {techTools.map(tool => (
         <div key={tool.id} className="col-md-4">
-          <div className="card shadow-sm border-0"> {/* Border'i kaldırdık */}
-            <div className="d-flex justify-content-center"> {/* Resmi ortalamak için ekledik */}
+          <div className="card shadow-lg border-0"> 
+            <div className="d-flex justify-content-center"> 
               <img
                 src={tool.imgSrc}
                 className="card-img-top"
                 alt={tool.name}
-                style={{ width: '100px', height: '100px' }} // Genişlik ve yükseklik 100px
+                style={{ width: '100px', height: '100px' }} 
               />
             </div>
             <div className="card-body">
-              <h5 className="card-title">{tool.name}</h5>
-              <p className="card-text">{tool.description}</p>
+              <h5 className="card-title alt-baslik">{tool.name}</h5>
+              <p className="card-text text-secondary">{tool.description}</p>
             </div>
           </div>
         </div>
