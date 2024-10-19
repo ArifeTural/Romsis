@@ -2,6 +2,7 @@ import React from 'react';
 import girisimg from "../assets/web-tasarim-giris.jpg"
 import soru from "../assets/question-mark.png"
 import { steps } from '../helper/yazilim';
+import "../css/web.css"
 
 const WebTasarim = () => {
   const hizmetler = [
@@ -40,20 +41,20 @@ const WebTasarim = () => {
       </ul>
     </div>
 
- <div className="container my-4">
- <h2 className='fs-1 fw-bolder text-center'> Nasıl Yapıyoruz ?</h2>
+ <div className="container my-4 m-5 border border-5 ">
+ <h2 className='fs-1 fw-bolder text-center '> Nasıl Yapıyoruz ?</h2>
       <div className="row">
         {steps.map((step, index) => (
           <div key={index} className="col-12 col-sm-6 col-md-4 col-lg-2 mb-4">
-            <div className="card">
+            <div className="card border-0">
               <img 
+               className="nasil-img " 
                 src={step.img} 
                 alt={step.alt} 
-                className="card-img-top" 
                 loading="lazy" 
               />
               <div className="card-body">
-                <h5 className="card-title">{step.title}</h5>
+                <h5 className="card-title fs-4 fw-bold">{step.title}</h5>
                 <ul className="list-unstyled">
                   {step.content.map((item, i) => (
                     <li key={i} className="text-muted">
@@ -76,7 +77,6 @@ const WebTasarim = () => {
 }
 
 export default WebTasarim;
-
 
 
 
