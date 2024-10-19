@@ -1,5 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import { techTools } from '../helper/yazilim';
+import giris from "../assets/ui-giris.webp"
 
 const UIUX = () => {
   return (
@@ -12,6 +14,8 @@ const UIUX = () => {
 
 
       <section className='uiux-cont'>
+
+      <img src={giris} alt="" className='w-100 h-50' />
 
       <h1 className="display-4">UI/UX tasarımında en iyi sonuçlar için bizimle çalışın.</h1>
       
@@ -151,43 +155,30 @@ const UIUX = () => {
       <section className="py-5 text-center">
   <div className="container">
     <h2 className="display-5 mb-4">Kullanılan Teknolojiler ve Araçlar</h2>
-    <div className="row justify-content-center">
-      <div className="col-md-4">
-        <div className="card shadow-sm">
-          <img src="path/to/figma-image.jpg" className="card-img-top" alt="Figma" />
-          <div className="card-body">
-            <h5 className="card-title">Figma</h5>
-            <p className="card-text">
-              Bulut tabanlı tasarım aracı. Gerçek zamanlı işbirliği imkanı ile ekipler arasında kolayca paylaşım yapılabilir.
-            </p>
+    <div className="row justify-content-center text-center">
+      {techTools.map(tool => (
+        <div key={tool.id} className="col-md-4">
+          <div className="card shadow-sm border-0"> {/* Border'i kaldırdık */}
+            <div className="d-flex justify-content-center"> {/* Resmi ortalamak için ekledik */}
+              <img
+                src={tool.imgSrc}
+                className="card-img-top"
+                alt={tool.name}
+                style={{ width: '100px', height: '100px' }} // Genişlik ve yükseklik 100px
+              />
+            </div>
+            <div className="card-body">
+              <h5 className="card-title">{tool.name}</h5>
+              <p className="card-text">{tool.description}</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="col-md-4">
-        <div className="card shadow-sm">
-          <img src="path/to/adobe-xd-image.jpg" className="card-img-top" alt="Adobe XD" />
-          <div className="card-body">
-            <h5 className="card-title">Adobe XD</h5>
-            <p className="card-text">
-              Prototip oluşturma ve kullanıcı arayüzü tasarımı için kullanılır. Görsel tasarımları kolayca paylaşma imkanı sunar.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="col-md-4">
-        <div className="card shadow-sm">
-          <img src="path/to/zeplin-image.jpg" className="card-img-top" alt="Zeplin" />
-          <div className="card-body">
-            <h5 className="card-title">Zeplin</h5>
-            <p className="card-text">
-              Tasarımcılar ve geliştiriciler arasında köprü görevi gören bir araç. Tasarımları geliştiricilere iletme konusunda kolaylık sağlar.
-            </p>
-          </div>
-        </div>
-      </div>
+      ))}
     </div>
   </div>
 </section>
+
+
 
 
     </div>

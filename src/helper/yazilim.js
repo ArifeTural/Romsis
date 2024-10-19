@@ -216,19 +216,19 @@ export const steps = [
       id: 1,
       name: "Figma",
       description: "Bulut tabanlı tasarım aracı. Gerçek zamanlı işbirliği imkanı ile ekipler arasında kolayca paylaşım yapılabilir.",
-      imgSrc: "",
+      imgSrc: "/image/teknoloji/figma.png",
     },
     {
       id: 2,
       name: "Adobe XD",
       description: "Prototip oluşturma ve kullanıcı arayüzü tasarımı için kullanılır. Görsel tasarımları kolayca paylaşma imkanı sunar.",
-      imgSrc: "path/to/adobe-xd-image.jpg",
+      imgSrc: "/image/teknoloji/adobe.png",
     },
     {
       id: 3,
       name: "Zeplin",
       description: "Tasarımcılar ve geliştiriciler arasında köprü görevi gören bir araç. Tasarımları geliştiricilere iletme konusunda kolaylık sağlar.",
-      imgSrc: "path/to/zeplin-image.jpg",
+      imgSrc: "/image/teknoloji/zeplinn.jpg",
     },
   ];
   
