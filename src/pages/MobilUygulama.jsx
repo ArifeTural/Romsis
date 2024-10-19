@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Container, Row, Col, Card, Button, Collapse } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 import giris from "../assets/mobil-giris.png"
+import { mobilgif } from '../helper/data';
 
 const MobilUygulama = () => {
     const [openIos, setOpenIos] = useState(false);
@@ -190,22 +191,27 @@ const MobilUygulama = () => {
 
         </section>
 
-        <div>
+        <div className='d-flex flex-wrap justify-content-center align-items-center gap-5'>
       <div>
-        <h2 className="hizmet-bas text-center">Yaptığımız İşler</h2>
+        <h2 className="hizmet-bas text-center fs-1 fw-bold">Yaptığımız İşler</h2>
       </div>
+     
+      {mobilgif.map((inItem) => {
+  const { id, video } = inItem; 
+
+  return (
+    <div className="video-container text-center" key={id}>
+    <video autoPlay muted loop controls
+        height="500" >
+       <source src={video} type="video/mp4" />
+        Your browser does not support the video tag.
+    </video>
+    </div>
+  );
+})}
 
   
-      <div className="video-container text-center">
-        <VideoPlayer 
-          src="https://www.w3schools.com/html/mov_bbb.mp4" 
-          width="600" 
-          height="400" 
-          controls={true} 
-          autoPlay={false} 
-          loop={false} 
-        />
-      </div>
+
     </div>
 
 

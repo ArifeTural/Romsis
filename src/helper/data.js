@@ -9,6 +9,13 @@ export const data = [
     },
 ];
 
+export const mobilgif =[
+  {
+    id:1,
+    video:"/video/uygulamagiff.mp4"
+  }
+]
+
 
 export const yazilim =[
   {

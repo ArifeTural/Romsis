@@ -209,5 +209,28 @@ export const steps = [
       modalContent: 'Veritabanı yönetimi, bir web uygulamasının en önemli yapı taşlarından biridir. Veritabanları, verilerin güvenli ve verimli bir şekilde saklanmasını sağlar. SQL tabanlı MySQL veya NoSQL tabanlı MongoDB yaygın seçeneklerdir.'
     }
   ];
+
+
+  export const techTools = [
+    {
+      id: 1,
+      name: "Figma",
+      description: "Bulut tabanlı tasarım aracı. Gerçek zamanlı işbirliği imkanı ile ekipler arasında kolayca paylaşım yapılabilir.",
+      imgSrc: "",
+    },
+    {
+      id: 2,
+      name: "Adobe XD",
+      description: "Prototip oluşturma ve kullanıcı arayüzü tasarımı için kullanılır. Görsel tasarımları kolayca paylaşma imkanı sunar.",
+      imgSrc: "path/to/adobe-xd-image.jpg",
+    },
+    {
+      id: 3,
+      name: "Zeplin",
+      description: "Tasarımcılar ve geliştiriciler arasında köprü görevi gören bir araç. Tasarımları geliştiricilere iletme konusunda kolaylık sağlar.",
+      imgSrc: "path/to/zeplin-image.jpg",
+    },
+  ];
+  
   
   

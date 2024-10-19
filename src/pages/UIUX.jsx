@@ -149,113 +149,46 @@ const UIUX = () => {
       {/* Kullanılan Teknolojiler ve Araçlar */}
  
       <section className="py-5 text-center">
-      <div className="container">
-        <h2 className="display-5 mb-4">Kullanılan Teknolojiler ve Araçlar</h2>
-        <div
-          id="techToolsCarousel"
-          className="carousel slide"
-          data-bs-ride="carousel"
-        >
-          <div className="carousel-inner">
-            {/* İlk Kart */}
-            <div className="carousel-item active">
-              <div className="row justify-content-center">
-                <div className="col-md-4">
-                  <div className="card shadow-sm">
-                    <img src="path/to/figma-image.jpg" className="card-img-top" alt="Figma" />
-                    <div className="card-body">
-                      <h5 className="card-title">Figma</h5>
-                      <p className="card-text">
-                        Bulut tabanlı tasarım aracı. Gerçek zamanlı işbirliği imkanı ile ekipler arasında kolayca paylaşım yapılabilir.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4">
-                  <div className="card shadow-sm">
-                    <img src="path/to/adobe-xd-image.jpg" className="card-img-top" alt="Adobe XD" />
-                    <div className="card-body">
-                      <h5 className="card-title">Adobe XD</h5>
-                      <p className="card-text">
-                        Prototip oluşturma ve kullanıcı arayüzü tasarımı için kullanılır. Görsel tasarımları kolayca paylaşma imkanı sunar.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4">
-                  <div className="card shadow-sm">
-                    <img src="path/to/sketch-image.jpg" className="card-img-top" alt="Sketch" />
-                    <div className="card-body">
-                      <h5 className="card-title">Sketch</h5>
-                      <p className="card-text">
-                        Mac kullanıcıları için popüler bir tasarım aracı. UI tasarımı ve prototip oluşturma için yaygın olarak kullanılır.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* İkinci Kart */}
-            <div className="carousel-item">
-              <div className="row justify-content-center">
-                <div className="col-md-4">
-                  <div className="card shadow-sm">
-                    <img src="path/to/hotjar-image.jpg" className="card-img-top" alt="Hotjar" />
-                    <div className="card-body">
-                      <h5 className="card-title">Hotjar</h5>
-                      <p className="card-text">
-                        Kullanıcı davranışlarını analiz eden bir araç. Isı haritaları ve kullanıcı kayıtları ile geri bildirim sağlar.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4">
-                  <div className="card shadow-sm">
-                    <img src="path/to/invision-image.jpg" className="card-img-top" alt="InVision" />
-                    <div className="card-body">
-                      <h5 className="card-title">InVision</h5>
-                      <p className="card-text">
-                        Prototip oluşturma ve tasarım sürecini yönetmek için kullanılan bir araçtır. Ekiplerle kolayca işbirliği yapılabilir.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-4">
-                  <div className="card shadow-sm">
-                    <img src="path/to/zeplin-image.jpg" className="card-img-top" alt="Zeplin" />
-                    <div className="card-body">
-                      <h5 className="card-title">Zeplin</h5>
-                      <p className="card-text">
-                        Tasarımcılar ve geliştiriciler arasında köprü görevi gören bir araç. Tasarımları geliştiricilere iletme konusunda kolaylık sağlar.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+  <div className="container">
+    <h2 className="display-5 mb-4">Kullanılan Teknolojiler ve Araçlar</h2>
+    <div className="row justify-content-center">
+      <div className="col-md-4">
+        <div className="card shadow-sm">
+          <img src="path/to/figma-image.jpg" className="card-img-top" alt="Figma" />
+          <div className="card-body">
+            <h5 className="card-title">Figma</h5>
+            <p className="card-text">
+              Bulut tabanlı tasarım aracı. Gerçek zamanlı işbirliği imkanı ile ekipler arasında kolayca paylaşım yapılabilir.
+            </p>
           </div>
-          {/* Carousel Kontrolleri */}
-          <button
-            className="carousel-control-prev"
-            type="button"
-            data-bs-target="#techToolsCarousel"
-            data-bs-slide="prev"
-          >
-            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span className="visually-hidden">Önceki</span>
-          </button>
-          <button
-            className="carousel-control-next"
-            type="button"
-            data-bs-target="#techToolsCarousel"
-            data-bs-slide="next"
-          >
-            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-            <span className="visually-hidden">Sonraki</span>
-          </button>
         </div>
       </div>
-    </section>
+      <div className="col-md-4">
+        <div className="card shadow-sm">
+          <img src="path/to/adobe-xd-image.jpg" className="card-img-top" alt="Adobe XD" />
+          <div className="card-body">
+            <h5 className="card-title">Adobe XD</h5>
+            <p className="card-text">
+              Prototip oluşturma ve kullanıcı arayüzü tasarımı için kullanılır. Görsel tasarımları kolayca paylaşma imkanı sunar.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="col-md-4">
+        <div className="card shadow-sm">
+          <img src="path/to/zeplin-image.jpg" className="card-img-top" alt="Zeplin" />
+          <div className="card-body">
+            <h5 className="card-title">Zeplin</h5>
+            <p className="card-text">
+              Tasarımcılar ve geliştiriciler arasında köprü görevi gören bir araç. Tasarımları geliştiricilere iletme konusunda kolaylık sağlar.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
     </div>
   );
