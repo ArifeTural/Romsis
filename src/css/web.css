@@ -229,12 +229,7 @@ padding-top: 3rem;
 
 
 
-/*! WEB TASARIM */
-  
-.nasil-img{
-  max-width: 150px !important;
 
-}
 
 /*! UI & UX */
 
@@ -267,6 +262,34 @@ padding-top: 3rem;
   color: #31613f;
 
 }
+
+/*! WEB TASARIM */
+  
+.nasil-img{
+  max-width: 150px !important;
+
+}
+
+.tasarim-baslik{
+  color: #0077A2 !important;
+}
+
+
+.tasarim-par{
+
+  color: #ae4227;
+
+}
+
+.tasarim-baslikk{
+  color: #932e15;
+  margin-bottom: 3rem !important;
+}
+
+.neler-ul{
+  color: #0077A2;
+}
+
 
 
 
