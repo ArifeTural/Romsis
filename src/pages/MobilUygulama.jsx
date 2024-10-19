@@ -46,7 +46,7 @@ const MobilUygulama = () => {
   
       
         <section className="py-5">
-        <h2 className='hizmet-bas text-center fs-1'> Hizmetlerimiz</h2>
+        <h2 className='hizmet-bas text-center'> Hizmetlerimiz:</h2>
         <Container>
   <Row className='d-flex flex-wrap justify-content-center'>
     {/* iOS Mobil Uygulama Hizmetleri */}
@@ -58,6 +58,7 @@ const MobilUygulama = () => {
             Apple'ın App Store standartlarına uygun, kullanıcı odaklı ve yüksek performanslı iOS uygulamaları geliştiriyoruz.
           </Card.Text>
           <Button
+          className=" buton-detaylar"
             onClick={() => setOpenIos(!openIos)}
             aria-controls="ios-details"
             aria-expanded={openIos}
@@ -86,6 +87,7 @@ const MobilUygulama = () => {
             Android cihazlar için genişletilebilir, ölçeklenebilir ve güvenli uygulamalar sunuyoruz.
           </Card.Text>
           <Button
+          className=" buton-detaylar"
             onClick={() => setOpenAndroid(!openAndroid)}
             aria-controls="android-details"
             aria-expanded={openAndroid}
@@ -113,6 +115,7 @@ const MobilUygulama = () => {
             Tek bir kod tabanı ile hem iOS hem Android cihazlarda mükemmel performans gösteren uygulamalar oluşturuyoruz.
           </Card.Text>
           <Button
+          className=" buton-detaylar"
             onClick={() => setOpenCrossPlatform(!openCrossPlatform)}
             aria-controls="cross-platform-details"
             aria-expanded={openCrossPlatform}
@@ -140,6 +143,7 @@ const MobilUygulama = () => {
             Akıllı saatlerde kullanıcı deneyimini ön planda tutan modern ve yenilikçi uygulamalar geliştiriyoruz.
           </Card.Text>
           <Button
+          className=" buton-detaylar"
             onClick={() => setOpenWatch(!openWatch)}
             aria-controls="watch-details"
             aria-expanded={openWatch}
@@ -168,6 +172,7 @@ const MobilUygulama = () => {
             Mobil arayüzlerinizi modern ve kullanıcı dostu tasarımlarla güçlendiriyoruz.
           </Card.Text>
           <Button
+          className=" buton-detaylar"
             onClick={() => setOpenUiux(!openUiux)}
             aria-controls="uiux-details"
             aria-expanded={openUiux}
@@ -193,7 +198,7 @@ const MobilUygulama = () => {
 
         <div className='d-flex flex-wrap justify-content-center align-items-center gap-5'>
       <div>
-        <h2 className="hizmet-bas text-center fs-1 fw-bold">Yaptığımız İşler</h2>
+        <h2 className="hizmet-bas text-center">Yaptığımız İşler:</h2>
       </div>
      
       {mobilgif.map((inItem) => {

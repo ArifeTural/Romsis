@@ -168,9 +168,14 @@ max-height: 600px !important;
 
 .hizmet-bas{
     color:#ae4227;
+    font-size: 3rem !important;
+    font-weight: bold;
 
 } 
 
+.buton-detaylar{
+  background-color: #932e15 !important;
+}
 #ios{
     background-image: url(../assets/bg-ios.jpg);
     background-size: cover;
