@@ -37,11 +37,11 @@ const WebTasarim = () => {
  </div>
 
 
- <div className="container my-4 m-5 border border-5 ">
+ <div className="container my-4  ">
  <h2 className='fs-1 fw-bolder text-center '> Nasıl Çalışıyoruz ?</h2>
       <div className="row">
         {steps.map((step, index) => (
-          <div key={index} className="col-12 col-sm-6 col-md-4 col-lg-2 mb-4">
+          <div key={index} className="col-12 col-sm-6 col-md-4 col-lg-2 mb-4 d-flex justify-content-center">
             <div className="card border-0">
               <img 
                className="nasil-img " 

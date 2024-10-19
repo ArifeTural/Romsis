@@ -4,8 +4,23 @@ import { Helmet } from 'react-helmet';
 import { bilgiKartlari } from '../helper/yazilim';
 import webt from "../assets/w-yazilim.jpg";
 import { Carousel } from 'react-bootstrap';
+import steps from "../assets/strategy.png"
 
 const WebYazilim = () => {
+  const surec = [
+    'Müşteri Talebinin Alınması',
+    'Proje Tanımlama ve Gereksinim Analizi',
+    'Planlama ve Zaman Çizelgesi',
+    'Tasarım (UI/UX)',
+    'Prototip Oluşturma',
+    'Geliştirme (Kodlama)',
+    'Test ve Hata Ayıklama',
+    'Uygulama Yaygınlaştırma (Deployment)',
+    'Eğitim ve Dokümantasyon',
+    'Bakım ve Destek',
+  ];
+
+
   const [activeIndex, setActiveIndex] = useState(0);
 
   const handleSelect = (selectedIndex) => {
@@ -39,7 +54,7 @@ const WebYazilim = () => {
   
     </div>
 
-      <section className="m-5">
+      <section className="mt-5">
         <h2 className="wt-bilesenler text-center mb-4">Web Yazılımının Ana Bileşenleri</h2>
         <div className="row">
           {bilgiKartlari.map((kart) => (
@@ -76,13 +91,33 @@ const WebYazilim = () => {
         </div>
       </section>
 
- 
+      <div className="container">
+  <div className="row justify-content-center align-items-center">
+    <div className="col-12 col-md-6 d-flex flex-column gap-2 justify-content-center text-center align-items-center">
+      <h2 className="fs-1 text-break">
+        Web Yazılım Geliştirme Aşamaları
+      </h2>
+      <img src={steps} alt="Geliştirme Aşamaları" width={200} />
+    </div>
+    <div className="col-12 col-sm-6 mt-5">
+      <ul className="list-group">
+        {surec.map((surec, index) => (
+          <li key={index} className="fs-4">
+            {surec}
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</div>
 
- 
-      <div>
+
+
+
+  <div>
   <h2 className='web-tas-surec-title m-5 pt-4 fs-1 text-center'>Hangi Teknolojileri Kullanıyoruz:</h2>
 </div>
-<div className='web-teknoloji-container d-flex flex-column align-items-center justify-content-center flex-wrap gap-3 w-75 mx-auto'>
+<div className='web-teknoloji-container d-flex flex-column align-items-center justify-content-between flex-wrap gap-3 w-75 mx-auto'>
   <Carousel activeIndex={activeIndex} onSelect={handleSelect} className="carousel-custom tek-ana w-100" indicators={false}>
     {tekno.map((tech) => (
       <Carousel.Item key={tech.id} className="carousel-item-custom">
