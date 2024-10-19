@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
+import { tekno} from '../helper/yazilim';
 import { Helmet } from 'react-helmet';
 import { bilgiKartlari } from '../helper/yazilim';
-import { Carousel, Card } from 'react-bootstrap';
-import { tekno} from '../helper/yazilim';
 import webt from "../assets/w-yazilim.jpg";
+import { Carousel } from 'react-bootstrap';
 
 const WebYazilim = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -77,6 +77,8 @@ const WebYazilim = () => {
       </section>
 
  
+
+ 
       <div>
   <h2 className='web-tas-surec-title m-5 pt-4 fs-1 text-center'>Hangi Teknolojileri Kullanıyoruz:</h2>
 </div>
@@ -86,7 +88,7 @@ const WebYazilim = () => {
       <Carousel.Item key={tech.id} className="carousel-item-custom">
         <div className="carousel-image-container d-flex justify-content-center">
           <img
-            className="carousel-image d-block"
+            className="carousel-image d-block mb-3"
             src={tech.image}
             alt={tech.title}
             style={{ height: '200px', objectFit: 'cover', maxWidth: '100%' }}
