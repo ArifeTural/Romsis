@@ -111,9 +111,6 @@ const WebYazilim = () => {
   </div>
 </div>
 
-
-
-
   <div>
   <h2 className='web-tas-surec-title m-5 pt-4 fs-1 text-center'>Hangi Teknolojileri Kullanıyoruz:</h2>
 </div>

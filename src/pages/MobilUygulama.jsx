@@ -189,16 +189,26 @@ const MobilUygulama = () => {
 
 
         </section>
+
         <div>
-        <div>
-        <h2 className='hizmet-bas text-center'>
-Yaptığımız İşler
-        </h2>
-        </div>
-          <div>
-            <img src="" alt="" />
-          </div>
-        </div>
+      <div>
+        <h2 className="hizmet-bas text-center">Yaptığımız İşler</h2>
+      </div>
+
+  
+      <div className="video-container text-center">
+        <VideoPlayer 
+          src="https://www.w3schools.com/html/mov_bbb.mp4" 
+          width="600" 
+          height="400" 
+          controls={true} 
+          autoPlay={false} 
+          loop={false} 
+        />
+      </div>
+    </div>
+
+
       </div>
     );
 };
