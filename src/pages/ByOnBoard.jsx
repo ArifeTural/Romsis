@@ -1,9 +1,13 @@
 import React from 'react'
 
+
+
 const ByOnBoard = () => {
   return (
-    <div>ByOnBoard</div>
+    <div>
+
+    </div>
   )
 }
 
-export default ByOnBoard
+export default ByOnBoard;
