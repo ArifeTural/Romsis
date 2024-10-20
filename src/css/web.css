@@ -82,23 +82,36 @@
     }
   }
   
-  
+  /*! WEB YAZILIM */
 
-.wt-baslik{
+.wy-baslik{
     color: #b12b09d2!important;
+    text-align: center;
+    padding: 2rem;
+}
+
+.web-yazilim-img{
+    
+  width: 100%;
+  max-height: 70vh;
+  padding: 2rem;
+  margin-bottom: 2rem;
 }
 
 .lead{
     color: #0077A2;
     font-size: 40px !important;
+    text-align: center;
+    padding: 3rem;
 }
-.web-yazilim-img{
-    width: 150vh;
-    max-height: 60vh;
-    margin-top: 3rem;
-    box-shadow: #4d1709 0px 10px 15px;
- 
+
+.wy-bilesenler{
+  color: #932e15;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
 }
+
 
 
 

@@ -27,7 +27,7 @@ const WebYazilim = () => {
     setActiveIndex(selectedIndex);
   };
   return (
-    <div className="container mt-2">
+    <div>
     
 
 
@@ -41,21 +41,21 @@ const WebYazilim = () => {
 
 
       {/* Başlık Bölümü */}
-      <header className="text-center mb-3">
-        <h1 className='wt-baslik'>MODERN WEB YAZILIM ÇÖZÜMLERİ</h1>
-        <img src={webt} alt="" className='web-yazilim-img'  />
+      <header className="">
+        <h1 className='wy-baslik'>MODERN WEB YAZILIM ÇÖZÜMLERİ</h1>
+        <img src={webt} alt="" className='web-yazilim-img '  />
       
       </header>
 
       <div className=' '>
-      <p className="lead text-center">
+      <p className="lead ">
           İşletmeniz için modern ve ölçeklenebilir web yazılım çözümleri sunuyoruz. Profesyonel web geliştirme, frontend ve backend teknolojileriyle güçlü, güvenilir ve hızlı dijital platformlar oluşturuyoruz.
         </p>
   
     </div>
 
       <section className="mt-5">
-        <h2 className="wt-bilesenler text-center mb-4">Web Yazılımının Ana Bileşenleri</h2>
+        <h2 className="wy-bilesenler">Web Yazılımının Ana Bileşenleri</h2>
         <div className="row">
           {bilgiKartlari.map((kart) => (
             <div key={kart.id} className="col-md-4 mb-4">
@@ -158,6 +158,7 @@ const WebYazilim = () => {
 
   
     </div>
+
   );
 }
 

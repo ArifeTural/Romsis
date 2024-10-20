@@ -84,33 +84,33 @@ const WebTasarim = () => {
     <Container className="my-5">
   <h2 className="text-center tasarim-baslikk fw-bold fs-1 mb-4">Proje Özellikleri</h2>
   <Row className='justify-content-center gap-2'>
-    <Col md={3} className="text-center border  border-3 border-black ">
+    <Col md={3} className="text-center p-3 border  border-3 border-black ">
    
       <h5 className="font-weight-bold">Mobil Uyumlu Tasarım</h5>
       <p>Responsive tasarım prensipleriyle web sitenizin tüm cihazlarda mükemmel bir kullanıcı deneyimi sunmasını sağlıyoruz. Mobil uyumlu web siteleri ile daha fazla ziyaretçi çekebilir ve SEO performansınızı artırabilirsiniz.</p>
     </Col>
-    <Col md={3} className="text-center border border-3  border-warning">
+    <Col md={3} className="text-center p-3 border border-3  border-warning">
     
       <h5 className="font-weight-bold ">Web Hızı Optimizasyonu</h5>
       <p>Özgün ve optimize edilmiş kodlama yöntemlerimizle web sitenizin yükleme hızını en üst seviyeye çıkarıyoruz. Hızlı yükleme süreleri, kullanıcı memnuniyetini artırırken arama motoru sıralamalarınızı olumlu yönde etkiler.</p>
     </Col>
-    <Col md={3} className="text-center border border-3 border-info">
+    <Col md={3} className="text-center p-3 border border-3 border-info">
  
       <h5 className="font-weight-bold">Özgün ve Yenilikçi Tasarım</h5>
       <p>Web sitenizi benzersiz bir tasarım anlayışı ile oluşturuyor, kullanıcıların ilgisini çekecek özgün içeriklerle zenginleştiriyoruz. Özgün tasarımlar, markanızın imajını güçlendirir ve dönüşüm oranlarını artırır.</p>
     </Col>
-    <Col md={3} className="text-center border border-3 border-danger">
+    <Col md={3} className="text-center p-3 border border-3 border-danger">
    
       <h5 className="font-weight-bold">Web Standartlarına Uygunluk</h5>
       <p>Web tasarım ve geliştirme süreçlerimizi uluslararası web standartlarına uygun bir şekilde gerçekleştiriyoruz. Bu, sitenizin daha güvenilir olmasını ve SEO uyumlu hale gelmesini sağlar.</p>
     </Col>
   
-    <Col md={3} className="text-center border border-3 border-success">
+    <Col md={3} className="text-center p-3 border border-3 border-success">
   
       <h5 className="font-weight-bold">Temiz ve Okunabilir Kodlama</h5>
       <p>Web sitenizde karmaşık kodlamalardan kaçınarak, okunabilir ve sürdürülebilir bir kod yapısı oluşturuyoruz. Temiz kodlama, web sitenizin performansını artırır ve SEO çalışmalarını kolaylaştırır.</p>
     </Col>
-    <Col md={3} className="text-center border border-3 border-secondary">
+    <Col md={3} className="text-center p-3 border border-3 border-secondary">
   
       <h5 className="font-weight-bold">SEO Odaklı Yaklaşım</h5>
       <p>SEO stratejilerimizi projenizin başlangıcından itibaren entegre ediyoruz. SEO odaklı bir yaklaşım, arama motorlarıyla görünürlüğünüzü artırır ve organik trafiğinizi önemli ölçüde yükseltir.</p>
