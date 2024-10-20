@@ -56,14 +56,14 @@ const WebYazilim = () => {
 
       <section className="mt-5">
         <h2 className="wy-bilesenler">Web Yazılımının Ana Bileşenleri</h2>
-        <div className="row">
+        <div className="row ">
           {bilgiKartlari.map((kart) => (
             <div key={kart.id} className="col-md-4 mb-4">
               <div className="card border-0 h-100 shadow-lg text-center">
                 <div className="card-body">
-                  <h3 className="wt-card-title card-title">{kart.title}</h3>
-                  <p className="wt-card-text">{kart.description}</p>
-                  <button className="btn" data-bs-toggle="modal" data-bs-target={`#modal${kart.id}`}>
+                  <h3 className="wy-card-title card-title">{kart.title}</h3>
+                  <p className="wy-card-text">{kart.description}</p>
+                  <button className="wy-card-buton btn" data-bs-toggle="modal" data-bs-target={`#modal${kart.id}`}>
                     Detaylı Bilgi
                   </button>
                 </div>
@@ -74,14 +74,14 @@ const WebYazilim = () => {
                 <div className="modal-dialog">
                   <div className="modal-content">
                     <div className="modal-header">
-                      <h5 className="modal-title" id={`modalLabel${kart.id}`}>{kart.modalTitle}</h5>
+                      <h5 className="modal-title wy-card-title" id={`modalLabel${kart.id}`}>{kart.modalTitle}</h5>
                       <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div className="modal-body">
+                    <div className="modal-body wy-card-text">
                       {kart.modalContent}
                     </div>
                     <div className="modal-footer">
-                      <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+                      <button type="button" className="btn wy-card-buton" data-bs-dismiss="modal">Kapat</button>
                     </div>
                   </div>
                 </div>
@@ -94,7 +94,7 @@ const WebYazilim = () => {
       <div className="container">
   <div className="row justify-content-center align-items-center">
     <div className="col-12 col-md-6 d-flex flex-column gap-2 justify-content-center text-center align-items-center">
-      <h2 className="fs-1 text-break">
+      <h2 className="fs-1 fw-bold">
         Web Yazılım Geliştirme Aşamaları
       </h2>
       <img src={steps} alt="Geliştirme Aşamaları" width={200} />
@@ -102,7 +102,7 @@ const WebYazilim = () => {
     <div className="col-12 col-sm-6 mt-5">
       <ul className="list-group">
         {surec.map((surec, index) => (
-          <li key={index} className="fs-4">
+          <li key={index} className="fs-4 wy-card-text">
             {surec}
           </li>
         ))}
@@ -112,7 +112,7 @@ const WebYazilim = () => {
 </div>
 
   <div>
-  <h2 className='web-tas-surec-title m-5 pt-4 fs-1 text-center'>Hangi Teknolojileri Kullanıyoruz:</h2>
+  <h2 className='m-5 pt-4 fs-1 text-center wt-teknoloji'>Hangi Teknolojileri Kullanıyoruz:</h2>
 </div>
 <div className='web-teknoloji-container d-flex flex-column align-items-center justify-content-between flex-wrap gap-3 w-75 mx-auto'>
   <Carousel activeIndex={activeIndex} onSelect={handleSelect} className="carousel-custom tek-ana w-100" indicators={false}>

@@ -112,11 +112,20 @@
   margin-bottom: 2rem;
 }
 
+.wy-card-title{
+  color: #0077A2 !important;
+}
 
-
+.wy-card-text{
+  color: #31613f;
+}
+.wy-card-buton{
+  background-color: #932e15 !important;
+  color: whitesmoke !important;
+}
 
 .web-teknoloji-container{
-    width: 70%;
+ width: 70%;
  height:50%;
 }
 .wt-teknoloji{
