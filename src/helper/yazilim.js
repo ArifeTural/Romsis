@@ -231,6 +231,29 @@ export const steps = [
       imgSrc: "/image/teknoloji/zeplinn.jpg",
     },
   ];
+
+
+
+  export const buyOnCarousel = [
+    {
+      id: 1,
+      image:"/image/yazilim/buycar1.jpg",
+      h1:"Uçak İçi Satış: Buy on Board Sistemi ile Yolculuk Keyfini Artırın",
+  
+    },
+    {
+      id: 2,
+      image:"/image/yazilim/buycar2.jpg",
+      h1:"Uçak İçi Satış: Buy on Board Sistemi ile Yolculuk Keyfini Artırın",
+   
+    },
+    {
+      id: 3,
+      image:"/image/yazilim/buycar3.jpg",
+      h1:"Uçak İçi Satış: Buy on Board Sistemi ile Yolculuk Keyfini Artırın",
+   
+    }
+  ];
   
   
   

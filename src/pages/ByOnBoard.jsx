@@ -11,7 +11,7 @@ const ByOnBoard = () => {
       <Carousel.Item interval={1000}>
         <img src="" alt="" />
         <Carousel.Caption>
-          <h3>First slide label</h3>
+          <h1>First slide label</h1>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
