@@ -1,6 +1,7 @@
 import React from 'react'
-import { Card, Container, Row, Col } from "react-bootstrap";
-
+import { Card, Container, Row, Col } from 
+"react-bootstrap";
+import { referanswms } from '../helper/referans';
 import wmsgiris from "../assets/wms-giris.jpg"
 import wmshedef from "../assets/wms-hedefler.jpg"
 import tablo from "../assets/wms-tablo.png"
@@ -40,7 +41,7 @@ const Wms = () => {
               <Col key={index} sm={12}  className="mb-4 ">
                 <Card className='border-0'>
               
-                    <Card.Text className='fs-5 text-secondary'>
+                    <Card.Text className='fs-5 text-secondary fw-bold'>
                       {index + 1}. {feature}
                     </Card.Text>
     
@@ -59,6 +60,23 @@ const Wms = () => {
 
 
 </Container>
+
+<div className='text-center'>
+  <h2 ><a href="" className='h-refe font-monospace fw-bolder  fs-1 text-secondary' > İş Ortaklarımız</a></h2>
+</div>
+<div className='referans'>
+{referanswms.map((arife)=>{
+  const {id, image} = arife
+  return(
+    <div className="referans-card" style={{ width: "5rem" }} key={id}>
+  <img src={image} className="card-img-top" alt="..." />
+
+</div>
+
+  )
+})}
+
+</div>
 
 
 

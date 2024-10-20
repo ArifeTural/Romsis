@@ -60,6 +60,56 @@ export const referans =[
       image:"/image/referans/adore.png",
     },
   ];
+export const referanswms =[
+
+    {
+      id:2,
+      image:"/image/referans/basar.png",
+    },
+    {
+      id:3,
+      image:"/image/referans/bni.png",
+    },
+    {
+      id:4,
+      image:"/image/referans/sait.png",
+    },
+
+    {
+      id:6,
+      image:"/image/referans/guler.png",
+    },
+    {
+      id:7,
+      image:"/image/referans/jamak.png",
+    },
+    {
+      id:8,
+      image:"/image/referans/kiwi.png",
+    },
+    {
+      id:9,
+      image:"/image/referans/yükselen.png",
+    },
+    {
+      id:10,
+      image:"/image/referans/merkez.png",
+    },
+
+
+    {
+      id:13,
+      image:"/image/referans/polyplex.png",
+    },
+    {
+      id:14,
+      image:"/image/referans/teas.png",
+    },
+    {
+      id:15,
+      image:"/image/referans/adore.png",
+    },
+  ];
 
 
   export const board =[
