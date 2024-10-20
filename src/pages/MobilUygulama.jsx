@@ -3,6 +3,7 @@ import { Container, Row, Col, Card, Button, Collapse } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 import giris from "../assets/mobil-giris.png"
 import { mobilgif } from '../helper/data';
+import { referans } from '../helper/referans';
 
 const MobilUygulama = () => {
     const [openIos, setOpenIos] = useState(false);
@@ -49,7 +50,6 @@ const MobilUygulama = () => {
         <h2 className='hizmet-bas text-center'> Hizmetlerimiz:</h2>
         <Container>
   <Row className='d-flex flex-wrap justify-content-center'>
-    {/* iOS Mobil Uygulama Hizmetleri */}
     <Col md={6} className="mb-4">
       <Card id="ios" style={{ opacity: openIos ? 1 : 0.7 }}>
         <Card.Body>
@@ -78,7 +78,7 @@ const MobilUygulama = () => {
       </Card>
     </Col>
 
-    {/* Android Mobil Uygulama Hizmetleri */}
+ 
     <Col md={6} className="mb-4">
       <Card id="android" style={{ opacity: openAndroid ? 1 : 0.7 }}>
         <Card.Body>
@@ -105,8 +105,6 @@ const MobilUygulama = () => {
         </Card.Body>
       </Card>
     </Col>
-
-    {/* Çapraz Platform Uygulama Hizmetleri */}
     <Col md={6} className="mb-4">
       <Card id="cross-platform" style={{ opacity: openCrossPlatform ? 1 : 0.7 }}>
         <Card.Body>
@@ -133,8 +131,6 @@ const MobilUygulama = () => {
         </Card.Body>
       </Card>
     </Col>
-
-    {/* Akıllı Saat Uygulama Sistemleri */}
     <Col md={6} className="mb-4">
       <Card id="watch" style={{ opacity: openWatch ? 1 : 0.7 }}>
         <Card.Body>
@@ -162,8 +158,6 @@ const MobilUygulama = () => {
         </Card.Body>
       </Card>
     </Col>
-
-    {/* Mobil Sistem & Arayüz Geliştirme */}
     <Col md={6} className="mb-4">
       <Card id="uiux" style={{ opacity: openUiux ? 1 : 0.7 }}>
         <Card.Body>
@@ -196,11 +190,25 @@ const MobilUygulama = () => {
 
         </section>
 
-        <div className='d-flex flex-wrap justify-content-center align-items-center gap-5'>
-      <div>
+        <Row className='d-flex flex-wrap justify-content-center align-items-center gap-5'>
+      <Col>
         <h2 className="hizmet-bas text-center">Yaptığımız İşler:</h2>
-      </div>
-     
+        <div className='referans'>
+{referans.map((arife)=>{
+  const {id, image} = arife
+  return(
+    <div className="referans-card" style={{ width: "5rem" }} key={id}>
+  <img src={image} className="card-img-top" alt="..." />
+
+</div>
+
+  )
+})}
+
+</div>
+      </Col>
+
+      <Col>
       {mobilgif.map((inItem) => {
   const { id, video } = inItem; 
 
@@ -214,10 +222,14 @@ const MobilUygulama = () => {
     </div>
   );
 })}
+        
+      </Col>
+     
+
 
   
 
-    </div>
+    </Row>
 
 
       </div>

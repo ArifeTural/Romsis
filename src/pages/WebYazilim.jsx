@@ -31,7 +31,7 @@ const WebYazilim = () => {
     
 
 
-      {/* SEO Meta Tag'ler */}
+
       <Helmet>
         <title>Web Yazılım Hizmetleri | Frontend, Backend ve Veritabanı Çözümleri</title>
         <meta name="description" content="Modern web yazılım hizmetlerimiz ile işletmeniz için frontend, backend ve veritabanı çözümleri sunuyoruz. Profesyonel ve ölçeklenebilir yazılım geliştirme hizmetleri hakkında detaylı bilgiler edinin." />
@@ -39,8 +39,6 @@ const WebYazilim = () => {
       </Helmet>
 
 
-
-      {/* Başlık Bölümü */}
       <header className="">
         <h1 className='wy-baslik'>MODERN WEB YAZILIM ÇÖZÜMLERİ</h1>
         <img src={webt} alt="" className='web-yazilim-img '  />

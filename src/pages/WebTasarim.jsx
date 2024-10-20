@@ -4,6 +4,7 @@ import girisimg from "../assets/web-tasarim-giris.jpg"
 import soru from "../assets/question-mark.png"
 import { steps } from '../helper/yazilim';
 import { Carousel, Container, Row, Col } from 'react-bootstrap';
+import { Helmet } from 'react-helmet';
 import "../css/web.css"
 
 const WebTasarim = () => {
@@ -28,6 +29,11 @@ const WebTasarim = () => {
 
   return (
 <div>
+
+<Helmet>
+        <title>SEO Uyumlu Web Tasarım Hizmetleri - Modern ve Mobil Uyumluluk</title>
+        <meta name="description" content="Modern, kullanıcı odaklı ve SEO uyumlu web tasarım çözümlerimizle markanızı dijitalde öne çıkarın. Hız ve performans optimizasyonu ile web sitenizi güçlendirin." />
+</Helmet>
 <div>
   <img src={girisimg} alt="" className='w-100 ' />
 </div>
@@ -142,7 +148,7 @@ const WebTasarim = () => {
     ))}
   </Carousel>
 
-  {/* Carousel indicators */}
+
   <div className="carousel-indicators-custom d-flex flex-wrap justify-content-center mt-3">
     {tekno.map((tech, index) => (
       <div
