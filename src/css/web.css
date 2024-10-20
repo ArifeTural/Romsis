@@ -247,12 +247,6 @@ padding-top: 3rem;
 }
 
 
-
-
-
-
-
-
 /*! UI & UX */
 
 
@@ -313,6 +307,25 @@ padding-top: 3rem;
 }
 
 
+/*! WMS Depo Yönetim Sistemleri */
+
+.wms-title{
+  color: #932e15 !important;
+  font-size: 3rem !important;
+  padding: 2rem;
+  text-align: center;
+}
+
+.wms-par{
+  text-align: center;
+  padding: 3rem;
+  font-size: 2rem !important;
+  color: #7a7e7f;
+}
+
+.wms-tablo{
+  width: 90%;
+}
 
 
 
