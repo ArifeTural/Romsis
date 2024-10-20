@@ -1,0 +1,35 @@
+.carousel-buyon{
+    padding-top: 3rem;
+    background-color:#E2E2E2
+}
+
+
+.buyon-caption{
+    background-color: rgba(0, 0, 0, 0.368);
+}  
+
+.byon-h3{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.buyon-par{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(152, 24, 10);
+}
+
+.bob-image{
+    width: 100%;        
+    height: 250px !important;     
+    object-fit: cover;
+}
+
+.bob-title{
+    color: rgb(55, 52, 126) !important;
+}
+
+.bob-par{
+    color: rgb(7, 125, 129);
+}

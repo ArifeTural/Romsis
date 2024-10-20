@@ -238,22 +238,48 @@ export const steps = [
     {
       id: 1,
       image:"/image/yazilim/buycar1.jpg",
-      h1:"Uçak İçi Satış: Buy on Board Sistemi ile Yolculuk Keyfini Artırın",
+      h1:" Buy on Board Sistemi ile Yolculuk Keyfini Artırın",
   
     },
     {
       id: 2,
       image:"/image/yazilim/buycar2.jpg",
-      h1:"Uçak İçi Satış: Buy on Board Sistemi ile Yolculuk Keyfini Artırın",
+      h1:" Buy on Board Sistemi ile Yolculuk Keyfini Artırın",
    
     },
     {
       id: 3,
       image:"/image/yazilim/buycar3.jpg",
-      h1:"Uçak İçi Satış: Buy on Board Sistemi ile Yolculuk Keyfini Artırın",
+      h1:"Buy on Board Sistemi ile Yolculuk Keyfini Artırın",
    
     }
   ];
+
+  export const bob = [
+    {
+      id: 1,
+      image:"/image/yazilim/board1.jpg",
+      h3:"1. Uçak İçi Yükleme",
+      description:"Uçak içi yükleme, uçuş öncesinde havayolu şirketlerinin, uçakta satılacak ürünlerin (yiyecek, içecek ve duty-free ürünler) dikkatlice planlandığı ve yüklendiği bir süreçtir. Bu aşamada, stok miktarları, yolcu sayısı ve ürün çeşitliliği göz önünde bulundurularak yükleme yapılır. Ürünler, havalimanındaki depolardan alınarak uçakta uygun bölmelere yerleştirilir. Uçak içi yükleme işlemi, hem güvenlik hem de operasyonel verimlilik açısından titizlikle gerçekleştirilir.",
+  
+    },
+    {
+      id: 2,
+      image:"/image/yazilim/ucakkredikarti.jpg",
+      h3:"2. Uçak İçi Satış ve Stok Yönetimi",
+      description:"Uçak içi satış ve stok yönetimi, uçuş sırasında kabin ekibinin yolculara yiyecek, içecek ve diğer ürünleri satmasını içerir. Bu satışlar genellikle nakit, kredi kartı ya da havayolu uygulamaları üzerinden yapılmaktadır. Stok yönetimi, satılan ürünlerin kaydının tutulması ve kalan stokların izlenmesi süreçlerini kapsar. Satışların dijital olarak kaydedilmesi, uçuş sonrası doğru stok değerlendirmesi ve bir sonraki uçuş için ihtiyaçların belirlenmesini sağlar.",
+   
+    },
+    {
+      id: 3,
+      image:"/image/yazilim/board3.webp",
+      h3:"3. Uçuş Sonrası Muhasebe ve Raporlama İşlemi",
+      description:"Uçuş sonrası, satış verileri toplanarak havayolu şirketinin muhasebe sistemine işlenir. Satış ve stok verileri karşılaştırılarak gelir raporları hazırlanır. Bu süreçte, kayıp veya bozuk ürünler gibi durumlar da raporlara dahil edilir. Uçuş sonrası muhasebe ve raporlama işlemi, gelirler, giderler ve satılmayan ürünler gibi detaylı bilgilerin analiz edilmesiyle, bir sonraki uçuş planlaması için gerekli verileri sağlar.",
+   
+    }
+  ];
+
+
   
   
   
