@@ -1965,6 +1965,11 @@
   dependencies:
     "@types/node" "*"
 
+"@types/deep-equal@^1.0.1":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@types/deep-equal/-/deep-equal-1.0.4.tgz#c0a854be62d6b9fae665137a6639aab53389a147"
+  integrity sha512-tqdiS4otQP4KmY0PR3u6KbZ5EWvhNdUoS/jc93UuK23C220lOZ/9TvjfxdPcKvqwwDVtmtSCrnr0p/2dirAxkA==
+
 "@types/eslint-scope@^3.7.3":
   version "3.7.7"
   resolved "https://registry.yarnpkg.com/@types/eslint-scope/-/eslint-scope-3.7.7.tgz#3108bd5f18b0cdb277c867b3dd449c9ed7079ac5"
@@ -2695,6 +2700,11 @@ array-includes@^3.1.6, array-includes@^3.1.7, array-includes@^3.1.8:
     es-object-atoms "^1.0.0"
     get-intrinsic "^1.2.4"
     is-string "^1.0.7"
+
+array-sorting-utilities@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/array-sorting-utilities/-/array-sorting-utilities-0.0.1.tgz#bd8e547084270f59628633bd24ce70f3710fd145"
+  integrity sha512-h/idT7IGFYQoUk+/ilm5uFAbG1mZ/vW5wYDJG+OD0w15AvTEBv3Yu9WGcV0dTTdKitcufHtLYQjHd42m9u7RZw==
 
 array-union@^2.1.0:
   version "2.1.0"
@@ -3880,7 +3890,7 @@ dedent@^0.7.0:
   resolved "https://registry.yarnpkg.com/dedent/-/dedent-0.7.0.tgz#2495ddbaf6eb874abb0e1be9df22d2e5a544326c"
   integrity sha512-Q6fKUPqnAHAyhiUgFU7BUzLiv0kd8saH9al7tnu5Q/okj6dnupxyTgFIBjVzJATdfIAm9NAsvXNzjaKa+bxVyA==
 
-deep-equal@^2.0.5:
+deep-equal@^2.0.5, deep-equal@^2.2.1:
   version "2.2.3"
   resolved "https://registry.yarnpkg.com/deep-equal/-/deep-equal-2.2.3.tgz#af89dafb23a396c7da3e862abc0be27cf51d56e1"
   integrity sha512-ZIwpnevOurS8bpT4192sqAowWM76JDKSHYzMLty3BZGSswgq6pBaH3DhCSW5xVAZICZyKdOBPjwww5wfgT/6PA==
@@ -5586,6 +5596,13 @@ internal-slot@^1.0.4, internal-slot@^1.0.7:
     hasown "^2.0.0"
     side-channel "^1.0.4"
 
+interval-utilities@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/interval-utilities/-/interval-utilities-0.0.1.tgz#7be1aab62524a3212656f93b6c997683f5cf03d9"
+  integrity sha512-Qo1IAx3noFPA0ssKfNe0eQmLmGmquWlEiwPn9Oeb16L1PqWnNe0YGfeRlU/hF7dtjjYRdNfVMVl+0o0cMLvjOQ==
+  dependencies:
+    point-utilities latest
+
 invariant@^2.2.4:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
@@ -7104,6 +7121,13 @@ node-int64@^0.4.0:
   resolved "https://registry.yarnpkg.com/node-int64/-/node-int64-0.4.0.tgz#87a9065cdb355d3182d8f94ce11188b825c68a3b"
   integrity sha512-O5lz91xSOeoXP6DulyHfllpq+Eg00MWitZIbtPfoSEvqIHdl5gfcY6hYzDWnj0qD5tz52PI08u9qUvSVeUBeHw==
 
+node-interval-tree@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/node-interval-tree/-/node-interval-tree-2.1.2.tgz#316e380db08d1c0de0a620d551f0327e8397dad8"
+  integrity sha512-bJ9zMDuNGzVQg1xv0bCPzyEDxHgbrx7/xGj6CDokvizZZmastPsOh0JJLuY8wA5q2SfX1TLNMk7XNV8WxbGxzA==
+  dependencies:
+    shallowequal "^1.1.0"
+
 node-releases@^2.0.18:
   version "2.0.18"
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-2.0.18.tgz#f010e8d35e2fe8d6b2944f03f70213ecedc4ca3f"
@@ -7508,6 +7532,11 @@ pkg-up@^3.1.0:
   integrity sha512-nDywThFk1i4BQK4twPQ6TA4RT8bDY96yeuCVBWL3ePARCiEKDRSrNGbFIgUJpLp+XeIR65v8ra7WuJOFUBtkMA==
   dependencies:
     find-up "^3.0.0"
+
+point-utilities@^0.0.2, point-utilities@latest:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/point-utilities/-/point-utilities-0.0.2.tgz#1f7442bf272f7e39ac87ffcbeb9652cc1d4ca108"
+  integrity sha512-jNUr+ijPk0cWw39gtJG0O8HNPL2EVC7e2ilC1NUlJw1QVTgC8NIMS/8AmG9IJfvfmJx+IlT8KNJzf/Jb035STQ==
 
 possible-typed-array-names@^1.0.0:
   version "1.0.0"
@@ -8971,6 +9000,11 @@ sha-1@0.1.1:
   resolved "https://registry.yarnpkg.com/sha-1/-/sha-1-0.1.1.tgz#2a39304bf41bbab11dd9efb7474ec25b1a92c257"
   integrity sha512-dexizf3hB7d4Jq6Cd0d/NYQiqgEqIfZIpuMfwPfvSb6h06DZKmHyUe55jYwpHC12R42wpqXO6ouhiBpRzIcD/g==
 
+shallowequal@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/shallowequal/-/shallowequal-1.1.0.tgz#188d521de95b9087404fd4dcb68b13df0ae4e7f8"
+  integrity sha512-y0m1JoUZSlPAjXVtPPW70aZWfIL/dSP7AFkRnniLCrK/8MDKog3TySTBmckD+RObVxH0v4Tox67+F14PdED2oQ==
+
 shebang-command@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/shebang-command/-/shebang-command-2.0.0.tgz#ccd0af4f8835fbdc265b82461aaf0c36663f34ea"
@@ -9417,6 +9451,18 @@ supports-preserve-symlinks-flag@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
+
+suspense@^0.0.53:
+  version "0.0.53"
+  resolved "https://registry.yarnpkg.com/suspense/-/suspense-0.0.53.tgz#a489de6ee46512228ff504b26a8da401f5a1a9ef"
+  integrity sha512-NNzjKeEOhC14dGCm2wf8VHr8MSN3db4huC4KcCuOkaNdEb1o5WLlHNaJ8DEE3SpP5CRJ0wD1wXBrGr/vFc0JMQ==
+  dependencies:
+    "@types/deep-equal" "^1.0.1"
+    array-sorting-utilities "^0.0.1"
+    deep-equal "^2.2.1"
+    interval-utilities "^0.0.1"
+    node-interval-tree "^2.1.2"
+    point-utilities "^0.0.2"
 
 svg-parser@^2.0.2:
   version "2.0.4"
