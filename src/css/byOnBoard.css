@@ -33,3 +33,32 @@
 .bob-par{
     color: rgb(7, 125, 129);
 }
+
+
+/*! IN-FLIGHT */
+
+.inflight-h1{
+    text-align: center;
+    font-size: 3.5rem !important;
+    color: #9c370c !important;
+}
+
+.inflight-par{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #1b6035;
+}
+
+.about-par{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #9a2525;
+}
+
+.hizmet-h2{
+    text-align: center;
+    font-size: 3rem !important;
+    color: #3b58a8 !important;
+}

@@ -29,18 +29,17 @@ const Inflight = () => {
         <img src={infli} alt="inflightgiris" style={{width: "100%"}} />
       </div>
       <Container className="p-2">
-        <h1 className='inflisght-h1'>Uçuş Hizmetleri | En İyi In-Flight Deneyimi</h1>
-        <p>Uçuş sırasında konforunuzu ön planda tutarak sunduğumuz kaliteli hizmetlerle seyahatinizi daha keyifli hale getiriyoruz. Yiyecek ve içecek servisi, eğlence seçenekleri ve Wi-Fi erişimi gibi birçok imkan ile siz değerli yolcularımızın memnuniyetini sağlamak için buradayız.</p>
+        <h1 className='inflight-h1'>Uçuş Hizmetleri | En İyi In-Flight Deneyimi</h1>
+        <p className='inflight-par p-5'>Uçuş sırasında konforunuzu ön planda tutarak sunduğumuz kaliteli hizmetlerle seyahatinizi daha keyifli hale getiriyoruz. Yiyecek ve içecek servisi, eğlence seçenekleri ve Wi-Fi erişimi gibi birçok imkan ile siz değerli yolcularımızın memnuniyetini sağlamak için buradayız.</p>
       </Container>
 
       {/* Hakkında Bölümü */}
       <Container className="mt-5">
-        <h2>Hakkında</h2>
-        <p>{aboutText}</p>
+        <p className='about-par'>{aboutText}</p>
       </Container>
 
       {/* Hizmetler Bölümü */}
-      <h2 className='text-center'>Hizmetlerimiz</h2>   
+      <h2 className='text-center hizmet-h2'>Hizmetlerimiz</h2>   
       <Container className="">
         <Row>
           {services.map((service, index) => (
