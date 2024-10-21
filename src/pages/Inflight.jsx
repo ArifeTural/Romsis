@@ -40,17 +40,17 @@ const Inflight = () => {
       </Container>
 
       {/* Hizmetler Bölümü */}
-      <h2 className='text-center hizmet'>Hizmetlerimiz</h2>   
+      <h2 className='text-center hizmet-h2'>Hizmetlerimiz</h2>   
       <Container className="">
         <Row>
           {services.map((service, index) => (
-            <Col key={index} md={4} className="mb-4">
-              <Card style={{ width: '20rem' }}>
+            <Col key={index} md={4} >
+              <Card className='hizmet-kart shadow-lg' style={{ width: '23rem', height: '32rem' }}>
                 <Card.Img variant="top" src={service.imageUrl} style={{height:"300px"}} />
                 <Card.Body>
-                  <Card.Title>{service.title}</Card.Title>
-                  <Card.Text>{service.description}</Card.Text>
-                  <Button variant="primary" onClick={() => handleShow(service)}>Detaylar</Button>
+                  <Card.Title className='hizmet-kart-baslik'>{service.title}</Card.Title>
+                  <Card.Text className='hizmet-kart-text' >{service.description}</Card.Text>
+                  <Button variant="primary" className='hizmet-kart-buton' onClick={() => handleShow(service)}>Detaylar</Button>
                 </Card.Body>
               </Card>
             </Col>
@@ -84,19 +84,19 @@ const Inflight = () => {
       {/* Modal Bölümü */}
       <Modal show={showModal} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>{selectedService ? selectedService.title : ''}</Modal.Title>
+          <Modal.Title className='hizmet-kart-baslik'>{selectedService ? selectedService.title : ''}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <p><strong>Açıklama:</strong> {selectedService ? selectedService.details : ''}</p>
-          <p><strong>Avantajlar:</strong></p>
-          <ul>
+          <p  className='hizmet-kart-text'><strong>Açıklama:</strong> {selectedService ? selectedService.details : ''}</p>
+          <p className='hizmet-kart-text'><strong>Avantajlar:</strong></p>
+          <ul className='hizmet-kart-text'>
             {selectedService && selectedService.advantages.map((advantage, index) => (
-              <li key={index}>{advantage}</li>
+              <li key={index} >{advantage}</li>
             ))}
           </ul>
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
+          <Button variant="secondary" onClick={handleClose}  className='hizmet-kart-buton' >
             Kapat
           </Button>
         </Modal.Footer>
