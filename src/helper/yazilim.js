@@ -294,7 +294,7 @@ export const steps = [
     },
     {
       title: 'Eğlence Seçenekleri',
-      description: 'Uçuş boyunca film, dizi ve müzik keyfi.',
+      description: 'Uçuş boyunca film, dizi ve müzik keyfi sunuyoruz.',
       details: 'Geniş bir film ve dizi kütüphanesine erişim sağlayarak, farklı müzik türleri ile eğlenceli bir uçuş deneyimi sunuyoruz.',
       advantages: [
         'Yeni çıkan filmler',

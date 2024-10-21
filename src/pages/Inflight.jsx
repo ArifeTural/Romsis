@@ -4,6 +4,7 @@ import { Container, Row, Col, Card, Carousel, Modal, Button } from 'react-bootst
 import ucak from "../assets/romsisucak.png"
 import { services } from '../helper/yazilim';
 import infli from "../assets/inflightgiriss.jpg"
+import { board } from '../helper/referans';
 
 const Inflight = () => {
   const [showModal, setShowModal] = useState(false);
@@ -29,7 +30,7 @@ const Inflight = () => {
         <img src={infli} alt="inflightgiris" style={{width: "100%"}} />
       </div>
       <Container className="p-2">
-        <h1 className='inflight-h1'>Uçuş Hizmetleri | En İyi In-Flight Deneyimi</h1>
+        <h1 className='inflight-h1'>Uçuş Hizmetleri | En Iyi In-Flight Deneyimi</h1>
         <p className='inflight-par p-5'>Uçuş sırasında konforunuzu ön planda tutarak sunduğumuz kaliteli hizmetlerle seyahatinizi daha keyifli hale getiriyoruz. Yiyecek ve içecek servisi, eğlence seçenekleri ve Wi-Fi erişimi gibi birçok imkan ile siz değerli yolcularımızın memnuniyetini sağlamak için buradayız.</p>
       </Container>
 
@@ -39,13 +40,13 @@ const Inflight = () => {
       </Container>
 
       {/* Hizmetler Bölümü */}
-      <h2 className='text-center hizmet-h2'>Hizmetlerimiz</h2>   
+      <h2 className='text-center hizmet'>Hizmetlerimiz</h2>   
       <Container className="">
         <Row>
           {services.map((service, index) => (
             <Col key={index} md={4} className="mb-4">
-              <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={service.imageUrl} />
+              <Card style={{ width: '20rem' }}>
+                <Card.Img variant="top" src={service.imageUrl} style={{height:"300px"}} />
                 <Card.Body>
                   <Card.Title>{service.title}</Card.Title>
                   <Card.Text>{service.description}</Card.Text>
@@ -58,41 +59,27 @@ const Inflight = () => {
       </Container>
 
     
-      <Container className="mt-5">
-      <img src={ucak} alt="romsisucak" />
-        <ul>
-          <li><strong>Uçuş sırasında Wi-Fi mevcut mu?</strong> Evet, uçuşlarımızda Wi-Fi hizmeti bulunmaktadır.</li>
-          <li><strong>Yiyecek ve içecek servisi nasıl yapılıyor?</strong> Uçuş sırasında menümüzden seçtiğiniz yiyecek ve içecekleri sunuyoruz.</li>
-          <li><strong>Uçuş süresince eğlence seçenekleri var mı?</strong> Evet, uçuş süresince birçok film, dizi ve müzik seçeneği sunuyoruz.</li>
-        </ul>
-      </Container>
+      <Container>
+      <Row className="align-items-center">
+        {/* Resim Kolonu */}
+        <Col xs={12} sm={6} className="text-center mb-3 mb-sm-0">
+          <img src={ucak} alt="romsisucak" className="img-fluid" />
+        </Col>
 
-      {/* Görsel Galeri Bölümü */}
-      <Container className="mt-5">
-        <Carousel>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="https://via.placeholder.com/800x400"
-              alt="First slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="https://via.placeholder.com/800x400"
-              alt="Second slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="https://via.placeholder.com/800x400"
-              alt="Second slide"
-            />
-          </Carousel.Item>
-        </Carousel>
-      </Container>
+        {/* SSS Kolonu */}
+        <Col xs={12} sm={6} className="d-flex justify-content-center">
+          <ul className="list-unstyled mt-3">
+            <li className='fs-4'><strong>Uçuş sırasında Wi-Fi mevcut mu?</strong> <br/> Evet, uçuşlarımızda Wi-Fi hizmeti bulunmaktadır.</li>
+            <li className='fs-4'><strong>Yiyecek ve içecek servisi nasıl yapılıyor?</strong>
+            <br/> Uçuş sırasında menümüzden seçtiğiniz yiyecek ve içecekleri sunuyoruz.</li>
+            <li className='fs-4'><strong>Uçuş süresince eğlence seçenekleri var mı?</strong>
+            <br/> Evet, uçuş süresince birçok film, dizi ve müzik seçeneği sunuyoruz.</li>
+          </ul>
+        </Col>
+      </Row>
+    </Container>
+
+
 
       {/* Modal Bölümü */}
       <Modal show={showModal} onHide={handleClose}>
@@ -114,6 +101,24 @@ const Inflight = () => {
           </Button>
         </Modal.Footer>
       </Modal>
+
+      <div className='text-center'>
+        <h2>
+          <a href="#" className='h-refe font-monospace fw-bolder fs-1 text-secondary'>İş Ortaklarımız</a>
+        </h2>
+      </div>
+      <div className='referans'>
+        {board.map((arife) => {
+          const { id, image } = arife;
+          return (
+            <div className="referans-card" style={{ width: "8rem" }} key={id}>
+              <img src={image} className="card-img-top" alt="İş ortağı logosu" />
+            </div>
+          );
+        })}
+      </div>
+
+
     </div>
   );
 };
