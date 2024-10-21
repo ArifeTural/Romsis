@@ -45,10 +45,6 @@ const Kurumsal = () => {
 })}
 
 </div>
-
-
-
-    
     </div>
   )
 }

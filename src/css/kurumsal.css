@@ -4,11 +4,12 @@
     box-sizing: border-box;
 }
 
+
+/*! SIKÇA SORULAN SORULAR */
+
 .soru-ana{
     background-color: rgba(245, 225, 218, 0.693) !important;
 }
-
-
 
 .sorular-baslik{
     color: brown;
@@ -28,4 +29,25 @@
 .icon-btn{
     color: brown !important;
     font-size: 2rem;
+}
+
+/*! REFERANSLARIMIZ */
+
+.ref{
+    margin: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+   
+}
+
+.ref-card{
+    border: 2px solid rgba(128, 128, 128, 0.373);
+    opacity: 0.5;
+}
+
+.ref-card:hover{
+    opacity: 1;
 }
