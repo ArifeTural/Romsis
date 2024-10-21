@@ -280,6 +280,43 @@ export const steps = [
   ];
 
 
+  export   const services = [
+    {
+      title: 'Yiyecek ve İçecek Servisi',
+      description: 'Yolcularımıza özel lezzetli ikramlar sunuyoruz.',
+      details: 'Uçuş sırasında taze ve sağlıklı yiyecek seçenekleri ile çeşitli içecek alternatifleri sunmaktayız.',
+      advantages: [
+        'Zengin menü seçenekleri',
+        'Diyet ve vegan seçenekleri',
+        'Hızlı ve kaliteli servis',
+      ],
+      imageUrl: 'https://via.placeholder.com/150',
+    },
+    {
+      title: 'Eğlence Seçenekleri',
+      description: 'Uçuş boyunca film, dizi ve müzik keyfi.',
+      details: 'Geniş bir film ve dizi kütüphanesine erişim sağlayarak, farklı müzik türleri ile eğlenceli bir uçuş deneyimi sunuyoruz.',
+      advantages: [
+        'Yeni çıkan filmler',
+        'Farklı dillerde altyazı seçenekleri',
+        'Günlük güncellemeler',
+      ],
+      imageUrl: 'https://via.placeholder.com/150',
+    },
+    {
+      title: 'Wi-Fi Erişimi',
+      description: 'Uçuş sırasında internet erişimi ile bağlantıda kalın.',
+      details: 'Uçuş boyunca kesintisiz internet bağlantısı ile sosyal medya hesaplarınızı kontrol edebilir ve işlerinizi halledebilirsiniz.',
+      advantages: [
+        'Hızlı bağlantı',
+        'Düşük gecikme süresi',
+        'Güvenli bağlantı',
+      ],
+      imageUrl: 'https://via.placeholder.com/150',
+    },
+  ];
+
+
   
   
   

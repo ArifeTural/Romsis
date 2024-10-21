@@ -1,46 +1,15 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col, Card, Carousel, Modal, Button } from 'react-bootstrap';
+import ucak from "../assets/romsisucak.png"
+import { services } from '../helper/yazilim';
+import infli from "../assets/inflightgiriss.jpg"
 
 const Inflight = () => {
   const [showModal, setShowModal] = useState(false);
   const [selectedService, setSelectedService] = useState(null);
 
-  const services = [
-    {
-      title: 'Yiyecek ve İçecek Servisi',
-      description: 'Yolcularımıza özel lezzetli ikramlar sunuyoruz.',
-      details: 'Uçuş sırasında taze ve sağlıklı yiyecek seçenekleri ile çeşitli içecek alternatifleri sunmaktayız.',
-      advantages: [
-        'Zengin menü seçenekleri',
-        'Diyet ve vegan seçenekleri',
-        'Hızlı ve kaliteli servis',
-      ],
-      imageUrl: 'https://via.placeholder.com/150',
-    },
-    {
-      title: 'Eğlence Seçenekleri',
-      description: 'Uçuş boyunca film, dizi ve müzik keyfi.',
-      details: 'Geniş bir film ve dizi kütüphanesine erişim sağlayarak, farklı müzik türleri ile eğlenceli bir uçuş deneyimi sunuyoruz.',
-      advantages: [
-        'Yeni çıkan filmler',
-        'Farklı dillerde altyazı seçenekleri',
-        'Günlük güncellemeler',
-      ],
-      imageUrl: 'https://via.placeholder.com/150',
-    },
-    {
-      title: 'Wi-Fi Erişimi',
-      description: 'Uçuş sırasında internet erişimi ile bağlantıda kalın.',
-      details: 'Uçuş boyunca kesintisiz internet bağlantısı ile sosyal medya hesaplarınızı kontrol edebilir ve işlerinizi halledebilirsiniz.',
-      advantages: [
-        'Hızlı bağlantı',
-        'Düşük gecikme süresi',
-        'Güvenli bağlantı',
-      ],
-      imageUrl: 'https://via.placeholder.com/150',
-    },
-  ];
+
 
   const aboutText = "Uçuşlarımızda siz değerli yolcularımıza en iyi hizmeti sunmayı amaçlıyoruz. Yenilikçi yaklaşımlarımızla seyahatinizi daha keyifli hale getiriyoruz.";
 
@@ -56,9 +25,11 @@ const Inflight = () => {
 
   return (
     <div>
-      {/* Başlık ve Giriş Paragrafı */}
-      <Container className="mt-5">
-        <h1>Uçuş Hizmetleri | En İyi In-Flight Deneyimi</h1>
+      <div>
+        <img src={infli} alt="inflightgiris" style={{width: "100%"}} />
+      </div>
+      <Container className="p-2">
+        <h1 className='inflisght-h1'>Uçuş Hizmetleri | En İyi In-Flight Deneyimi</h1>
         <p>Uçuş sırasında konforunuzu ön planda tutarak sunduğumuz kaliteli hizmetlerle seyahatinizi daha keyifli hale getiriyoruz. Yiyecek ve içecek servisi, eğlence seçenekleri ve Wi-Fi erişimi gibi birçok imkan ile siz değerli yolcularımızın memnuniyetini sağlamak için buradayız.</p>
       </Container>
 
@@ -69,8 +40,8 @@ const Inflight = () => {
       </Container>
 
       {/* Hizmetler Bölümü */}
-      <Container className="mt-5">
-        <h2 id="services">Hizmetlerimiz</h2>
+      <h2 className='text-center'>Hizmetlerimiz</h2>   
+      <Container className="">
         <Row>
           {services.map((service, index) => (
             <Col key={index} md={4} className="mb-4">
@@ -87,9 +58,9 @@ const Inflight = () => {
         </Row>
       </Container>
 
-      {/* Sıkça Sorulan Sorular (SSS) Bölümü */}
+    
       <Container className="mt-5">
-        <h2>?</h2>
+      <img src={ucak} alt="romsisucak" />
         <ul>
           <li><strong>Uçuş sırasında Wi-Fi mevcut mu?</strong> Evet, uçuşlarımızda Wi-Fi hizmeti bulunmaktadır.</li>
           <li><strong>Yiyecek ve içecek servisi nasıl yapılıyor?</strong> Uçuş sırasında menümüzden seçtiğiniz yiyecek ve içecekleri sunuyoruz.</li>
