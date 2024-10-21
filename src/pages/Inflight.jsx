@@ -76,10 +76,6 @@ const Inflight = () => {
               src="https://via.placeholder.com/800x400"
               alt="First slide"
             />
-            <Carousel.Caption>
-              <h3>Görsel 1</h3>
-              <p>Açıklama 1</p>
-            </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
@@ -87,10 +83,13 @@ const Inflight = () => {
               src="https://via.placeholder.com/800x400"
               alt="Second slide"
             />
-            <Carousel.Caption>
-              <h3>Görsel 2</h3>
-              <p>Açıklama 2</p>
-            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="https://via.placeholder.com/800x400"
+              alt="Second slide"
+            />
           </Carousel.Item>
         </Carousel>
       </Container>

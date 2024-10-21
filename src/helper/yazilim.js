@@ -290,7 +290,7 @@ export const steps = [
         'Diyet ve vegan seçenekleri',
         'Hızlı ve kaliteli servis',
       ],
-      imageUrl: 'https://via.placeholder.com/150',
+      imageUrl: '/image/yazilim/yiyecek.jpg',
     },
     {
       title: 'Eğlence Seçenekleri',
@@ -301,7 +301,7 @@ export const steps = [
         'Farklı dillerde altyazı seçenekleri',
         'Günlük güncellemeler',
       ],
-      imageUrl: 'https://via.placeholder.com/150',
+      imageUrl: '/image/yazilim/eglence.jpg',
     },
     {
       title: 'Wi-Fi Erişimi',
@@ -312,7 +312,7 @@ export const steps = [
         'Düşük gecikme süresi',
         'Güvenli bağlantı',
       ],
-      imageUrl: 'https://via.placeholder.com/150',
+      imageUrl: '/image/yazilim/wifi.jpg',
     },
   ];
 
