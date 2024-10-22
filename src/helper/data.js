@@ -17,58 +17,79 @@ export const mobilgif =[
 ]
 
 
-export const yazilim =[
+export const yazilim = [
   {
     id: 1,
-    image: "",
-    title: "NE YAPIYORUZ ?",
-    text: "Romsis olarak her zaman yanınızda olmaya ve kalıcı çözümler sunmaya hazırız",
+    image: "./image/yazilim/buycar1.jpg",
+    title: "Buy On Board Hizmetleri",
+    text: "Yolcularımıza uçuş sırasında konfor, güvenlik ve ikram hizmetlerini kapsayan bir deneyim sunuyoruz. Uçak içi hizmetlerimizle seyahat deneyimini iyileştiriyoruz.",
+    meta: {
+      title: "Buy On Board | Romsis",
+      description: "Romsis olarak, uçuş sırasında sunduğumuz Buy On Board hizmetleriyle yolcularımızın konforunu artırıyoruz."
+    }
   },
   {
-    id:2,
-    image:"./image/yazilim/by-board.jpg",
-    title:"BY ON BOARD",
-    text:"Yolcularamıza uçuş sırasında konfor, güvenlik ve ikram hizmetlerini kapsayan bir deneyim sunuyoruz.",
-
+    id: 2,
+    image: "./image/yazilim/innfg.jpg",
+    title: "In-Flight Hizmetleri",
+    text: "Uçuş sırasında sunduğumuz benzersiz 'In-Flight' hizmetlerimizle, gökyüzünde konforu ve lüksü yeniden tanımlıyoruz. Yolcularımıza çeşitli yiyecek ve içecek seçenekleri sunuyoruz.",
+    meta: {
+      title: "In-Flight Hizmetleri | Romsis",
+      description: "Romsis'in sunduğu In-Flight hizmetleriyle uçuş deneyiminizi zenginleştirin."
+    }
   },
   {
-    id:3,
-    image:"./image/yazilim/webtasarimjpg..jpg",
-    title:"Web Tasarım",
-    text:"Mobil uyumlu ve SEO odaklı web sitelerinin çevrimiçi varlığını artırıyoruz.",
-
+    id: 3,
+    image: "./image/yazilim/wms.jpg",
+    title: "Web Tasarım",
+    text: "Mobil uyumlu ve SEO odaklı web sitelerinin çevrimiçi varlığını artırıyoruz. Kullanıcı deneyimini ön planda tutarak tasarımlar oluşturuyoruz.",
+    meta: {
+      title: "Web Tasarım Hizmetleri | Romsis",
+      description: "Mobil uyumlu web tasarım hizmetleri ile firmanızın dijital varlığını güçlendirin."
+    }
   },
   {
-   id:4,
-   image:"./image/yazilim/webbyazilim.jpg",
-   title:"Web Yazılım",
-   text:"Güçlü ve güvenli web yazılımları ile firmanızın dijital dönüşümünü kodluyoruz",
-
-
+    id: 4,
+    image: "./image/yazilim/webbyazilim.jpg",
+    title: "Web Yazılım",
+    text: "Güçlü ve güvenli web yazılımları ile firmanızın dijital dönüşümünü kodluyoruz. İhtiyaçlarınıza özel çözümler sunuyoruz.",
+    meta: {
+      title: "Web Yazılım Hizmetleri | Romsis",
+      description: "Güvenli web yazılımları ile iş süreçlerinizi optimize edin."
+    }
   },
   {
-    id:5,
-    image:"./image/yazilim/ticaret.webp",
-    title:"E-Ticaret",
-    text:"İşinizi online dünyada büyütmenizi sağlayacak e-ticaret çözümleri sunuyoruz.",
-
+    id: 5,
+    image: "./image/yazilim/webtasarim.jpg",
+    title: "WMS Depo Yönetim Sistemleri",
+    text: "Uçuş sırasında sunduğumuz benzersiz 'In-Flight' hizmetlerimizle, gökyüzünde konforu ve lüksü yeniden tanımlıyoruz. Depo yönetim sistemlerimizle süreçlerinizi kolaylaştırıyoruz.",
+    meta: {
+      title: "WMS Depo Yönetim Sistemleri | Romsis",
+      description: "Depo yönetim sistemleri ile lojistik süreçlerinizi optimize edin."
+    }
   },
   {
-    id:6,
-    image:"./image/yazilim/mobiluygulama.jpg",
-    title:"Mobil Uygulama",
-    text:"İşinizi cebinize sığdıran mobil uygulamalar geliştiriyoruz.",
-
+    id: 6,
+    image: "./image/yazilim/mobiluygulama.jpg",
+    title: "Mobil Uygulama",
+    text: "İşinizi cebinize sığdıran mobil uygulamalar geliştiriyoruz. Kullanıcı dostu arayüzler ile uygulama deneyimini artırıyoruz.",
+    meta: {
+      title: "Mobil Uygulama Geliştirme | Romsis",
+      description: "Cebinize sığan mobil uygulamalarla iş süreçlerinizi kolaylaştırın."
+    }
   },
   {
-    id:7,
-    image:"./image/yazilim/ui-ux-tasarim.png",
-    title:"UI & UX",
-    text:"Hem göz alıcı hem de kolay kullanılabilir UI & UX çözümleri sunuyoruz.",
- 
- 
-   },
-  ]
+    id: 7,
+    image: "./image/yazilim/ui-ux-tasarim.png",
+    title: "UI & UX Tasarım",
+    text: "Hem göz alıcı hem de kolay kullanılabilir UI & UX çözümleri sunuyoruz. Kullanıcı deneyimini artırarak memnuniyeti önceliklendiren tasarımlar yapıyoruz.",
+    meta: {
+      title: "UI & UX Tasarım Hizmetleri | Romsis",
+      description: "Etkileyici ve kullanıcı dostu tasarımlarla kullanıcı deneyiminizi geliştirin."
+    }
+  }
+];
+
 
 
 

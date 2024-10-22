@@ -75,19 +75,9 @@ Col a {
 /*! HOME */
 .carousel {
     position: relative;
-    height: 90vh;
+  
 }
 
-.carousel-bg {
-    background-image: url(./assets/bg-romsis.jpg);
-    opacity: 0.2;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-}
 
 .carousel-content {
     position: relative;
@@ -99,7 +89,8 @@ Col a {
 }
 
 .h-video {
-    width: 90%;
+    width: 100%;
+    
 }
 
 .container {
