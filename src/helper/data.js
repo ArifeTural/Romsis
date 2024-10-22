@@ -40,7 +40,7 @@ export const yazilim = [
   },
   {
     id: 3,
-    image: "./image/yazilim/wms.jpg",
+    image: "./image/yazilim/webtasarim.jpg",
     title: "Web Tasarım",
     text: "Mobil uyumlu ve SEO odaklı web sitelerinin çevrimiçi varlığını artırıyoruz. Kullanıcı deneyimini ön planda tutarak tasarımlar oluşturuyoruz.",
     meta: {
@@ -60,9 +60,9 @@ export const yazilim = [
   },
   {
     id: 5,
-    image: "./image/yazilim/webtasarim.jpg",
-    title: "WMS Depo Yönetim Sistemleri",
-    text: "Uçuş sırasında sunduğumuz benzersiz 'In-Flight' hizmetlerimizle, gökyüzünde konforu ve lüksü yeniden tanımlıyoruz. Depo yönetim sistemlerimizle süreçlerinizi kolaylaştırıyoruz.",
+    image: "./image/yazilim/wms.jpg",
+    title: "WMS Sistemleri",
+    text: "WMS Depo yönetim sistemleri ile lojistik süreçlerinizi güçlendirin ve  optimize edin.",
     meta: {
       title: "WMS Depo Yönetim Sistemleri | Romsis",
       description: "Depo yönetim sistemleri ile lojistik süreçlerinizi optimize edin."
@@ -82,7 +82,7 @@ export const yazilim = [
     id: 7,
     image: "./image/yazilim/ui-ux-tasarim.png",
     title: "UI & UX Tasarım",
-    text: "Hem göz alıcı hem de kolay kullanılabilir UI & UX çözümleri sunuyoruz. Kullanıcı deneyimini artırarak memnuniyeti önceliklendiren tasarımlar yapıyoruz.",
+    text: "Hem göz alıcı hem de kolay kullanılabilir UI & UX çözümleri sunuyoruz. Memnuniyeti önceliklendiren tasarımlar yapıyoruz.",
     meta: {
       title: "UI & UX Tasarım Hizmetleri | Romsis",
       description: "Etkileyici ve kullanıcı dostu tasarımlarla kullanıcı deneyiminizi geliştirin."

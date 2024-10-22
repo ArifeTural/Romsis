@@ -13,8 +13,8 @@ const Hakkımızda = () => {
           {/* <img src={foto} alt="Biz Kimiz" className='w-100 h-100' /> */}
         </div>
         <div className='m-5 text-start'>
-          <h1 className='fs-1 font-monospace'>Biz Kimiz?</h1>
-          <p className='fs-4 font-monospace'>
+          <h1 className='fs-1 '>Biz Kimiz?</h1>
+          <p className='fs-4 '>
             Global ölçekli üretim sağlayan bir yazılım şirketiyiz. Şirketimiz 26 Ağustos 2001 yılında,
             yazılım sektöründe danışmanlık hizmeti vermek üzere mevcut kurucu ortaklarımız tarafından kurulmuş olup,
             birçok uluslararası ve yerel projede danışmanlık ve uygulama görevlerini başarıyla tamamlamıştır.
@@ -25,7 +25,7 @@ const Hakkımızda = () => {
       {/* History Section */}
       <div className='tarihce m-5'>
         <div className='m-5 text-start'>
-          <h2 className='fs-1 font-monospace'>Tarihçemiz</h2>
+          <h2 className='fs-1'>Tarihçemiz</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In architecto omnis.</p>
         </div>
 
@@ -46,7 +46,7 @@ const Hakkımızda = () => {
 
       {/* Support Section */}
       <div className='destek m-5 p-5'>
-        <h2 className='fs-1 font-monospace'>Romsis Destek Hizmeti</h2>
+        <h2 className='fs-1 '>Romsis Destek Hizmeti</h2>
         <p>
           Romsis kullanıcılarına yönelik destek ve eğitim hizmetleri, Romsis Akademi ve Yetkili Romsis İş Ortakları
           tarafından sağlanmaktadır. Proje Danışmanlığı, Kullanıcı Eğitimleri, Uzak Bağlantı ve diğer destek hizmetleri ile
@@ -57,7 +57,7 @@ const Hakkımızda = () => {
       {/* R&D Section */}
       <div className='arge m-5 d-flex flex-wrap justify-content-center align-items-center'>
         <div className='w-75'>
-          <h2 className='text-center fs-1 font-monospace'>AR-GE</h2>
+          <h2 className='text-center fs-1 '>AR-GE</h2>
           <p>
             Şirketimiz kazancının %65'ini AR-GE çalışmalarına yatırarak, müşteri ihtiyaçlarına göre yeni ürünler
             geliştirip inovasyonel bir firma olma yolunda ilerlemektedir. AR-GE çalışmalarımız sayesinde
@@ -69,7 +69,7 @@ const Hakkımızda = () => {
 
       {/* Investor Relations Section */}
       <div className='yatırımcı m-5 p-5'>
-        <h2 className='fs-1 font-monospace'>Yatırımcı İlişkileri</h2>
+        <h2 className='fs-1 '>Yatırımcı İlişkileri</h2>
         <p>
           Şirketimiz, 2012 yılından itibaren dünya çapında çeşitli yazılım firmalarıyla ortaklıklar yapmaktadır.
           Ancak %100 yerli yazılım firması olarak bağımsızlığını korumaktadır.
@@ -78,7 +78,7 @@ const Hakkımızda = () => {
 
       {/* Team Section */}
       <div className='ekip'>
-        <h2 className='text-center fs-1 font-monospace'>Ekibimiz</h2>
+        <h2 className='text-center fs-1 '>Ekibimiz</h2>
         <div className='d-flex justify-content-center'>
           <div className="card mb-3 border-0" style={{ maxWidth: 900 }}>
             <div className="row g-0">

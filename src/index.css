@@ -1,14 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
-
-
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
   
 }
 
@@ -19,7 +15,7 @@
 }
 
 .teklif-nav {
-    font-size: 1.2rem !important;
+    font-size: 1rem !important;
     font-weight: bolder !important;
     background: #F84715 !important;
     border-radius: 10px !important;
@@ -35,14 +31,13 @@ footer{
 
 }
 h1{
-    font-family: "Bebas Neue", sans-serif;
     font-size: 4rem !important;
     color: #FA4615 !important;
 }
 
 a {
-    text-decoration: none !important; /* Alt çizgiyi kaldır */
-    color: black !important; /* Metin rengini siyah yap */
+    text-decoration: none !important;
+    color: black !important; 
 }
 Col a {
     text-decoration: none;
@@ -120,8 +115,8 @@ Col a {
     border:none;
     color: white;
     cursor: pointer;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
+    opacity: 0.5;
   }
   
   .content3,
@@ -138,8 +133,11 @@ Col a {
     font-weight: bold;
     color: rgb(255, 255, 255);
     text-align: center;
+  
 
   }
+
+  .content1 p,
   .content2 p,
   .content3 p,
   .content4 p,
@@ -149,14 +147,7 @@ Col a {
     visibility: hidden;
   
   }
-.content2 ,
-.content3 ,
-.content4 ,
-.content6 ,
-.content5 ,
-.content7 {
-opacity: 0.5;
-}
+
 
   
   
@@ -171,20 +162,7 @@ opacity: 0.5;
     visibility: visible;
   }
 
-  .content1 h3{
-    padding-left: 10rem; ;
-    color: #af1c06!important;
-    font-size: 3rem !important;
-    text-align: end !important;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
-  .content1 p{
-    color: black !important;
-    text-align: end !important;
 
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
-  }
 
   .referans{
     margin: 2rem;

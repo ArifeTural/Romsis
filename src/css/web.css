@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-/* Genel Düzenlemeler */
 .tek-ana {
     max-height: 50vh;
   }
@@ -13,7 +12,7 @@
     max-width: 100%;
   }
   
-  /* Carousel image düzenlemesi */
+
   .carousel-image-container {
     width: 100%;
     text-align: center;
@@ -25,7 +24,7 @@
     object-fit: contain;
   }
   
-  /* Carousel kart düzeni */
+
   .carousel-card {
     background-color: #f8f9fa;
     border: 5px solid #0077A2;
@@ -43,7 +42,7 @@
     color: #333;
   }
   
-  /* Indicators container */
+
   .carousel-indicators-custom {
     margin-top: 2rem;
   }
@@ -60,8 +59,7 @@
   .indicator-image.active {
     border: 2px solid #007bff;
   }
-  
-  /* Medya Sorguları */
+
   @media (max-width: 768px) {
     .tek-ana {
       max-height: none;
@@ -148,9 +146,9 @@
 .mobil-giris-row {
  
     display: flex;
-    align-items: center; /* Dikeyde ortalar */
-    justify-content: space-between; /* İki kolon arasına eşit boşluk bırakır */
-    height: 100%; /* Yüksekliği ayarlamak için gerekli */
+    align-items: center;
+    justify-content: space-between; 
+    height: 100%; 
   }
   
 .mobil-giris-cont-bas{

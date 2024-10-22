@@ -24,6 +24,7 @@ function Home() {
       </div>
 
       {/* NELER YAPIYORUZ */}
+      <div><h2>Ne Yapıyoruz ?</h2></div>
       <div className='container'>
   {yazilim.map((yz, index) => {
     const { image, id, title, text } = yz;
@@ -37,15 +38,19 @@ function Home() {
 </div>
 
 
+
+
+
+
 {/* REFERANSLAR */}
 <div className='text-center'>
-  <h2 ><a href="" className='h-refe font-monospace fw-bolder  fs-1 text-secondary' > İş Ortaklarımız</a></h2>
+  <h2 ><a href="" className='h-refe fw-bolder  fs-1 text-secondary' > İş Ortaklarımız</a></h2>
 </div>
 <div className='referans'>
 {referans.map((arife)=>{
   const {id, image} = arife
   return(
-    <div className="referans-card" style={{ width: "8rem" }} key={id}>
+    <div className="referans-card" style={{ width: "5rem" }} key={id}>
   <img src={image} className="card-img-top" alt="..." />
 
 </div>
