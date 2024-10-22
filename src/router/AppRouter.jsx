@@ -15,6 +15,7 @@ import Footer from '../components/Footer';
 import Hakkımızda from '../pages/Hakkımızda';
 import Sorular from '../pages/Sorular';
 import Inflight from '../pages/Inflight';
+import { WhatsApp } from '@mui/icons-material';
 
 const AppRouter = () => {
   return (
@@ -37,6 +38,7 @@ const AppRouter = () => {
 
         <Route path='*' element={<Home />} />
       </Routes>
+      <WhatsApp/>
       <Footer />
     </BrowserRouter>
   );

@@ -5,6 +5,8 @@ import { steps } from '../helper/yazilim';
 import { Link } from 'react-router-dom';
 
 function Home() {
+
+
   return (
     <div>
       {/* SLAYT */}
@@ -27,75 +29,61 @@ function Home() {
 
       {/* NELER YAPIYORUZ */}
       <div className='container'>
-  {yazilim.map((yz, index) => {
-    const { image, id, title, text,link } = yz;
-    return (
-      <div key={id} className={`content content${index + 1}`} style={{ backgroundImage: `url(${image})`}}>
-      <Link to={link}>
-      <h3 className='content-h3 '>{title}</h3>
-     
-      </Link>  
+        {yazilim.map((yz, index) => {
+          const { image, id, title, text, link } = yz;
+          return (
+            <div key={id} className={`content content${index + 1}`} style={{ backgroundImage: `url(${image})` }}>
+              <Link to={link}>
+                <h3 className='content-h3'>{title}</h3>
+              </Link>
+            </div>
+          );
+        })}
       </div>
-    );
-  })}
-</div>
 
-
-<div className="container my-4  ">
- <h2 className='fs-1 fw-bolder text-center text-danger tasarim-baslikk '> Nasıl Çalışıyoruz ?</h2>
-      <div className="row">
-        {steps.map((step, index) => (
-          <div key={index} className="col-12 col-sm-6 col-md-4 col-lg-2 mb-4 d-flex justify-content-center">
-            <div className="card border-0">
-              <img 
-               className="nasil-img " 
-                src={step.img} 
-                alt={step.alt} 
-                loading="lazy" 
-              />
-              <div className="card-body">
-                <h5 className="card-title fs-4 fw-bold text-secondary">{step.title}</h5>
-                <ul className="list-unstyled ">
-                  {step.content.map((item, i) => (
-                    <li key={i} className="text-muted ">
-                      * {item}
-                    </li>
-                  ))}
-                </ul>
+      <div className="container my-4">
+        <h2 className='fs-1 fw-bolder text-center text-danger tasarim-baslikk'> Nasıl Çalışıyoruz ?</h2>
+        <div className="row">
+          {steps.map((step, index) => (
+            <div key={index} className="col-12 col-sm-6 col-md-4 col-lg-2 mb-4 d-flex justify-content-center">
+              <div className="card border-0">
+                <img className="nasil-img" src={step.img} alt={step.alt} loading="lazy" />
+                <div className="card-body">
+                  <h5 className="card-title fs-4 fw-bold text-secondary">{step.title}</h5>
+                  <ul className="list-unstyled">
+                    {step.content.map((item, i) => (
+                      <li key={i} className="text-muted">
+                        * {item}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
-    </div>
 
-
-
-
-
-
-{/* REFERANSLAR */}
-<div className='text-center'>
-  <h2 ><a href="" className='h-refe fw-bolder  fs-1 text-danger ' > İş Ortaklarımız</a></h2>
-</div>
-<div className='referans'>
-{referans.map((arife)=>{
-  const {id, image} = arife
-  return(
-    <div className="referans-card" style={{ width: "5rem" }} key={id}>
-  <img src={image} className="card-img-top border rounded-2" alt="..." />
-
-</div>
-
-  )
-})}
-
-</div>
+      {/* REFERANSLAR */}
+      <div className='text-center'>
+        <h2><a href="" className='h-refe fw-bolder fs-1 text-danger'> İş Ortaklarımız</a></h2>
+      </div>
+      <div className='referans'>
+        {referans.map((arife) => {
+          const { id, image } = arife;
+          return (
+            <div className="referans-card" style={{ width: "5rem" }} key={id}>
+              <img src={image} className="card-img-top border rounded-2" alt="..." />
+            </div>
+          );
+        })}
+      </div>
 
     </div>
   );
 }
 
 export default Home;
+
 
 
