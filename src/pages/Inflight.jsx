@@ -28,7 +28,7 @@ const Inflight = () => {
     <div>
       {/* Helmet for SEO */}
       <Helmet>
-        <title>Uçuş Hizmetleri | Romsis - En İyi In-Flight Deneyimi</title>
+        <title>Uçuş Hizmetleri</title>
         <meta name="description" content="Romsis, uçuş sırasında konforunuzu ön planda tutarak en iyi in-flight hizmetleri sunar. Yiyecek içecek servisi, eğlence seçenekleri, Wi-Fi hizmeti ve daha fazlası ile uçuşlarınız keyifli geçsin." />
         <meta name="keywords" content="uçuş hizmetleri, in-flight deneyimi, Wi-Fi uçuş, eğlence uçuş, Romsis, yiyecek içecek uçuş" />
         <meta name="robots" content="index, follow" />

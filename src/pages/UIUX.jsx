@@ -8,7 +8,7 @@ const UIUX = () => {
   return (
     <div className="">
       <Helmet>
-        <title>UI/UX Tasarımı | Kullanıcı Deneyimini Yeniden Tanımlayın</title>
+        <title>UI/UX Tasarımı</title>
         <meta name="description" content="UI/UX tasarım sürecimiz ile kullanıcı deneyimini en üst düzeye çıkarın. Projeleriniz için en iyi tasarım çözümlerini sunuyoruz." />
         <meta name="keywords" content="UI/UX, kullanıcı deneyimi, tasarım, prototipleme, kullanıcı testleri, tasarım araçları" />
       </Helmet>

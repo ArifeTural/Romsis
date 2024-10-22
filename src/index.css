@@ -108,7 +108,7 @@ Col a {
     border: 1px solid #ccc;
     padding: 10px;
     border-radius: 8px;
-    flex: 1 1 calc(50% - 10px);
+    flex: 1 1 calc(50% - 20px);
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
@@ -175,7 +175,7 @@ Col a {
 }
 
 .referans-card{
-    opacity: 0.5;
+      opacity: 0.5;
     cursor: pointer;
 
 }

@@ -15,7 +15,7 @@ const MobilUygulama = () => {
     return (
       <div>
         <Helmet>
-          <title>Mobil Uygulama Hizmetleri | iOS, Android, Çapraz Platform ve Daha Fazlası</title>
+          <title>Mobil Uygulama</title>
           <meta
             name="description"
             content="Mobil uygulama geliştirme hizmetleri: iOS, Android, çapraz platform uygulamaları, akıllı saat uygulamaları ve mobil arayüz tasarımları. Kullanıcı odaklı çözümler."

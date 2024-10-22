@@ -31,7 +31,7 @@ const WebTasarim = () => {
 <div>
 
 <Helmet>
-        <title>SEO Uyumlu Web Tasarım Hizmetleri - Modern ve Mobil Uyumluluk</title>
+        <title>Web Tasarım Hizmetleri</title>
         <meta name="description" content="Modern, kullanıcı odaklı ve SEO uyumlu web tasarım çözümlerimizle markanızı dijitalde öne çıkarın. Hız ve performans optimizasyonu ile web sitenizi güçlendirin." />
 </Helmet>
 <div>

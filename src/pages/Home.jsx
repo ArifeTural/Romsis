@@ -37,6 +37,7 @@ function Home() {
   })}
 </div>
 
+
 <div className="container my-4  ">
  <h2 className='fs-1 fw-bolder text-center tasarim-baslikk '> Nasıl Çalışıyoruz ?</h2>
       <div className="row">

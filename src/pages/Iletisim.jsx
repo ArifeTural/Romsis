@@ -7,7 +7,7 @@ const Iletisim = () => {
   return (
     <div>
       <Helmet>
-        <title>İletişim - Romsis Yazılım Ofisleri ve İletişim Formu</title>
+        <title>İletişim</title>
         <meta name="description" content="Romsis Yazılım ile iletişim kurun. Ofislerimizin adresleri ve iletişim formu ile bize ulaşabilirsiniz. İstanbul, Edirne, Antalya ve Ankara'daki şubelerimiz." />
         <meta name="keywords" content="Romsis, iletişim, yazılım, ofis adresleri, iletişim formu, yazılım firması" />
       </Helmet>
