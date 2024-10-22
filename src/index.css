@@ -171,11 +171,19 @@ Col a {
     gap: 2rem;
     padding: 2rem;
     justify-content: center;
+  
 }
 
 .referans-card{
-   box-shadow: 10px 10px 10px lightgrey;
+    opacity: 0.5;
+    cursor: pointer;
+
 }
+.referans-card:hover{
+    opacity: 1;
+}
+
+
 
 .h-refe{
     color:#af1c06 !important;

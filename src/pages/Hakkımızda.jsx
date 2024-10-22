@@ -3,14 +3,15 @@ import Card from 'react-bootstrap/Card';
 import { ekip, tarih } from '../helper/data';
 import fare from '../assets/mouse.png';
 import user from "../assets/user.jpg";
+import foto from "../assets/hakkimizda.png"
 
 const Hakkımızda = () => {
   return (
     <div>
       {/* Hero Section */}
       <div className='bizkimiz m-5 '>
-        <div style={{ width: '100%', height: "45vh" }}>
-          {/* <img src={foto} alt="Biz Kimiz" className='w-100 h-100' /> */}
+        <div style={{ width: '100%',  }}>
+          <img src={foto} alt="Biz Kimiz" className='w-100 h-100' />
         </div>
         <div className='m-5 text-start'>
           <h1 className='fs-1 '>Biz Kimiz?</h1>
