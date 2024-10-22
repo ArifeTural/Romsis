@@ -14,6 +14,7 @@ const Footer = () => {
         <Col>
           <p><i className="fa-solid fa-location-dot"></i> Adres: Maslak Mahallesi Maslak Meydanı Sok. No:3 Veko Giz Plaza Kat:2 D:1-2 Maslak Sarıyer İstanbul Türkiye</p>
         </Col>
+        
         <Col>
           <ul>
             <li><Link className="fs-5" to="/dashboard/byOnBoard">By On Board</Link></li>

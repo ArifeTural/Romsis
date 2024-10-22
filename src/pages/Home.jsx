@@ -2,6 +2,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import { data, yazilim } from "../helper/data";
 import { referans } from '../helper/referans';
 import { steps } from '../helper/yazilim';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -27,11 +28,13 @@ function Home() {
       {/* NELER YAPIYORUZ */}
       <div className='container'>
   {yazilim.map((yz, index) => {
-    const { image, id, title, text } = yz;
+    const { image, id, title, text,link } = yz;
     return (
       <div key={id} className={`content content${index + 1}`} style={{ backgroundImage: `url(${image})`}}>
-        <h3 className='content-h3'>{title}</h3>
-        <p className='content-p'>{text}</p>
+      <Link to={link}>
+      <h3 className='content-h3 '>{title}</h3>
+     
+      </Link>  
       </div>
     );
   })}
@@ -39,7 +42,7 @@ function Home() {
 
 
 <div className="container my-4  ">
- <h2 className='fs-1 fw-bolder text-center tasarim-baslikk '> Nasıl Çalışıyoruz ?</h2>
+ <h2 className='fs-1 fw-bolder text-center text-danger tasarim-baslikk '> Nasıl Çalışıyoruz ?</h2>
       <div className="row">
         {steps.map((step, index) => (
           <div key={index} className="col-12 col-sm-6 col-md-4 col-lg-2 mb-4 d-flex justify-content-center">
