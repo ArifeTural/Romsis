@@ -1,3 +1,5 @@
+import React from 'react';
+import { Helmet } from 'react-helmet'; // Helmet kütüphanesini import et
 import Carousel from 'react-bootstrap/Carousel';
 import { data, yazilim } from "../helper/data";
 import { referans } from '../helper/referans';
@@ -15,6 +17,15 @@ function Home() {
 
   return (
     <div>
+      {/* Helmet Etiketleri */}
+      <Helmet>
+        <title>Romsis - Buy On Board Hizmetleri | Yazılım ve Web Çözümleri</title>
+        <meta name="description" content="Romsis Yazılım, web tasarım ve buy on board hizmetleri ile dijital çözümler sunuyor." />
+        <meta name="keywords" content="buy on board hizmetleri, yazılım, web tasarım, mobil uygulama, özel yazılım, WMS, UI/UX" />
+        <meta name="author" content="Romsis" />
+        <link rel="canonical" href="https://www.romsis.com" />
+      </Helmet>
+
       {/* SLAYT */}
       <div className='carousel'>
         <div className='carousel-bg'></div>
@@ -72,33 +83,31 @@ function Home() {
 
       {/* REFERANSLAR */}
       <div className='text-center'>
-    <h2>
-        <a href="#" className='h-refe fw-bolder fs-1 text-danger'>İş Ortaklarımız</a>
-    </h2>
-</div>
-<div className='home-referans'>
-    <div className='home-referans-content'>
-        {referans.map((arife) => {
+        <h2>
+          <a href="#" className='h-refe fw-bolder fs-1 text-danger'>İş Ortaklarımız</a>
+        </h2>
+      </div>
+      <div className='home-referans'>
+        <div className='home-referans-content'>
+          {referans.map((arife) => {
             const { id, image } = arife;
             return (
-                <div className="home-referans-card" style={{ width: "7rem" }} key={id}>
-                    <img src={image} className="card-img-top border rounded-2" alt="Referans" />
-                </div>
+              <div className="home-referans-card" style={{ width: "7rem" }} key={id}>
+                <img src={image} className="card-img-top border rounded-2" alt="Referans" />
+              </div>
             );
-        })}
-        {/* Kartları tekrar etmek için */}
-        {referans.map((arife) => {
+          })}
+          {/* Kartları tekrar etmek için */}
+          {referans.map((arife) => {
             const { id, image } = arife;
             return (
-                <div className="home-referans-card" style={{ width: "7rem" }} key={id + "-copy"}>
-                    <img src={image} className="card-img-top border rounded-2" alt="Referans" />
-                </div>
+              <div className="home-referans-card" style={{ width: "7rem" }} key={id + "-copy"}>
+                <img src={image} className="card-img-top border rounded-2" alt="Referans" />
+              </div>
             );
-        })}
-    </div>
-</div>
-
-
+          })}
+        </div>
+      </div>
 
       <div className="whatsapp-support">
         <a
@@ -111,83 +120,68 @@ function Home() {
           <i className="fab fa-whatsapp "></i> 
           <br />
           <p className='whatsapp-par'>İletişime Geçin</p>
-          
         </a>
       </div>
 
       <footer>
-      <Row>
-        <Col>
-          <p><i className="fa-solid fa-phone"></i> +90 850 260 19 09</p>
-          <p><i className="fa-solid fa-phone"></i> +90 542 646 75 51</p>
-          <p>bilgi@romsis.com.tr</p>
-
-        </Col>
-        <Col>
-        <p><i className="fa-solid fa-location-dot"></i> Merkez Adres: Maslak Mahallesi Maslak Meydanı Sok. No:3 Veko Giz Plaza Kat:2 D:1-2 Maslak Sarıyer İstanbul Türkiye
-          </p>
-          <p><i className="fa-solid fa-location-dot"></i> Ar-Ge Adres: Trakya Üniversitesi Ayşekadın Yerleşkesi, 22100 Edirne Türkiye</p>
-        </Col>
-        
-        <Col>
-        <p><i className="fa-solid fa-location-dot"></i> 
-          Ankara Esenboğa Havalimanı Şubesi
-         Adres: Ankara Esenboğa Havalimanı Romsis Ofisi
-        </p>
-          <p><i className="fa-solid fa-location-dot"></i> Sabiha Gökçen Havalimanı Şubesi
-          Adres: İstanbul Sabiha Gökçen Uluslararası Havalimanı Romsis Ofisi</p>
-     
-        </Col>
-        <Col>
-        <p><i className="fa-solid fa-location-dot"></i> Antalya Havalimanı Şubesi
-        Adres: Fraport TAV Antalya Havalimanı Romsis Ofisi</p>
-        <p><i className="fa-solid fa-location-dot"></i> Azerbaycan Ofisi
-        Adres: Elmler Akademiyasi Ehmed Cemil kucesi, Mothercare-den Forte Fashion-nin binasi</p>
-     
- 
-        </Col>
-        <Col>
-        <ul>
-            <li><Link className="fs-5" to="/dashboard/byOnBoard">By On Board</Link></li>
-          </ul>
-
-        <ul>
-            <li><Link to="/dashboard/ozelYazilim/MobilUygulama">Mobil Uygulama</Link></li>
-            <li><Link to="/dashboard/ozelYazilim/UIUX">UI & UX</Link></li>
-            <li><Link to="/dashboard/ozelYazilim/WebTasarim">Web Tasarım</Link></li>
-            <li><Link to="/dashboard/ozelYazilim/WebYazilim">Web Yazılım</Link></li>
-            <li><Link to="/dashboard/ozelYazilim/Wms">WMS Depo</Link></li>
-          </ul>
-      
-        </Col>
-        <Col>
-        <ul>
-            <li><Link to="/dashboard/hakkımızda">Hakkımızda</Link></li>
-            <li><Link to="/dashboard/kurumsal">Referanslarımız</Link></li>
-            <li><Link to="/dashboard/sorular">Sıkça Sorulan Sorular</Link></li>
-          </ul>
-        </Col>
-        <Col>
-        <ul>
-        <li><Link to="/dashboard/teklif" className=''>Size Nasıl yardımcı Olabiriz?</Link></li>
-        </ul>
-          <div className="fa d-flex align-items-center h-100">
-            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-              <i className="fa-brands fa-instagram" />
-            </a>
-            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
-              <i className="fa-brands fa-youtube" />
-            </a>
-            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-              <i className="fa-brands fa-facebook" />
-            </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-              <i className="fa-brands fa-x-twitter" />
-            </a>
-          </div>
-        </Col>
-      </Row>
-    </footer>
+        <Row>
+          <Col>
+            <p><i className="fa-solid fa-phone"></i> +90 850 260 19 09</p>
+            <p><i className="fa-solid fa-phone"></i> +90 542 646 75 51</p>
+            <p>bilgi@romsis.com.tr</p>
+          </Col>
+          <Col>
+            <p><i className="fa-solid fa-location-dot"></i> Merkez Adres: Maslak Mahallesi Maslak Meydanı Sok. No:3 Veko Giz Plaza Kat:2 D:1-2 Maslak Sarıyer İstanbul Türkiye</p>
+            <p><i className="fa-solid fa-location-dot"></i> Ar-Ge Adres: Trakya Üniversitesi Ayşekadın Yerleşkesi, 22100 Edirne Türkiye</p>
+          </Col>
+          <Col>
+            <p><i className="fa-solid fa-location-dot"></i> Ankara Esenboğa Havalimanı Şubesi Adres: Ankara Esenboğa Havalimanı Romsis Ofisi</p>
+            <p><i className="fa-solid fa-location-dot"></i> Sabiha Gökçen Havalimanı Şubesi Adres: İstanbul Sabiha Gökçen Uluslararası Havalimanı Romsis Ofisi</p>
+          </Col>
+          <Col>
+            <p><i className="fa-solid fa-location-dot"></i> Antalya Havalimanı Şubesi Adres: Fraport TAV Antalya Havalimanı Romsis Ofisi</p>
+            <p><i className="fa-solid fa-location-dot"></i> Azerbaycan Ofisi Adres: Elmler Akademiyasi Ehmed Cemil kucesi, Mothercare-den Forte Fashion-nin binasi</p>
+          </Col>
+          <Col>
+            <ul>
+              <li><Link className="fs-5" to="/dashboard/byOnBoard">By On Board</Link></li>
+            </ul>
+            <ul>
+              <li><Link to="/dashboard/ozelYazilim/MobilUygulama">Mobil Uygulama</Link></li>
+              <li><Link to="/dashboard/ozelYazilim/UIUX">UI & UX</Link></li>
+              <li><Link to="/dashboard/ozelYazilim/WebTasarim">Web Tasarım</Link></li>
+              <li><Link to="/dashboard/ozelYazilim/WebYazilim">Web Yazılım</Link></li>
+              <li><Link to="/dashboard/ozelYazilim/Wms">WMS Depo</Link></li>
+            </ul>
+          </Col>
+          <Col>
+            <ul>
+              <li><Link to="/dashboard/hakkımızda">Hakkımızda</Link></li>
+              <li><Link to="/dashboard/kurumsal">Referanslarımız</Link></li>
+              <li><Link to="/dashboard/sorular">Sıkça Sorulan Sorular</Link></li>
+            </ul>
+          </Col>
+          <Col>
+            <ul>
+              <li><Link to="/dashboard/teklif">Size Nasıl yardımcı Olabiriz?</Link></li>
+            </ul>
+            <div className="fa d-flex align-items-center h-100">
+              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                <i className="fa-brands fa-instagram" />
+              </a>
+              <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+                <i className="fa-brands fa-youtube" />
+              </a>
+              <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                <i className="fa-brands fa-facebook" />
+              </a>
+              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                <i className="fa-brands fa-linkedin" />
+              </a>
+            </div>
+          </Col>
+        </Row>
+      </footer>
     </div>
   );
 }
