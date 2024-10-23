@@ -96,6 +96,7 @@ Col a {
     align-items: center;
     padding: 7rem;
  
+ 
   }
   
   .content {
@@ -184,6 +185,27 @@ Col a {
 
 .h-refe{
     color:#af1c06 !important;
+}
+.whatsapp-support {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.fa-whatsapp {
+    width: 100%; 
+    text-align: center;
+    font-size: 3rem;
+    color: green;
+}
+
+.whatsapp-par {
+    text-align: center;
+    color: green;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100%;
 }
 
 

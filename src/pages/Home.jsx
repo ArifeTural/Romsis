@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 function Home() {
   const phoneNumber = '905367409930'; 
-  const message = 'Merhaba, size ulaşmak istiyorum.';
+  const message = 'Merhaba, yardımcı olabilir misiniz?';
 
   const handleClick = () => {
     console.log("WhatsApp yönlendirmesi yapılıyor...");
@@ -92,8 +92,10 @@ function Home() {
           className="whatsapp-link"
           onClick={handleClick} 
         >
-          <i className="fab fa-whatsapp"></i> 
-          WhatsApp Destek Hattı ile İletişime Geçin
+          <i className="fab fa-whatsapp "></i> 
+          <br />
+          <p className='whatsapp-par'>WhatsApp ile İletişime Geçin</p>
+          
         </a>
       </div>
     </div>
