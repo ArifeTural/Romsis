@@ -72,18 +72,33 @@ function Home() {
 
       {/* REFERANSLAR */}
       <div className='text-center'>
-        <h2><a href="" className='h-refe fw-bolder fs-1 text-danger'> İş Ortaklarımız</a></h2>
-      </div>
-      <div className='home-referans'>
+    <h2>
+        <a href="#" className='h-refe fw-bolder fs-1 text-danger'>İş Ortaklarımız</a>
+    </h2>
+</div>
+<div className='home-referans'>
+    <div className='home-referans-content'>
         {referans.map((arife) => {
-          const { id, image } = arife;
-          return (
-            <div className="home-referans-card" style={{ width: "7rem" }} key={id}>
-              <img src={image} className="card-img-top border rounded-2" alt="..." />
-            </div>
-          );
+            const { id, image } = arife;
+            return (
+                <div className="home-referans-card" style={{ width: "7rem" }} key={id}>
+                    <img src={image} className="card-img-top border rounded-2" alt="Referans" />
+                </div>
+            );
         })}
-      </div>
+        {/* Kartları tekrar etmek için */}
+        {referans.map((arife) => {
+            const { id, image } = arife;
+            return (
+                <div className="home-referans-card" style={{ width: "7rem" }} key={id + "-copy"}>
+                    <img src={image} className="card-img-top border rounded-2" alt="Referans" />
+                </div>
+            );
+        })}
+    </div>
+</div>
+
+
 
       <div className="whatsapp-support">
         <a
