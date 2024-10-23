@@ -23,6 +23,7 @@ const Sorular = () => {
 <div className="card-body d-flex flex-wrap justify-content-between">
 <p className="card-text kart-baslik">
              {id} - {question}
+             
 </p>
 {show !== id ? (
     <a href="#" className="icon-btn "

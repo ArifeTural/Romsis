@@ -23,7 +23,7 @@ const Navbar = () => {
             { title: "Sıkça Sorulan Sorular", path: "/dashboard/sorular" },
         ] },
         { title: "İletişim", path: "/dashboard/iletisim" },
-        { title: "Teklif Al", path: "/dashboard/teklif" },
+        { title: "Size Nasıl Yardımcı Olabiliriz?", path: "/dashboard/teklif" },
     ];
 
     const [show, setShow] = useState(false);
@@ -54,7 +54,7 @@ const Navbar = () => {
                                 {!item.subpages ? (
                                     <NavLink 
                                         className={`nav-link ${
-                                            item.title === "Teklif Al"
+                                            item.title === "Size Nasıl Yardımcı Olabiliriz?"
                                                 ? "teklif-nav btn btn-danger text-light px-3 py-2 fw-bolder"
                                                 : "nav-text text-secondary fw-bolder fs-5"
                                         } ${
