@@ -35,10 +35,8 @@ const AppRouter = () => {
         <Route path='/dashboard/teklif' element={<Teklif />} />
         <Route path='/dashboard/sorular' element={<Sorular />} />
         <Route path='/dashboard/inflight' element={<Inflight />} />
-
         <Route path='*' element={<Home />} />
       </Routes>
-      <WhatsApp/>
       <Footer />
     </BrowserRouter>
   );
