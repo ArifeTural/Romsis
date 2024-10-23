@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import Home from '../pages/Home';
 import ByOnBoard from '../pages/ByOnBoard';
 import MobilUygulama from '../pages/MobilUygulama';
@@ -17,9 +17,11 @@ import Sorular from '../pages/Sorular';
 import Inflight from '../pages/Inflight';
 import { WhatsApp } from '@mui/icons-material';
 
-const AppRouter = () => {
+const Layout = () => {
+  const location = useLocation();
+
   return (
-    <BrowserRouter>
+    <>
       <Navbar />
       <Routes>
         <Route path='/dashboard' element={<Home />} />
@@ -37,11 +39,21 @@ const AppRouter = () => {
         <Route path='/dashboard/inflight' element={<Inflight />} />
         <Route path='*' element={<Home />} />
       </Routes>
-      <Footer />
+
+      {location.pathname !== '/dashboard' && <Footer />}
+    </>
+  );
+};
+
+const AppRouter = () => {
+  return (
+    <BrowserRouter>
+      <Layout />
     </BrowserRouter>
   );
 };
 
 export default AppRouter;
+
 
 

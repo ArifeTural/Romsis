@@ -25,6 +25,8 @@
 /*! FOOTER */
 
 footer{
+    margin-bottom: 0;
+    padding-bottom: 0;
     margin-top: 2rem;
     padding: 2rem;
     width: 100%;
@@ -44,6 +46,7 @@ Col a {
     text-decoration: none;
     color: black;
 }
+
 
 
 

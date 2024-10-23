@@ -13,7 +13,7 @@ const Navbar = () => {
         { title: "Özel Yazılım Hizmetleri", subpages: [
             { title: "Mobil Uygulama", path: "/dashboard/ozelYazilim/MobilUygulama" },
             { title: "UI & UX", path: "/dashboard/ozelYazilim/UIUX" },
-            { title: "Web Tasarım", path: "/dashboard/ozelYazilim/WebTasarim" },
+            { title: "Yalın Üretim ve Üretim Sistemleri", path: "/dashboard/ozelYazilim/WebTasarim" },
             { title: "Web Yazılım", path: "/dashboard/ozelYazilim/WebYazilim" },
             { title: "Wms Depo Yönetim Sistemleri", path: "/dashboard/ozelYazilim/Wms" }
         ]},
