@@ -244,6 +244,23 @@ padding-top: 3rem;
 
 }
 
+.referans{
+  margin: 2rem;
+  display: flex; 
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+  justify-content: center;
+  cursor: pointer;
+}
+.referans-card{
+  opacity: 0.5;
+}
+
+.referans-card:hover{
+  opacity: 1;
+}
+
 
 /*! UI & UX */
 

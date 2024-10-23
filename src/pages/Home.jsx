@@ -73,11 +73,11 @@ function Home() {
       <div className='text-center'>
         <h2><a href="" className='h-refe fw-bolder fs-1 text-danger'> İş Ortaklarımız</a></h2>
       </div>
-      <div className='referans'>
+      <div className='home-referans'>
         {referans.map((arife) => {
           const { id, image } = arife;
           return (
-            <div className="referans-card" style={{ width: "5rem" }} key={id}>
+            <div className="referans-card" style={{ width: "7rem" }} key={id}>
               <img src={image} className="card-img-top border rounded-2" alt="..." />
             </div>
           );
