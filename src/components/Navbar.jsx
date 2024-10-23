@@ -5,10 +5,8 @@ import { Link, NavLink, useLocation } from 'react-router-dom';
 const Navbar = () => {
     const navigation = [
         { title: "Anasayfa", path: "/dashboard" },
-        { title: "Buy On Board", subpages: [
-            { title: "Buy On Board", path: "/dashboard/byOnBoard" },
-            { title: "In-flight", path: "/dashboard/inflight" },
-        ] },
+        { title: "Buy On Board", path: "/dashboard/byOnBoard" },
+      
     
         { title: "Özel Yazılım Hizmetleri", subpages: [
             { title: "Mobil Uygulama", path: "/dashboard/ozelYazilim/MobilUygulama" },

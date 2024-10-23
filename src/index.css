@@ -37,6 +37,14 @@ h1{
     font-size: 4rem !important;
     color: #FA4615 !important;
 }
+.row {
+    margin-bottom: 0;
+  }
+  
+  .col {
+    padding-bottom: 0;
+  }
+  
 
 a {
     text-decoration: none !important;

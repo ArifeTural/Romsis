@@ -14,8 +14,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Hakkımızda from '../pages/Hakkımızda';
 import Sorular from '../pages/Sorular';
-import Inflight from '../pages/Inflight';
-import { WhatsApp } from '@mui/icons-material';
+
 
 const Layout = () => {
   const location = useLocation();
@@ -36,7 +35,7 @@ const Layout = () => {
         <Route path='/dashboard/iletisim' element={<Iletisim />} />
         <Route path='/dashboard/teklif' element={<Teklif />} />
         <Route path='/dashboard/sorular' element={<Sorular />} />
-        <Route path='/dashboard/inflight' element={<Inflight />} />
+  
         <Route path='*' element={<Home />} />
       </Routes>
 

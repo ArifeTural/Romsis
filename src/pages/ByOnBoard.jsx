@@ -5,6 +5,7 @@ import { bob, buyOnCarousel } from '../helper/yazilim';
 import '../css/byOnBoard.css'; // CSS dosyanızı ekleyin
 import { Col, Container, Row } from 'react-bootstrap';
 import { board } from '../helper/referans';
+import menu from "../assets/menu.png";
 
 const ByOnBoard = () => {
   return (
@@ -82,6 +83,15 @@ const ByOnBoard = () => {
           );
         })}
       </Container>
+      <Container className="p-2">
+        <p className='inflight-par p-5'>En Iyi In-Flight Deneyimi | Uçuş sırasında yolculara sunulan konforlu ve kaliteli yiyecek ve içeceklerseyahat deneyimini daha keyifli hale getirir."</p>
+    
+      </Container>
+      <div className='mb-5 pb-5'>
+        <h2 className='text-center hizmet-kart-baslik fs-2'>Örnek Menümüz</h2>
+        <img src={menu} alt="menu" className='w-100' />
+      </div>
+
 
       <div className='text-center'>
         <h2>
