@@ -77,7 +77,7 @@ function Home() {
         {referans.map((arife) => {
           const { id, image } = arife;
           return (
-            <div className="referans-card" style={{ width: "7rem" }} key={id}>
+            <div className="home-referans-card" style={{ width: "7rem" }} key={id}>
               <img src={image} className="card-img-top border rounded-2" alt="..." />
             </div>
           );
@@ -94,7 +94,7 @@ function Home() {
         >
           <i className="fab fa-whatsapp "></i> 
           <br />
-          <p className='whatsapp-par'>WhatsApp ile İletişime Geçin</p>
+          <p className='whatsapp-par'>İletişime Geçin</p>
           
         </a>
       </div>

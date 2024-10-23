@@ -173,7 +173,10 @@ Col a {
     display: flex;
     gap: 2rem;
     width: 200%;
-    overflow: hidden; /* Taşan içerikleri gizler */
+    overflow: hidden;
+}
+.home-referans-card{
+    
 }
 
 .whatsapp-support {

@@ -43,7 +43,7 @@ export const yazilim = [
   {
     id: 3,
     image: "./image/yazilim/webtasarim.jpg",
-    title: "Web Tasarım",
+    title: "Yalın Üretim",
     text: "Mobil uyumlu ve SEO odaklı web sitelerinin çevrimiçi varlığını artırıyoruz. Kullanıcı deneyimini ön planda tutarak tasarımlar oluşturuyoruz.",
     meta: {
       title: "Web Tasarım Hizmetleri | Romsis",
