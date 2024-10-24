@@ -37,7 +37,7 @@ const Footer = () => {
           </ul>
         </Col>
         <Col>
-          <Link className="fs-5" to="/dashboard/teklif">Teklif Al</Link>
+          <Link className="" to="/dashboard/teklif">Size Nasıl Yardımcı Olabiliriz?</Link>
         </Col>
         <Col>
           <div className="fa d-flex align-items-center h-100">

@@ -117,7 +117,7 @@ function Home() {
           className="whatsapp-link"
           onClick={handleClick} 
         >
-          <i className="fab fa-whatsapp "></i> 
+          <i className="fab fa-whatsapp home-whatsapp  "></i> 
           <br />
           <p className='whatsapp-par'>İletişime Geçin</p>
         </a>

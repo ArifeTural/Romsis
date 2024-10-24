@@ -29,19 +29,9 @@ export const yazilim = [
     },
     link: "/dashboard/byOnBoard" // Yönlendirme URL'si
   },
+
   {
     id: 2,
-    image: "./image/yazilim/innfg.jpg",
-    title: "In-Flight Hizmetleri",
-    text: "Uçuş sırasında sunduğumuz benzersiz 'In-Flight' hizmetlerimizle, gökyüzünde konforu ve lüksü yeniden tanımlıyoruz. Yolcularımıza çeşitli yiyecek ve içecek seçenekleri sunuyoruz.",
-    meta: {
-      title: "In-Flight Hizmetleri | Romsis",
-      description: "Romsis'in sunduğu In-Flight hizmetleriyle uçuş deneyiminizi zenginleştirin."
-    },
-    link: "/dashboard/inflight" // Yönlendirme URL'si
-  },
-  {
-    id: 3,
     image: "./image/yazilim/webtasarim.jpg",
     title: "Yalın Üretim",
     text: "Mobil uyumlu ve SEO odaklı web sitelerinin çevrimiçi varlığını artırıyoruz. Kullanıcı deneyimini ön planda tutarak tasarımlar oluşturuyoruz.",
@@ -50,6 +40,17 @@ export const yazilim = [
       description: "Mobil uyumlu web tasarım hizmetleri ile firmanızın dijital varlığını güçlendirin."
     },
     link: "/dashboard/ozelYazilim/WebTasarim" // Yönlendirme URL'si
+  },
+  {
+    id: 3,
+    image: "./image/yazilim/wms.jpg",
+    title: "WMS Sistemleri",
+    text: "WMS Depo yönetim sistemleri ile lojistik süreçlerinizi güçlendirin ve optimize edin.",
+    meta: {
+      title: "WMS Depo Yönetim Sistemleri | Romsis",
+      description: "Depo yönetim sistemleri ile lojistik süreçlerinizi optimize edin."
+    },
+    link: "/dashboard/ozelYazilim/Wms" // Yönlendirme URL'si
   },
   {
     id: 4,
@@ -62,17 +63,7 @@ export const yazilim = [
     },
     link: "/dashboard/ozelYazilim/WebYazilim" // Yönlendirme URL'si
   },
-  {
-    id: 5,
-    image: "./image/yazilim/wms.jpg",
-    title: "WMS Sistemleri",
-    text: "WMS Depo yönetim sistemleri ile lojistik süreçlerinizi güçlendirin ve optimize edin.",
-    meta: {
-      title: "WMS Depo Yönetim Sistemleri | Romsis",
-      description: "Depo yönetim sistemleri ile lojistik süreçlerinizi optimize edin."
-    },
-    link: "/dashboard/ozelYazilim/Wms" // Yönlendirme URL'si
-  },
+
   {
     id: 6,
     image: "./image/yazilim/mobiluygulama.jpg",
