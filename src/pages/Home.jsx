@@ -45,13 +45,14 @@ function Home() {
       </div>
 
       {/* NELER YAPIYORUZ */}
+      <h2 className='text-center text-danger fs-1 fw-bold pt-5'>Neler Yapıyoruz?</h2>
       <div className='container'>
         {yazilim.map((yz, index) => {
-          const { image, id, title, link } = yz;
+          const { image, id, title, title2, link } = yz;
           return (
             <div key={id} className={`content content${index + 1}`} style={{ backgroundImage: `url(${image})` }}>
               <Link to={link}>
-                <h3 className='content-h3'>{title}</h3>
+                <h3 className='content-h3'>{title}{title2}</h3>
               </Link>
             </div>
           );

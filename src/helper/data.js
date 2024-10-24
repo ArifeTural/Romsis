@@ -21,7 +21,9 @@ export const yazilim = [
   {
     id: 1,
     image: "./image/yazilim/buycar1.jpg",
-    title: "Buy On Board Hizmetleri",
+    title: "Buy On Board Yazılım Çözümleri |",
+    title2: "Buy On Board  Retail Hizmetleri",
+
     text: "Yolcularımıza uçuş sırasında konfor, güvenlik ve ikram hizmetlerini kapsayan bir deneyim sunuyoruz. Uçak içi hizmetlerimizle seyahat deneyimini iyileştiriyoruz.",
     meta: {
       title: "Buy On Board | Romsis",
@@ -39,7 +41,7 @@ export const yazilim2 = [
   {
     id: 2,
     image: "./image/yazilim/webtasarim.jpg",
-    title: "Yalın Üretim",
+    title: "Yalın Üretim | MRP",
     text: "Mobil uyumlu ve SEO odaklı web sitelerinin çevrimiçi varlığını artırıyoruz. Kullanıcı deneyimini ön planda tutarak tasarımlar oluşturuyoruz.",
     meta: {
       title: "Web Tasarım Hizmetleri | Romsis",
