@@ -34,7 +34,6 @@ footer{
 
 }
 h1{
-    font-size: 4rem !important;
     color: #FA4615 !important;
 }
 .row {
@@ -238,8 +237,10 @@ Col a {
 
  /*! İLETİŞİM */
 .ofis{
-    border-right: 2px dashed rgb(144, 73, 73);
-    color: grey;
+
+
+    
+    color: grey !important;
     
 }
 .ofis h1 {

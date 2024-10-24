@@ -1,5 +1,5 @@
-import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
+import React from 'react';
+import { Col, Container, Row, Form, Button, InputGroup } from 'react-bootstrap';
 
 const Teklif = () => {
   const phoneNumber = '905367409930'; 
@@ -10,66 +10,102 @@ const Teklif = () => {
   };
 
   return (
+    <Container>
+      <Row>
+
+     
+
+        <Col>
+        <h1 className='fw-bold' style={{fontSize: "2.5rem"}}>Size Nasıl Yardımcı OLabiliriz?</h1>
+        <br /> <br />
+        <div className="whatsapp-yardim ">
     
-    <Row>
-    <Col>
-    
-    <p><i className="fa-solid fa-phone"></i> +90 850 260 19 09</p>
-          <p><i className="fa-solid fa-phone"></i> +90 542 646 75 51</p>
-          <p><i className="fa-solid fa-envelope"></i> bilgi@romsis.com.tr</p>
+            <a
+          
+              href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`} 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="whatsapp-link text-light text-bg-success p-2"
+              onClick={handleClick}
+            >
+              <i className="fab fa-whatsapp w-100 fs-5 "> Whatsapp  Destek  Hatti </i> 
+            
+            </a>
+          </div>
+          <Form>
+            <Row>
+              <Col>
+              <br />
+                <Form.Group controlId="formFirstName">
+                  <Form.Label>Ad</Form.Label>
+                  <Form.Control type="text" placeholder="İsim" />
+                </Form.Group>
+              </Col>
+              <Col>
+              <br />
+                <Form.Group controlId="formLastName">
+                  <Form.Label>Soyad</Form.Label>
+                  <Form.Control type="text" placeholder="Soyisim" />
+                </Form.Group>
+              </Col>
+            </Row>
+            <br />
 
-          <div className="whatsapp-yardim">
-        <a
-          href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`} 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          className="whatsapp-link"
-          onClick={handleClick} 
-        >
-          <i className="fab fa-whatsapp "></i> 
-          <p className=''>Whatsapp Destek Hattı</p>
-        </a>
-      </div>
-    </Col>
-    <Col>
-    <div className="mb-3 w-100">
-      <label htmlFor="exampleFormControlInput1" className="form-label">
-        Email address
-      </label>
-      <input
-        type="email"
-        className="form-control"
-        id="exampleFormControlInput1"
-        placeholder="name@example.com"
-      />
-    </div>
-    <select class="form-select" aria-label="Default select example">
-  <option selected>Open this select menu</option>
-  <option value="1">Buy On Board Hizmetleri</option>
-  <option value="2">Yalın Üretim ve Üretim Sistemleri</option>
-  <option value="3">Wms Depo Yönetim Sistemleri</option>
-  <option value="1">Mobil Uygulama</option>
-  <option value="2">UI & UX</option>
-  <option value="3">Web Yazılım</option>
-</select>
-    <div className="mb-3 w-100">
-      <label htmlFor="exampleFormControlTextarea1" className="form-label">
-        Example textarea
-      </label>
-      <textarea
-        className="form-control"
-        id="exampleFormControlTextarea1"
-        rows={3}
-        defaultValue={""}
-      />
-    </div>
-    <button type="button" class="btn btn-outline-danger">Gönder</button>
-    </Col>
- 
+            <Form.Group className="mb-3" controlId="formEmail">
+              <Form.Label>Email</Form.Label>
+              <Form.Control type="email" placeholder="name@example.com" />
+            </Form.Group>
 
-  </Row>
-  
-  )
-}
+            <Form.Group className="mb-3" controlId="formPhone">
+              <Form.Label>Telefon</Form.Label>
+              <InputGroup>
+                <InputGroup.Text>
+                  <Form.Select defaultValue="+90">
+                    <option>+90</option>
+                    <option>+1</option>
+                    <option>+44</option>
+                    <option>+49</option>
+                    <option>+33</option>
+                  </Form.Select>
+                </InputGroup.Text>
+                <Form.Control type="tel" placeholder="555-123-4567" />
+              </InputGroup>
+            </Form.Group>
+                 {/* Seçenek menüsü burada yer alıyor */}
+          <select className="form-select" aria-label="Default select example" defaultValue="">
+            <option value="" disabled>Bize Ulaşmak İstediğiniz Konuyu Seçiniz.</option>
+            <option value="1">Buy On Board Hizmetleri</option>
+            <option value="2">Yalın Üretim ve Üretim Sistemleri</option>
+            <option value="3">Wms Depo Yönetim Sistemleri</option>
+            <option value="4">Mobil Uygulama</option>
+            <option value="5">UI & UX</option>
+            <option value="6">Web Yazılım</option>
+          </select>
+          <br />
 
-export default Teklif
+            <Form.Group className="mb-3" controlId="formNotes">
+              <Form.Label>Not Ekleyiniz</Form.Label>
+              <Form.Control as="textarea" rows={5} placeholder='Bize yazınız..' />
+            </Form.Group>
+
+            <Form.Check
+              aria-label="option 1"
+              label="Verilerimin Romsis tarafından saklanmasına ve iletişim kurulmasına izin veriyorum."
+            />
+            <Form.Check
+              aria-label="option 2"
+              label="Kişisel verilerimin işlenmesine ve üçüncü kişilerle paylaşılmasına onay veriyorum."
+            />
+            <br />
+
+            <Button variant="danger" type="submit" className="i-button">
+              Gönder
+            </Button>
+          </Form>
+        </Col>
+      </Row>
+    </Container>
+  );
+};
+
+export default Teklif;
