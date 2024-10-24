@@ -105,13 +105,33 @@ Col a {
     gap: 10px; 
     justify-content: center;
     align-items: center;
-    padding: 7rem;
+    padding: 3rem;
  
  
   }
   
   .content {
-    height: 40vh;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    flex: 1 1 calc(100% - 10px);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border:none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+
+  }
+  .content2 {
+    height: 30vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -128,19 +148,32 @@ Col a {
     color: white;
     cursor: pointer;
     font-weight: bold;
-    opacity: 0.5;
+ 
+  }
+  .content3 {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    flex: 1 1 calc(33.33% - 10px);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border:none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+
   }
   
-  .content3,
-  .content4,
-  .content5,
-  .content6,
-  .content7 {
-    flex: 1 1 calc(20% - 10px); 
-  }
 
 
-  .content h3{
+  .content h3, .content2 h3, .content3 h3{
     font-size: 3rem;
     font-weight: bold;
     color: rgb(255, 255, 255);

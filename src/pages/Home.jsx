@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet'; // Helmet kütüphanesini import et
 import Carousel from 'react-bootstrap/Carousel';
-import { data, yazilim } from "../helper/data";
+import { data, yazilim, yazilim2, yazilim3 } from "../helper/data";
 import { referans } from '../helper/referans';
 import { steps } from '../helper/yazilim';
 import { Link } from 'react-router-dom';
@@ -47,9 +47,33 @@ function Home() {
       {/* NELER YAPIYORUZ */}
       <div className='container'>
         {yazilim.map((yz, index) => {
-          const { image, id, title, text, link } = yz;
+          const { image, id, title, link } = yz;
           return (
             <div key={id} className={`content content${index + 1}`} style={{ backgroundImage: `url(${image})` }}>
+              <Link to={link}>
+                <h3 className='content-h3'>{title}</h3>
+              </Link>
+            </div>
+          );
+        })}
+      </div>
+      <div className='container'>
+        {yazilim2.map((yz, index) => {
+          const { image, id, title, link } = yz;
+          return (
+            <div key={id} className={`content2 content${index + 1}`} style={{ backgroundImage: `url(${image})` }}>
+              <Link to={link}>
+                <h3 className='content-h3'>{title}</h3>
+              </Link>
+            </div>
+          );
+        })}
+      </div>
+      <div className='container'>
+        {yazilim3.map((yz, index) => {
+          const { image, id, title, link } = yz;
+          return (
+            <div key={id} className={`content3 content${index + 1}`} style={{ backgroundImage: `url(${image})` }}>
               <Link to={link}>
                 <h3 className='content-h3'>{title}</h3>
               </Link>

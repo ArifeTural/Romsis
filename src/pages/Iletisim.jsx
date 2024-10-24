@@ -21,11 +21,18 @@ const Iletisim = () => {
             <h2>Ofislerimiz</h2>
             <>
   <p>
-    <a href={+908502601909}>+90 850 260 19 09</a>
+    <a href={+908502601909} className='text-decoration-underline'>
+    <i className="fa-solid fa-phone"></i>+90 850 260 19 09</a>
   </p>
   <p>
-    <a href={+905426467551}>+90 542 646 75 51</a>
+    <a href={+905426467551} className='text-decoration-underline'>
+    <i className="fa-solid fa-phone"></i>+90 542 646 75 51</a>
   </p>
+  <p>
+  <a href="mailto:bilgi@romsis.com.tr" className='text-decoration-underline'>
+  <i className="fa-solid fa-envelope"></i>bilgi@romsis.com.tr</a>
+</p>
+
 </>
 
             <iframe

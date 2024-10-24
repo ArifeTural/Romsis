@@ -30,6 +30,12 @@ export const yazilim = [
     link: "/dashboard/byOnBoard" // Yönlendirme URL'si
   },
 
+
+];
+
+export const yazilim2 = [
+
+
   {
     id: 2,
     image: "./image/yazilim/webtasarim.jpg",
@@ -52,6 +58,12 @@ export const yazilim = [
     },
     link: "/dashboard/ozelYazilim/Wms" // Yönlendirme URL'si
   },
+
+];
+export const yazilim3 = [
+
+
+
   {
     id: 4,
     image: "./image/yazilim/webbyazilim.jpg",
@@ -87,6 +99,7 @@ export const yazilim = [
     link: "/dashboard/ozelYazilim/UIUX" // Yönlendirme URL'si
   }
 ];
+
 
 
 
