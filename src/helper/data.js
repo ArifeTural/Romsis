@@ -5,7 +5,7 @@ export const data = [
     },
     {
      id:2,
-     image:"./video/yazilimvideo.mp4",
+     image:"./video/girisdosyası.mp4",
     },
 ];
 
