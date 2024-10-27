@@ -39,7 +39,7 @@ const Layout = () => {
         <Route path='*' element={<Home />} />
       </Routes>
 
-      {location.pathname == '/dashboard' && <Footer />}
+      {location.pathname !== '/dashboard' && <Footer />}
     </>
   );
 };

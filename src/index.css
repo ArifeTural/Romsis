@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
     font-family: "Roboto", sans-serif;
   
 }
@@ -128,6 +127,7 @@ Col a {
     color: white;
     cursor: pointer;
     font-weight: bold;
+    opacity: 0.5;
 
   }
   .content2 {
@@ -148,6 +148,7 @@ Col a {
     color: white;
     cursor: pointer;
     font-weight: bold;
+    opacity: 0.5;
  
   }
   .content3 {
@@ -168,6 +169,7 @@ Col a {
     color: white;
     cursor: pointer;
     font-weight: bold;
+    opacity: 0.5;
 
   }
   
@@ -196,7 +198,7 @@ Col a {
 
   
   
-  .content:hover{
+  .content:hover,  .content2:hover,  .content3:hover{
     opacity: 1;
   }
 
