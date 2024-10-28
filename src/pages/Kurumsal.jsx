@@ -10,7 +10,7 @@ const Kurumsal = () => {
     <div className="card  text-center w-25">
   <div className="card-body ">
       <h1 className='text-primary'><i class="fa-solid fa-users"></i></h1>
-       <p>20.00 +</p>
+       <p>20.000 +</p>
        <p>Müşteri</p>
   </div>
 </div>

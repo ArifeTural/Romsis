@@ -243,13 +243,13 @@ export const steps = [
     },
     {
       id: 2,
-      image:"/image/yazilim/buycar2.jpg",
+      image:"/image/yazilim/istockphoto-1028421716-1024x1024.jpg",
       h1:" Buy on Board Sistemi ile Yolculuk Keyfini Artırın",
    
     },
     {
       id: 3,
-      image:"/image/yazilim/buycar3.jpg",
+      image:"/image/yazilim/istockphoto-1329896979-1024x1024.jpg",
       h1:"Buy on Board Sistemi ile Yolculuk Keyfini Artırın",
    
     }
@@ -258,7 +258,7 @@ export const steps = [
   export const bob = [
     {
       id: 1,
-      image:"/image/yazilim/board1.jpg",
+      image:"/image/yazilim/istockphoto-1277665866-1024x1024.jpg",
       h3:"1. Uçak İçi Yükleme",
       description:"Uçak içi yükleme, uçuş öncesinde havayolu şirketlerinin, uçakta satılacak ürünlerin (yiyecek, içecek ve duty-free ürünler) dikkatlice planlandığı ve yüklendiği bir süreçtir. Bu aşamada, stok miktarları, yolcu sayısı ve ürün çeşitliliği göz önünde bulundurularak yükleme yapılır. Ürünler, havalimanındaki depolardan alınarak uçakta uygun bölmelere yerleştirilir. Uçak içi yükleme işlemi, hem güvenlik hem de operasyonel verimlilik açısından titizlikle gerçekleştirilir.",
   

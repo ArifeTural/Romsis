@@ -5,7 +5,7 @@ import { bob, buyOnCarousel } from '../helper/yazilim';
 import '../css/byOnBoard.css'; // CSS dosyanızı ekleyin
 import { Col, Container, Row } from 'react-bootstrap';
 import { board } from '../helper/referans';
-import menu from "../assets/menu.png";
+import retail from "../assets/istockphoto-1028360704-1024x1024.jpg"
 
 const ByOnBoard = () => {
   return (
@@ -21,7 +21,7 @@ const ByOnBoard = () => {
             const { id, image, h1 } = buy;
             return (
               <Carousel.Item interval={10000} key={id}>
-                <img src={image} alt={`Uçak İçi Hizmet: ${h1}`} style={{ width: "90%", height: "80vh", display: 'block', margin: 'auto', borderRadius: '1rem' }} />
+                <img src={image} alt={`Uçak İçi Hizmet: ${h1}`} style={{ width: "100%", height:"90vh", display: 'block'}} />
                 <Carousel.Caption className="buyon-caption">
                   <h3 className='byon-h3'>{h1}</h3> 
                 </Carousel.Caption>
@@ -39,10 +39,11 @@ const ByOnBoard = () => {
       
 
       <Container className='p-3'>
+      <h2 className='buy-title'>BUY ON BOARD YAZILIM HİZMETLERİ</h2>
         {bob.map((bobb, index) => {
           const { id, image, h3, description } = bobb;
 
-          // İkinci kart için özel bir stil 
+         
           const isSecondCard = index === 1;
 
           return (
@@ -62,6 +63,7 @@ const ByOnBoard = () => {
                       alt={`Hizmet: ${h3}`} 
                     />
                   </Col>
+
                 </>
               ) : (
                 <>
@@ -84,19 +86,33 @@ const ByOnBoard = () => {
           );
         })}
       </Container>
-      <Container className="p-2">
-        <p className='inflight-par p-5'>En Iyi In-Flight Deneyimi | Uçuş sırasında yolculara sunulan konforlu ve kaliteli yiyecek ve içeceklerseyahat deneyimini daha keyifli hale getirir."</p>
+
+      <Container>
+        <h2  className='buy-title'>BUY ON BOARD RETAIL HİZMETLERİ</h2>
     
+        <Row className='d-flex align-items-center'>
+        <Col className="col-md-6 ">
+                    <img 
+                      src={retail}
+                      className="img-fluid" 
+                      alt="reatil"
+                    />
+                  </Col>
+                  <Col className="col-6">
+                    <div className="card-body">
+                    
+                      <p className='fs-4 text-secondary fw-bold'>Her uçuş için özel yükleme adetleri, kabin ve yolcu bilgileri ile özel fiyatlandırmaların girilebildiği retail hizmetimizle, uçuş öncesi, uçuş esnası ve sonrasında tüm ihtiyaçlarınızı karşılıyoruz.</p>
+                    </div>
+                  </Col>
+
+        </Row>
       </Container>
-      <div className='mb-5 pb-5'>
-        <h2 className='text-center hizmet-kart-baslik fs-2'>Örnek Menümüz</h2>
-        <img src={menu} alt="menu" className='w-100' />
-      </div>
 
 
-      <div className='text-center'>
+
+      <div className='text-center mt-5'>
         <h2>
-          <a href="#" className='h-refe font-monospace fw-bolder fs-1 text-secondary'>İş Ortaklarımız</a>
+          <a href="#" className='h-refe font-monospace fw-bolder fs-1 text-secondary '>İş Ortaklarımız</a>
         </h2>
       </div>
       <div className='referans'>
@@ -104,7 +120,7 @@ const ByOnBoard = () => {
           const { id, image } = arife;
           return (
             <div className="referans-card" style={{ width: "8rem" }} key={id}>
-              <img src={image} className="card-img-top" alt="İş ortağı logosu" />
+              <img src={image} className="card-img-top rounded-pill" alt="İş ortağı logosu" />
             </div>
           );
         })}
