@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { tekno} from '../helper/yazilim';
 import { Helmet } from 'react-helmet';
 import { bilgiKartlari } from '../helper/yazilim';
-import webt from "../assets/w-yazilim.jpg";
+import webt from "../assets/istockphoto-1253376518-1024x1024.jpg";
 import { Carousel } from 'react-bootstrap';
 import steps from "../assets/strategy.png"
 
@@ -28,10 +28,7 @@ const WebYazilim = () => {
   };
   return (
     <div>
-    
-
-
-
+  
       <Helmet>
         <title>Web Yazılım Hizmetleri</title>
         <meta name="description" content="Modern web yazılım hizmetlerimiz ile işletmeniz için frontend, backend ve veritabanı çözümleri sunuyoruz. Profesyonel ve ölçeklenebilir yazılım geliştirme hizmetleri hakkında detaylı bilgiler edinin." />
@@ -40,8 +37,8 @@ const WebYazilim = () => {
 
 
       <header className="">
-        <h1 className='wy-baslik'>MODERN WEB YAZILIM ÇÖZÜMLERİ</h1>
         <img src={webt} alt="" className='web-yazilim-img '  />
+        <h1 className='wy-baslik'>MODERN WEB YAZILIM ÇÖZÜMLERİ</h1>
       
       </header>
 
@@ -54,9 +51,9 @@ const WebYazilim = () => {
 
       <section className="mt-5">
         <h2 className="wy-bilesenler">Web Yazılımının Ana Bileşenleri</h2>
-        <div className="row ">
+        <div className="row  p-2">
           {bilgiKartlari.map((kart) => (
-            <div key={kart.id} className="col-md-4 mb-4">
+            <div key={kart.id} className="col-4 mb-5">
               <div className="card border-0 h-100 shadow-lg text-center">
                 <div className="card-body">
                   <h3 className="wy-card-title card-title">{kart.title}</h3>

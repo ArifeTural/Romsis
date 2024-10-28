@@ -1,7 +1,8 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import "../css/web.css"
 import { techTools } from '../helper/yazilim';
-import giris from "../assets/ui-giris.jpg"
+import giris from "../assets/istockphoto-1481308458-1024x1024.jpg"
 import pc from "../assets/mobile.png"
 
 const UIUX = () => {
@@ -22,7 +23,7 @@ const UIUX = () => {
       
       <div className='row d-flex flex-wrap justify-content-center align-items-center m-5 pt-5'>
   <div className='col-12 col-md-6 d-flex justify-content-center'>
-    <img src={pc} alt="pc" style={{ width: '300px', height: '300px' }} />
+    <img src={pc} alt="pc" style={{ maxWidth: '300px', maxHeight: '300px' }} />
   </div>
   
   <div className='col-12 col-md-6 '>

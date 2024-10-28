@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
 }
 
 .tek-ana {
@@ -85,15 +86,13 @@
 .wy-baslik{
     color: #b12b09d2!important;
     text-align: center;
-    padding: 2rem;
+    padding-top: 1rem;
 }
 
 .web-yazilim-img{
     
   width: 100%;
-  max-height: 70vh;
-  padding: 2rem;
-  margin-bottom: 2rem;
+  max-height: 80vh;
 }
 
 .lead{
@@ -268,13 +267,15 @@ padding-top: 3rem;
 
 .ui-giris-img{
   width: 100%;
+  max-height: 80vh;
 
 }
 
 .ui-baslik{
-  color: #9b341a !important;
+  color: orangered !important;
   text-align: center;
   margin: 1.5rem;
+  margin-top: 0.8rem;
   font-size: 3rem !important;
   font-weight: bold !important;
   
