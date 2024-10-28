@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet';
 import giris from "../assets/mobil-giris.png"
 import { mobilgif } from '../helper/data';
 import { referans } from '../helper/referans';
+import "../css/web.css"
 
 const MobilUygulama = () => {
     const [openIos, setOpenIos] = useState(false);
@@ -12,6 +13,7 @@ const MobilUygulama = () => {
     const [openWatch, setOpenWatch] = useState(false);
     const [openUiux, setOpenUiux] = useState(false);
   
+
     return (
       <div>
         <Helmet>
@@ -25,7 +27,7 @@ const MobilUygulama = () => {
 
   
        
-        <section className="first-img-text">
+        <section className="first-img-text mt-5">
   <Container>
     <Row className="d-flex flex-wrap justify-content-between text-center align-items-center">
       {/* Resim */}
@@ -47,7 +49,7 @@ const MobilUygulama = () => {
   
       
         <section className="py-5">
-        <h2 className='hizmet-bas text-center'> Hizmetlerimiz:</h2>
+        <h2 className='hizmet-bas text-center mt-3'> Hizmetlerimiz:</h2>
         <Container>
   <Row className='d-flex flex-wrap justify-content-center'>
     <Col md={6} className="mb-4">
@@ -215,7 +217,7 @@ const MobilUygulama = () => {
   return (
     <div className="video-container text-center" key={id}>
     <video autoPlay muted loop controls
-        height="500" >
+        height="400" >
        <source src={video} type="video/mp4" />
         Your browser does not support the video tag.
     </video>

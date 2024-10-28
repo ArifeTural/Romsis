@@ -29,7 +29,7 @@ export const yazilim = [
       title: "Buy On Board | Romsis",
       description: "Romsis olarak, uçuş sırasında sunduğumuz Buy On Board hizmetleriyle yolcularımızın konforunu artırıyoruz."
     },
-    link: "/dashboard/byOnBoard" // Yönlendirme URL'si
+    link: "/dashboard/byOnBoard" 
   },
 
 
@@ -47,7 +47,7 @@ export const yazilim2 = [
       title: "Web Tasarım Hizmetleri | Romsis",
       description: "Mobil uyumlu web tasarım hizmetleri ile firmanızın dijital varlığını güçlendirin."
     },
-    link: "/dashboard/ozelYazilim/WebTasarim" // Yönlendirme URL'si
+    link: "/dashboard/ozelYazilim/WebTasarim" 
   },
   {
     id: 3,
@@ -58,7 +58,7 @@ export const yazilim2 = [
       title: "WMS Depo Yönetim Sistemleri | Romsis",
       description: "Depo yönetim sistemleri ile lojistik süreçlerinizi optimize edin."
     },
-    link: "/dashboard/ozelYazilim/Wms" // Yönlendirme URL'si
+    link: "/dashboard/ozelYazilim/Wms"
   },
 
 ];
@@ -75,7 +75,7 @@ export const yazilim3 = [
       title: "Web Yazılım Hizmetleri | Romsis",
       description: "Güvenli web yazılımları ile iş süreçlerinizi optimize edin."
     },
-    link: "/dashboard/ozelYazilim/WebYazilim" // Yönlendirme URL'si
+    link: "/dashboard/ozelYazilim/WebYazilim" 
   },
 
   {
@@ -87,7 +87,7 @@ export const yazilim3 = [
       title: "Mobil Uygulama Geliştirme | Romsis",
       description: "Cebinize sığan mobil uygulamalarla iş süreçlerinizi kolaylaştırın."
     },
-    link: "/dashboard/ozelYazilim/MobilUygulama" // Yönlendirme URL'si
+    link: "/dashboard/ozelYazilim/MobilUygulama" 
   },
   {
     id: 7,
@@ -98,7 +98,7 @@ export const yazilim3 = [
       title: "UI & UX Tasarım Hizmetleri | Romsis",
       description: "Etkileyici ve kullanıcı dostu tasarımlarla kullanıcı deneyiminizi geliştirin."
     },
-    link: "/dashboard/ozelYazilim/UIUX" // Yönlendirme URL'si
+    link: "/dashboard/ozelYazilim/UIUX" 
   }
 ];
 
