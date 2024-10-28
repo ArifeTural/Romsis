@@ -294,32 +294,17 @@ padding-top: 3rem;
 
 }
 
-/*! WEB TASARIM */
-  
-.nasil-img{
-  max-width: 150px !important;
+/*! YALIN ÜRETİM */
 
+.cont-yalin{
+  border: 2px solid red !important;
 }
 
-.tasarim-baslik{
-  color: #0077A2 !important;
+.yalin-card{
+ border: 2px solid blueviolet !important;
+ 
 }
 
-
-.tasarim-par{
-
-  color: #ae4227;
-
-}
-
-.tasarim-baslikk{
-  color: #932e15;
-  margin-bottom: 3rem !important;
-}
-
-.neler-ul{
-  color: #0077A2;
-}
 
 
 /*! WMS Depo Yönetim Sistemleri */
