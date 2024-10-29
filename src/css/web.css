@@ -84,7 +84,7 @@
   /*! WEB YAZILIM */
 
 .wy-baslik{
-    color: #b12b09d2!important;
+    color: orangered!important;
     text-align: center;
     padding-top: 1rem;
 }
@@ -103,11 +103,12 @@
 }
 
 .wy-bilesenler{
-  color: #932e15;
+  color:orangered;
   font-weight: bold;
   text-align: center;
   margin-bottom: 2rem;
 }
+
 
 .wy-card-title{
   color: #0077A2 !important;
@@ -126,7 +127,7 @@
  height:50%;
 }
 .wt-teknoloji{
-    color: #932e15;
+    color:orangered;
     font-size: 3rem;
     margin-bottom: 2rem;
 }
@@ -134,21 +135,7 @@
 
 /*! MOBİL */
 
-.mobil-giris-cont{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center ;
-    padding: 2rem;
-    max-height: 50vh;
-}
-.mobil-giris-row {
- 
-    display: flex;
-    align-items: center;
-    justify-content: space-between; 
-    height: 100%; 
-  }
+
   
 .mobil-giris-cont-bas{
 

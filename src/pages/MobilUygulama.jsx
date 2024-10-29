@@ -27,7 +27,7 @@ const MobilUygulama = () => {
 
   
        
-        <section className="first-img-text mt-5">
+        <section className="first-img-text mt-5 ">
   <Container>
     <Row className="d-flex flex-wrap justify-content-between text-center align-items-center">
       {/* Resim */}
@@ -36,7 +36,7 @@ const MobilUygulama = () => {
       </Col>
 
       {/* Metin */}
-      <Col md={6} className="first-text">
+      <Col md={6} className="first-text ">
         <h2 className='fs-1'>Geleceğin Mobil Uygulamaları</h2>
         <p className='fs-4 text-center text-secondary'>
           "Hem iOS hem de Android platformlarında mükemmel performans gösteren, kullanıcı dostu ve yenilikçi mobil uygulamalar geliştiriyoruz. Modern teknolojileri kullanarak, her iki platformda da yüksek verimlilikle çalışan ve kullanıcı deneyimini ön planda tutan çözümler sunuyoruz. Amacımız, müşterilerimizin ihtiyaçlarına tam anlamıyla yanıt veren, etkileyici ve işlevsel uygulamalar oluşturmaktır.
@@ -48,7 +48,7 @@ const MobilUygulama = () => {
 
   
       
-        <section className="py-5">
+        <section className="py-5 ">
         <h2 className='hizmet-bas text-center mt-3'> Hizmetlerimiz:</h2>
         <Container>
   <Row className='d-flex flex-wrap justify-content-center'>
@@ -106,6 +106,7 @@ const MobilUygulama = () => {
           </Collapse>
         </Card.Body>
       </Card>
+
     </Col>
     <Col md={6} className="mb-4">
       <Card id="cross-platform" style={{ opacity: openCrossPlatform ? 1 : 0.7 }}>
@@ -192,7 +193,7 @@ const MobilUygulama = () => {
 
         </section>
 
-        <Row className='d-flex flex-wrap justify-content-center align-items-center gap-5'>
+        <Row className='d-flex flex-wrap justify-content-center align-items-center gap-3  w-100'>
       <Col>
         <h2 className="hizmet-bas text-center">Yaptığımız İşler:</h2>
         <div className='referans'>

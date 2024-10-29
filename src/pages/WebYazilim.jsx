@@ -3,7 +3,7 @@ import { tekno} from '../helper/yazilim';
 import { Helmet } from 'react-helmet';
 import { bilgiKartlari } from '../helper/yazilim';
 import webt from "../assets/istockphoto-1253376518-1024x1024.jpg";
-import { Carousel } from 'react-bootstrap';
+import { Carousel, Col, Row } from 'react-bootstrap';
 import steps from "../assets/strategy.png"
 
 const WebYazilim = () => {
@@ -51,10 +51,10 @@ const WebYazilim = () => {
 
       <section className="mt-5">
         <h2 className="wy-bilesenler">Web Yazılımının Ana Bileşenleri</h2>
-        <div className="row  p-2">
+        <Row className='d-flex flex-wrap w-100 p-2'>
           {bilgiKartlari.map((kart) => (
-            <div key={kart.id} className="col-4 mb-5">
-              <div className="card border-0 h-100 shadow-lg text-center">
+            <Col key={kart.id} className="col-4 mb-5">
+              <div className="card border-0 h-100 shadow-sm text-center">
                 <div className="card-body">
                   <h3 className="wy-card-title card-title">{kart.title}</h3>
                   <p className="wy-card-text">{kart.description}</p>
@@ -81,20 +81,20 @@ const WebYazilim = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </Col>
           ))}
-        </div>
+        </Row>
       </section>
 
-      <div className="container">
+      <div className="container ">
   <div className="row justify-content-center align-items-center">
-    <div className="col-12 col-md-6 d-flex flex-column gap-2 justify-content-center text-center align-items-center">
+    <div className="col-12 col-md-6 d-flex flex-column gap-2 justify-content-center text-center align-items-center ">
       <h2 className="fs-1 fw-bold">
         Web Yazılım Geliştirme Aşamaları
       </h2>
       <img src={steps} alt="Geliştirme Aşamaları" width={200} />
     </div>
-    <div className="col-12 col-sm-6 mt-5">
+    <div className="col-12 col-sm-6 mt-5 ">
       <ul className="list-group">
         {surec.map((surec, index) => (
           <li key={index} className="fs-4 wy-card-text">
@@ -109,7 +109,7 @@ const WebYazilim = () => {
   <div>
   <h2 className='m-5 pt-4 fs-1 text-center wt-teknoloji'>Hangi Teknolojileri Kullanıyoruz:</h2>
 </div>
-<div className='web-teknoloji-container d-flex flex-column align-items-center justify-content-between flex-wrap gap-3 w-75 mx-auto'>
+<div className='web-teknoloji-container d-flex flex-column align-items-center justify-content-between flex-wrap gap-3 w-75 mx-auto '>
   <Carousel activeIndex={activeIndex} onSelect={handleSelect} className="carousel-custom tek-ana w-100" indicators={false}>
     {tekno.map((tech) => (
       <Carousel.Item key={tech.id} className="carousel-item-custom">
