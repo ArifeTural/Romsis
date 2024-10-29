@@ -102,6 +102,41 @@ export const yazilim3 = [
   }
 ];
 
+export const yalinuretim=[ 
+  {
+    title: "Uçtan Uca Üretim Proses Analizi",
+    text: "Müşterilerimizin tüm üretim süreçlerini baştan sona analiz ediyoruz. Bu analiz, mevcut durumun değerlendirilmesi ve iyileştirme alanlarının belirlenmesidir.",
+    example: "Örnek: Bir otomotiv üreticisi için, montaj hattındaki her adımı gözden geçirerek zaman kayıplarını ve darboğazları belirliyoruz."
+  },
+  {
+    title: "Eksik Süreçlerin Tamamlanması",
+    text: "Eksik süreçleri tamamlayarak üretimdeki aksaklıkları gideriyoruz. Bu süreç, çalışanların eğitimini ve ekipman güncellemelerini içerir.",
+    example: "Örnek: Geri bildirimlerden yola çıkarak, ekipman kullanımında yaşanan sorunları çözüyoruz ve gerekli eğitimleri sağlıyoruz."
+  },
+  {
+    title: "Gereksiz Süreçlerin Kaldırılması",
+    text: "Gereksiz süreçleri kaldırarak maliyetleri azaltıyor ve daha verimli bir üretim sağlıyoruz. Bu, sadece zaman tasarrufu değil, aynı zamanda kaynakların daha etkili kullanılmasına yardımcı olur.",
+    example: "Örnek: Depolama süreçlerini optimize ederek, envanterdeki ürünlerin daha hızlı hareket etmesini sağlıyoruz."
+  },
+  {
+    title: "Verimlilik Artışı Sağlama",
+    text: "Verimliliği artırmak için sürekli iyileştirme çalışmalarını yürütüyoruz. Bu, süreçlerin analiz edilmesi, çalışanların motivasyonunu artıracak stratejiler geliştirilmesi ve teknoloji kullanımını içerir.",
+    example: "Örnek: Yapay zeka destekli süreç izleme sistemleri kurarak, anlık verimlilik oranlarını takip ediyoruz."
+  },
+  {
+    title: "İzlenebilir ve Yönetilebilir İş Akışları",
+    text: "İş akışlarını detaylandırarak izlenebilir ve yönetilebilir üretim süreçleri sunuyoruz. Bu, yöneticilerin süreçleri daha iyi yönetmesine ve performansı artırmasına olanak tanır.",
+    example: "Örnek: Üretim hatlarımızda gerçek zamanlı izleme sistemleri kurarak, her aşamanın verimliliğini anlık olarak raporluyoruz."
+  },
+  {
+    title: " Sürekli İyileştirme ve Güncelleme",
+    text: "Sürekli iyileştirme felsefesi ile, süreçlerimizi sürekli olarak gözden geçiriyoruz. Gözlemlerimizi değerlendiyoruz ve geliştirmeye yönelik adımlar atıyoruz. Bu adımları atarken sistemli bir yol izliyoruz.",
+    example: "Örnek: Takım üyeleriyle düzenli geri bildirim toplantıları yaparak, önerilen iyileştirmeleri hayata geçiriyoruz."
+
+
+  }
+]
+
 
 
 
