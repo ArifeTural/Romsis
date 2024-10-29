@@ -57,6 +57,177 @@
 }
 
 
+/*! WMS Depo Yönetim Sistemleri */
+
+.wms-title{
+  color: orangered !important;
+  font-size: 2.5rem !important;
+  padding: 2rem;
+  text-align: center;
+}
+
+.wms-par{
+  text-align: center;
+  padding: 3rem;
+  font-size: 2rem !important;
+  color: #7a7e7f;
+}
+
+.wms-tablo{
+  width: 90%;
+}
+
+/*! MOBİL */
+
+
+  
+.mobil-giris-cont-bas{
+
+  color: #c23411 !important;
+      
+  }
+  
+  .mobil-giris-nav{
+      font-weight: bold;
+      color: #626668 !important;
+      border: 2px solid #7a7e7f !important;
+   
+      padding: 0.3rem;
+      border-radius: 20px;
+  }
+  
+  
+  .first-img-text{
+      display: flex;
+      /* flex-wrap: wrap; */
+      justify-content: space-between;
+      align-items: center;
+      max-height: 90%;
+     display: flex;
+  
+  }
+  
+  .first-img{  
+  max-height: 600px !important;
+  }
+  
+  
+  .first-text h2{
+      color:#ae4227;
+  }
+  
+  .hizmet-bas{
+    
+      color:#ae4227;
+      font-size: 3rem !important;
+      font-weight: bold;
+  
+  } 
+  
+  .buton-detaylar{
+    background-color: #932e15 !important;
+  }
+  #ios{
+      background-image: url(../assets/bg-ios.jpg);
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding-top:3rem ;
+      opacity: 0.7;
+  }
+  
+  
+  #android{
+      background-image: url(../assets/bg-android.jpg);
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding-top: 3rem;
+  
+  }
+  
+  #cross-platform{
+    background-image: url(../assets/bg-capraz.jpg);
+  
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-top: 3rem;
+  
+  }
+  
+  #watch{
+      background-image: url(../assets/bg-saat.jpg);
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding-top: 3rem;
+  
+  
+  }
+  
+  #uiux{
+  background-image: url(../assets/bg-uı.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding-top: 3rem;
+  
+  }
+  
+  .referans{
+    margin: 2rem;
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .referans-card{
+    opacity: 0.5;
+  }
+  
+  .referans-card:hover{
+    opacity: 1;
+  }
+
+
+  /*! UI & UX */
+
+
+.ui-giris-img{
+  width: 100%;
+  max-height: 80vh;
+
+}
+
+.ui-baslik{
+  color: orangered !important;
+  text-align: center;
+  margin: 1.5rem;
+  margin-top: 0.8rem;
+  font-size: 3rem !important;
+  font-weight: bold !important;
+  
+}
+
+.guncel-baslik{
+  color: #0077A2;
+  font-weight: bold;
+}
+
+.alt-baslik{
+  color: #0077A2 !important;
+  font-weight: bold;
+}
+
+.surec-ul{
+  color: #31613f;
+
+}
+
+
   
   /*! WEB YAZILIM */
 
@@ -180,188 +351,15 @@
 
 
 
-/*! MOBİL */
-
-
-  
-.mobil-giris-cont-bas{
-
-color: #c23411 !important;
-    
-}
-
-.mobil-giris-nav{
-    font-weight: bold;
-    color: #626668 !important;
-    border: 2px solid #7a7e7f !important;
- 
-    padding: 0.3rem;
-    border-radius: 20px;
-}
-
-
-.first-img-text{
-    display: flex;
-    /* flex-wrap: wrap; */
-    justify-content: space-between;
-    align-items: center;
-    max-height: 90%;
-   display: flex;
-
-}
-
-.first-img{  
-max-height: 600px !important;
-}
-
-
-.first-text h2{
-    color:#ae4227;
-}
-
-.hizmet-bas{
-  
-    color:#ae4227;
-    font-size: 3rem !important;
-    font-weight: bold;
-
-} 
-
-.buton-detaylar{
-  background-color: #932e15 !important;
-}
-#ios{
-    background-image: url(../assets/bg-ios.jpg);
-    background-size: cover;
-    background-position: center;
-    color: white;
-    padding-top:3rem ;
-    opacity: 0.7;
-}
-
-
-#android{
-    background-image: url(../assets/bg-android.jpg);
-    background-size: cover;
-    background-position: center;
-    color: white;
-    padding-top: 3rem;
-
-}
-
-#cross-platform{
-  background-image: url(../assets/bg-capraz.jpg);
-
-  background-size: cover;
-  background-position: center;
-  color: white;
-  padding-top: 3rem;
-
-}
-
-#watch{
-    background-image: url(../assets/bg-saat.jpg);
-    background-size: cover;
-    background-position: center;
-    color: white;
-    padding-top: 3rem;
-
-
-}
-
-#uiux{
-background-image: url(../assets/bg-uı.jpg);
-background-size: cover;
-background-position: center;
-color: white;
-padding-top: 3rem;
-
-}
-
-.referans{
-  margin: 2rem;
-  display: flex; 
-  flex-wrap: wrap;
-  gap: 2rem;
-  padding: 2rem;
-  justify-content: center;
-  cursor: pointer;
-}
-.referans-card{
-  opacity: 0.5;
-}
-
-.referans-card:hover{
-  opacity: 1;
-}
-
-
-/*! UI & UX */
-
-
-.ui-giris-img{
-  width: 100%;
-  max-height: 80vh;
-
-}
-
-.ui-baslik{
-  color: orangered !important;
-  text-align: center;
-  margin: 1.5rem;
-  margin-top: 0.8rem;
-  font-size: 3rem !important;
-  font-weight: bold !important;
-  
-}
-
-.guncel-baslik{
-  color: #0077A2;
-  font-weight: bold;
-}
-
-.alt-baslik{
-  color: #0077A2 !important;
-  font-weight: bold;
-}
-
-.surec-ul{
-  color: #31613f;
-
-}
-
-/*! YALIN ÜRETİM */
-
-.cont-yalin{
-  border: 2px solid red !important;
-}
-
-.yalin-card{
- border: 2px solid blueviolet !important;
- 
-}
 
 
 
-/*! WMS Depo Yönetim Sistemleri */
 
-.wms-title{
-  color: #932e15 !important;
-  font-size: 3rem !important;
-  padding: 2rem;
-  text-align: center;
-}
 
-.wms-par{
-  text-align: center;
-  padding: 3rem;
-  font-size: 2rem !important;
-  color: #7a7e7f;
-}
 
-.wms-tablo{
-  width: 90%;
-}
+
+
+
 
 
 
