@@ -49,3 +49,18 @@
 .ref-card:hover{
     opacity: 1;
 }
+
+
+
+/*! SİZE NASIL YARDIMCI OLABİLİRİZ? */
+
+.i-form h1{
+    color:orangered !important;
+}
+
+.i-button{
+    width: 100%;
+    background: orangered!important;
+    font-size: 1.2rem !important;
+    font-weight: bolder !important;
+}

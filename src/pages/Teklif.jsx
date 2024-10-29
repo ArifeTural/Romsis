@@ -1,5 +1,7 @@
 import React from 'react';
+import "../css/kurumsal.css"
 import { Col, Container, Row, Form, Button, InputGroup } from 'react-bootstrap';
+import wp from "../assets/whatsapp.png"
 
 const Teklif = () => {
   const phoneNumber = '905367409930'; 
@@ -16,7 +18,7 @@ const Teklif = () => {
      
 
         <Col>
-        <h1 className='fw-bold' style={{fontSize: "2.5rem"}}>Size Nasıl Yardımcı OLabiliriz?</h1>
+        <h1 className='fw-bold mt-4 text-center' style={{fontSize: "2.5rem"}}>Size Nasıl Yardımcı Olabiliriz?</h1>
         <br /> <br />
         <div className="whatsapp-yardim ">
     
@@ -25,14 +27,16 @@ const Teklif = () => {
               href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`} 
               target="_blank" 
               rel="noopener noreferrer" 
-              className="whatsapp-link text-light text-bg-success p-2"
+              className="whatsapp-link "
               onClick={handleClick}
             >
-              <i className="fab fa-whatsapp w-100 fs-5 "> Whatsapp  Destek  Hatti </i> 
+              <i className=" w-100 text-success fw-bold fs-4 "> 
+              <img style={{width: "8%", borderRadius: "50%", cursor: "pointer"}} src={wp} alt="whatsapp" /> Whatsapp  Destek  Hattı </i> 
             
             </a>
           </div>
           <Form>
+
             <Row>
               <Col>
               <br />
