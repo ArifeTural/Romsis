@@ -40,7 +40,7 @@ export const yazilim2 = [
 
   {
     id: 2,
-    image: "./image/yazilim/webtasarim.jpg",
+    image: "./image/yazilim/yalinuretmek.jpg",
     title: "Yalın Üretim | MRP",
     text: "Mobil uyumlu ve SEO odaklı web sitelerinin çevrimiçi varlığını artırıyoruz. Kullanıcı deneyimini ön planda tutarak tasarımlar oluşturuyoruz.",
     meta: {
