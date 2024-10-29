@@ -9,11 +9,12 @@ const Navbar = () => {
       
     
         { title: "Özel Yazılım Hizmetleri", subpages: [
+            { title: "Yalın Üretim | MRP", path: "/dashboard/ozelYazilim/YalinUretim" },
+            { title: "Wms Depo Yönetim Sistemleri", path: "/dashboard/ozelYazilim/Wms" },
             { title: "Mobil Uygulama", path: "/dashboard/ozelYazilim/MobilUygulama" },
             { title: "UI & UX", path: "/dashboard/ozelYazilim/UIUX" },
-            { title: "Yalın Üretim ve Üretim Sistemleri", path: "/dashboard/ozelYazilim/WebTasarim" },
             { title: "Web Yazılım", path: "/dashboard/ozelYazilim/WebYazilim" },
-            { title: "Wms Depo Yönetim Sistemleri", path: "/dashboard/ozelYazilim/Wms" }
+    
         ]},
         { title: "Kurumsal",  subpages: [
             { title: "Hakkımızda", path: "/dashboard/hakkımızda" },

@@ -28,7 +28,7 @@ footer{
     padding: 2rem;
     width: 100%;
     background: rgba(211, 211, 211, 0.65);
-
+    
 
 }
 h1{
@@ -263,23 +263,15 @@ Col a {
 
 
  /*! İLETİŞİM */
-.ofis{
 
-
-    
-    color: grey !important;
-    
-}
 .ofis h1 {
     text-align: center;
-    color: rgb(144, 73, 73);
+    color:orangered;
 }
-.ofis h4{
-    color: rgb(144, 73, 73);
-} 
+
 .ofis span{
     font-weight: bolder;
-    color: rgb(144, 73, 73);
+    color: orangered;
     font-size: larger;
 }
 

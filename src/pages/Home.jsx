@@ -5,7 +5,7 @@ import { data, yazilim, yazilim2, yazilim3 } from "../helper/data";
 import { referans } from '../helper/referans';
 import { steps } from '../helper/yazilim';
 import { Link } from 'react-router-dom';
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col, Navbar } from 'react-bootstrap';
 
 function Home() {
   const phoneNumber = '905367409930'; 
@@ -28,6 +28,7 @@ function Home() {
 
       {/* SLAYT */}
       <div className='carousel'>
+   
         <div className='carousel-bg'></div>
         <Carousel className='carousel-content'>
           {data.map((item) => {
@@ -45,7 +46,7 @@ function Home() {
       </div>
 
       {/* NELER YAPIYORUZ */}
-      <h2 className='text-center text-danger fs-1 fw-bold pt-5'>Neler Yapıyoruz?</h2>
+      <h2 className='text-center text-danger fs-1 fw-bold mt-5 pt-5'>Neler Yapıyoruz?</h2>
       <div className='container'>
         {yazilim.map((yz, index) => {
           const { image, id, title, title2, link } = yz;
@@ -151,9 +152,18 @@ function Home() {
       <footer>
         <Row>
           <Col>
-            <p><i className="fa-solid fa-phone"></i> +90 850 260 19 09</p>
-            <p><i className="fa-solid fa-phone"></i> +90 542 646 75 51</p>
-            <p>bilgi@romsis.com.tr</p>
+          <p>
+        <a href={+908502601909} className='text-decoration-underline'>
+        <i className="fa-solid fa-phone"></i>+90 850 260 19 09</a>
+        </p>
+        <p>
+        <a href={+905426467551} className='text-decoration-underline'>
+        <i className="fa-solid fa-phone"></i>+90 542 646 75 51</a>
+        </p>
+        <p>
+        <a href="mailto:bilgi@romsis.com.tr" className='text-decoration-underline'>
+        <i className="fa-solid fa-envelope"></i>bilgi@romsis.com.tr</a>
+        </p>
           </Col>
           <Col>
             <p><i className="fa-solid fa-location-dot"></i> Merkez Adres: Maslak Mahallesi Maslak Meydanı Sok. No:3 Veko Giz Plaza Kat:2 D:1-2 Maslak Sarıyer İstanbul Türkiye</p>
@@ -169,14 +179,17 @@ function Home() {
           </Col>
           <Col>
             <ul>
+            
               <li><Link className="fs-5" to="/dashboard/byOnBoard">By On Board</Link></li>
             </ul>
             <ul>
+            <li><Link to="/dashboard/ozelYazilim/YalinUretim">Yalın Üretim|MRP</Link></li>
+            <li><Link to="/dashboard/ozelYazilim/Wms">WMS Depo</Link></li>
               <li><Link to="/dashboard/ozelYazilim/MobilUygulama">Mobil Uygulama</Link></li>
               <li><Link to="/dashboard/ozelYazilim/UIUX">UI & UX</Link></li>
-              <li><Link to="/dashboard/ozelYazilim/WebTasarim">Web Tasarım</Link></li>
+            
               <li><Link to="/dashboard/ozelYazilim/WebYazilim">Web Yazılım</Link></li>
-              <li><Link to="/dashboard/ozelYazilim/Wms">WMS Depo</Link></li>
+            
             </ul>
           </Col>
           <Col>

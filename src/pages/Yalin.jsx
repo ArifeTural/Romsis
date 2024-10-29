@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Helmet } from 'react-helmet'; // SEO için
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 
-function WebTasarim() {
+function Yalin() {
   // Açılır kapanır içerikler için durum
   const [showExamples, setShowExamples] = useState({});
 
@@ -85,7 +85,7 @@ function WebTasarim() {
   );
 }
 
-export default WebTasarim;
+export default Yalin;
 
 
 
