@@ -26,7 +26,7 @@ const AppRouter = () => {
         <Route path='/dashboard/byOnBoard' element={<ByOnBoard />} />
         <Route path='/dashboard/ozelYazilim/MobilUygulama' element={<MobilUygulama />} />
         <Route path='/dashboard/ozelYazilim/UIUX' element={<UIUX />} />
-        <Route path='/dashboard/ozelYazilim/YalinUreim' element={<Yalin/>} />
+        <Route path='/dashboard/ozelYazilim/YalinUretim' element={<Yalin/>} />
         <Route path='/dashboard/ozelYazilim/WebYazilim' element={<WebYazilim />} />
         <Route path='/dashboard/ozelYazilim/Wms' element={<Wms />} />
         <Route path='/dashboard/kurumsal' element={<Kurumsal />} />

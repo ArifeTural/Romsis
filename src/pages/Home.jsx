@@ -15,6 +15,7 @@ function Home() {
     console.log("WhatsApp yönlendirmesi yapılıyor...");
   };
 
+  
   return (
     <div>
       {/* Helmet Etiketleri */}
