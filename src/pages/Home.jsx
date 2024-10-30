@@ -83,8 +83,8 @@ function Home() {
           );
         })}
       </div>
-
-      <div className="container my-4">
+        {/* NASIL ÇALIŞIYORUZ? */}
+      <div className="container  nasil-cont ">
         <h2 className='fs-1 fw-bolder text-center text-danger tasarim-baslikk'> Nasıl Çalışıyoruz ?</h2>
         <div className="row">
           {steps.map((step, index) => (

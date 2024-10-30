@@ -11,7 +11,8 @@
 /*! NAVBAR  */
 
 .navbar{
-    background:rgba(211, 211, 211, 0.65) !important;
+    background:rgb(211, 211, 211) !important;
+    z-index: 10;
 }
 
 .teklif-nav {
@@ -71,7 +72,7 @@ Col a {
 }
 /*! HOME */
 .carousel {
-    position: relative;
+    position:relative;
   
 }
 
@@ -80,6 +81,7 @@ Col a {
     position: relative;
     z-index: 2;
     width: 100%;
+    max-height: 80vh;
     display: flex;
     align-items: center;
     text-align: center;
@@ -87,6 +89,7 @@ Col a {
 
 .h-video {
     width: 100%;
+ 
     
 }
 
@@ -201,6 +204,14 @@ Col a {
     visibility: visible;
   }
 
+  .nasil-cont{
+    margin-top:5rem !important ;
+    margin-bottom:5rem !important ;
+  }
+
+  .nasil-img{
+    max-width: 150px !important;
+  }
 
 
 .h-refe{
@@ -231,13 +242,6 @@ Col a {
         transform: translate(-50%); 
     }
 }
-
-
-
-.home-referans-card{
-    
-}
-
 
 .whatsapp-support {
     position: fixed;

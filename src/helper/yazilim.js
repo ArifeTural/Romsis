@@ -237,7 +237,7 @@ export const steps = [
   export const buyOnCarousel = [
     {
       id: 1,
-      image:"/image/yazilim/buycar1.jpg",
+      image:"/image/yazilim/buycar1.jpg 03-04-21-088.jpg",
       h1:" Buy on Board Sistemi ile Yolculuk Keyfini Artırın",
   
     },
@@ -265,7 +265,7 @@ export const steps = [
     },
     {
       id: 2,
-      image:"/image/yazilim/ucakkredikarti.jpg",
+      image:"/image/yazilim/buycar1.jpg 03-04-21-088.jpg",
       h3:"2. Uçak İçi Satış ve Stok Yönetimi",
       description:"Uçak içi satış ve stok yönetimi, uçuş sırasında kabin ekibinin yolculara yiyecek, içecek ve diğer ürünleri satmasını içerir. Bu satışlar genellikle nakit, kredi kartı ya da havayolu uygulamaları üzerinden yapılmaktadır. Stok yönetimi, satılan ürünlerin kaydının tutulması ve kalan stokların izlenmesi süreçlerini kapsar. Satışların dijital olarak kaydedilmesi, uçuş sonrası doğru stok değerlendirmesi ve bir sonraki uçuş için ihtiyaçların belirlenmesini sağlar.",
    
