@@ -16,18 +16,17 @@ import Sorular from '../pages/Sorular';
 import Yalin from '../pages/Yalin';
 
 
-const Layout = () => {
-  const location = useLocation();
 
+const AppRouter = () => {
   return (
-    <>
-      <Navbar />
+    <BrowserRouter>
+        <Navbar />
       <Routes>
         <Route path='/dashboard' element={<Home />} />
         <Route path='/dashboard/byOnBoard' element={<ByOnBoard />} />
         <Route path='/dashboard/ozelYazilim/MobilUygulama' element={<MobilUygulama />} />
         <Route path='/dashboard/ozelYazilim/UIUX' element={<UIUX />} />
-        <Route path='/dashboard/ozelYazilim/YalinUretim' element={<Yalin/>} />
+        <Route path='/dashboard/ozelYazilim/YalinUreim' element={<Yalin/>} />
         <Route path='/dashboard/ozelYazilim/WebYazilim' element={<WebYazilim />} />
         <Route path='/dashboard/ozelYazilim/Wms' element={<Wms />} />
         <Route path='/dashboard/kurumsal' element={<Kurumsal />} />
@@ -35,19 +34,10 @@ const Layout = () => {
         <Route path='/dashboard/iletisim' element={<Iletisim />} />
         <Route path='/dashboard/teklif' element={<Teklif />} />
         <Route path='/dashboard/sorular' element={<Sorular />} />
-  
         <Route path='*' element={<Home />} />
       </Routes>
+      <Footer/>
 
-      {location.pathname == '/dashboard' && <Footer />}
-    </>
-  );
-};
-
-const AppRouter = () => {
-  return (
-    <BrowserRouter>
-      <Layout />
     </BrowserRouter>
   );
 };

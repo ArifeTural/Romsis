@@ -11,7 +11,7 @@
 /*! NAVBAR  */
 
 .navbar{
-    background:rgb(211, 211, 211) !important;
+    background:rgb(237, 235, 235) !important;
     z-index: 10;
 }
 
@@ -72,6 +72,7 @@ Col a {
 }
 /*! HOME */
 .carousel {
+
     position:relative;
   
 }
@@ -91,6 +92,14 @@ Col a {
     width: 100%;
  
     
+}
+.neler{
+    margin-top: 7rem !important;
+}
+.neler-baslik{
+    color: orangered;
+    font-size: 3rem;
+    z-index: 100000;
 }
 
 .container {
