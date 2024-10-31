@@ -29,7 +29,7 @@ const Navbar = () => {
     const location = useLocation();
 
     return (
-        <nav className="navbar navbar-expand-md navbar-light">
+        <nav className="navbar navbar-expand-xl navbar-light">
             <div className="container-fluid">
                 <Link to="/" className="navbar-brand">
                     <img src={logo} alt="romsis" width={200} />     

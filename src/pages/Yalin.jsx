@@ -24,16 +24,23 @@ function Yalin() {
         <title>Yalın Üretim - Verimlilik ve Süreç İyileştirme</title>
         <meta name="description" content="Yalın üretim süreçleri ile üretim verimliliğinizi artırın. Eksik süreçleri tamamlayın, gereksiz süreçleri kaldırın." />
       </Helmet>
-      <div className='w-100 d-flex justify-content-center'>
-      <img style={{width:"90%", maxHeight: "80vh"}} src={yalin} alt="" />
-      </div>
- 
-      <Container className="">
-      
-        <h1 className="yalin-baslik text-center mb-4">Yalın Üretim</h1>
+      <Row className='p-5 w-100 d-flex flex-wrap align-items-center justify-content-center '>
+      <Col sm={12} lg={6} className='text-center'>
+      <img className='yaling-img' src={yalin} alt="" />
+      </Col>
+      <Col sm={12} lg={6}>
+      <h1 className="yalin-baslik text-center mb-4 mt-5">Yalın Üretim</h1>
         <p className=" yalin-par text-center mb-5">
           Yalın üretim, israfı minimize ederek, değer yaratmaya odaklanan bir üretim felsefesidir. Hedefimiz, üretim süreçlerini optimize ederek işletmenizin verimliliğini artırmaktır.
         </p>
+
+      </Col>
+      
+      </Row>
+ 
+      <Container className="">
+      
+     
         <Row className='yalin-cont'>
           {yalinuretim.map((item, index) => (
             <Col sm={12} md={6} key={index}>
@@ -59,7 +66,7 @@ function Yalin() {
 
         <div>
         <div>
-          <h2 className='m-5 yalin-baslik text-center'>MRP(Malzeme İhtiyaç Planlaması )</h2>
+          <h2 className='m-5 yalin-baslik text-center'>MRP(Malzeme İhtiyaç Planlaması)</h2>
         </div>
          <Row className='d-flex flex-wrap justify-content-between align-items-center'>
           <Col sm={12} md={6} >
@@ -78,7 +85,7 @@ function Yalin() {
             
           </Col>
           <Col sm={12} md={4}>
-          <img className='w-100' src={mrp2} alt="" />
+          <img className=' mrpikiimg w-100' src={mrp2} alt="" />
           </Col>
          </Row>
         </div>

@@ -11,9 +11,6 @@ const Iletisim = () => {
         <meta name="description" content="Romsis Yazılım ile iletişim kurun. Ofislerimizin adresleri ve iletişim formu ile bize ulaşabilirsiniz. İstanbul, Edirne, Antalya ve Ankara'daki şubelerimiz." />
         <meta name="keywords" content="Romsis, iletişim, yazılım, ofis adresleri, iletişim formu, yazılım firması" />
       </Helmet>
-
-      
-
       <div>
         <Row className='flex justify-center m-5 p-5 ofis'>
           <Col className='ofis'>
@@ -35,6 +32,7 @@ const Iletisim = () => {
 </>
 
             <iframe
+              className='harita'
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3006.1357534643307!2d29.019095276822235!3d41.10972617133666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab73b567dd1a1%3A0xc89f33a7e4335c1d!2zUm9tc2lzIFlhesSxbMSxbQ!5e0!3m2!1str!2str!4v1728503523996!5m2!1str!2str"
               width={600}
               height={350}

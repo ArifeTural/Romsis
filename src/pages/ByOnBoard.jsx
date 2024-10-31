@@ -90,15 +90,15 @@ const ByOnBoard = () => {
       <Container>
         <h2  className='buy-title'>BUY ON BOARD RETAIL HİZMETLERİ</h2>
     
-        <Row className='d-flex align-items-center'>
-        <Col className="col-md-6 ">
+        <Row className='d-flex align-items-center '>
+        <Col className="col-12 col-lg-4  ">
                     <img 
                       src={retail}
                       className="img-fluid" 
                       alt="reatil"
                     />
                   </Col>
-                  <Col className="col-6">
+                  <Col className="col-12 col-lg-8">
                     <div className="card-body">
                     
                       <p className='fs-4 text-secondary fw-bold'>Her uçuş için özel yükleme adetleri, kabin ve yolcu bilgileri ile özel fiyatlandırmaların girilebildiği retail hizmetimizle, uçuş öncesi, uçuş esnası ve sonrasında tüm ihtiyaçlarınızı karşılıyoruz.</p>

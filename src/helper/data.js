@@ -22,8 +22,9 @@ export const yazilim = [
     id: 1,
     image: "./image/yazilim/istockphoto-1329896979-1024x1024.jpg",
 
-    title: "Buy On Board Yazılım  |",
-    title2: "Buy On Board  Retail ",
+    // title: "Buy On Board Yazılım  |",
+    // title2: "Buy On Board  Retail ",
+    title: "Buy On Board Hizmetleri",
 
     text: "Yolcularımıza uçuş sırasında konfor, güvenlik ve ikram hizmetlerini kapsayan bir deneyim sunuyoruz. Uçak içi hizmetlerimizle seyahat deneyimini iyileştiriyoruz.",
     meta: {

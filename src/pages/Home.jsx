@@ -66,7 +66,7 @@ function Home() {
         {yazilim2.map((yz, index) => {
           const { image, id, title, link } = yz;
           return (
-            <div key={id} className={`content2 content${index + 1}`} style={{ backgroundImage: `url(${image})` }}>
+            <div key={id} className= {`content2 content${index + 1}`} style={{ backgroundImage: `url(${image})` }}>
               <Link to={link}>
                 <h3 className='content-h3'>{title}</h3>
               </Link>
@@ -95,7 +95,7 @@ function Home() {
               <div className="card border-0">
                 <img className="nasil-img" src={step.img} alt={step.alt} loading="lazy" />
                 <div className="card-body">
-                  <h5 className="card-title fs-4 fw-bold text-secondary">{step.title}</h5>
+                  <h5 className="card-title  fs-4 fw-bold text-secondary">{step.title}</h5>
                   <ul className="list-unstyled">
                     {step.content.map((item, i) => (
                       <li key={i} className="text-muted">

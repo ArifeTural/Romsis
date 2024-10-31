@@ -15,15 +15,18 @@ const UIUX = () => {
       </Helmet>
 
 
-      <section className='uiux-cont'>
-
+      <section className='uiux-cont '>
+      <div className='w-100 d-flex justify-content-center'>
       <img src={giris} alt="" className='ui-giris-img' />
+      </div>
+
+      
 
       <h1 className=" ui-baslik">UI/UX tasarımında en iyi sonuçlar için bizimle çalışın</h1>
       
       <div className='row d-flex flex-wrap justify-content-center align-items-center m-5 pt-5'>
   <div className='col-12 col-md-6 d-flex justify-content-center'>
-    <img src={pc} alt="pc" style={{ maxWidth: '300px', maxHeight: '300px' }} />
+    <img src={pc} alt="pc" className='pcimg'  />
   </div>
   
   <div className='col-12 col-md-6 '>
@@ -174,7 +177,7 @@ const UIUX = () => {
       <section className="py-5 text-center">
   <div className="container">
     <h2 className="display-5 mb-4 ui-baslik">Kullanılan Teknolojiler ve Araçlar</h2>
-    <div className="row justify-content-center text-center">
+    <div className="row justify-content-center text-center gap-2">
       {techTools.map(tool => (
         <div key={tool.id} className="col-md-4">
           <div className="card shadow-lg border-0"> 

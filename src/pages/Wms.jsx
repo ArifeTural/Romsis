@@ -30,7 +30,7 @@ const Wms = () => {
       <div>
         <h1 className='wms-title'>WMS Depo Yönetim Sistemleri: Verimli ve Akıllı Depo Çözümleri</h1>
       </div>
-      <img src={wmsgiris} alt="WMS Giriş" className='w-100 p-3' />
+      <img src={wmsgiris} alt="WMS Giriş" className='wmsgimg w-100 p-3' />
 
       <div>
         <p className='wms-par'>
@@ -42,14 +42,14 @@ const Wms = () => {
         <h2 className='wms-title'>Nasıl Çalışıyoruz: Süreçlerimiz ve Yaklaşımımız</h2>
         <Row className='justify-content-center align-items-center'>
           <Col sm={12} md={4} className="mb-4">
-            <img src={wmshedef} alt="Hedefler" className="img-fluid rounded-pill" />
+            <img src={wmshedef} alt="Hedefler" className="wmshedefimg img-fluid rounded-pill" />
           </Col>
           <Col sm={12} md={8}>
             <Row>
               {features.map((feature, index) => (
                 <Col key={index} sm={12} className="mb-4">
                   <Card className='border-0'>
-                    <Card.Text className='fs-5 text-secondary fw-bold'>
+                    <Card.Text className=' text-secondary fw-bold hedeftext'>
                       {index + 1}. {feature}
                     </Card.Text>
                   </Card>

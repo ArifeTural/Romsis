@@ -37,7 +37,10 @@ const WebYazilim = () => {
 
 
       <header className="">
-        <img src={webt} alt="" className='web-yazilim-img '  />
+      <div className='w-100 text-center'>
+      <img src={webt} alt="webt" className='web-yazilim-img '  />
+      </div>
+       
         <h1 className='wy-baslik'>MODERN WEB YAZILIM ÇÖZÜMLERİ</h1>
       
       </header>
@@ -53,7 +56,7 @@ const WebYazilim = () => {
         <h2 className="wy-bilesenler">Web Yazılımının Ana Bileşenleri</h2>
         <Row className='d-flex flex-wrap w-100 p-2'>
           {bilgiKartlari.map((kart) => (
-            <Col key={kart.id} className="col-4 mb-5">
+            <Col key={kart.id} className="col-12 col-md-4  mb-5">
               <div className="card border-0 h-100 shadow-sm text-center">
                 <div className="card-body">
                   <h3 className="wy-card-title card-title">{kart.title}</h3>
@@ -88,13 +91,13 @@ const WebYazilim = () => {
 
       <div className="container ">
   <div className="row justify-content-center align-items-center">
-    <div className="col-12 col-md-6 d-flex flex-column gap-2 justify-content-center text-center align-items-center ">
+    <div className="col-12 col-lg-6 d-flex flex-column gap-2 justify-content-center text-center align-items-center ">
       <h2 className="fs-1 fw-bold">
         Web Yazılım Geliştirme Aşamaları
       </h2>
       <img src={steps} alt="Geliştirme Aşamaları" width={200} />
     </div>
-    <div className="col-12 col-sm-6 mt-5 ">
+    <div className="col-12 col-lg-6 mt-5 ">
       <ul className="list-group">
         {surec.map((surec, index) => (
           <li key={index} className="fs-4 wy-card-text">

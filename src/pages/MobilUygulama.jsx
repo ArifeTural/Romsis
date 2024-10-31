@@ -27,9 +27,9 @@ const MobilUygulama = () => {
 
   
        
-        <section className="first-img-text mt-5 ">
-  <Container>
-    <Row className="d-flex flex-wrap justify-content-between text-center align-items-center">
+        <section >
+  <Container className="first-img-text mt-5 ">
+    <Row className="row-img-text d-flex flex-wrap justify-content-between text-center align-items-center ">
       {/* Resim */}
       <Col md={6} className="d-flex justify-content-center">
         <img className='first-img' src={giris} alt="Mobil uygulama resmi" />
@@ -38,7 +38,7 @@ const MobilUygulama = () => {
       {/* Metin */}
       <Col md={6} className="first-text ">
         <h2 className='fs-1'>Geleceğin Mobil Uygulamaları</h2>
-        <p className='fs-4 text-center text-secondary'>
+        <p className='first-par text-center text-secondary'>
           "Hem iOS hem de Android platformlarında mükemmel performans gösteren, kullanıcı dostu ve yenilikçi mobil uygulamalar geliştiriyoruz. Modern teknolojileri kullanarak, her iki platformda da yüksek verimlilikle çalışan ve kullanıcı deneyimini ön planda tutan çözümler sunuyoruz. Amacımız, müşterilerimizin ihtiyaçlarına tam anlamıyla yanıt veren, etkileyici ve işlevsel uygulamalar oluşturmaktır.
         </p>
       </Col>
@@ -211,12 +211,12 @@ const MobilUygulama = () => {
 </div>
       </Col>
 
-      <Col>
+      <Col className='videomobil'>
       {mobilgif.map((inItem) => {
   const { id, video } = inItem; 
 
   return (
-    <div className="video-container text-center" key={id}>
+    <div className="videomobil  text-center" key={id}>
     <video autoPlay muted loop controls
         height="400" >
        <source src={video} type="video/mp4" />

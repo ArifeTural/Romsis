@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer>
     <Row>
-          <Col>
+          <Col className='cal-1'>
           <p>
         <a href={+908502601909} className='text-decoration-underline'>
         <i className="fa-solid fa-phone"></i>+90 850 260 19 09</a>
@@ -20,19 +20,19 @@ const Footer = () => {
         <i className="fa-solid fa-envelope"></i>bilgi@romsis.com.tr</a>
         </p>
           </Col>
-          <Col>
+          <Col className='cal-2'>
             <p><i className="fa-solid fa-location-dot"></i> Merkez Adres: Maslak Mahallesi Maslak Meydanı Sok. No:3 Veko Giz Plaza Kat:2 D:1-2 Maslak Sarıyer İstanbul Türkiye</p>
             <p><i className="fa-solid fa-location-dot"></i> Ar-Ge Adres: Trakya Üniversitesi Ayşekadın Yerleşkesi, 22100 Edirne Türkiye</p>
           </Col>
-          <Col>
+          <Col className='cal-3'>
             <p><i className="fa-solid fa-location-dot"></i> Ankara Esenboğa Havalimanı Şubesi Adres: Ankara Esenboğa Havalimanı Romsis Ofisi</p>
             <p><i className="fa-solid fa-location-dot"></i> Sabiha Gökçen Havalimanı Şubesi Adres: İstanbul Sabiha Gökçen Uluslararası Havalimanı Romsis Ofisi</p>
           </Col>
-          <Col>
+          <Col className='cal-4'>
             <p><i className="fa-solid fa-location-dot"></i> Antalya Havalimanı Şubesi Adres: Fraport TAV Antalya Havalimanı Romsis Ofisi</p>
             <p><i className="fa-solid fa-location-dot"></i> Azerbaycan Ofisi Adres: Elmler Akademiyasi Ehmed Cemil kucesi, Mothercare-den Forte Fashion-nin binasi</p>
           </Col>
-          <Col>
+          <Col className='cal-5'>
             <ul>
             
               <li><Link className="fs-5" to="/dashboard/byOnBoard">By On Board</Link></li>
@@ -47,14 +47,14 @@ const Footer = () => {
             
             </ul>
           </Col>
-          <Col>
+          <Col className='cal-6'>
             <ul>
               <li><Link to="/dashboard/hakkımızda">Hakkımızda</Link></li>
               <li><Link to="/dashboard/kurumsal">Referanslarımız</Link></li>
               <li><Link to="/dashboard/sorular">Sıkça Sorulan Sorular</Link></li>
             </ul>
           </Col>
-          <Col>
+          <Col className='cal-7'>
             <ul>
               <li><Link to="/dashboard/teklif">Size Nasıl yardımcı Olabiriz?</Link></li>
             </ul>
