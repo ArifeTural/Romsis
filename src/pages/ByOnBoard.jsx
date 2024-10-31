@@ -20,8 +20,8 @@ const ByOnBoard = () => {
           {buyOnCarousel.map((buy) => {
             const { id, image, h1 } = buy;
             return (
-              <Carousel.Item interval={10000} key={id}>
-                <img src={image} alt={`Uçak İçi Hizmet: ${h1}`} style={{ width: "100%", height:"90vh", display: 'block'}} />
+              <Carousel.Item interval={10000} key={id} className='w-100 d-flex justify-content-center'>
+                <img src={image} alt={`Uçak İçi Hizmet: ${h1}`} className='buy-car' />
                 <Carousel.Caption className="buyon-caption">
                   <h3 className='byon-h3'>{h1}</h3> 
                 </Carousel.Caption>
@@ -30,7 +30,6 @@ const ByOnBoard = () => {
           })}
         </Carousel>
       </div>
-
       <Container>
         <p className='buyon-par'>
           Romsis olarak, "Buy on Board" (BOB) hizmetleri ile modern havayolu deneyimini zenginleştiriyoruz. Uçuş sırasında yolcularımıza çeşitli yiyecek ve içecek seçenekleri sunarak konforlarını artırıyor, aynı zamanda havayolu şirketlerine ek gelir imkanı sağlıyoruz. Yolcular, tercih ettikleri ürünleri kolayca seçerken, biz de etkin bir şekilde uçak içi hizmetlerini yönetiyor ve satış işlemlerini sorunsuz bir şekilde gerçekleştiriyoruz. Romsis, "Buy on Board" sistemi ile yolcuların seyahatlerini daha keyifli hale getirirken, havayolu şirketlerinin operasyonel verimliliğini artırmayı hedefliyoruz.

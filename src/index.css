@@ -290,7 +290,12 @@ Col a {
 }
 
 
-
+@media (min-width: 2225px) {
+    .neler{
+        margin-top: 18rem !important;
+    }
+    
+}
 @media (max-width:900px) {
     .neler{
         margin-top: 3rem !important;
