@@ -33,8 +33,6 @@ export const yazilim = [
     },
     link: "/dashboard/byOnBoard" 
   },
-
-
 ];
 
 export const yazilim2 = [
@@ -49,7 +47,7 @@ export const yazilim2 = [
       title: "Web Tasarım Hizmetleri | Romsis",
       description: "Mobil uyumlu web tasarım hizmetleri ile firmanızın dijital varlığını güçlendirin."
     },
-    link: "/dashboard/ozelYazilim/WebTasarim" 
+    link: "/dashboard/ozelYazilim/YalinUretim" 
   },
   {
     id: 3,
