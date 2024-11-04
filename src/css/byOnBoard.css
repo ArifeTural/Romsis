@@ -2,22 +2,34 @@
     color: orangered;
     font-weight: bold;
 }
+.carousel-buyon .carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Yüksekliği tam alan olarak ayarlayın */
+  }
+  
+  .buy-car {
+    max-width: 100%;
+    max-height: 90vh; /* Görselin yüksekliğini sınırlayın */
+  
+  }
+  
 
-.buy-car{
-    display: block;
-    width: 100%;
-    max-height: 90vh;
-}
 
 
-.buyon-caption{
+.buyon-caption {
     background-color: rgba(0, 0, 0, 0.368);
-}  
-
-.byon-h3{
-    font-size: 2rem;
-    font-weight: bolder;
+    padding: 0.5rem 1rem; 
 }
+
+
+.byon-h3 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: white; 
+}
+
 
 .buyon-par{
     font-size: 1.5rem;

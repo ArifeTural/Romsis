@@ -2,10 +2,10 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import Carousel from 'react-bootstrap/Carousel';
 import { bob, buyOnCarousel } from '../helper/yazilim';
-import '../css/byOnBoard.css'; // CSS dosyanızı ekleyin
+import '../css/byOnBoard.css';
 import { Col, Container, Row } from 'react-bootstrap';
 import { board } from '../helper/referans';
-import retail from "../assets/istockphoto-1028360704-1024x1024.jpg"
+import retail from "../assets/byreatil.jpg"
 
 const ByOnBoard = () => {
   return (
@@ -15,21 +15,22 @@ const ByOnBoard = () => {
         <meta name="description" content="Romsis olarak modern havayolu deneyimini zenginleştiriyoruz. Buy on Board hizmetleri ile yolculara çeşitli yiyecek ve içecek seçenekleri sunuyoruz." />
       </Helmet>
 
-      <div className="carousel-buyon">
-        <Carousel>
-          {buyOnCarousel.map((buy) => {
-            const { id, image, h1 } = buy;
-            return (
-              <Carousel.Item interval={10000} key={id} className='w-100 d-flex justify-content-center'>
-                <img src={image} alt={`Uçak İçi Hizmet: ${h1}`} className='buy-car' />
-                <Carousel.Caption className="buyon-caption">
-                  <h3 className='byon-h3'>{h1}</h3> 
-                </Carousel.Caption>
-              </Carousel.Item>
-            );
-          })}
-        </Carousel>
+      <Carousel interval={5000}>
+  {buyOnCarousel.map((buy) => (
+    <Carousel.Item key={buy.id} className="carousel-item-custom">
+      <div className="d-flex justify-content-center align-items-center">
+        <img src={buy.image} alt={`Uçak İçi Hizmet: ${buy.h1}`} className="buy-car" />
       </div>
+      <Carousel.Caption className="buyon-caption">
+        <h3 className="byon-h3">{buy.h1}</h3>
+      </Carousel.Caption>
+    </Carousel.Item>
+  ))}
+</Carousel>
+
+
+
+
       <Container>
         <p className='buyon-par'>
           Romsis olarak, "Buy on Board" (BOB) hizmetleri ile modern havayolu deneyimini zenginleştiriyoruz. Uçuş sırasında yolcularımıza çeşitli yiyecek ve içecek seçenekleri sunarak konforlarını artırıyor, aynı zamanda havayolu şirketlerine ek gelir imkanı sağlıyoruz. Yolcular, tercih ettikleri ürünleri kolayca seçerken, biz de etkin bir şekilde uçak içi hizmetlerini yönetiyor ve satış işlemlerini sorunsuz bir şekilde gerçekleştiriyoruz. Romsis, "Buy on Board" sistemi ile yolcuların seyahatlerini daha keyifli hale getirirken, havayolu şirketlerinin operasyonel verimliliğini artırmayı hedefliyoruz.

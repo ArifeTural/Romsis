@@ -20,7 +20,7 @@ export const mobilgif =[
 export const yazilim = [
   {
     id: 1,
-    image: "./image/yazilim/istockphoto-1329896979-1024x1024.jpg",
+    image: "./image/yazilim/car3.jpg",
 
     // title: "Buy On Board Yazılım  |",
     // title2: "Buy On Board  Retail ",
