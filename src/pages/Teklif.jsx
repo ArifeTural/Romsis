@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import "../css/kurumsal.css"
 import { Col, Container, Row, Form, Button, InputGroup } from 'react-bootstrap';
 import wp from "../assets/whatsapp.png"
+import Swal from 'sweetalert2';
 
 const Teklif = () => {
   const [FirstName, setFirstName] = useState('')
@@ -12,13 +13,66 @@ const Teklif = () => {
   const [isChecked, setIsChecked] = useState(false);
   const [error, setError] = useState('');
 
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    if (!isChecked) {
+      setError('Kişisel verilerimin işlenmesini kabul etmeniz gerekiyor.');
+      return;
+    }
+    try {
+      const response = await fetch('https://onlytalent.romsis.com/post/contacts', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ FirstName: FirstName, LastName:LastName, Email: Email, PhoneNumber:PhoneNumber, Topic:Topic }),
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+        console.log(data.message || 'Başarıyla gönderildi!');
+        setFirstName("");
+        setLastName("");
+        setEmail(""); 
+        setPhoneNumber("");
+        setTopic("");
+        Swal.fire({
+          icon: 'success',
+          title: 'Başarılı',
+          text: 'Mail başarıyla kaydedildi!',
+        });
+      } else {
+        console.log('Başarıyla kaydedildi!');
+      }
+    } catch (error) {
+      console.error('Fetch error:', error);
+      console.log('Bir hata oluştu.');
+    }
+  };
+
+ 
+  
+
+  // useEffect(() => {
+  //   fetch('https://onlytalent.romsis.com/get/contacts')
+  //     .then(response => {
+  //       if (!response.ok) {
+  //         throw new Error('Network response was not ok');
+  //       }
+  //       return response.json();
+  //     })
+  //     .then(data => setMails(data))
+  //     .catch(error => console.error('Fetch error:', error));
+  // }, []);
+
 
   const telNumber = '905367409930'; 
   const message = 'Merhaba, yardımcı olabilir misiniz?';
-
   const handleClick = () => {
     console.log("WhatsApp yönlendirmesi yapılıyor...");
   };
+
+
 
 
   return (
@@ -47,19 +101,27 @@ const Teklif = () => {
           </div>
           <Form>
 
-            <Row>
+            <Row onSubmit={handleSubmit}>
               <Col>
               <br />
                 <Form.Group controlId="formFirstName">
                   <Form.Label>Ad</Form.Label>
-                  <Form.Control type="text" placeholder="İsim" />
+                  <Form.Control type="text" 
+                  value={FirstName}
+                  onChange={(e)=> setFirstName(e.target.value)}
+                  required 
+                  placeholder="İsim" />
                 </Form.Group>
               </Col>
               <Col>
               <br />
                 <Form.Group controlId="formLastName">
                   <Form.Label>Soyad</Form.Label>
-                  <Form.Control type="text" placeholder="Soyisim" />
+                  <Form.Control type="text"
+                  value={LastName}
+                  onChange={(e)=> setLastName(e.target.value)}
+                  required 
+                   placeholder="Soyisim" />
                 </Form.Group>
               </Col>
             </Row>
@@ -67,7 +129,11 @@ const Teklif = () => {
 
             <Form.Group className="mb-3" controlId="formEmail">
               <Form.Label>Email</Form.Label>
-              <Form.Control type="email" placeholder="name@example.com" />
+              <Form.Control type="email" 
+               value={Email} 
+            onChange={(e) => setEmail(e.target.value)}
+            required 
+             placeholder="name@example.com" />
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="formPhone">
@@ -82,7 +148,11 @@ const Teklif = () => {
                     <option>+33</option>
                   </Form.Select>
                 </InputGroup.Text>
-                <Form.Control type="tel" placeholder="555-123-4567" />
+                <Form.Control type="tel" 
+                value={PhoneNumber}
+                onChange={(e)=> setPhoneNumber(e.target.value)}
+                required 
+                placeholder="555-123-4567" />
               </InputGroup>
             </Form.Group>
                  {/* Seçenek menüsü burada yer alıyor */}
@@ -99,13 +169,22 @@ const Teklif = () => {
 
             <Form.Group className="mb-3" controlId="formNotes">
               <Form.Label>Not Ekleyiniz</Form.Label>
-              <Form.Control as="textarea" rows={5} placeholder='Bize yazınız..' />
+              <Form.Control as="textarea" rows={5} 
+              value={Topic}
+              onChange={(e)=> setTopic(e.target.value)}
+              required 
+              placeholder='Bize yazınız..' />
             </Form.Group>
-
-            <Form.Check
-              aria-label="option 1"
-              label="Verilerimin Romsis tarafından saklanmasına ve iletişim kurulmasına izin veriyorum."
-            />
+            <input 
+            className="form-check-input" 
+            type="checkbox" 
+            id="flexCheckChecked" 
+            checked={isChecked} 
+            onChange={(e) => setIsChecked(e.target.checked)} 
+          />
+          <label className="form-check-label w-75" htmlFor="flexCheckChecked">
+            Kişisel verilerimin, belirtilen kapsam ve amaçlarla işlenmesini kabul ediyorum.
+          </label>
             <Form.Check
               aria-label="option 2"
               label="Kişisel verilerimin işlenmesine ve üçüncü kişilerle paylaşılmasına onay veriyorum."

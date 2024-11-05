@@ -4,6 +4,8 @@ import { ekip, tarih } from '../helper/data';
 import fare from '../assets/mouse.png';
 import user from "../assets/user.jpg";
 import foto from "../assets/hakkimizda.png"
+import { withTranslation } from 'react-google-multi-lang';
+
 
 const Hakkımızda = () => {
   return (
@@ -119,4 +121,4 @@ const Hakkımızda = () => {
   );
 };
 
-export default Hakkımızda;
+export default withTranslation(Hakkımızda);
