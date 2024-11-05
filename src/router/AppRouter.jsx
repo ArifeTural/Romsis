@@ -14,6 +14,7 @@ import Footer from '../components/Footer';
 import Hakkımızda from '../pages/Hakkımızda';
 import Sorular from '../pages/Sorular';
 import Yalin from '../pages/Yalin';
+import Copy from '../components/Copy';
 
 
 
@@ -37,6 +38,7 @@ const AppRouter = () => {
         <Route path='*' element={<Home />} />
       </Routes>
       <Footer/>
+      <Copy/>
 
     </BrowserRouter>
   );
