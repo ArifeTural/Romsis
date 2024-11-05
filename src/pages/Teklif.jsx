@@ -1,15 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "../css/kurumsal.css"
 import { Col, Container, Row, Form, Button, InputGroup } from 'react-bootstrap';
 import wp from "../assets/whatsapp.png"
 
 const Teklif = () => {
-  const phoneNumber = '905367409930'; 
+  const [FirstName, setFirstName] = useState('')
+  const [LastName, setLastName] = useState('')
+  const [Email, setEmail] = useState('');
+  const [PhoneNumber, setPhoneNumber] = useState('')
+  const [Topic, setTopic] = useState('')
+  const [isChecked, setIsChecked] = useState(false);
+  const [error, setError] = useState('');
+
+
+  const telNumber = '905367409930'; 
   const message = 'Merhaba, yardımcı olabilir misiniz?';
 
   const handleClick = () => {
     console.log("WhatsApp yönlendirmesi yapılıyor...");
   };
+
 
   return (
     <Container>
@@ -24,7 +34,7 @@ const Teklif = () => {
     
             <a
           
-              href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`} 
+              href={`https://wa.me/${telNumber}?text=${encodeURIComponent(message)}`} 
               target="_blank" 
               rel="noopener noreferrer" 
               className="whatsapp-link "

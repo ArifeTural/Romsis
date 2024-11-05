@@ -1,11 +1,11 @@
 export const data = [
     {
       id:1,
-      image:"./video/byOnBoardVideo.mp4",
+      image:"./video/giris.mp4",
     },
     {
      id:2,
-     image:"./video/girisdosyası.mp4",
+     image:"./video/yazilimvideo.mp4",
     },
 ];
 
