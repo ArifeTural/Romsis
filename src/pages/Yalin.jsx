@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { Helmet } from 'react-helmet'; 
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import "../css/web.css"
-import yalin from "../assets/istockphoto-85406187-1024x1024.jpg"
+import yalin from "../assets/yalin.jpg"
 import { yalinuretim } from '../helper/data';
-import mrp from "../assets/istockphoto-1477516505-1024x1024.jpg"
+import mrp from "../assets/mrp.jpg"
 import mrp2 from "../assets/liste.jpg"
 
 function Yalin() {

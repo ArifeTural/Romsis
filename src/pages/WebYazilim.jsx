@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { tekno} from '../helper/yazilim';
 import { Helmet } from 'react-helmet';
 import { bilgiKartlari } from '../helper/yazilim';
-import webt from "../assets/istockphoto-1253376518-1024x1024.jpg";
+import webt from "../assets/webt.jpg";
 import { Carousel, Col, Row } from 'react-bootstrap';
 import steps from "../assets/strategy.png"
 
@@ -37,11 +37,12 @@ const WebYazilim = () => {
 
 
       <header className="">
+      <h1 className='wy-baslik'>MODERN WEB YAZILIM ÇÖZÜMLERİ</h1>
       <div className='w-100 text-center'>
       <img src={webt} alt="webt" className='web-yazilim-img '  />
       </div>
        
-        <h1 className='wy-baslik'>MODERN WEB YAZILIM ÇÖZÜMLERİ</h1>
+     
       
       </header>
 

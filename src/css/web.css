@@ -282,9 +282,6 @@
   /*! UI & UX */
 
 
-
-
-
 .ui-kart{
   width: 100%;
   height: 90vh !important;
@@ -362,7 +359,7 @@ font-size: 1.5rem !important;
 .web-yazilim-img{
     
   width: 90%;
-  max-height: 80vh;
+  max-height: 75vh;
 
 }
 
