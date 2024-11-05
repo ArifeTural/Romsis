@@ -15,12 +15,12 @@ import Hakkımızda from '../pages/Hakkımızda';
 import Sorular from '../pages/Sorular';
 import Yalin from '../pages/Yalin';
 import Copy from '../components/Copy';
-import CustomLanguageSwitcher from '../CustomLanguageSwitcher'; // Dil değiştirici bileşeni
+
 
 const AppRouter = () => {
   return (
     <BrowserRouter>
-      <CustomLanguageSwitcher /> {/* Dil değiştirici burada */}
+      
       <Navbar />
       <Routes>
         <Route path='/dashboard' element={<Home />} />
