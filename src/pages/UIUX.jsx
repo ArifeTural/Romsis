@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import "../css/web.css"
 import { techTools } from '../helper/yazilim';
-import giris from "../assets/istockphoto-1481308458-1024x1024.jpg"
+import uiiii from "../assets/uiux4.jpg"
 import pc from "../assets/mobile.png"
 
 const UIUX = () => {
@@ -16,13 +16,14 @@ const UIUX = () => {
 
 
       <section className='uiux-cont '>
-      <div className='w-100 d-flex justify-content-center'>
-      <img src={giris} alt="" className='ui-giris-img' />
-      </div>
-
       
 
       <h1 className=" ui-baslik">UI/UX tasarımında en iyi sonuçlar için bizimle çalışın</h1>
+
+      <div className="fotolar">
+     
+      <img src={uiiii} className='boyut' alt="uiux" />
+</div>
       
       <div className='row d-flex flex-wrap justify-content-center align-items-center m-5 pt-5'>
   <div className='col-12 col-md-6 d-flex justify-content-center'>
