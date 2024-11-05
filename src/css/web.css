@@ -283,69 +283,32 @@
 
 
 
-.ui-baslik{
-  color: orangered !important;
-  text-align: center;
-  margin: 1.5rem;
-  margin-top: 0.8rem; 
-  margin-bottom: 8rem;
-  font-size: 3rem !important;
-  font-weight: bold !important;
-  
-}
-
-.fotolar{
 
 
+.ui-kart{
+  width: 100%;
+  height: 90vh !important;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
-  gap: 3rem;
-  position: relative;
-
+  background:  linear-gradient(to bottom,white, rgba(128, 128, 128, 0.157));
+}
+.ui-kart-img{
+  width: 80% !important;
+  height: 60vh !important;
+  border: 1rem solid  ;
+  border-radius:50%;
 
 }
-.fotolar:hover .boyut{
-    animation:  none;
-    
 
+.ui-kart-bas{
+font-size: 3rem !important;
 }
 
-.boyut{
-
-    width: 16rem;
-    height: 16rem;
-    border-radius: 10px;
-    animation-name: foto;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    animation-direction: alternate-reverse; 
-    transition: all 10s;
-    
+.ui-kart-par{
+font-size: 1.5rem !important;
 }
-.boyut:hover{
-  
-    transform: scale(1.5);
-    
-}
-
-@keyframes foto {
-  0%{
-      transform:  scale(100%);
-
-  }
-
- 
-  100%{
-      transform: scale(150%)
-  }
-
-  
-}
-
 
 .pcimg{
  width: 300px !important;
@@ -380,6 +343,11 @@
   display: none;
     
    }
+
+   .ui-kart-par{
+    display: none;
+    }
+
 }
 
   

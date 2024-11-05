@@ -16,15 +16,29 @@ const UIUX = () => {
 
 
       <section className='uiux-cont '>
-      
+      <div className="card mb-3 " >
+  <div className="row g-0 ui-kart">
+    
+    <div className="col-md-6">
+      <div className="card-body">
+        <h1 className="card-title ui-kart-bas">UI/UX Tasarım</h1>
+        <p className="card-text ui-kart-par ">
+        UI (Kullanıcı Arayüzü) ve UX (Kullanıcı Deneyimi) tasarımı, kullanıcıların web sitelerinde rahatça gezinmesini sağlar ve görsel olarak çekici bir deneyim sunar. İyi optimize edilmiş bir UI/UX, siteye gelen ziyaretçilerin ilgisini çekerek onları daha uzun süre tutar ve dönüşüm oranlarını artırır. Bu da arama motoru sıralamalarında sitenizin daha üst sıralara çıkmasına katkı sağlar.
+        </p>
+       
+      </div>
+    </div>
+    <div className="col-md-6">
+      <img src={uiiii} className="ui-kart-img img-fluid " alt="..." />
+    </div>
 
-      <h1 className=" ui-baslik">UI/UX tasarımında en iyi sonuçlar için bizimle çalışın</h1>
 
-      <div className="fotolar">
-     
-      <img src={uiiii} className='boyut' alt="uiux" />
+  </div>
 </div>
+
       
+
+
       <div className='row d-flex flex-wrap justify-content-center align-items-center m-5 pt-5'>
   <div className='col-12 col-md-6 d-flex justify-content-center'>
     <img src={pc} alt="pc" className='pcimg'  />
