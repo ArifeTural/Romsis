@@ -78,7 +78,7 @@ const Hakkımızda = () => {
         <div className=''>
           <div className="card mb-3 border-0" >
             <div className="row g-0 kkartal">
-              <div className="col-md-6 d-flex justify-content-enda">
+              <div className="col-md-6 ">
                 <img src={kkartal} className="kartal-img -fluid rounded-pill" alt="Kadir Kartal" />
               </div>
               <div className="col-md-6">

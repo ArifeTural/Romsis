@@ -70,14 +70,16 @@
 .kkartal{
  
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
+    text-align: center;
 }
 
 .kartal-img{
-    width: 200px !important;
-    height: 200px !important;
+    max-width: 200px !important;
+    max-height: 200px !important;
+
    
 }
 
