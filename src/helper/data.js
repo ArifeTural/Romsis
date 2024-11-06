@@ -145,36 +145,43 @@ export const yalinuretim=[
   export const tarih =[
     {
       id:1,
-      title:"2001",
-      text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. In architecto omnis a commodi accusamus perferendis esse maxime labore, alias harum aliquam libero minus quisquam laudantium. Quisquam praesentium nemo tenetur aliquid",
+      title:"1997",
+      text:"Üretim sektöründe faaliyet gösteren firmaların WMS (Depo Yönetim Sistemi) süreçlerini daha pratik ve izlenebilir hale getirmek amacıyla proje geliştirmek için kurulduk.",
    
    
      },
     {
       id:2,
-      title:"2010",
-      text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. In architecto omnis a commodi accusamus perferendis esse maxime labore, alias harum aliquam libero minus quisquam laudantium. Quisquam praesentium nemo tenetur aliquid",
+      title:"2001",
+      text:"Sermaye firmasına dönüşerek büyüme yolculuğumuza kararlılıkla devam ettik.",
    
    
      },
     {
       id:3,
-      title:"2012",
-      text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. In architecto omnis a commodi accusamus perferendis esse maxime labore, alias harum aliquam libero minus quisquam laudantium. Quisquam praesentium nemo tenetur aliquid",
+      title:"2006",
+      text:"İlk yurt dışı projemizi başarıyla hayata geçirdik.",
    
    
      },
     {
       id:4,
-      title:"2016",
-      text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. In architecto omnis a commodi accusamus perferendis esse maxime labore, alias harum aliquam libero minus quisquam laudantium. Quisquam praesentium nemo tenetur aliquid",
+      title:"2011",
+      text:"Havacılık sektörüne özel, uçak içi satış operasyonlarını ve back-office süreçlerini yönetebilecekleri bir ödeme yönetim sistemi projesini devreye aldık.",
    
    
      },
     {
       id:5,
-      title:"2017",
-      text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. In architecto omnis a commodi accusamus perferendis esse maxime labore, alias harum aliquam libero minus quisquam laudantium. Quisquam praesentium nemo tenetur aliquid",
+      title:"2019",
+      text:"Uçak içi ikram satış projemiz olan Buy On Board’u başarıyla devreye aldık.",
+   
+   
+     },
+    {
+      id:6,
+      title:"2024",
+      text:"Türkiye’deki ve dünyadaki havayolu firmalarına ödeme çözümleri ve ikram yönetim sistemleri geliştirmeye devam ediyoruz.",
    
    
      },

@@ -243,7 +243,7 @@ export const steps = [
     },
     {
       id: 2,
-      image:"/image/yazilim/istockphoto-1028421716-1024x1024.jpg",
+      image:"/image/yazilim/bobcar.jpg",
       h1:" Buy on Board Sistemi ile Yolculuk Keyfini Artırın",
    
     },

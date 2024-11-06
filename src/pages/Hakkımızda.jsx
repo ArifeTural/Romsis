@@ -4,7 +4,7 @@ import { ekip, tarih } from '../helper/data';
 import fare from '../assets/mouse.png';
 import user from "../assets/user.jpg";
 import foto from "../assets/hakkimizda.png"
-import { withTranslation } from 'react-google-multi-lang';
+
 
 
 const Hakkımızda = () => {
@@ -18,9 +18,7 @@ const Hakkımızda = () => {
         <div className='m-5 text-start'>
           <h1 className='fs-1 '>Biz Kimiz?</h1>
           <p className='fs-4 '>
-            Global ölçekli üretim sağlayan bir yazılım şirketiyiz. Şirketimiz 26 Ağustos 2001 yılında,
-            yazılım sektöründe danışmanlık hizmeti vermek üzere mevcut kurucu ortaklarımız tarafından kurulmuş olup,
-            birçok uluslararası ve yerel projede danışmanlık ve uygulama görevlerini başarıyla tamamlamıştır.
+          Romsis Yazılım olarak, global ölçekte üretim sağlayan ve yazılım teknolojilerinde fark yaratan bir yazılım şirketiyiz. Kuruluşumuzdan bu yana, çeşitli uluslararası ve yerel projelerde danışmanlık ve uygulama hizmetleri sunarak müşterilerimizin iş süreçlerini güçlendirdik. Uzman ekibimizle, ticari işletmelere yönelik stok, depo, ve satış çözümleri sunarak hayatı kolaylaştırmayı amaçlıyoruz. Aynı zamanda yazılım sektöründe yenilikçi teknolojiler geliştirip dünya standartlarında ürünler üretiyoruz. Hedefimiz, teknolojiyi ileriye taşıyan, değer üreten ve küresel ölçekte tercih edilen bir Türk yazılım markası olmaktır.
           </p>
         </div>
       </div>
@@ -29,7 +27,7 @@ const Hakkımızda = () => {
       <div className='tarihce m-5'>
         <div className='m-5 text-start'>
           <h2 className='fs-1'>Tarihçemiz</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In architecto omnis.</p>
+          <p>1997'den günümüze uzanan yolcuğumuz;</p>
         </div>
 
         <div className='d-flex flex-wrap gap-3 justify-content-center '>
@@ -51,9 +49,7 @@ const Hakkımızda = () => {
       <div className='destek m-5 p-5'>
         <h2 className='fs-1 '>Romsis Destek Hizmeti</h2>
         <p>
-          Romsis kullanıcılarına yönelik destek ve eğitim hizmetleri, Romsis Akademi ve Yetkili Romsis İş Ortakları
-          tarafından sağlanmaktadır. Proje Danışmanlığı, Kullanıcı Eğitimleri, Uzak Bağlantı ve diğer destek hizmetleri ile
-          kullanıcıların ihtiyaçlarına hızlı çözümler sunulmaktadır.
+        Romsis kullanıcılarına yönelik destek ve eğitim hizmetleri, Romsis Akademi ve Yetkili Romsis İş Ortakları tarafından sunulmaktadır. Kullanıcıların bilgi altyapılarında karşılaştıkları sorunlara ve ihtiyaçlarına hızlı çözümler üretebilmek amacıyla verilen bu hizmetler; Proje Danışmanlığı, Kullanıcı Eğitimleri, Uzak Bağlantı, Yerinde Destek, Tele-Destek, Veri Bakımı ile Network ve Veritabanı Danışmanlığı gibi geniş bir kapsamda uygulanmaktadır.
         </p>
       </div>
 
@@ -62,9 +58,7 @@ const Hakkımızda = () => {
         <div className='w-75'>
           <h2 className='text-center fs-1 '>AR-GE</h2>
           <p>
-            Şirketimiz kazancının %65'ini AR-GE çalışmalarına yatırarak, müşteri ihtiyaçlarına göre yeni ürünler
-            geliştirip inovasyonel bir firma olma yolunda ilerlemektedir. AR-GE çalışmalarımız sayesinde
-            ürünlerimizde en güncel yazılım teknolojilerini kullanarak fark yaratıyoruz.
+          Şirketimiz, kazancının %65'ini AR-GE'ye yatırarak ürünlerini yenilikçi teknolojilerle geliştiriyor ve müşteri ihtiyaçlarına yönelik yeni ürünler sunuyor. Hindistan, Romanya, İrlanda, Rusya, Azerbaycan, Amerika ve Estonya'da partner gruplarıyla işbirliği yaparak en güncel teknolojileri ürünlerimize entegre ediyoruz. Ürünlerin arayüz tasarımlarında üniversitelerden ve kurumsal kimlik uzmanlarından destek alarak kolektif bir yaklaşım sergiliyoruz. Arka plan yazılımında ise en yeni teknolojilerle veri akışını güvenli ve verimli hale getiriyoruz.
           </p>
         </div>
         <img src={fare} alt="AR-GE" />
@@ -74,8 +68,7 @@ const Hakkımızda = () => {
       <div className='yatırımcı m-5 p-5'>
         <h2 className='fs-1 '>Yatırımcı İlişkileri</h2>
         <p>
-          Şirketimiz, 2012 yılından itibaren dünya çapında çeşitli yazılım firmalarıyla ortaklıklar yapmaktadır.
-          Ancak %100 yerli yazılım firması olarak bağımsızlığını korumaktadır.
+        Şirketimiz, 2012 yılından itibaren dünya çapında kendini kanıtlamış yazılım firmalarıyla partnerlik yapmaktadır. Hem yurt içi hem de yurt dışında bayi ve çözüm ortaklarıyla gerçekleştirdiği projelerle müşteri memnuniyetini en üst seviyede tutmaktadır. 2017 yılında birçok yabancı yatırımcıdan ilgi görmesine rağmen, ekosistemine ve iç yapısına uygun bir yatırımcı bulamayan şirketimiz, %100 yerli yazılım firması olarak faaliyet göstermeye devam etmektedir.
         </p>
       </div>
 
@@ -121,4 +114,4 @@ const Hakkımızda = () => {
   );
 };
 
-export default withTranslation(Hakkımızda);
+export default Hakkımızda;
