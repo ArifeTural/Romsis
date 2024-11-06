@@ -192,39 +192,39 @@ export const yalinuretim=[
   export const ekip =[
     {
       id:1,
-      image:"/image/user.jpg",
-      title1:"ARİFE TURAL",
-      title2:"Frontend Devoloper"
+      image:"/image/ekip/esinaltin.jpeg",
+      title1:"Esin ALTIN",
+      title2:"Teknolojiden Sorumlu Genel Müdür Yardımcısı"
     },
     {
       id:2,
       image:"/image/user.jpg",
-      title1:"ARİFE TURAL",
-      title2:"Frontend Devoloper"
+      title1:"Engin YILMAZ",
+      title2:"Operasyondan Sorumlu Genel Müdür Yardımcısı"
     },
     {
       id:3,
       image:"/image/user.jpg",
-      title1:"ARİFE TURAL",
-      title2:"Frontend Devoloper"
+      title1:"Tansu ÇITLAK",
+      title2:"Operasyondan Sorumlu Direktör"
     },
     {
       id:4,
       image:"/image/user.jpg",
-      title1:"ARİFE TURAL",
-      title2:"Frontend Devoloper"
+      title1:"Selim TURAL",
+      title2:"CTO"
     },
     {
       id:5,
-      image:"/image/user.jpg",
-      title1:"ARİFE TURAL",
-      title2:"Frontend Devoloper"
+      image:"/image/ekip/abdurrahman.jpeg",
+      title1:"Abrurrahman EKLIKARA",
+      title2:"Yazılım Takım Lideri"
     },
     {
       id:6,
       image:"/image/user.jpg",
-      title1:"ARİFE TURAL",
-      title2:"Frontend Devoloper"
+      title1:"Ayşegül ",
+      title2:"Muhasebe Müdürü"
     },
 
 

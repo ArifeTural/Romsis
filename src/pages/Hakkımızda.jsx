@@ -2,7 +2,7 @@ import React from 'react'
 import Card from 'react-bootstrap/Card';
 import { ekip, tarih } from '../helper/data';
 import fare from '../assets/mouse.png';
-import user from "../assets/user.jpg";
+import kkartal from "../assets/kkartal.jpeg" 
 import foto from "../assets/hakkimizda.png"
 
 
@@ -75,19 +75,17 @@ const Hakkımızda = () => {
       {/* Team Section */}
       <div className='ekip'>
         <h2 className='text-center fs-1 '>Ekibimiz</h2>
-        <div className='d-flex justify-content-center'>
-          <div className="card mb-3 border-0" style={{ maxWidth: 900 }}>
-            <div className="row g-0">
-              <div className="col-md-4">
-                <img src={user} className="img-fluid rounded-pill" alt="Kadir Kartal" />
+        <div className=''>
+          <div className="card mb-3 border-0" >
+            <div className="row g-0 kkartal">
+              <div className="col-md-6 d-flex justify-content-enda">
+                <img src={kkartal} className="kartal-img -fluid rounded-pill" alt="Kadir Kartal" />
               </div>
-              <div className="col-md-8">
+              <div className="col-md-6">
                 <div className="card-body">
                   <h3 className="card-title">Kadir Kartal</h3>
-                  <h5 className="card-title">Kurucu, Genel Müdür</h5>
-                  <p className="card-text">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, incidunt.
-                  </p>
+                  <h5 className="card-title">CEO</h5>
+              
                 </div>
               </div>
             </div>
@@ -99,11 +97,11 @@ const Hakkımızda = () => {
           {ekip.map((tura) => {
             const { id, title1, title2, image } = tura;
             return (
-              <Card key={id} style={{ width: '13rem' }} className='border-0'>
-                <img src={image} alt={title1} className='rounded-pill' />
+              <Card key={id} style={{ width: '13rem' }} className='border-0 d-flex justify-content-center text-center align-items-center'>
+                <img src={image} alt={title1} className='rounded-pill ekip-img' />
                 <Card.Body>
                   <Card.Title>{title1}</Card.Title>
-                  <Card.Title>{title2}</Card.Title>
+                  <Card.Text>{title2}</Card.Text>
                 </Card.Body>
               </Card>
             );
