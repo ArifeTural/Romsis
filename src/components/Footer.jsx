@@ -63,17 +63,20 @@ const Footer = () => {
             <li><Link to="/dashboard/teklif" onClick={scrollToTop}>Size Nasıl Yardımcı Olabiliriz?</Link></li>
           </ul>
           <div className="fa d-flex align-items-center h-100">
-            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/romsisyazilim/" target="_blank" rel="noopener noreferrer">
               <i className="fa-brands fa-instagram" />
             </a>
-            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.youtube.com/@Romsis" target="_blank" rel="noopener noreferrer">
               <i className="fa-brands fa-youtube" />
             </a>
-            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/RomsisYazilim/" target="_blank" rel="noopener noreferrer">
               <i className="fa-brands fa-facebook" />
             </a>
-            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/romsis-yaz%C4%B1l%C4%B1m-581048115/" target="_blank" rel="noopener noreferrer">
               <i className="fa-brands fa-linkedin" />
+            </a>
+            <a href="https://x.com/romsissoft" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-x-twitter"></i>
             </a>
           </div>
         </Col>

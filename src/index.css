@@ -74,12 +74,31 @@ Col a {
 
 }
 
-.fa-brands:hover{
+.fa-youtube:hover{
     color:red;
     transform: rotate(360deg) scale(2);
    
     
 }
+.fa-instagram:hover{
+color:#E1306C;
+transform: rotate(360deg) scale(2);
+}
+
+.fa-facebook:hover{
+    color: #1678F2;
+    transform: rotate(360deg) scale(2);
+}
+
+.fa-linkedin:hover{
+    color:#0174B1 ;
+    transform: rotate(360deg) scale(2);
+}
+.fa-x-twitter:hover{
+    color: black ;
+    transform: rotate(360deg) scale(2);
+}
+
 
 @media (max-width:1000px) {
     .cal-2, .cal-3, .cal-4{
@@ -106,7 +125,7 @@ Col a {
     position: relative;
     z-index: 2;
     width: 100%;
-    max-height: 79vh;
+    max-height: 77vh;
     display: flex;
     align-items: center;
     text-align: center;

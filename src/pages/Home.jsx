@@ -6,6 +6,7 @@ import { referans } from '../helper/referans';
 import { steps } from '../helper/yazilim';
 import { Link } from 'react-router-dom';
 import { Row, Col, Navbar } from 'react-bootstrap';
+import wp from "../assets/whatsapp.png"
 
 function Home() {
   const phoneNumber = '905367409930'; 
@@ -146,7 +147,7 @@ function Home() {
           className="whatsapp-link"
           onClick={handleClick} 
         >
-          <i className="fab fa-whatsapp home-whatsapp  "></i> 
+          <i className=" home-whatsapp  "> <img src={wp} alt="" style={{width:80}} className='rounded-pill'/></i> 
           <br />
           <p className='whatsapp-par'>İletişime Geçin</p>
         </a>

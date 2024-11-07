@@ -79,12 +79,15 @@ const Hakkımızda = () => {
           <div className="card mb-3 border-0" >
             <div className="row g-0 kkartal">
               <div className="col-md-6 ">
-                <img src={kkartal} className="kartal-img -fluid rounded-pill" alt="Kadir Kartal" />
+              <a href="https://www.linkedin.com/in/kadir-kartal-37427477/" target="_blank" rel="noopener noreferrer">
+              <img src={kkartal} className="kartal-img -fluid rounded-pill" alt="Kadir Kartal" />
+        </a>
+               
               </div>
               <div className="col-md-6">
                 <div className="card-body">
                   <h3 className="card-title">Kadir Kartal</h3>
-                  <h5 className="card-title">CEO</h5>
+                  <p className="card-text">CEO</p>
               
                 </div>
               </div>
@@ -94,19 +97,22 @@ const Hakkımızda = () => {
 
         {/* Team Members */}
         <div className='d-flex flex-wrap gap-4 justify-content-center'>
-          {ekip.map((tura) => {
-            const { id, title1, title2, image } = tura;
-            return (
-              <Card key={id} style={{ width: '13rem' }} className='border-0 d-flex justify-content-center text-center align-items-center'>
-                <img src={image} alt={title1} className='rounded-pill ekip-img' />
-                <Card.Body>
-                  <Card.Title>{title1}</Card.Title>
-                  <Card.Text>{title2}</Card.Text>
-                </Card.Body>
-              </Card>
-            );
-          })}
-        </div>
+  {ekip.map((tura) => {
+    const { id, title1, title2, image, linkedin } = tura;
+    return (
+      <Card key={id} style={{ width: '13rem' }} className='border-0 d-flex justify-content-center text-center align-items-center'>
+        <a href={linkedin} target="_blank" rel="noopener noreferrer">
+          <img src={image} alt={title1} className='rounded-pill ekip-img' />
+        </a>
+        <Card.Body>
+          <Card.Title>{title1}</Card.Title>
+          <Card.Text>{title2}</Card.Text>
+        </Card.Body>
+      </Card>
+    );
+  })}
+</div>
+
       </div>
     </div>
   );

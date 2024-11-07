@@ -189,45 +189,50 @@ export const yalinuretim=[
 
   ]
 
-  export const ekip =[
+  export const ekip = [
     {
-      id:1,
-      image:"/image/ekip/esinaltin.jpeg",
-      title1:"Esin ALTIN",
-      title2:"Teknolojiden Sorumlu Genel Müdür Yardımcısı"
+      id: 1,
+      image: "/image/ekip/esinaltin.jpeg",
+      title1: "Esin ALTIN",
+      title2: "Teknolojiden Sorumlu Genel Müdür Yardımcısı",
+      linkedin: "https://www.linkedin.com/in/esin-altin-9b182528/"
     },
     {
-      id:2,
-      image:"/image/ekip/engin.jpeg",
-      title1:"Engin YILMAZ",
-      title2:"Operasyondan Sorumlu Genel Müdür Yardımcısı"
+      id: 2,
+      image: "/image/ekip/engin.jpeg",
+      title1: "Engin YILMAZ",
+      title2: "Operasyondan Sorumlu Genel Müdür Yardımcısı",
+      linkedin: "https://www.linkedin.com/in/romsis-yaz%C4%B1l%C4%B1m-581048115/"
     },
     {
-      id:3,
-      image:"/image/ekip/tansu.jpeg",
-      title1:"Tansu ÇITLAK",
-      title2:"Operasyondan Sorumlu Direktör"
+      id: 3,
+      image: "/image/ekip/tansu.jpeg",
+      title1: "Tansu ÇITLAK",
+      title2: "Operasyondan Sorumlu Direktör",
+      linkedin: "https://www.linkedin.com/in/tansu-%C3%A7itlak-131b1520b/"
     },
     {
-      id:4,
-      image:"/image/ekip/st.jpeg",
-      title1:"Selim TURAL",
-      title2:"CTO"
+      id: 4,
+      image: "/image/ekip/st.jpeg",
+      title1: "Selim TURAL",
+      title2: "CTO",
+      linkedin: "https://www.linkedin.com/in/selim-tural-executive-mba-b34235161/"
     },
     {
-      id:5,
-      image:"/image/ekip/abdurrahman.jpeg",
-      title1:"Abrurrahman EKLIKARA",
-      title2:"Yazılım Takım Lideri"
+      id: 5,
+      image: "/image/ekip/abdurrahman.jpeg",
+      title1: "Abdurrahman EKLIKARA",
+      title2: "Yazılım Takım Lideri",
+      linkedin: "https://www.linkedin.com/in/abdurrahman-e-91276b45/"
     },
     {
-      id:6,
-      image:"/image/ekip/ayse.jpeg",
-      title1:"Ayşe Gül GÜÇLÜ ",
-      title2:"Muhasebe Müdürü"
-    },
-
-
-  ]
+      id: 6,
+      image: "/image/ekip/ayse.jpeg",
+      title1: "Ayşe Gül GÜÇLÜ",
+      title2: "Muhasebe Müdürü",
+      linkedin: "https://www.linkedin.com/in/romsis-yaz%C4%B1l%C4%B1m-581048115/"
+    }
+  ];
+  
 
 
