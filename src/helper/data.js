@@ -198,19 +198,19 @@ export const yalinuretim=[
     },
     {
       id:2,
-      image:"/image/user.jpg",
+      image:"/image/ekip/engin.jpeg",
       title1:"Engin YILMAZ",
       title2:"Operasyondan Sorumlu Genel Müdür Yardımcısı"
     },
     {
       id:3,
-      image:"/image/user.jpg",
+      image:"/image/ekip/tansu.jpeg",
       title1:"Tansu ÇITLAK",
       title2:"Operasyondan Sorumlu Direktör"
     },
     {
       id:4,
-      image:"/image/user.jpg",
+      image:"/image/ekip/st.jpeg",
       title1:"Selim TURAL",
       title2:"CTO"
     },
@@ -222,8 +222,8 @@ export const yalinuretim=[
     },
     {
       id:6,
-      image:"/image/user.jpg",
-      title1:"Ayşegül ",
+      image:"/image/ekip/ayse.jpeg",
+      title1:"Ayşe Gül GÜÇLÜ ",
       title2:"Muhasebe Müdürü"
     },
 

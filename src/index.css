@@ -11,7 +11,7 @@
 /*! NAVBAR  */
 
 .navbar{
-    background:rgb(237, 235, 235) !important;
+    background:rgba(237, 235, 235, 0) !important;
     z-index: 10;
    
 }
@@ -23,6 +23,13 @@
     border-radius: 10px !important;
 }
 
+@media (max-width: 1399px) {
+    .navbar{
+        background:white!important;
+        z-index: 10;
+       
+    }
+}
 
 
 /*! FOOTER */
