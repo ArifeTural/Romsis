@@ -272,7 +272,7 @@ export const steps = [
     },
     {
       id: 3,
-      image:"/image/yazilim/board3.webp",
+      image:"/image/yazilim/board3.jpg",
       h3:"3. Uçuş Sonrası Muhasebe ve Raporlama İşlemi",
       description:"Uçuş sonrası, satış verileri toplanarak havayolu şirketinin muhasebe sistemine işlenir. Satış ve stok verileri karşılaştırılarak gelir raporları hazırlanır. Bu süreçte, kayıp veya bozuk ürünler gibi durumlar da raporlara dahil edilir. Uçuş sonrası muhasebe ve raporlama işlemi, gelirler, giderler ve satılmayan ürünler gibi detaylı bilgilerin analiz edilmesiyle, bir sonraki uçuş planlaması için gerekli verileri sağlar.",
    
