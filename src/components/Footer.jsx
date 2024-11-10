@@ -41,7 +41,7 @@ const Footer = () => {
         </Col>
         <Col className='cal-5'>
           <ul>
-            <li><Link className="fs-5" to="/dashboard/byOnBoard" onClick={scrollToTop}>By On Board</Link></li>
+            <li><Link className="fs-5" to="/dashboard/byOnBoard" onClick={scrollToTop}>Buy On Board</Link></li>
           </ul>
           <ul>
             <li><Link to="/dashboard/ozelYazilim/YalinUretim" onClick={scrollToTop}>Yalın Üretim | MRP</Link></li>

@@ -221,7 +221,7 @@ export const yalinuretim=[
     {
       id: 5,
       image: "/image/ekip/abdurrahman.jpeg",
-      title1: "Abdurrahman EKLIKARA",
+      title1: "Abdurrahman ELIKARA",
       title2: "Yazılım Takım Lideri",
       linkedin: "https://www.linkedin.com/in/abdurrahman-e-91276b45/"
     },

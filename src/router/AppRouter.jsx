@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import ScrollToTop from '../components/ScrollToTop';
 import Home from '../pages/Home';
 import ByOnBoard from '../pages/ByOnBoard';
 import MobilUygulama from '../pages/MobilUygulama';
@@ -16,12 +17,11 @@ import Sorular from '../pages/Sorular';
 import Yalin from '../pages/Yalin';
 import Copy from '../components/Copy';
 
-
 const AppRouter = () => {
   return (
     <BrowserRouter>
-      
       <Navbar />
+      <ScrollToTop />
       <Routes>
         <Route path='/dashboard' element={<Home />} />
         <Route path='/dashboard/byOnBoard' element={<ByOnBoard />} />
@@ -44,6 +44,7 @@ const AppRouter = () => {
 };
 
 export default AppRouter;
+
 
 
 

@@ -336,6 +336,13 @@ transform: rotate(360deg) scale(2);
     
 }
 
+@media (max-width:770px) {
+.carousel{
+    display: none;
+}
+    
+}
+
 @media (max-width:600px) {
     .neler{
         margin-top: 1rem !important;

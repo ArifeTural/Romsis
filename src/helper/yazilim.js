@@ -34,7 +34,7 @@ export const steps = [
     content: [
       "Kullanılabilirlik testi yapıyoruz.",
       "Fonksiyonel testler yapıyoruz.",
-      "Tarayıcı ve cihaz testi yaıyoruz.",
+      "Tarayıcı ve cihaz testi yapıyoruz.",
     ],
     img: "/image/design-software.png", 
     alt: "Test Etme", 

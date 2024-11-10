@@ -5,7 +5,6 @@ import { data, yazilim, yazilim2, yazilim3 } from "../helper/data";
 import { referans } from '../helper/referans';
 import { steps } from '../helper/yazilim';
 import { Link } from 'react-router-dom';
-import { Row, Col, Navbar } from 'react-bootstrap';
 import wp from "../assets/whatsapp.png"
 
 function Home() {
@@ -37,7 +36,7 @@ function Home() {
             const { image, id } = item;
             return (
               <Carousel.Item interval={5000} key={id}>
-                <video autoPlay muted loop controls className='h-video'>
+                <video autoPlay muted loop  className='h-video'>
                   <source src={image} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
