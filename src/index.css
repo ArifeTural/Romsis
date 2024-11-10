@@ -337,10 +337,11 @@ transform: rotate(360deg) scale(2);
 }
 
 @media (max-width:770px) {
-.carousel{
+.dusukcarousel{
     display: none;
+
 }
-    
+
 }
 
 @media (max-width:600px) {

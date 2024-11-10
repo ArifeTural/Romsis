@@ -53,7 +53,7 @@ const ByOnBoard = () => {
                   <Col className=" col-12 col-md-8 ">
                     <div className="card-body">
                       <h5 className="card-title fw-bold fs-2 text-center bob-title">{h3}</h5>
-                      <p className="card-text fs-5 text-center bob-par">{description}</p>
+                      <p className="card-text text-center bob-par">{description}</p>
                     </div>
                   </Col>
                   <Col className="col-12 col-md-4 ">
@@ -77,7 +77,7 @@ const ByOnBoard = () => {
                   <Col className="col-12 col-md-8">
                     <div className="card-body">
                       <h5 className="card-title fw-bold fs-2 text-center bob-title">{h3}</h5>
-                      <p className="card-text fs-5 text-center bob-par">{description}</p>
+                      <p className="card-text  text-center bob-par">{description}</p>
                     </div>
                   </Col>
                 </>

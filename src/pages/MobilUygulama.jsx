@@ -200,7 +200,7 @@ const MobilUygulama = () => {
 {referans.map((arife)=>{
   const {id, image} = arife
   return(
-    <div className="referans-card" style={{ width: "5rem" }} key={id}>
+    <div className="referans-card wms-ref" style={{ width: "5rem" }} key={id}>
   <img src={image} className="card-img-top" alt="..." />
 
 </div>

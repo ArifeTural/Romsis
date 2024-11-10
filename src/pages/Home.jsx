@@ -28,7 +28,7 @@ function Home() {
       </Helmet>
 
       {/* SLAYT */}
-      <div className='carousel'>
+      <div className='carousel dusukcarousel'>
    
         <div className='carousel-bg'></div>
         <Carousel className='carousel-content'>

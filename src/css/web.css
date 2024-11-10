@@ -67,18 +67,21 @@
     display: none;
   }
   .yalin-par{
-    font-size: 1.5rem;
-    color: #7a7e7f !important;
+   display: none;
   }
   .mrp-par{
     font-size: 1rem ;
     color: #0077A2;
     text-align: justify;
   }
+  .yalin-cont{
+    border: none;
+   
+  }
+
   
 
 }
-
 
 /*! WMS Depo Yönetim Sistemleri */
 
@@ -129,6 +132,14 @@
     font-size: 1rem !important;
   }
 }
+@media (max-width:500px ) {
+  .wms-ref{
+    width: 3rem !important;
+  }
+
+}
+
+
 
 /*! MOBİL */
 

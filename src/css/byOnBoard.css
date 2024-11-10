@@ -51,7 +51,9 @@
 
 .bob-par{
     color: rgb(7, 125, 129);
+    font-size: 1.3rem;
 }
+
 
 
 /*! REFERANSLAR */
@@ -79,5 +81,19 @@
         max-width: 90%;
         height: auto;
     }
+    
+}
+@media (max-width:770px) {
+  
+.byon-h3 {
+  display: none;
+}
+.buyon-par{
+    font-size: 1rem;
+}
+.bob-par{
+    
+    font-size: 1rem !important;
+}
     
 }
