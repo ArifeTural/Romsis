@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.59b1c136.css",
+    "main.js": "/static/js/main.b891b1a3.js",
+    "static/media/wms-tablo.png": "/static/media/wms-tablo.839e5448de1863dfdc60.png",
+    "static/media/uiux4.jpg": "/static/media/uiux4.c23507097365d956e368.jpg",
+    "static/media/byreatil.jpg": "/static/media/byreatil.e291855050387835187d.jpg",
+    "static/media/wms-giris.jpg": "/static/media/wms-giris.e61c8db54a0965de107a.jpg",
+    "static/media/yalin.jpg": "/static/media/yalin.fd66f62c9e7dfdf48709.jpg",
+    "static/media/hakkimizda.png": "/static/media/hakkimizda.93e4f34fa874e2952532.png",
+    "static/media/webt.jpg": "/static/media/webt.a212aacfb7a251a59f4c.jpg",
+    "static/media/mrp.jpg": "/static/media/mrp.bff354f1a530cca2b57b.jpg",
+    "static/media/mobil-giris.png": "/static/media/mobil-giris.0084011c572250e83517.png",
+    "static/media/bg-saat.jpg": "/static/media/bg-saat.c26f11906f71a058f307.jpg",
+    "static/media/bg-capraz.jpg": "/static/media/bg-capraz.ac75b9b934dba2a58f1d.jpg",
+    "static/media/bg-uı.jpg": "/static/media/bg-uı.91f38b05869b94c29bfc.jpg",
+    "static/media/romsisko.png": "/static/media/romsisko.cfca3c41e1b2098d13e6.png",
+    "static/media/kkartal.jpeg": "/static/media/kkartal.8d76f0541f401dac665b.jpeg",
+    "static/media/liste.jpg": "/static/media/liste.4fcee86066c304062f05.jpg",
+    "static/media/mouse.png": "/static/media/mouse.a442b18ee3ff38dcf503.png",
+    "static/media/wms-hedefler.jpg": "/static/media/wms-hedefler.56d573120c72acd5bb8d.jpg",
+    "static/media/bg-android.jpg": "/static/media/bg-android.aaa28c7093af088f7955.jpg",
+    "static/media/bg-ios.jpg": "/static/media/bg-ios.bfee9ce2e8a3c8eb2997.jpg",
+    "static/media/whatsapp.png": "/static/media/whatsapp.97b90b6e3f8c70254204.png",
+    "static/media/strategy.png": "/static/media/strategy.0772da90c38aec0f941f.png",
+    "static/media/mobile.png": "/static/media/mobile.d88ec36c889ea5a99296.png",
+    "index.html": "/index.html",
+    "main.59b1c136.css.map": "/static/css/main.59b1c136.css.map",
+    "main.b891b1a3.js.map": "/static/js/main.b891b1a3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59b1c136.css",
+    "static/js/main.b891b1a3.js"
+  ]
+}
