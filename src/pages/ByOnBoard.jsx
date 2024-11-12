@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import Carousel from 'react-bootstrap/Carousel';
 import { bob, buyOnCarousel } from '../helper/yazilim';
@@ -7,7 +7,12 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { board } from '../helper/referans';
 import retail from "../assets/byreatil.jpg"
 
+
+
+
 const ByOnBoard = () => {
+
+
   return (
     <div> 
       <Helmet>

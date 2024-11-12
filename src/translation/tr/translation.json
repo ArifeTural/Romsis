@@ -1,0 +1,55 @@
+{
+  "yazilim": {
+    "titles": "Buy On Board Hizmetleri"
+  },
+  "yazilim2": {
+    "titlel": "Yalın Üretim | MRP",
+    "titlew": "WMS"
+  },
+  "yazilim3": {
+    "titleww": "Web Yazılım",
+    "titlem": "Mobil Uygulama",
+    "titleu": "UI/UX Tasarım"
+  },
+  "giris": {
+    "baslik": "Neler Yapıyoruz?",
+    "baslik2": "Nasıl Çalışıyoruz?",
+    "baslik3":"İş Ortaklarımız",
+    "baslik4":"Bize Ulaşın"
+  },
+
+  "steps": {
+    "titlep": "1.Planlama ve Araştırma",
+    "contentp1": "Hedef belirliyoruz.",
+    "contentp2": " Hedef kitle belirliyoruz.",
+    "contentp3": "Rakip Analizi yapıyoruz.",
+    "titled": "2.Tasarım",
+    "contentd1": "Görsel Tasarım yapıyoruz.",
+    "contentd2": "Prototip Oluşturuyoruz.",
+    "titlec": "3.Geliştirme",
+    "contentc1": "Frontend geliştiriyoruz.",
+    "contentc2": "Backend geliştiriyoruz.",
+    "titlet": "4.Test Etme",
+    "contentt1": "Kullanılabilirlik testi yapıyoruz.",
+    "contentt2": "Fonksiyonel testler yapıyoruz.",
+    "contentt3": "Tarayıcı ve cihaz testi yaıyoruz.",
+    "titlew": "5.Yayınlama",
+    "contentw1": "Domain ve hosting hizmeti veriyoruz.",
+    "contentw2": "Yayınlıyoruz",
+    "titlemm": "6.Bakım ve Güncelleme",
+    "contentmm1": "Performans izleme gerçekleştiriyoruz.",
+    "contentmm2": "Düzenli güncellemeler yapıyoruz."
+  }
+  
+   
+  
+
+
+}
+
+
+
+
+
+
+  

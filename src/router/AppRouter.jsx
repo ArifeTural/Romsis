@@ -16,11 +16,13 @@ import Hakkımızda from '../pages/Hakkımızda';
 import Sorular from '../pages/Sorular';
 import Yalin from '../pages/Yalin';
 import Copy from '../components/Copy';
+import Dil from '../components/Dil';
 
 const AppRouter = () => {
   return (
     <BrowserRouter>
       <Navbar />
+      <Dil/>
       <ScrollToTop />
       <Routes>
         <Route path='/dashboard' element={<Home />} />

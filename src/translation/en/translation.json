@@ -1,0 +1,48 @@
+{
+  "yazilim": {
+    "titles": "Buy On Board Services"
+  },
+  "yazilim2": {
+    "titlel": "Lean Manufacturing",
+    "titlew": "WMS"
+  },
+  "yazilim3": {
+    "titleww": "Web Software",
+    "titlem": "Mobile Application",
+    "titleu": "UI/UX Design"
+  },
+  "giris": {
+    "baslik": "What Do We Do?",
+    "baslik2": "How Do We Work?",
+    "baslik3":"Clients we have worked with",
+    "baslik4":"Contact us"
+  },
+  
+  "steps": {
+    "titlep": "1. Planning and Research",
+    "contentp1": "Set Personal Goals",
+    "contentp2": "Determine the target audience",
+    "contentp3": "Make competitive analysis",
+    "titled": "2.Design",
+    "contentd1": "Do visual design",
+    "contentd2": "Create prototypes .",
+    "titlec": "3.Coding",
+    "contentc1": "Develop Frontend ",
+    "contentc2": "Develop Backend ",
+    "titlet": "4.Testing",
+    "contentt1": "Do usability testing ",
+    "contentt2": "Do functional testing.",
+    "contentt3": "Do scanner and device testing.",
+    "titlew": "5.Website Publishing",
+    "contentw1": "We provide domain and hosting services.",
+    "contentw2": "Website Publishing",
+    "titlemm": "6.Maintenance and Update",
+    "contentmm1": "Monitoring Performance.",
+    "contentmm2": "Update Regular."
+  }
+  
+  
+}
+
+
+  
