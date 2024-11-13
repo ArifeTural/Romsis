@@ -21,8 +21,8 @@ import Dil from '../components/Dil';
 const AppRouter = () => {
   return (
     <BrowserRouter>
-      <Navbar />
       <Dil/>
+      <Navbar />
       <ScrollToTop />
       <Routes>
         <Route path='/dashboard' element={<Home />} />

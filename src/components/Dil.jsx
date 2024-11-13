@@ -35,6 +35,7 @@ const Dil = () => {
     <div style={{ display: "flex",
      alignItems: "center",
      justifyContent:"end",
+     backgroundColor:"#EDEBEB"
      }}>
   
       {dillerTablo.map((dil, index) => (
@@ -42,11 +43,11 @@ const Dil = () => {
           key={index}
           onClick={() => dilChange(dil)}
           style={{
-            padding: "8px 12px",
+            padding: "4px 6px",
             cursor: "pointer",
             border:"none",
-            backgroundColor: "#f0f0f0",
-            border: "1px solid #ccc",
+            borderLeft:"2px solid black",
+            backgroundColor: "#EDEBEB",
             zIndex: "100",
           }}
         >

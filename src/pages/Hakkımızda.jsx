@@ -1,13 +1,107 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card';
-import { ekip, tarih } from '../helper/data';
 import fare from '../assets/mouse.png';
 import kkartal from "../assets/kkartal.jpeg" 
 import foto from "../assets/hakkimizda.png"
-
+import { useTranslation } from "react-i18next";
 
 
 const Hakkımızda = () => {
+
+  const { t } = useTranslation();
+
+  const tarih =[
+    {
+      id:1,
+      title:"1997",
+      text:t("hakkimizda.tarihalt1"),
+   
+   
+     },
+    {
+      id:2,
+      title:"2001",
+      text:t("hakkimizda.tarihalt2"),
+   
+   
+     },
+    {
+      id:3,
+      title:"2006",
+      text:t("hakkimizda.tarihalt3"),
+   
+   
+     },
+    {
+      id:4,
+      title:"2011",
+      text:t("hakkimizda.tarihalt4"),
+   
+   
+     },
+    {
+      id:5,
+      title:"2019",
+      text:t("hakkimizda.tarihalt5"),
+   
+   
+     },
+    {
+      id:6,
+      title:"2024",
+      text:t("hakkimizda.tarihalt6"),
+   
+   
+     },
+
+
+  ]
+
+  const ekip = [
+    {
+      id: 1,
+      image: "/image/ekip/esinaltin.jpeg",
+      title1: "Esin ALTIN",
+      title2: t("hakkimizda.title1"),
+      linkedin: "https://www.linkedin.com/in/esin-altin-9b182528/"
+    },
+    {
+      id: 2,
+      image: "/image/ekip/engin.jpeg",
+      title1: "Engin YILMAZ",
+      title2: t("hakkimizda.title2"),
+      linkedin: "https://www.linkedin.com/in/romsis-yaz%C4%B1l%C4%B1m-581048115/"
+    },
+    {
+      id: 3,
+      image: "/image/ekip/tansu.jpeg",
+      title1: "Tansu ÇITLAK",
+      title2: t("hakkimizda.title3"),
+      linkedin: "https://www.linkedin.com/in/tansu-%C3%A7itlak-131b1520b/"
+    },
+    {
+      id: 4,
+      image: "/image/ekip/st.jpeg",
+      title1: "Selim TURAL",
+      title2: "CTO",
+      linkedin: "https://www.linkedin.com/in/selim-tural-executive-mba-b34235161/"
+    },
+    {
+      id: 5,
+      image: "/image/ekip/abdurrahman.jpeg",
+      title1: "Abdurrahman ELIKARA",
+      title2: t("hakkimizda.title5"),
+      linkedin: "https://www.linkedin.com/in/abdurrahman-e-91276b45/"
+    },
+    {
+      id: 6,
+      image: "/image/ekip/ayse.jpeg",
+      title1: "Ayşe Gül GÜÇLÜ",
+      title2: t("hakkimizda.title6"),
+      linkedin: "https://www.linkedin.com/in/romsis-yaz%C4%B1l%C4%B1m-581048115/"
+    }
+  ];  
+
   return (
     <div>
       {/* Hero Section */}
@@ -16,9 +110,9 @@ const Hakkımızda = () => {
           <img src={foto} alt="Biz Kimiz" className='w-100 h-100' />
         </div>
         <div className='m-5 text-start'>
-          <h1 className='fs-1 '>Biz Kimiz?</h1>
+          <h1 className='fs-1 '>{t("hakkimizda.baslik1")}</h1>
           <p className='fs-4 '>
-          Romsis Yazılım olarak, global ölçekte üretim sağlayan ve yazılım teknolojilerinde fark yaratan bir yazılım şirketiyiz. Kuruluşumuzdan bu yana, çeşitli uluslararası ve yerel projelerde danışmanlık ve uygulama hizmetleri sunarak müşterilerimizin iş süreçlerini güçlendirdik. Uzman ekibimizle, ticari işletmelere yönelik stok, depo, ve satış çözümleri sunarak hayatı kolaylaştırmayı amaçlıyoruz. Aynı zamanda yazılım sektöründe yenilikçi teknolojiler geliştirip dünya standartlarında ürünler üretiyoruz. Hedefimiz, teknolojiyi ileriye taşıyan, değer üreten ve küresel ölçekte tercih edilen bir Türk yazılım markası olmaktır.
+          {t("hakkimizda.par1")}
           </p>
         </div>
       </div>
@@ -26,8 +120,8 @@ const Hakkımızda = () => {
       {/* History Section */}
       <div className='tarihce m-5'>
         <div className='m-5 text-start'>
-          <h2 className='fs-1'>Tarihçemiz</h2>
-          <p>1997'den günümüze uzanan yolcuğumuz;</p>
+          <h2 className='fs-1'>{t("hakkimizda.baslik2")}</h2>
+          <p>{t("hakkimizda.par2")}</p>
         </div>
 
         <div className='d-flex flex-wrap gap-3 justify-content-center '>
@@ -47,18 +141,18 @@ const Hakkımızda = () => {
 
       {/* Support Section */}
       <div className='destek m-5 p-5'>
-        <h2 className='fs-1 '>Romsis Destek Hizmeti</h2>
+        <h2 className='fs-1 '>{t("hakkimizda.baslik3")}</h2>
         <p>
-        Romsis kullanıcılarına yönelik destek ve eğitim hizmetleri, Romsis Akademi ve Yetkili Romsis İş Ortakları tarafından sunulmaktadır. Kullanıcıların bilgi altyapılarında karşılaştıkları sorunlara ve ihtiyaçlarına hızlı çözümler üretebilmek amacıyla verilen bu hizmetler; Proje Danışmanlığı, Kullanıcı Eğitimleri, Uzak Bağlantı, Yerinde Destek, Tele-Destek, Veri Bakımı ile Network ve Veritabanı Danışmanlığı gibi geniş bir kapsamda uygulanmaktadır.
+        {t("hakkimizda.par3")}
         </p>
       </div>
 
       {/* R&D Section */}
       <div className='arge m-5 d-flex flex-wrap justify-content-center align-items-center'>
         <div className='w-75'>
-          <h2 className='text-center fs-1 '>AR-GE</h2>
+          <h2 className='text-center fs-1 '>{t("hakkimizda.baslik4")}</h2>
           <p>
-          Şirketimiz, kazancının %65'ini AR-GE'ye yatırarak ürünlerini yenilikçi teknolojilerle geliştiriyor ve müşteri ihtiyaçlarına yönelik yeni ürünler sunuyor. Hindistan, Romanya, İrlanda, Rusya, Azerbaycan, Amerika ve Estonya'da partner gruplarıyla işbirliği yaparak en güncel teknolojileri ürünlerimize entegre ediyoruz. Ürünlerin arayüz tasarımlarında üniversitelerden ve kurumsal kimlik uzmanlarından destek alarak kolektif bir yaklaşım sergiliyoruz. Arka plan yazılımında ise en yeni teknolojilerle veri akışını güvenli ve verimli hale getiriyoruz.
+          {t("hakkimizda.par4")}
           </p>
         </div>
         <img src={fare} alt="AR-GE" />
@@ -66,15 +160,15 @@ const Hakkımızda = () => {
 
       {/* Investor Relations Section */}
       <div className='yatırımcı m-5 p-5'>
-        <h2 className='fs-1 '>Yatırımcı İlişkileri</h2>
+        <h2 className='fs-1 '>{t("hakkimizda.baslik5")}</h2>
         <p>
-        Şirketimiz, 2012 yılından itibaren dünya çapında kendini kanıtlamış yazılım firmalarıyla partnerlik yapmaktadır. Hem yurt içi hem de yurt dışında bayi ve çözüm ortaklarıyla gerçekleştirdiği projelerle müşteri memnuniyetini en üst seviyede tutmaktadır. 2017 yılında birçok yabancı yatırımcıdan ilgi görmesine rağmen, ekosistemine ve iç yapısına uygun bir yatırımcı bulamayan şirketimiz, %100 yerli yazılım firması olarak faaliyet göstermeye devam etmektedir.
+        {t("hakkimizda.par5")}
         </p>
       </div>
 
       {/* Team Section */}
       <div className='ekip'>
-        <h2 className='text-center fs-1 '>Ekibimiz</h2>
+        <h2 className='text-center fs-1 '>{t("hakkimizda.baslik6")}</h2>
         <div className=''>
           <div className="card mb-3 border-0" >
             <div className="row g-0 kkartal">

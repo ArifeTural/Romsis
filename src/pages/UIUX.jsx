@@ -1,11 +1,34 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import "../css/web.css"
-import { techTools } from '../helper/yazilim';
 import uiiii from "../assets/uiux4.jpg"
 import pc from "../assets/mobile.png"
+import { useTranslation } from "react-i18next";
 
 const UIUX = () => {
+  const { t } = useTranslation();
+
+
+const techTools = [
+    {
+      id: 1,
+      name: "Figma",
+      description:  t("uiux.figma"),
+      imgSrc: "/image/teknoloji/figma.png",
+    },
+    {
+      id: 2,
+      name: "Adobe XD",
+      description: t("uiux.adobe"),
+      imgSrc: "/image/teknoloji/adobe.png",
+    },
+    {
+      id: 3,
+      name: "Zeplin",
+      description: t("uiux.zeplin"),
+      imgSrc: "/image/teknoloji/zeplinn.jpg",
+    },
+  ];
   return (
     <div className="">
       <Helmet>
@@ -21,9 +44,9 @@ const UIUX = () => {
     
     <div className="col-md-6">
       <div className="card-body">
-        <h1 className="card-title ui-kart-bas">UI/UX Tasarım</h1>
+        <h1 className="card-title ui-kart-bas">{t("uiux.baslik1")}</h1>
         <p className="card-text ui-kart-par ">
-        UI (Kullanıcı Arayüzü) ve UX (Kullanıcı Deneyimi) tasarımı, kullanıcıların web sitelerinde rahatça gezinmesini sağlar ve görsel olarak çekici bir deneyim sunar. İyi optimize edilmiş bir UI/UX, siteye gelen ziyaretçilerin ilgisini çekerek onları daha uzun süre tutar ve dönüşüm oranlarını artırır. Bu da arama motoru sıralamalarında sitenizin daha üst sıralara çıkmasına katkı sağlar.
+        {t("uiux.par")}
         </p>
        
       </div>
@@ -45,13 +68,13 @@ const UIUX = () => {
   </div>
   
   <div className='col-12 col-md-6 '>
-    <h2 className="guncel-baslik fs-3">Güncel Tasarım Trendleri:</h2>
+    <h2 className="guncel-baslik fs-3">{t("uiux.baslik2")}</h2>
     <ul className='fs-5 text-success'>
-      <li> Minimalist Tasarım</li>
-      <li> Karanlık Mod</li>
-      <li> Mikro Etkileşimler</li>
-      <li> Sesli Arayüzler</li>
-      <li> Kişiselleştirilmiş Deneyimler</li>
+      <li> {t("uiux.liste1")}</li>
+      <li> {t("uiux.liste2")}</li>
+      <li> {t("uiux.liste3")}</li>
+      <li> {t("uiux.liste4")}</li>
+      <li> {t("uiux.liste5")}</li>
     </ul>
   </div>
 </div>
@@ -62,17 +85,17 @@ const UIUX = () => {
       {/* UI/UX Süreci */}
       <section className="py-5 text-center">
         <div className="container">
-          <h2 className="ui-baslik display-5 mb-4">UI/UX Sürecimiz</h2>
+          <h2 className="ui-baslik display-5 mb-4">{t("uiux.baslik3")}</h2>
           <div className="row">
             {/* Kullanıcı Araştırması Kartı */}
             <div className="col-md-4 mb-4">
               <div className="card shadow-lg">
                 <div className="card-body">
-                  <h5 className="card-title alt-baslik">1. Kullanıcı Araştırması</h5>
+                  <h5 className="card-title alt-baslik">{t("uiux.altbaslik")}</h5>
                   <ul className="card-text surec-ul text-start">
-                    <li>Kullanıcı profilleri oluşturma</li>
-                    <li>Anket ve görüşmelerle veri toplama</li>
-                    <li>Kullanıcı ihtiyaçlarını belirleme</li>
+                  <li>{t("uiux.la1")}</li>
+                  <li>{t("uiux.la2")}</li>
+                  <li>{t("uiux.la3")}</li>
                   </ul>
                 </div>
 
@@ -82,11 +105,11 @@ const UIUX = () => {
             <div className="col-md-4 mb-4">
               <div className="card shadow-lg">
                 <div className="card-body">
-                  <h5 className="card-title alt-baslik">2. Tanımlama ve Analiz</h5>
+                  <h5 className="card-title alt-baslik">{t("uiux.altbaslik2")}</h5>
                   <ul className="card-text surec-ul text-start">
-                    <li>Kullanıcı ihtiyaçlarını belirlemek için veri analizi</li>
-                    <li>Kullanıcı profilleri  oluşturma</li>
-                    <li>Yolculuk haritaları oluşturma</li>
+                  <li>{t("uiux.lb1")}</li>
+                  <li>{t("uiux.lb2")}</li>
+                  <li>{t("uiux.lb3")}</li>
                   </ul>
                 </div>
               </div>
@@ -95,11 +118,11 @@ const UIUX = () => {
             <div className="col-md-4 mb-4">
               <div className="card shadow-lg">
                 <div className="card-body">
-                  <h5 className="card-title alt-baslik">3. Prototipleme</h5>
+                  <h5 className="card-title alt-baslik">{t("uiux.altbaslik3")}</h5>
                   <ul className="card-text surec-ul text-start">
-                    <li>Wireframe tasarımları oluşturma</li>
-                    <li>Interaktif prototipler geliştirme</li>
-                    <li>Kullanıcı geri bildirimlerine göre revize etme</li>
+                  <li>{t("uiux.lc1")}</li>
+                  <li>{t("uiux.lc2")}</li>
+                  <li>{t("uiux.lc3")}</li>
                   </ul>
                 </div>
               </div>
@@ -108,11 +131,11 @@ const UIUX = () => {
             <div className="col-md-4 mb-4">
               <div className="card shadow-lg">
                 <div className="card-body">
-                  <h5 className="card-title alt-baslik">4. Tasarım</h5>
+                  <h5 className="card-title alt-baslik">{t("uiux.altbaslik4")}</h5>
                   <ul className="card-text surec-ul text-start">
-                    <li>Renk paletleri ve tipografi belirleme</li>
-                    <li>Tasarımın estetik yönlerini oluşturma</li>
-                    <li>Tasarımın işlevsel yönlerini oluşturma</li>
+                  <li>{t("uiux.ld1")}</li>
+                  <li>{t("uiux.ld2")}</li>
+                  <li>{t("uiux.ld3")}</li>
                   </ul>
                 </div>
               </div>
@@ -121,11 +144,11 @@ const UIUX = () => {
             <div className="col-md-4 mb-4">
               <div className="card shadow-lg">
                 <div className="card-body">
-                  <h5 className="card-title alt-baslik">5. Kullanıcı Testleri</h5>
+                  <h5 className="card-title alt-baslik">{t("uiux.altbaslik5")}</h5>
                   <ul className="card-text surec-ul text-start">
-                    <li>Prototiplerle kullanıcı testleri yapma</li>
-                    <li>Geri bildirim toplama ve analiz etme</li>
-                    <li>Tasarımı son kullanıcıya göre optimize etme</li>
+                  <li>{t("uiux.le1")}</li>
+                  <li>{t("uiux.le2")}</li>
+                  <li>{t("uiux.le3")}</li>
                   </ul>
                 </div>
               </div>
@@ -134,11 +157,11 @@ const UIUX = () => {
             <div className="col-md-4 mb-4">
               <div className="card shadow-lg">
                 <div className="card-body">
-                  <h5 className="card-title alt-baslik">6. İterasyon</h5>
+                  <h5 className="card-title alt-baslik">{t("uiux.altbaslik6")}</h5>
                   <ul className="card-text surec-ul text-start">
-                    <li>Geri bildirimlere dayanarak tasarımı geliştirme</li>
-                    <li>Sürekli revizyon süreçleri</li>
-                    <li>Sürekli iyileştirme süreçleri</li>
+                  <li>{t("uiux.lf1")}</li>
+                  <li>{t("uiux.lf2")}</li>
+                  <li>{t("uiux.lf3")}</li>
                   </ul>
                 </div>
               </div>
@@ -147,11 +170,11 @@ const UIUX = () => {
             <div className="col-md-4 mb-4">
               <div className="card shadow-lg">
                 <div className="card-body">
-                  <h5 className="card-title alt-baslik">7. Geliştirme</h5>
+                  <h5 className="card-title alt-baslik">{t("uiux.altbaslik7")}</h5>
                   <ul className="card-text surec-ul text-start">
-                    <li>Tasarımın geliştirilmesi ve kodlama süreci</li>
-                    <li>Kodlama süreci</li>
-                    <li>Nihai ürünün oluşturulması</li>
+                  <li>{t("uiux.lg1")}</li>
+                  <li>{t("uiux.lg2")}</li>
+                  <li>{t("uiux.lg3")}</li>
                   </ul>
                 </div>
               </div>
@@ -160,11 +183,11 @@ const UIUX = () => {
             <div className="col-md-4 mb-4">
               <div className="card shadow-lg">
                 <div className="card-body">
-                  <h5 className="card-title alt-baslik">8. Yayınlama ve İzleme</h5>
+                  <h5 className="card-title alt-baslik">{t("uiux.altbaslik8")}</h5>
                   <ul className="card-text surec-ul text-start">
-                    <li>Ürünün pazara sürülmesi</li>
-                    <li>Ürünün pazarda izlenmesi</li>
-                    <li>Kullanıcı geri bildirimlerinin izlenmesi</li>
+                  <li>{t("uiux.lk1")}</li>
+                  <li>{t("uiux.lk2")}</li>
+                  <li>{t("uiux.lk3")}</li>
                   </ul>
                 </div>
               </div>
@@ -173,11 +196,11 @@ const UIUX = () => {
             <div className="col-md-4 mb-4">
               <div className="card shadow-lg">
                 <div className="card-body">
-                  <h5 className="card-title alt-baslik">9. Sürekli İyileştirme</h5>
+                  <h5 className="card-title alt-baslik">{t("uiux.altbaslik9")}</h5>
                   <ul className="card-text surec-ul text-start">
-                    <li>Yeni kullanıcı ihtiyaçlarına göre güncellemeler</li>
-                    <li>Ürünü sürekli olarak geliştirme</li>
-                    <li>Ürünü sürekli destek sağlama</li>
+                  <li>{t("uiux.ll1")}</li>
+                  <li>{t("uiux.ll2")}</li>
+                  <li>{t("uiux.ll3")}</li>
                   </ul>
                 </div>
               </div>
