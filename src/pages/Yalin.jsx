@@ -3,11 +3,12 @@ import { Helmet } from 'react-helmet';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import "../css/web.css"
 import yalin from "../assets/yalin.jpg"
-import { yalinuretim } from '../helper/data';
 import mrp from "../assets/mrp.jpg"
 import mrp2 from "../assets/liste.jpg"
+import { useTranslation } from "react-i18next";
 
 function Yalin() {
+  const { t } = useTranslation();
 
   const [showExamples, setShowExamples] = useState({});
 
@@ -18,20 +19,56 @@ function Yalin() {
     }));
   };
 
+  const yalinuretim=[ 
+    {
+      title:t("yalin.tit1"),
+      text:t("yalin.text1"),
+      example:t("yalin.ex1"),
+    },
+    {
+      title:t("yalin.tit2"),
+      text: t("yalin.text2"),
+      example:t("yalin.ex2"),
+    },
+    {
+      title: t("yalin.tit3"),
+      text: t("yalin.text3"),
+      example:t("yalin.ex3"),
+    },
+    {
+      title:t("yalin.tit4"),
+      text:t("yalin.text4"),
+      example:t("yalin.ex4"),
+    },
+    {
+      title:t("yalin.tit5"),
+      text:t("yalin.text5"),
+      example:t("yalin.ex5"),
+    },
+    {
+      title:t("yalin.tit6"),
+      text:t("yalin.text6"),
+      example:t("yalin.ex6"),
+  
+  
+    }
+  ]
+
   return (
     <>
       <Helmet>
         <title>Yalın Üretim - Verimlilik ve Süreç İyileştirme</title>
         <meta name="description" content="Yalın üretim süreçleri ile üretim verimliliğinizi artırın. Eksik süreçleri tamamlayın, gereksiz süreçleri kaldırın." />
       </Helmet>
+      
       <Row className='p-5 w-100 d-flex flex-wrap align-items-center justify-content-center '>
       <Col sm={12} lg={6} className='text-center'>
       <img className='yaling-img' src={yalin} alt="" />
       </Col>
       <Col sm={12} lg={6}>
-      <h1 className="yalin-baslik text-center mb-4 mt-5">Yalın Üretim</h1>
+      <h1 className="yalin-baslik text-center mb-4 mt-5">{t("yalin.baslik1")}</h1>
         <p className=" yalin-par text-center mb-5">
-          Yalın üretim, israfı minimize ederek, değer yaratmaya odaklanan bir üretim felsefesidir. Hedefimiz, üretim süreçlerini optimize ederek işletmenizin verimliliğini artırmaktır.
+        {t("yalin.par1")}
         </p>
 
       </Col>
@@ -51,7 +88,7 @@ function Yalin() {
                     {item.text}
                   </Card.Text>
                   <Button className='yalin-but' variant="primary" onClick={() => toggleExample(index)}>
-                    {showExamples[index] ? "Örneği Kapat" : "Örneği Aç"}
+                    {showExamples[index] ? t("yalin.kapat") :  t("yalin.ornek") }
                   </Button>
                   {showExamples[index] && (
                     <div className="mt-2">
@@ -66,21 +103,21 @@ function Yalin() {
 
         <div>
         <div>
-          <h2 className='m-5 yalin-baslik text-center'>MRP(Malzeme İhtiyaç Planlaması)</h2>
+          <h2 className='m-5 yalin-baslik text-center'>{t("yalin.baslik2")}</h2>
         </div>
          <Row className='d-flex flex-wrap justify-content-between align-items-center'>
           <Col sm={12} md={6} >
             <img className='w-100' src={mrp} alt="" />
           </Col>
           <Col sm={12} md={6} className=''> 
-          <p className='mrp-par'>Malzeme İhtiyaç Planlaması (MRP - Material Requirements Planning), bir işletmenin üretim sürecinde ihtiyaç duyduğu malzemeleri planlamak ve doğru zamanda tedarik etmek için kullanılan bir yöntemdir. MRP sistemi, talep edilen ürün miktarına ve üretim planına bağlı olarak, gerekli hammadde ve bileşen miktarını belirleyerek stok ve tedarik sürecini optimize etmeyi hedefler. Bu sayede, işletmeler üretim için ihtiyaç duyulan malzemeleri fazla ya da eksik tedarik etme riskini azaltarak maliyetlerini kontrol altına alabilir ve üretim sürekliliğini sağlar.</p>
+          <p className='mrp-par'>{t("yalin.par2")}</p>
           </Col>
           <Col sm={12} md={8} className='mt-5'>
-          <h2 className='mrp-altbaslik'>MRP sistemi şu üç temel unsura dayanır:</h2>
+          <h2 className='mrp-altbaslik'>{t("yalin.altbaslik")}</h2>
           <ul className='mrp-list'>
-            <li><span>1.Ürün Ağacı (BOM - Bill of Materials): </span>Üretilecek ürünlerin hangi malzemelerden oluştuğunu gösteren bir listedir. Bu liste, ürünlerin tüm bileşenlerini ve alt bileşenlerini içerir.</li>
-            <li><span>2.Ana Üretim Programı (MPS - Master Production Schedule):</span> Üretilmesi planlanan ürünlerin miktar ve üretim zamanlamasını gösterir. Bu program, müşteri taleplerine ve işletmenin üretim kapasitesine göre belirlenir.</li>
-            <li><span>3.Stok Durumu:</span>  Mevcut stok seviyeleri, sipariş durumları ve bekleme süreleri hakkında bilgi içerir. Stok durumları dikkate alınarak, ihtiyaç duyulan malzemeler zamanında sipariş edilir.</li>
+            <li><span>{t("yalin.span1")}</span>{t("yalin.liste1")}</li>
+            <li><span>{t("yalin.span2")}</span>{t("yalin.liste2")}</li>
+            <li><span>{t("yalin.span3")}</span> {t("yalin.liste3")}</li>
           </ul>
             
           </Col>

@@ -4,9 +4,11 @@ import { Helmet } from 'react-helmet';
 import giris from "../assets/mobil-giris.png"
 import { mobilgif } from '../helper/data';
 import { referans } from '../helper/referans';
+import { useTranslation } from "react-i18next";
 import "../css/web.css"
 
 const MobilUygulama = () => {
+  const { t } = useTranslation();
     const [openIos, setOpenIos] = useState(false);
     const [openAndroid, setOpenAndroid] = useState(false);
     const [openCrossPlatform, setOpenCrossPlatform] = useState(false);
@@ -37,9 +39,9 @@ const MobilUygulama = () => {
 
       {/* Metin */}
       <Col md={6} className="first-text ">
-        <h2 className='fs-1'>Geleceğin Mobil Uygulamaları</h2>
+        <h2 className='fs-1'>{t("mobil.baslik1")}</h2>
         <p className='first-par text-center text-secondary'>
-          "Hem iOS hem de Android platformlarında mükemmel performans gösteren, kullanıcı dostu ve yenilikçi mobil uygulamalar geliştiriyoruz. Modern teknolojileri kullanarak, her iki platformda da yüksek verimlilikle çalışan ve kullanıcı deneyimini ön planda tutan çözümler sunuyoruz. Amacımız, müşterilerimizin ihtiyaçlarına tam anlamıyla yanıt veren, etkileyici ve işlevsel uygulamalar oluşturmaktır.
+        {t("mobil.par")}
         </p>
       </Col>
     </Row>
@@ -49,15 +51,15 @@ const MobilUygulama = () => {
   
       
         <section className="py-5 ">
-        <h2 className='hizmet-bas text-center mt-3'> Hizmetlerimiz:</h2>
+        <h2 className='hizmet-bas text-center mt-3'>{t("mobil.baslik2")}</h2>
         <Container>
   <Row className='d-flex flex-wrap justify-content-center'>
     <Col md={6} className="mb-4">
       <Card id="ios" style={{ opacity: openIos ? 1 : 0.7 }}>
         <Card.Body>
-          <Card.Title className="fs-3 text-center">iOS Mobil Uygulama Hizmetleri</Card.Title>
+          <Card.Title className="fs-3 text-center">{t("mobil.altbaslik1")}</Card.Title>
           <Card.Text className="fs-5">
-            Apple'ın App Store standartlarına uygun, kullanıcı odaklı ve yüksek performanslı iOS uygulamaları geliştiriyoruz.
+          {t("mobil.text1")}
           </Card.Text>
           <Button
           className=" buton-detaylar"
@@ -66,13 +68,12 @@ const MobilUygulama = () => {
             aria-expanded={openIos}
             variant="secondary"
           >
-            Detaylar
+            {t("mobil.d")}
           </Button>
           <Collapse in={openIos}>
             <div id="ios-details" className="mt-3">
               <Card.Text className="fs-5">
-                <strong>Detaylı Bilgi:</strong> iOS uygulama geliştirme sürecimizde, kullanıcı deneyimi ön planda tutulur. <br />
-                Swift ve Objective-C dillerinde uzman ekibimiz, performansı yüksek, güvenli ve etkili uygulamalar üretir.
+                <strong>{t("mobil.dt")}</strong>{t("mobil.detay1")}
               </Card.Text>
             </div>
           </Collapse>
@@ -84,9 +85,9 @@ const MobilUygulama = () => {
     <Col md={6} className="mb-4">
       <Card id="android" style={{ opacity: openAndroid ? 1 : 0.7 }}>
         <Card.Body>
-          <Card.Title className="fs-3 text-center text-white">Android Mobil Uygulama Hizmetleri</Card.Title>
+          <Card.Title className="fs-3 text-center text-white">{t("mobil.altbaslik2")}</Card.Title>
           <Card.Text className="fs-5 text-white">
-            Android cihazlar için genişletilebilir, ölçeklenebilir ve güvenli uygulamalar sunuyoruz.
+          {t("mobil.text2")}
           </Card.Text>
           <Button
           className=" buton-detaylar"
@@ -95,12 +96,12 @@ const MobilUygulama = () => {
             aria-expanded={openAndroid}
             variant="secondary"
           >
-            Detaylar
+            {t("mobil.d")}
           </Button>
           <Collapse in={openAndroid}>
             <div id="android-details" className="mt-3">
               <Card.Text className="fs-5 text-white">
-                <strong>Detaylı Bilgi:</strong> Android uygulamaları, Java ve Kotlin ile geliştirilmektedir. Uygulamalarımız geniş bir cihaz yelpazesinde sorunsuz çalışır ve Google Play Store standartlarına uygun olarak tasarlanır.
+                <strong>{t("mobil.dt")}</strong>{t("mobil.detay2")}
               </Card.Text>
             </div>
           </Collapse>
@@ -111,9 +112,9 @@ const MobilUygulama = () => {
     <Col md={6} className="mb-4">
       <Card id="cross-platform" style={{ opacity: openCrossPlatform ? 1 : 0.7 }}>
         <Card.Body>
-          <Card.Title className="fs-3 text-center">Çapraz Platform Uygulama Hizmetleri</Card.Title>
+          <Card.Title className="fs-3 text-center">{t("mobil.altbaslik3")}</Card.Title>
           <Card.Text className="fs-5">
-            Tek bir kod tabanı ile hem iOS hem Android cihazlarda mükemmel performans gösteren uygulamalar oluşturuyoruz.
+          {t("mobil.text3")}
           </Card.Text>
           <Button
           className=" buton-detaylar"
@@ -122,12 +123,12 @@ const MobilUygulama = () => {
             aria-expanded={openCrossPlatform}
             variant="secondary"
           >
-            Detaylar
+            {t("mobil.d")}
           </Button>
           <Collapse in={openCrossPlatform}>
             <div id="cross-platform-details" className="mt-3">
               <Card.Text className="fs-5">
-                <strong>Detaylı Bilgi:</strong> React Native ve Flutter gibi teknolojilerle çapraz platform uygulamaları geliştiriyoruz. Bu sayede, tek bir kod tabanı ile hem iOS hem Android cihazlarda mükemmel performans elde edersiniz.
+                <strong>{t("mobil.dt")}</strong> {t("mobil.detay3")}
               </Card.Text>
             </div>
           </Collapse>
@@ -137,9 +138,9 @@ const MobilUygulama = () => {
     <Col md={6} className="mb-4">
       <Card id="watch" style={{ opacity: openWatch ? 1 : 0.7 }}>
         <Card.Body>
-          <Card.Title className="fs-3 text-center">Akıllı Saat Uygulama Sistemleri</Card.Title>
+          <Card.Title className="fs-3 text-center">{t("mobil.altbaslik4")}</Card.Title>
           <Card.Text className="fs-5">
-            Akıllı saatlerde kullanıcı deneyimini ön planda tutan modern ve yenilikçi uygulamalar geliştiriyoruz.
+          {t("mobil.text4")}
           </Card.Text>
           <Button
           className=" buton-detaylar"
@@ -148,13 +149,12 @@ const MobilUygulama = () => {
             aria-expanded={openWatch}
             variant="secondary"
           >
-            Detaylar
+            {t("mobil.d")}
           </Button>
           <Collapse in={openWatch}>
             <div id="watch-details" className="mt-3">
               <Card.Text className="fs-5">
-                <strong>Detaylı Bilgi:</strong> Akıllı saat uygulamalarında, kullanıcı dostu arayüzler ve enerji verimliliği ön plandadır. <br />
-                Giyilebilir teknolojiler için optimize edilmiş uygulamalar geliştiriyoruz ve sunuyoruz.
+                <strong>{t("mobil.dt")}</strong> {t("mobil.detay4")}
               </Card.Text>
             </div>
           </Collapse>
@@ -164,9 +164,9 @@ const MobilUygulama = () => {
     <Col md={6} className="mb-4">
       <Card id="uiux" style={{ opacity: openUiux ? 1 : 0.7 }}>
         <Card.Body>
-          <Card.Title className="fs-3 text-center">Mobil Sistem & Arayüz Geliştirme</Card.Title>
+          <Card.Title className="fs-3 text-center">{t("mobil.altbaslik5")}</Card.Title>
           <Card.Text className="fs-5">
-            Mobil arayüzlerinizi modern ve kullanıcı dostu tasarımlarla güçlendiriyoruz.
+          {t("mobil.text5")}
           </Card.Text>
           <Button
           className=" buton-detaylar"
@@ -175,12 +175,12 @@ const MobilUygulama = () => {
             aria-expanded={openUiux}
             variant="secondary"
           >
-            Detaylar
+            {t("mobil.d")}
           </Button>
           <Collapse in={openUiux}>
             <div id="uiux-details" className="mt-3">
               <Card.Text className="fs-5">
-                <strong>Detaylı Bilgi:</strong> Mobil uygulamalarda arayüz tasarımı, kullanıcıların uygulamayı etkili bir şekilde kullanabilmesi için son derece önemlidir. Tasarımlarımız kullanıcıların talepleri doğrultusunda hazırlanmıştır ve deneyimi odaklıdır.
+                <strong>{t("mobil.dt")}</strong> {t("mobil.detay5")}
               </Card.Text>
             </div>
           </Collapse>
@@ -195,7 +195,7 @@ const MobilUygulama = () => {
 
         <Row className='d-flex flex-wrap justify-content-center align-items-center gap-3  w-100'>
       <Col>
-        <h2 className="hizmet-bas text-center">Yaptığımız İşler:</h2>
+        <h2 className="hizmet-bas text-center">{t("mobil.baslik3")}</h2>
         <div className='referans'>
 {referans.map((arife)=>{
   const {id, image} = arife

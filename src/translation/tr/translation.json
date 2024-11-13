@@ -39,12 +39,90 @@
     "titlemm": "6.Bakım ve Güncelleme",
     "contentmm1": "Performans izleme gerçekleştiriyoruz.",
     "contentmm2": "Düzenli güncellemeler yapıyoruz."
+  },
+  "buyon":{
+    "giris":"Romsis olarak, 'Buy on Board' (BOB) hizmetleri ile modern havayolu deneyimini zenginleştiriyoruz. Uçuş sırasında yolcularımıza çeşitli yiyecek ve içecek seçenekleri sunarak konforlarını artırıyor, aynı zamanda havayolu şirketlerine ek gelir imkanı sağlıyoruz. Yolcular, tercih ettikleri ürünleri kolayca seçerken, biz de etkin bir şekilde uçak içi hizmetlerini yönetiyor ve satış işlemlerini sorunsuz bir şekilde gerçekleştiriyoruz. Romsis, Buy on Board sistemi ile yolcuların seyahatlerini daha keyifli hale getirirken, havayolu şirketlerinin operasyonel verimliliğini artırmayı hedefliyoruz.",
+    "baslik1":"BUY ON BOARD YAZILIM HİZMETLERİ ",
+    "altbaslik1":"1. Uçak İçi Yükleme",
+    "par1":"Uçak içi yükleme, uçuş öncesinde havayolu şirketlerinin, uçakta satılacak ürünlerin (yiyecek, içecek ve duty-free ürünler) dikkatlice planlandığı ve yüklendiği bir süreçtir. Bu aşamada, stok miktarları, yolcu sayısı ve ürün çeşitliliği göz önünde bulundurularak yükleme yapılır. Ürünler, havalimanındaki depolardan alınarak uçakta uygun bölmelere yerleştirilir. Uçak içi yükleme işlemi, hem güvenlik hem de operasyonel verimlilik açısından titizlikle gerçekleştirilir.",
+    "altbaslik2": "2. Uçak İçi Satış ve Stok Yönetimi",
+    "par2":"Uçak içi satış ve stok yönetimi, uçuş sırasında kabin ekibinin yolculara yiyecek, içecek ve diğer ürünleri satmasını içerir. Bu satışlar genellikle nakit, kredi kartı ya da havayolu uygulamaları üzerinden yapılmaktadır. Stok yönetimi, satılan ürünlerin kaydının tutulması ve kalan stokların izlenmesi süreçlerini kapsar. Satışların dijital olarak kaydedilmesi, uçuş sonrası doğru stok değerlendirmesi ve bir sonraki uçuş için ihtiyaçların belirlenmesini sağlar.",
+    "altbaslik3": "3. Uçuş Sonrası Muhasebe ve Raporlama İşlemi",
+    "par3": "Uçuş sonrası, satış verileri toplanarak havayolu şirketinin muhasebe sistemine işlenir. Satış ve stok verileri karşılaştırılarak gelir raporları hazırlanır. Bu süreçte, kayıp veya bozuk ürünler gibi durumlar da raporlara dahil edilir. Uçuş sonrası muhasebe ve raporlama işlemi, gelirler, giderler ve satılmayan ürünler gibi detaylı bilgilerin analiz edilmesiyle, bir sonraki uçuş planlaması için gerekli verileri sağlar.",
+    "baslik2":"BUY ON BOARD RETAIL HİZMETLERİ",
+    "par4":"Her uçuş için özel yükleme adetleri, kabin ve yolcu bilgileri ile özel fiyatlandırmaların girilebildiği retail hizmetimizle, uçuş öncesi, uçuş esnası ve sonrasında tüm ihtiyaçlarınızı karşılıyoruz."
+  },
+  "yalin": {
+    "baslik1":"YALIN ÜRETİM",
+    "par1" :"Yalın üretim, israfı minimize ederek, değer yaratmaya odaklanan bir üretim felsefesidir. Hedefimiz, üretim süreçlerini optimize ederek işletmenizin verimliliğini artırmaktır.",
+    "tit1":"Uçtan Uca Üretim Proses Analizi",
+    "text1":"Müşterilerimizin tüm üretim süreçlerini baştan sona analiz ediyoruz. Bu analiz, mevcut durumun değerlendirilmesi ve iyileştirme alanlarının belirlenmesidir.",
+    "ex1":"Bir otomotiv üreticisi için, montaj hattındaki her adımı gözden geçirerek zaman kayıplarını ve darboğazları belirliyoruz.",
+    "tit2":"Eksik Süreçlerin Tamamlanması",
+    "text2":"Eksik süreçleri tamamlayarak üretimdeki aksaklıkları gideriyoruz. Bu süreç, çalışanların eğitimini ve ekipman güncellemelerini içerir.",
+    "ex2":"Geri bildirimlerden yola çıkarak, ekipman kullanımında yaşanan sorunları çözüyoruz ve gerekli eğitimleri sağlıyoruz.",
+    "tit3":"Gereksiz Süreçlerin Kaldırılması",
+    "text3":"Gereksiz süreçleri kaldırarak maliyetleri azaltıyor ve daha verimli bir üretim sağlıyoruz. Bu, sadece zaman tasarrufu değil, aynı zamanda kaynakların daha etkili kullanılmasına yardımcı olur.",
+    "ex3":"Depolama süreçlerini optimize ederek, envanterdeki ürünlerin daha hızlı hareket etmesini sağlıyoruz.",
+    "tit4":"Verimlilik Artışı Sağlama",
+    "text4":"Verimliliği artırmak için sürekli iyileştirme çalışmalarını yürütüyoruz. Bu, süreçlerin analiz edilmesi, çalışanların motivasyonunu artıracak stratejiler geliştirilmesi ve teknoloji kullanımını içerir.",
+    "ex4":"Yapay zeka destekli süreç izleme sistemleri kurarak, anlık verimlilik oranlarını takip ediyoruz.",
+    "tit5":"İzlenebilir ve Yönetilebilir İş Akışları",
+    "text5":"İş akışlarını detaylandırarak izlenebilir ve yönetilebilir üretim süreçleri sunuyoruz. Bu, yöneticilerin süreçleri daha iyi yönetmesine ve performansı artırmasına olanak tanır.",
+    "ex5":"Üretim hatlarımızda gerçek zamanlı izleme sistemleri kurarak, her aşamanın verimliliğini anlık olarak raporluyoruz.",
+    "tit6":"Sürekli İyileştirme ve Güncelleme",
+    "text6":"Sürekli iyileştirme felsefesi ile, süreçlerimizi sürekli olarak gözden geçiriyoruz. Gözlemlerimizi değerlendiyoruz ve geliştirmeye yönelik adımlar atıyoruz. Bu adımları atarken sistemli bir yol izliyoruz.",
+    "ex6":"Takım üyeleriyle düzenli geri bildirim toplantıları yaparak, önerilen iyileştirmeleri hayata geçiriyoruz.",
+    "baslik2":"MRP(Malzeme İhtiyaç Planlaması)",
+    "par2":"Malzeme İhtiyaç Planlaması (MRP - Material Requirements Planning), bir işletmenin üretim sürecinde ihtiyaç duyduğu malzemeleri planlamak ve doğru zamanda tedarik etmek için kullanılan bir yöntemdir. MRP sistemi, talep edilen ürün miktarına ve üretim planına bağlı olarak, gerekli hammadde ve bileşen miktarını belirleyerek stok ve tedarik sürecini optimize etmeyi hedefler. Bu sayede, işletmeler üretim için ihtiyaç duyulan malzemeleri fazla ya da eksik tedarik etme riskini azaltarak maliyetlerini kontrol altına alabilir ve üretim sürekliliğini sağlar.",
+    "altbaslik":"MRP sistemi şu üç temel unsura dayanır:",
+    "span1":"1.Ürün Ağacı :",
+    "span2":"2.Ana Üretim Programı:",
+    "span3":"3.Stok Durumu:",
+    "liste1":"Üretilecek ürünlerin hangi malzemelerden oluştuğunu gösteren bir listedir. Bu liste, ürünlerin tüm bileşenlerini ve alt bileşenlerini içerir.",
+    "liste2":"Üretilmesi planlanan ürünlerin miktar ve üretim zamanlamasını gösterir. Bu program, müşteri taleplerine ve işletmenin üretim kapasitesine göre belirlenir.",
+    "liste3":"Mevcut stok seviyeleri, sipariş durumları ve bekleme süreleri hakkında bilgi içerir. Stok durumları dikkate alınarak, ihtiyaç duyulan malzemeler zamanında sipariş edilir.",
+    "ornek":"Örneği Aç",
+    "kapat":"Örneği Kapat"
+  },
+  "wms": {
+    "baslik1":"WMS Depo Yönetim Sistemleri: Verimli ve Akıllı Depo Çözümleri",
+    "par":"WMS Depo Yönetim Sistemleri ile uluslararası depolama alanınızı bir şehir mimarı gibi planlayarak adresleyin, tedarik zincirinizi ve tedarikçilerinizi anında kontrol edip değerlendirin. Doğru zamanda doğru ürünü müşterilerinize gönderirken, üretimden gelen girişlerinizi ve sevklerinizi zamanında ve kontrollü bir şekilde yönetin. Depolar arası sevkiyatlarınızı güvenli ve verimli hale getirirken, kullanıcı dostu ve kolay arayüzümüzle işlemlerinizi sorunsuzca gerçekleştirin. Ek ihtiyaçlarınıza göre özelleştirilmiş çözümler sunarak, iş süreçlerinizi optimize ediyoruz.",
+    "baslik2":"Nasıl Çalışıyoruz: Süreçlerimiz ve Yaklaşımımız",
+    "liste1":"Kullanıcı dostu bir arayüz tasarlanması",
+    "liste2":"Kullanıcılara uygun görüntülenmek üzere web sitesinin oluşturulması",
+    "liste3":"Android ve IOS tabanlı mobil uygulamanın oluşturulması",
+    "liste4":"Müşteri istek ve önerilerinin test edilebileceği bir ön dizinleme sisteminin geliştirilmesi",
+    "liste5":"Müşteri geri bildirim ve ek istek tekliflerinin onay süreçlerinin takibi ve sonucun bildirimi",
+    "liste6":"Kişiselleştirilebilir bir yazılım olması",
+    "liste7":"Faturalandırma ve ödeme sistemlerinin geliştirilmesi ve takibi",
+    "baslik3":"Romsis WMS, MRP Depo Çözüm Modülleri"
+
+
+  },
+  "mobil":{
+    "baslik1":"Geleceğin Mobil Uygulamaları",
+    "par":"Hem iOS hem de Android platformlarında mükemmel performans gösteren, kullanıcı dostu ve yenilikçi mobil uygulamalar geliştiriyoruz. Modern teknolojileri kullanarak, her iki platformda da yüksek verimlilikle çalışan ve kullanıcı deneyimini ön planda tutan çözümler sunuyoruz. Amacımız, müşterilerimizin ihtiyaçlarına tam anlamıyla yanıt veren, etkileyici ve işlevsel uygulamalar oluşturmaktır.",
+    "baslik2":"Hizmetlerimiz:",
+    "altbaslik1":"iOS Mobil Uygulama Hizmetleri",
+    "text1":"Apple'ın App Store standartlarına uygun, kullanıcı odaklı ve yüksek performanslı iOS uygulamaları geliştiriyoruz.",
+    "detay1":"iOS uygulama geliştirme sürecimizde, kullanıcı deneyimi ön planda tutulur.Swift ve Objective-C dillerinde uzman ekibimiz, performansı yüksek, güvenli ve etkili uygulamalar üretir.",
+    "altbaslik2":"Android Mobil Uygulama Hizmetleri",
+    "text2":"Android cihazlar için genişletilebilir, ölçeklenebilir ve güvenli uygulamalar sunuyoruz.",
+    "detay2":" Android uygulamaları, Java ve Kotlin ile geliştirilmektedir. Uygulamalarımız geniş bir cihaz yelpazesinde sorunsuz çalışır ve Google Play Store standartlarına uygun olarak tasarlanır.",
+    "altbaslik3":"Çapraz Platform Uygulama Hizmetleri",
+    "text3":"Tek bir kod tabanı ile hem iOS hem Android cihazlarda mükemmel performans gösteren uygulamalar oluşturuyoruz.",
+    "detay3":" React Native ve Flutter gibi teknolojilerle çapraz platform uygulamaları geliştiriyoruz. Bu sayede, tek bir kod tabanı ile hem iOS hem Android cihazlarda mükemmel performans elde edersiniz.",
+    "altbaslik4":"Akıllı Saat Uygulama Sistemleri",
+    "text4":"Akıllı saatlerde kullanıcı deneyimini ön planda tutan modern ve yenilikçi uygulamalar geliştiriyoruz.",
+    "detay4":"Akıllı saat uygulamalarında, kullanıcı dostu arayüzler ve enerji verimliliği ön plandadır.Giyilebilir teknolojiler için optimize edilmiş uygulamalar geliştiriyoruz ve sunuyoruz.",
+    "altbaslik5":"Mobil Sistem & Arayüz Geliştirme",
+    "text5":"Mobil arayüzlerinizi modern ve kullanıcı dostu tasarımlarla güçlendiriyoruz.",
+    "detay5":"Mobil uygulamalarda arayüz tasarımı, kullanıcıların uygulamayı etkili bir şekilde kullanabilmesi için son derece önemlidir. Tasarımlarımız kullanıcıların talepleri doğrultusunda hazırlanmıştır ve deneyimi odaklıdır.",
+    "baslik3":"Yaptığımız İşler:",
+    "d":"Detaylar",
+    "dt":"Detaylı Bilgi: "
   }
-  
-   
-  
-
-
 }
 
 

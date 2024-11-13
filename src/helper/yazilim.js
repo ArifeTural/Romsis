@@ -180,83 +180,21 @@
     {
       id: 1,
       image:"/image/yazilim/buycar1.jpg",
-      h1:" Buy on Board Sistemi ile Yolculuk Keyfini Artırın",
-  
     },
     {
       id: 2,
       image:"/image/yazilim/bobcar.jpg",
-      h1:" Buy on Board Sistemi ile Yolculuk Keyfini Artırın",
-   
     },
     {
       id: 3,
       image:"/image/yazilim/car3.jpg",
-      h1:"Buy on Board Sistemi ile Yolculuk Keyfini Artırın",
-   
-    }
-  ];
-
-  export const bob = [
-    {
-      id: 1,
-      image:"/image/yazilim/bob1.jpg",
-      h3:"1. Uçak İçi Yükleme",
-      description:"Uçak içi yükleme, uçuş öncesinde havayolu şirketlerinin, uçakta satılacak ürünlerin (yiyecek, içecek ve duty-free ürünler) dikkatlice planlandığı ve yüklendiği bir süreçtir. Bu aşamada, stok miktarları, yolcu sayısı ve ürün çeşitliliği göz önünde bulundurularak yükleme yapılır. Ürünler, havalimanındaki depolardan alınarak uçakta uygun bölmelere yerleştirilir. Uçak içi yükleme işlemi, hem güvenlik hem de operasyonel verimlilik açısından titizlikle gerçekleştirilir.",
-  
-    },
-    {
-      id: 2,
-      image:"/image/yazilim/ucakkredikarti.jpg",
-      h3:"2. Uçak İçi Satış ve Stok Yönetimi",
-      description:"Uçak içi satış ve stok yönetimi, uçuş sırasında kabin ekibinin yolculara yiyecek, içecek ve diğer ürünleri satmasını içerir. Bu satışlar genellikle nakit, kredi kartı ya da havayolu uygulamaları üzerinden yapılmaktadır. Stok yönetimi, satılan ürünlerin kaydının tutulması ve kalan stokların izlenmesi süreçlerini kapsar. Satışların dijital olarak kaydedilmesi, uçuş sonrası doğru stok değerlendirmesi ve bir sonraki uçuş için ihtiyaçların belirlenmesini sağlar.",
-   
-    },
-    {
-      id: 3,
-      image:"/image/yazilim/board3.jpg",
-      h3:"3. Uçuş Sonrası Muhasebe ve Raporlama İşlemi",
-      description:"Uçuş sonrası, satış verileri toplanarak havayolu şirketinin muhasebe sistemine işlenir. Satış ve stok verileri karşılaştırılarak gelir raporları hazırlanır. Bu süreçte, kayıp veya bozuk ürünler gibi durumlar da raporlara dahil edilir. Uçuş sonrası muhasebe ve raporlama işlemi, gelirler, giderler ve satılmayan ürünler gibi detaylı bilgilerin analiz edilmesiyle, bir sonraki uçuş planlaması için gerekli verileri sağlar.",
-   
     }
   ];
 
 
-  export   const services = [
-    {
-      title: 'Yiyecek ve İçecek Servisi',
-      description: 'Yolcularımıza özel lezzetli ikramlar sunuyoruz.',
-      details: 'Uçuş sırasında taze ve sağlıklı yiyecek seçenekleri ile çeşitli içecek alternatifleri sunmaktayız.',
-      advantages: [
-        'Zengin menü seçenekleri',
-        'Diyet ve vegan seçenekleri',
-        'Hızlı ve kaliteli servis',
-      ],
-      imageUrl: '/image/yazilim/yiyecek.jpg',
-    },
-    {
-      title: 'Eğlence Seçenekleri',
-      description: 'Uçuş boyunca film, dizi ve müzik keyfi sunuyoruz.',
-      details: 'Geniş bir film ve dizi kütüphanesine erişim sağlayarak, farklı müzik türleri ile eğlenceli bir uçuş deneyimi sunuyoruz.',
-      advantages: [
-        'Yeni çıkan filmler',
-        'Farklı dillerde altyazı seçenekleri',
-        'Günlük güncellemeler',
-      ],
-      imageUrl: '/image/yazilim/eglence.jpg',
-    },
-    {
-      title: 'Wi-Fi Erişimi',
-      description: 'Uçuş sırasında internet erişimi ile bağlantıda kalın.',
-      details: 'Uçuş boyunca kesintisiz internet bağlantısı ile sosyal medya hesaplarınızı kontrol edebilir ve işlerinizi halledebilirsiniz.',
-      advantages: [
-        'Hızlı bağlantı',
-        'Düşük gecikme süresi',
-        'Güvenli bağlantı',
-      ],
-      imageUrl: '/image/yazilim/wifi.jpg',
-    },
-  ];
+
+
+
 
 
   

@@ -5,16 +5,21 @@ import { referanswms } from '../helper/referans';
 import wmsgiris from "../assets/wms-giris.jpg";
 import wmshedef from "../assets/wms-hedefler.jpg";
 import tablo from "../assets/wms-tablo.png";
+import { useTranslation } from "react-i18next";
+
 
 const Wms = () => {
+ 
+  const { t } = useTranslation();
+
   const features = [
-    "Kullanıcı dostu bir arayüz tasarlanması",
-    "Kullanıcılara uygun görüntülenmek üzere web sitesinin oluşturulması",
-    "Android ve IOS tabanlı mobil uygulamanın oluşturulması",
-    "Müşteri istek ve önerilerinin test edilebileceği bir ön dizinleme sisteminin geliştirilmesi",
-    "Müşteri geri bildirim ve ek istek tekliflerinin onay süreçlerinin takibi ve sonucun bildirimi",
-    "Kişiselleştirilebilir bir yazılım olması",
-    "Faturalandırma ve ödeme sistemlerinin geliştirilmesi ve takibi",
+    t("wms.liste1"),
+    t("wms.liste2"),
+    t("wms.liste3"),
+    t("wms.liste4"),
+    t("wms.liste5"),
+    t("wms.liste6"),
+    t("wms.liste7"),
   ];
 
   return (
@@ -28,18 +33,18 @@ const Wms = () => {
       </Helmet>
 
       <div>
-        <h1 className='wms-title'>WMS Depo Yönetim Sistemleri: Verimli ve Akıllı Depo Çözümleri</h1>
+        <h1 className='wms-title'>{t("wms.baslik1")}</h1>
       </div>
       <img src={wmsgiris} alt="WMS Giriş" className='wmsgimg w-100 p-3' />
 
       <div>
         <p className='wms-par'>
-          "WMS Depo Yönetim Sistemleri ile uluslararası depolama alanınızı bir şehir mimarı gibi planlayarak adresleyin, tedarik zincirinizi ve tedarikçilerinizi anında kontrol edip değerlendirin. Doğru zamanda doğru ürünü müşterilerinize gönderirken, üretimden gelen girişlerinizi ve sevklerinizi zamanında ve kontrollü bir şekilde yönetin. Depolar arası sevkiyatlarınızı güvenli ve verimli hale getirirken, kullanıcı dostu ve kolay arayüzümüzle işlemlerinizi sorunsuzca gerçekleştirin. Ek ihtiyaçlarınıza göre özelleştirilmiş çözümler sunarak, iş süreçlerinizi optimize ediyoruz."
+        {t("wms.par")}
         </p>
       </div>
 
       <Container className="text-center">
-        <h2 className='wms-title'>Nasıl Çalışıyoruz: Süreçlerimiz ve Yaklaşımımız</h2>
+        <h2 className='wms-title'>{t("wms.baslik2")}</h2>
         <Row className='justify-content-center align-items-center'>
           <Col sm={12} md={4} className="mb-4">
             <img src={wmshedef} alt="Hedefler" className="wmshedefimg img-fluid rounded-pill" />
@@ -61,14 +66,14 @@ const Wms = () => {
       </Container>
 
       <Container>
-        <h2 className='wms-title'>Romsis WMS, MRP Depo Çözüm Modülleri</h2>
+        <h2 className='wms-title'>{t("wms.baslik3")}</h2>
         <img src={tablo} alt="Tablo" className='wms-tablo' />
       </Container>
 
       <div className='text-center'>
         <h2>
           <a href="" className='h-refe font-monospace fw-bolder fs-1 text-secondary'>
-            İş Ortaklarımız
+          {t("giris.baslik3")}
           </a>
         </h2>
       </div>

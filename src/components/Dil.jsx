@@ -7,8 +7,8 @@ import i18n from "../i18next";
 
 
 const dillerTablo = [
-  { name: "Türkçe", code: "tr" },
-  { name: "English", code: "en" },
+  { name: "TR", code: "tr" },
+  { name: "EN", code: "en" },
 
 ];
 
@@ -32,7 +32,10 @@ const Dil = () => {
   };
 
   return (
-    <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+    <div style={{ display: "flex",
+     alignItems: "center",
+     justifyContent:"end",
+     }}>
   
       {dillerTablo.map((dil, index) => (
         <button
@@ -41,9 +44,10 @@ const Dil = () => {
           style={{
             padding: "8px 12px",
             cursor: "pointer",
-            borderRadius: "5px",
+            border:"none",
             backgroundColor: "#f0f0f0",
             border: "1px solid #ccc",
+            zIndex: "100",
           }}
         >
           {dil.name}

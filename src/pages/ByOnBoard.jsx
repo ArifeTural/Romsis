@@ -1,17 +1,42 @@
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import Carousel from 'react-bootstrap/Carousel';
-import { bob, buyOnCarousel } from '../helper/yazilim';
+import { buyOnCarousel } from '../helper/yazilim';
 import '../css/byOnBoard.css';
 import { Col, Container, Row } from 'react-bootstrap';
 import { board } from '../helper/referans';
 import retail from "../assets/byreatil.jpg"
+import { useTranslation } from "react-i18next";
 
 
 
 
 const ByOnBoard = () => {
+  const { t } = useTranslation();
 
+ const bob = [
+    {
+      id: 1,
+      image:"/image/yazilim/bob1.jpg",
+      h3:t("buyon.altbaslik1"),
+      description:t("buyon.par1"),
+  
+    },
+    {
+      id: 2,
+      image:"/image/yazilim/ucakkredikarti.jpg",
+      h3:t("buyon.altbaslik2"),
+      description:t("buyon.par2"),
+   
+    },
+    {
+      id: 3,
+      image:"/image/yazilim/board3.jpg",
+      h3:t("buyon.altbaslik3"),
+      description:t("buyon.par3"),
+   
+    }
+  ];
 
   return (
     <div> 
@@ -26,9 +51,7 @@ const ByOnBoard = () => {
       <div className="d-flex justify-content-center align-items-center">
         <img src={buy.image} alt={`Uçak İçi Hizmet: ${buy.h1}`} className="buy-car" />
       </div>
-      <Carousel.Caption className="buyon-caption">
-        <h3 className="byon-h3">{buy.h1}</h3>
-      </Carousel.Caption>
+   
     </Carousel.Item>
   ))}
 </Carousel>
@@ -36,15 +59,14 @@ const ByOnBoard = () => {
 
 
 
-      <Container>
-        <p className='buyon-par'>
-          Romsis olarak, "Buy on Board" (BOB) hizmetleri ile modern havayolu deneyimini zenginleştiriyoruz. Uçuş sırasında yolcularımıza çeşitli yiyecek ve içecek seçenekleri sunarak konforlarını artırıyor, aynı zamanda havayolu şirketlerine ek gelir imkanı sağlıyoruz. Yolcular, tercih ettikleri ürünleri kolayca seçerken, biz de etkin bir şekilde uçak içi hizmetlerini yönetiyor ve satış işlemlerini sorunsuz bir şekilde gerçekleştiriyoruz. Romsis, "Buy on Board" sistemi ile yolcuların seyahatlerini daha keyifli hale getirirken, havayolu şirketlerinin operasyonel verimliliğini artırmayı hedefliyoruz.
-        </p>
-      </Container>
+<Container>
+  <p className='buyon-par'>{t("buyon.giris")}</p>
+</Container>
+
       
 
       <Container className='p-3'>
-      <h2 className='buy-title'>BUY ON BOARD YAZILIM HİZMETLERİ</h2>
+      <h2 className='buy-title'>{t("buyon.baslik1")}</h2>
         {bob.map((bobb, index) => {
           const { id, image, h3, description } = bobb;
 
@@ -93,7 +115,7 @@ const ByOnBoard = () => {
       </Container>
 
       <Container>
-        <h2  className='buy-title'>BUY ON BOARD RETAIL HİZMETLERİ</h2>
+        <h2  className='buy-title'>{t("buyon.baslik2")}</h2>
     
         <Row className='d-flex align-items-center '>
         <Col className="col-12 col-lg-4  ">
@@ -106,7 +128,7 @@ const ByOnBoard = () => {
                   <Col className="col-12 col-lg-8">
                     <div className="card-body">
                     
-                      <p className='fs-4 text-secondary fw-bold'>Her uçuş için özel yükleme adetleri, kabin ve yolcu bilgileri ile özel fiyatlandırmaların girilebildiği retail hizmetimizle, uçuş öncesi, uçuş esnası ve sonrasında tüm ihtiyaçlarınızı karşılıyoruz.</p>
+                      <p className='fs-4 text-secondary fw-bold'>{t("buyon.par4")}</p>
                     </div>
                   </Col>
 
@@ -117,7 +139,7 @@ const ByOnBoard = () => {
 
       <div className='text-center mt-5'>
         <h2>
-          <a href="#" className='h-refe font-monospace fw-bolder fs-1 text-secondary '>İş Ortaklarımız</a>
+          <a href="#" className='h-refe font-monospace fw-bolder fs-1 text-secondary '>{t("giris.baslik3")}</a>
         </h2>
       </div>
       <div className='referans'>
