@@ -313,6 +313,22 @@
   "pnot": "Write to us...",
   "check": "I accept that my personal data will be processed within the scope and purposes stated.",
   "but": "Send"
+},
+"nav": {
+  "tit1": "Home",
+  "tit2": "Buy On Board",
+  "tit3": "Custom Software Services",
+  "tit4": "Lean Manufacturing | MRP",
+  "tit5": "WMS Warehouse Management Systems",
+  "tit6": "Mobile Application",
+  "tit7": "UI & UX",
+  "tit8": "Web Development",
+  "tit9": "Corporate",
+  "tit10": "About Us",
+  "tit11": "Our References",
+  "tit12": "Frequently Asked Questions",
+  "tit13": "Contact",
+  "tit14": "How Can We Help You?"
 }
 
 

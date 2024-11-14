@@ -1,28 +1,30 @@
 import React, { useState } from 'react';
 import logo from "../assets/romsisko.png";
 import { Link, NavLink, useLocation } from 'react-router-dom';
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
+    const { t } = useTranslation();
     const navigation = [
-        { title: "Anasayfa", path: "/dashboard" },
-        { title: "Buy On Board", path: "/dashboard/byOnBoard" },
+        { title: t("nav.tit1"), path: "/dashboard" },
+        { title:  t("nav.tit2"), path: "/dashboard/byOnBoard" },
       
     
-        { title: "Özel Yazılım Hizmetleri", subpages: [
-            { title: "Yalın Üretim | MRP", path: "/dashboard/ozelYazilim/YalinUretim" },
-            { title: "Wms Depo Yönetim Sistemleri", path: "/dashboard/ozelYazilim/Wms" },
-            { title: "Mobil Uygulama", path: "/dashboard/ozelYazilim/MobilUygulama" },
-            { title: "UI & UX", path: "/dashboard/ozelYazilim/UIUX" },
-            { title: "Web Yazılım", path: "/dashboard/ozelYazilim/WebYazilim" },
+        { title:  t("nav.tit3"), subpages: [
+            { title:  t("nav.tit4"), path: "/dashboard/ozelYazilim/YalinUretim" },
+            { title:  t("nav.tit5"), path: "/dashboard/ozelYazilim/Wms" },
+            { title:  t("nav.tit6"), path: "/dashboard/ozelYazilim/MobilUygulama" },
+            { title: t("nav.tit7"), path: "/dashboard/ozelYazilim/UIUX" },
+            { title:  t("nav.tit8"), path: "/dashboard/ozelYazilim/WebYazilim" },
     
         ]},
-        { title: "Kurumsal",  subpages: [
-            { title: "Hakkımızda", path: "/dashboard/hakkımızda" },
-            { title: "Referanslarımız", path: "/dashboard/Kurumsal" },
-            { title: "Sıkça Sorulan Sorular", path: "/dashboard/sorular" },
+        { title:  t("nav.tit9"),  subpages: [
+            { title:  t("nav.tit10"),path: "/dashboard/hakkımızda" },
+            { title: t("nav.tit11"), path: "/dashboard/Kurumsal" },
+            { title:  t("nav.tit12"), path: "/dashboard/sorular" },
         ] },
-        { title: "İletişim", path: "/dashboard/iletisim" },
-        { title: "Size Nasıl Yardımcı Olabiliriz?", path: "/dashboard/teklif" },
+        { title:  t("nav.tit13"), path: "/dashboard/iletisim" },
+        { title:  t("nav.tit14"), path: "/dashboard/teklif" },
     ];
 
     const [show, setShow] = useState(false);

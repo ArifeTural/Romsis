@@ -314,7 +314,22 @@
     "pnot":"Bize yazınız..",
     "check":"Kişisel verilerimin, belirtilen kapsam ve amaçlarla işlenmesini kabul ediyorum.",
     "but":"Gönder"
-
+  },
+  "nav":{
+  "tit1":"Anasayfa",
+  "tit2":"Buy On Board",
+  "tit3":"Özel Yazılım Hizmetleri",
+  "tit4":"Yalın Üretim | MRP",
+  "tit5":"Wms Depo Yönetim Sistemleri",
+  "tit6":"Mobil Uygulama",
+  "tit7":"UI & UX",
+  "tit8":"Web Yazılım",
+  "tit9":"Kurumsal",
+  "tit10":"Hakkımızda",
+  "tit11":"Referanslarımız",
+  "tit12":"Sıkça Sorulan Sorular",
+  "tit13":"İletişim",
+  "tit14":"Size Nasıl Yardımcı Olabiliriz?"
   }
 }
 

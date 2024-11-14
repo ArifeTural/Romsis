@@ -1,8 +1,12 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+
+  const { t } = useTranslation();
+
   const scrollToTop = () => {
     window.scrollTo(0, 0);
   };
@@ -28,39 +32,40 @@ const Footer = () => {
           </p>
         </Col>
         <Col className='cal-2'>
-          <p><i className="fa-solid fa-location-dot"></i> Merkez Adres: Maslak Mahallesi Maslak Meydanı Sok. No:3 Veko Giz Plaza Kat:2 D:1-2 Maslak Sarıyer İstanbul Türkiye</p>
-          <p><i className="fa-solid fa-location-dot"></i> Ar-Ge Adres: Trakya Üniversitesi Ayşekadın Yerleşkesi, 22100 Edirne Türkiye</p>
+          <p><i className="fa-solid fa-location-dot"></i><span>{t("iletisim.altbaslik1")}</span> {t("iletisim.icerik1")}</p>
+
+          <p><i className="fa-solid fa-location-dot"></i> <span>{t("iletisim.altbaslik2")}</span> {t("iletisim.icerik2")}</p>
         </Col>
         <Col className='cal-3'>
-          <p><i className="fa-solid fa-location-dot"></i> Ankara Esenboğa Havalimanı Şubesi Adres: Ankara Esenboğa Havalimanı Romsis Ofisi</p>
-          <p><i className="fa-solid fa-location-dot"></i> Sabiha Gökçen Havalimanı Şubesi Adres: İstanbul Sabiha Gökçen Uluslararası Havalimanı Romsis Ofisi</p>
+          <p><i className="fa-solid fa-location-dot"></i> <span>{t("iletisim.altbaslik3")}</span> {t("iletisim.icerik3")}</p>
+          <p><i className="fa-solid fa-location-dot"></i> <span>{t("iletisim.altbaslik4")}</span>{t("iletisim.icerik4")}</p>
         </Col>
         <Col className='cal-4'>
-          <p><i className="fa-solid fa-location-dot"></i> Antalya Havalimanı Şubesi Adres: Fraport TAV Antalya Havalimanı Romsis Ofisi</p>
-          <p><i className="fa-solid fa-location-dot"></i> Azerbaycan Ofisi Adres: Elmler Akademiyasi Ehmed Cemil kucesi, Mothercare-den Forte Fashion-nin binasi</p>
+          <p><i className="fa-solid fa-location-dot"></i> <span>{t("iletisim.altbaslik5")}</span> {t("iletisim.icerik5")}</p>
+          <p><i className="fa-solid fa-location-dot"></i> <span>{t("iletisim.altbaslik6")}</span> {t("iletisim.icerik6")}</p>
         </Col>
         <Col className='cal-5'>
           <ul>
-            <li><Link className="fs-5" to="/dashboard/byOnBoard" onClick={scrollToTop}>Buy On Board</Link></li>
+            <li><Link className="fs-5" to="/dashboard/byOnBoard" onClick={scrollToTop}>{t("nav.tit2")}</Link></li>
           </ul>
           <ul>
-            <li><Link to="/dashboard/ozelYazilim/YalinUretim" onClick={scrollToTop}>Yalın Üretim | MRP</Link></li>
-            <li><Link to="/dashboard/ozelYazilim/Wms" onClick={scrollToTop}>WMS Depo</Link></li>
-            <li><Link to="/dashboard/ozelYazilim/MobilUygulama" onClick={scrollToTop}>Mobil Uygulama</Link></li>
-            <li><Link to="/dashboard/ozelYazilim/UIUX" onClick={scrollToTop}>UI & UX</Link></li>
-            <li><Link to="/dashboard/ozelYazilim/WebYazilim" onClick={scrollToTop}>Web Yazılım</Link></li>
+            <li><Link to="/dashboard/ozelYazilim/YalinUretim" onClick={scrollToTop}>{t("nav.tit4")}</Link></li>
+            <li><Link to="/dashboard/ozelYazilim/Wms" onClick={scrollToTop}>{t("nav.tit5")}</Link></li>
+            <li><Link to="/dashboard/ozelYazilim/MobilUygulama" onClick={scrollToTop}>{t("nav.tit6")}</Link></li>
+            <li><Link to="/dashboard/ozelYazilim/UIUX" onClick={scrollToTop}>{t("nav.tit7")}</Link></li>
+            <li><Link to="/dashboard/ozelYazilim/WebYazilim" onClick={scrollToTop}>{t("nav.tit8")}</Link></li>
           </ul>
         </Col>
         <Col className='cal-6'>
           <ul>
-            <li><Link to="/dashboard/hakkımızda" onClick={scrollToTop}>Hakkımızda</Link></li>
-            <li><Link to="/dashboard/kurumsal" onClick={scrollToTop}>Referanslarımız</Link></li>
-            <li><Link to="/dashboard/sorular" onClick={scrollToTop}>Sıkça Sorulan Sorular</Link></li>
+            <li><Link to="/dashboard/hakkımızda" onClick={scrollToTop}>{t("nav.tit10")}</Link></li>
+            <li><Link to="/dashboard/kurumsal" onClick={scrollToTop}>{t("nav.tit11")}</Link></li>
+            <li><Link to="/dashboard/sorular" onClick={scrollToTop}>{t("nav.tit12")}</Link></li>
           </ul>
         </Col>
         <Col className='cal-7'>
           <ul>
-            <li><Link to="/dashboard/teklif" onClick={scrollToTop}>Size Nasıl Yardımcı Olabiliriz?</Link></li>
+            <li><Link to="/dashboard/teklif" onClick={scrollToTop}>{t("nav.tit14")}</Link></li>
           </ul>
           <div className="fa d-flex align-items-center h-100">
             <a href="https://www.instagram.com/romsisyazilim/" target="_blank" rel="noopener noreferrer">
