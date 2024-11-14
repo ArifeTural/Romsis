@@ -244,7 +244,13 @@
     "title4": "CTO",
     "title5": "Software Team Leader",
     "title6": "Accounting Manager"
+},
+"referans": {
+  "musteri": "Customer",
+  "ofis": "Office in Country",
+  "ulke": "Countries of Sales"
 }
+
 
 
 

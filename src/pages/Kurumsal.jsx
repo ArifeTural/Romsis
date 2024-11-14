@@ -1,7 +1,9 @@
 import React from 'react'
 import { referans } from '../helper/referans'
+import { useTranslation } from "react-i18next";
 
 const Kurumsal = () => {
+  const { t } = useTranslation();
   return (
     <div>
 
@@ -11,21 +13,21 @@ const Kurumsal = () => {
   <div className="card-body ">
       <h1 className='text-primary'><i class="fa-solid fa-users"></i></h1>
        <p>20.000 +</p>
-       <p>Müşteri</p>
+       <p>{t("referans.musteri")}</p>
   </div>
 </div>
 <div className="card  text-center w-25">
   <div className="card-body">
       <h1 className='text-secondary'><i class="fa-solid fa-globe"></i></h1>
        <p>3 +</p>
-       <p>Ülkede Ofis</p>
+       <p>{t("referans.ofis")}</p>
   </div>
 </div>
 <div className="card text-center w-25">
   <div className="card-body">
       <h1 className='ext-danger-emphasis'><i class="fa-solid fa-briefcase"></i></h1>
         <p>12 +</p>
-       <p>Satış Yapılan Ülke</p>
+       <p>{t("referans.ulke")}</p>
   </div>
 </div>
 

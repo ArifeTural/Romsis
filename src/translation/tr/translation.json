@@ -245,7 +245,11 @@
     "title3":"Operasyondan Sorumlu Direktör",
     "title5":"Yazılım Takım Lideri",
     "title6":"Muhasebe Müdürü"
-
+  },
+  "referans":{
+    "musteri":"Müşreti",
+    "ofis":"Ükede Ofis",
+    "ulke":"Satış Yapılan Ülke"
   }
 }
 
