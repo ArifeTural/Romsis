@@ -11,7 +11,7 @@
 /*! NAVBAR  */
 
 .navbar{
-    background:rgb(237, 235, 235) !important;
+    background:rgba(237, 235, 235, 0) !important;
     z-index: 10;
    
 }
@@ -23,7 +23,7 @@
     border-radius: 10px !important;
 }
 
-@media (max-width: 1399px) {
+@media (max-width: 1100px) {
     .navbar{
         background:white!important;
         z-index: 10;
@@ -125,7 +125,7 @@ transform: rotate(360deg) scale(2);
     position: relative;
     z-index: 2;
     width: 100%;
-    max-height: 77vh;
+    max-height: 69vh;
     display: flex;
     align-items: center;
     text-align: center;

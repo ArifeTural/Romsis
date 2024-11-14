@@ -214,7 +214,7 @@ const techTools = [
  
       <section className="py-5 text-center">
   <div className="container">
-    <h2 className="display-5 mb-4 ui-baslik">Kullanılan Teknolojiler ve Araçlar</h2>
+    <h2 className="display-5 mb-4 ui-baslik">{t("uiux.baslik4")}</h2>
     <div className="row justify-content-center text-center gap-2">
       {techTools.map(tool => (
         <div key={tool.id} className="col-md-4">

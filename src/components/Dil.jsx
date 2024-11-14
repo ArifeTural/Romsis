@@ -32,29 +32,31 @@ const Dil = () => {
   };
 
   return (
-    <div style={{ display: "flex",
-     alignItems: "center",
-     justifyContent:"end",
-     backgroundColor:"#EDEBEB"
-     }}>
-  
-      {dillerTablo.map((dil, index) => (
-        <button
-          key={index}
-          onClick={() => dilChange(dil)}
-          style={{
-            padding: "4px 6px",
-            cursor: "pointer",
-            border:"none",
-            borderLeft:"2px solid black",
-            backgroundColor: "#EDEBEB",
-            zIndex: "100",
-          }}
-        >
-          {dil.name}
-        </button>
-      ))}
-    </div>
+<div
+  style={{
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "end",
+  }}
+>
+  {dillerTablo.map((dil, index) => (
+    <button
+      key={index}
+      onClick={() => dilChange(dil)}
+      style={{
+        padding: "4px 6px",
+        cursor: "pointer",
+        border: "none",
+        borderLeft: "2px solid black",
+        backgroundColor: "rgba(0, 0, 0, 0.0)", // Burada opaklık eklendi
+        zIndex: "100",
+      }}
+    >
+      {dil.name}
+    </button>
+  ))}
+</div>
+
   );
 };
 

@@ -124,26 +124,5 @@ export const referanswms =[
   ];
 
 
-  export const board =[
-    {
-      id:1,
-      image:"/image/referans/ajet.png",
-      title:"AJet",
-    },
-    {
-      id:2,
-      image:"/image/referans/pegasus.png",
-      title:"Peagsus",
-    },
-    {
-      id:3,
-      image:"/image/referans/mga.png",
-      title:"Mavi Gök Airlines",
-    },
-    {
-      id:4,
-      image:"/image/referans/freebird.png",
-      title:"Freebird Airlines",
-    },
-  ];
+
 

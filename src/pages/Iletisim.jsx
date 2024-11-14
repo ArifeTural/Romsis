@@ -1,8 +1,13 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
+import { useTranslation } from "react-i18next";
 
 const Iletisim = () => {
+  
+  const { t } = useTranslation();
+
+
   return (
     <div>
       <Helmet>
@@ -13,7 +18,7 @@ const Iletisim = () => {
       <div>
         <Row className='flex justify-center m-5 p-5 ofis'>
           <Col xs={12} md={6} className='ofis'>
-            <h1 className='fs-1 fw-bold'>İletişim</h1>
+            <h1 className='fs-1 fw-bold'>{t("iletisim.baslik1")}</h1>
             <>
               <p>
                 <a href="tel:+908502601909" className='text-decoration-underline'>
@@ -45,19 +50,19 @@ const Iletisim = () => {
             <br />
           </Col>
           <Col xs={12} md={6}>
-            <h1>Ofislerimiz</h1>
-            <h5>Merkez</h5>
-            <p><span>Adres:</span> Maslak Mahallesi Maslak Meydanı Sok. No:3 Veko Giz Plaza Kat:2 D:1-2 Maslak Sarıyer İstanbul Türkiye</p>
-            <h5>Ar-Ge</h5>
-            <p><span>Adres:</span> Trakya Üniversitesi Ayşekadın Yerleşkesi, 22100 Edirne Türkiye</p>
-            <h5>Sabiha Gökçen Havalimanı Şubesi</h5>
-            <p><span>Adres:</span> İstanbul Sabiha Gökçen Uluslararası Havalimanı Romsis Ofis İstanbul Türkiye</p>
-            <h5>Ankara Esenboğa Havalimanı Şubesi</h5>
-            <p><span>Adres:</span> Ankara Esenboğa Havalimanı Romsis Ofis Ankara Türkiye</p>
-            <h5>Antalya Havalimanı Şubesi</h5>
-            <p><span>Adres:</span> Fraport TAV Antalya Havalimanı Romsis Ofis Antalya Türkiye</p>
-            <h5>Azerbaycan Ofisi</h5>
-            <p><span>Adres:</span> Elmler Akademiyasi Ehmed Cemil kucesi, Mothercare-den Forte Fashion-nin binasi 4-cu kat</p>
+            <h1>{t("iletisim.baslik2")}</h1>
+            <h5>{t("iletisim.altbaslik1")}</h5>
+            <p><span>{t("iletisim.span")}</span> {t("iletisim.icerik1")}</p>
+            <h5>{t("iletisim.altbaslik2")}</h5>
+            <p><span>{t("iletisim.span")}</span> {t("iletisim.icerik2")}</p>
+            <h5>{t("iletisim.altbaslik3")}</h5>
+            <p><span>{t("iletisim.span")}</span> {t("iletisim.icerik3")}</p>
+            <h5>{t("iletisim.altbaslik4")}</h5>
+            <p><span>{t("iletisim.span")}</span> {t("iletisim.icerik4")}</p>
+            <h5>{t("iletisim.altbaslik5")}</h5>
+            <p><span>{t("iletisim.span")}</span> {t("iletisim.icerik5")}</p>
+            <h5>{t("iletisim.altbaslik6")}</h5>
+            <p><span>{t("iletisim.span")}</span> {t("iletisim.icerik6")}</p>
           </Col>
         </Row>
       </div>

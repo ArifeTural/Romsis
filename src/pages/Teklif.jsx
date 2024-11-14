@@ -3,8 +3,11 @@ import "../css/kurumsal.css"
 import { Col, Container, Row, Form, Button, InputGroup } from 'react-bootstrap';
 import wp from "../assets/whatsapp.png"
 import Swal from 'sweetalert2';
+import { useTranslation } from "react-i18next";
 
 const Teklif = () => {
+  const { t } = useTranslation();
+
   const [FirstName, setFirstName] = useState('');
   const [LastName, setLastName] = useState('');
   const [Email, setEmail] = useState('');
@@ -62,7 +65,7 @@ const Teklif = () => {
     <Container>
       <Row>
         <Col>
-          <h1 className='fw-bold mt-4 text-center' style={{fontSize: "2.5rem"}}>Size Nasıl Yardımcı Olabiliriz?</h1>
+          <h1 className='fw-bold mt-4 text-center' style={{fontSize: "2.5rem"}}>{t("teklif.baslik")}</h1>
           <br /> <br />
           <div className="whatsapp-yardim">
             <a
@@ -73,7 +76,7 @@ const Teklif = () => {
               onClick={handleClick}
             >
               <i className="w-100 text-success fw-bold fs-4"> 
-                <img style={{width: "8%", borderRadius: "50%", cursor: "pointer"}} src={wp} alt="whatsapp" /> Whatsapp Destek Hattı
+                <img style={{width: "8%", borderRadius: "50%", cursor: "pointer"}} src={wp} alt="whatsapp" /> {t("teklif.wp")}
               </i> 
             </a>
           </div>
@@ -82,26 +85,26 @@ const Teklif = () => {
               <Col>
                 <br />
                 <Form.Group controlId="formFirstName">
-                  <Form.Label>Ad</Form.Label>
+                  <Form.Label>{t("teklif.ad")}</Form.Label>
                   <Form.Control 
                     type="text" 
                     value={FirstName}
                     onChange={(e) => setFirstName(e.target.value)}
                     required 
-                    placeholder="İsim" 
+                    placeholder={t("teklif.pad")} 
                   />
                 </Form.Group>
               </Col>
               <Col>
                 <br />
                 <Form.Group controlId="formLastName">
-                  <Form.Label>Soyad</Form.Label>
+                  <Form.Label>{t("teklif.soyad")}</Form.Label>
                   <Form.Control 
                     type="text"
                     value={LastName}
                     onChange={(e) => setLastName(e.target.value)}
                     required 
-                    placeholder="Soyisim" 
+                    placeholder={t("teklif.psoyad")} 
                   />
                 </Form.Group>
               </Col>
@@ -109,7 +112,7 @@ const Teklif = () => {
             <br />
 
             <Form.Group className="mb-3" controlId="formEmail">
-              <Form.Label>Email</Form.Label>
+              <Form.Label>{t("teklif.mail")}</Form.Label>
               <Form.Control 
                 type="email" 
                 value={Email} 
@@ -120,7 +123,7 @@ const Teklif = () => {
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="formPhone">
-              <Form.Label>Telefon</Form.Label>
+              <Form.Label>{t("teklif.tel")}</Form.Label>
               <InputGroup>
                 <InputGroup.Text>
                   <Form.Select defaultValue="+90">
@@ -142,14 +145,14 @@ const Teklif = () => {
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="formNotes">
-              <Form.Label>Not Ekleyiniz</Form.Label>
+              <Form.Label>{t("teklif.not")}</Form.Label>
               <Form.Control 
                 as="textarea" 
                 rows={5} 
                 value={Topic}
                 onChange={(e) => setTopic(e.target.value)}
                 required 
-                placeholder='Bize yazınız..' 
+                placeholder={t("teklif.pnot")}
               />
             </Form.Group>
 
@@ -157,7 +160,7 @@ const Teklif = () => {
               <Form.Check 
                 type="checkbox" 
                 id="flexCheckChecked" 
-                label="Kişisel verilerimin, belirtilen kapsam ve amaçlarla işlenmesini kabul ediyorum."
+                label={t("teklif.check")}
                 checked={isChecked} 
                 onChange={(e) => setIsChecked(e.target.checked)} 
                 required 
@@ -167,7 +170,7 @@ const Teklif = () => {
             {error && <p style={{ color: 'red' }}>{error}</p>}
 
             <Button variant="danger" type="submit" className="i-button">
-              Gönder
+            {t("teklif.but")}
             </Button>
           </Form>
         </Col>

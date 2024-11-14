@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import Carousel from 'react-bootstrap/Carousel';
-import { buyOnCarousel } from '../helper/yazilim';
+import { buyOnCarousel } from '../helper/data';
 import '../css/byOnBoard.css';
 import { Col, Container, Row } from 'react-bootstrap';
-import { board } from '../helper/referans';
+import { board } from '../helper/data';
 import retail from "../assets/byreatil.jpg"
 import { useTranslation } from "react-i18next";
 

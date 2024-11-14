@@ -249,7 +249,74 @@
   "musteri": "Customer",
   "ofis": "Office in Country",
   "ulke": "Countries of Sales"
+},
+"sorular": {
+  "baslik": "FREQUENTLY ASKED QUESTIONS",
+  "soru1": "What Are the Custom Software Development Processes?",
+  "soru2": "How Is Web Coding Done? Which Languages Are Used?",
+  "soru3": "What Are the Processes of Website Development?",
+  "soru4": "What Are Customizable and Scalable Software?",
+  "soru5": "What Is Integration Service?",
+  "soru6": "What Is a Landing Page? What Is It Used For?",
+  "soru7": "What Are the Differences Between Web Design and Web Development?",
+  "soru8": "What Is a Corporate Website?",
+  "soru9": "What Is Internet Advertising?",
+  "soru10": "What Kind of Setup Is Required for Software Installation?",
+  "soru11": "What Solutions Do You Offer?",
+  "soru12": "How Does the Web Design Process Work?",
+  "soru13": "What Are the Benefits of Web Design?",
+  "soru14": "What Is the Difference Between Ready-Made and Custom Web Design?",
+  "soru15": "Why Should I Choose Romsis Software for Web Design?",
+  "cevap1": "Custom software development processes aim to provide solutions tailored to user needs. These processes include requirement analysis, design, development, testing, implementation, and maintenance & support.",
+  "cevap2": "Web coding is generally done using HTML, CSS, and JavaScript. HTML forms the structure of the page, CSS styles the design, and JavaScript manages dynamic features.",
+  "cevap3": "Website development consists of planning, design, development, testing, publishing, and maintenance stages. Each stage ensures the smooth operation and goal alignment of the site.",
+  "cevap4": "Customizable software can be tailored to the user's needs, while scalable software allows users to make changes and add new features.",
+  "cevap5": "Integration service allows different software systems to work together, optimizing data flow and making business processes more efficient.",
+  "cevap6": "A landing page is a special page designed to direct visitors towards a specific goal, often used for product promotion or encouraging form submissions.",
+  "cevap7": "Web design focuses on aesthetics and user experience, while web development deals with backend functionality and technical infrastructure.",
+  "cevap8": "A corporate website is the digital face of a business, showcasing its products and services, providing contact information, and strengthening brand image.",
+  "cevap9": "Internet advertising promotes products or services through digital platforms, aiming to reach target audiences and increase conversion rates.",
+  "cevap10": "The installation of Romsis software requires checking system requirements, obtaining necessary licenses, configuring databases, and making system settings. Our expert team guides you through this process.",
+  "cevap11": "At Romsis, we offer cloud-based software, ERP systems, warehouse management (WMS), procurement management, data management, and MRO solutions, along with custom software development and consulting services.",
+  "cevap12": "The web design process involves needs analysis, design, development, and testing phases. Customer expectations are identified, the design is created, the site is coded, and it is tested before going live.",
+  "cevap13": "Web design strengthens your business's online presence, improves brand image, and helps you reach potential customers. A user-friendly site encourages visitors to stay longer.",
+  "cevap14": "Ready-made web design offers a quick and cost-effective solution using templates. Custom web design provides a fully customized design tailored to your business needs.",
+  "cevap15": "Romsis offers high-quality, user-friendly, and SEO-optimized web designs with an experienced team. Our technical support and consulting services assist you at every step of the process."
+},
+"iletisim": {
+  "baslik1": "Contact",
+  "baslik2": "Our Offices",
+  "altbaslik1": "Headquarters",
+  "altbaslik2": "R&D",
+  "altbaslik3": "Sabiha Gökçen Airport Branch",
+  "altbaslik4": "Ankara Esenboğa Airport Branch",
+  "altbaslik5": "Antalya Airport Branch",
+  "altbaslik6": "Azerbaijan Office",
+  "icerik1": "Maslak Mahallesi Maslak Meydanı Sok. No:3 Veko Giz Plaza Floor:2 Apt:1-2 Maslak Sarıyer Istanbul Turkey",
+  "icerik2": "Trakya University Ayşekadın Campus, 22100 Edirne Turkey",
+  "icerik3": "Istanbul Sabiha Gökçen International Airport Romsis Office Istanbul Turkey",
+  "icerik4": "Ankara Esenboğa Airport Romsis Office Ankara Turkey",
+  "icerik5": "Fraport TAV Antalya Airport Romsis Office Antalya Turkey",
+  "icerik6": "Elmler Akademiyasi Ehmed Cemil Street, Mothercare-Forte Fashion building, 4th floor",
+  "span": "Address:"
+},
+"teklif": {
+  "baslik": "How Can We Help You?",
+  "wp": "WhatsApp Support Line",
+  "ad": "First Name",
+  "pad": "Name",
+  "soyad": "Last Name",
+  "psoyad": "Surname",
+  "mail": "Email",
+  "tel": "Phone",
+  "not": "Add a Note",
+  "pnot": "Write to us...",
+  "check": "I accept that my personal data will be processed within the scope and purposes stated.",
+  "but": "Send"
 }
+
+
+
 
 
 
