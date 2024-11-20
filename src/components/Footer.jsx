@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
@@ -46,26 +47,26 @@ const Footer = () => {
         </Col>
         <Col className='cal-5'>
           <ul>
-            <li><Link className="fs-5" to="/dashboard/byOnBoard" onClick={scrollToTop}>{t("nav.tit2")}</Link></li>
+            <li><Link className="fs-5" to="/byOnBoard" onClick={scrollToTop}>{t("nav.tit2")}</Link></li>
           </ul>
           <ul>
-            <li><Link to="/dashboard/ozelYazilim/YalinUretim" onClick={scrollToTop}>{t("nav.tit4")}</Link></li>
-            <li><Link to="/dashboard/ozelYazilim/Wms" onClick={scrollToTop}>{t("nav.tit5")}</Link></li>
-            <li><Link to="/dashboard/ozelYazilim/MobilUygulama" onClick={scrollToTop}>{t("nav.tit6")}</Link></li>
-            <li><Link to="/dashboard/ozelYazilim/UIUX" onClick={scrollToTop}>{t("nav.tit7")}</Link></li>
-            <li><Link to="/dashboard/ozelYazilim/WebYazilim" onClick={scrollToTop}>{t("nav.tit8")}</Link></li>
+            <li><Link to="/ozelYazilim/YalinUretim" onClick={scrollToTop}>{t("nav.tit4")}</Link></li>
+            <li><Link to="/ozelYazilim/Wms" onClick={scrollToTop}>{t("nav.tit5")}</Link></li>
+            <li><Link to="/ozelYazilim/MobilUygulama" onClick={scrollToTop}>{t("nav.tit6")}</Link></li>
+            <li><Link to="/ozelYazilim/UIUX" onClick={scrollToTop}>{t("nav.tit7")}</Link></li>
+            <li><Link to="/ozelYazilim/WebYazilim" onClick={scrollToTop}>{t("nav.tit8")}</Link></li>
           </ul>
         </Col>
         <Col className='cal-6'>
           <ul>
-            <li><Link to="/dashboard/hakkımızda" onClick={scrollToTop}>{t("nav.tit10")}</Link></li>
-            <li><Link to="/dashboard/kurumsal" onClick={scrollToTop}>{t("nav.tit11")}</Link></li>
-            <li><Link to="/dashboard/sorular" onClick={scrollToTop}>{t("nav.tit12")}</Link></li>
+            <li><Link to="/hakkımızda" onClick={scrollToTop}>{t("nav.tit10")}</Link></li>
+            <li><Link to="/kurumsal" onClick={scrollToTop}>{t("nav.tit11")}</Link></li>
+            <li><Link to="/sorular" onClick={scrollToTop}>{t("nav.tit12")}</Link></li>
           </ul>
         </Col>
         <Col className='cal-7'>
           <ul>
-            <li><Link to="/dashboard/teklif" onClick={scrollToTop}>{t("nav.tit14")}</Link></li>
+            <li><Link to="/teklif" onClick={scrollToTop}>{t("nav.tit14")}</Link></li>
           </ul>
           <div className="fa d-flex align-items-center h-100">
             <a href="https://www.instagram.com/romsisyazilim/" target="_blank" rel="noopener noreferrer">
@@ -81,7 +82,7 @@ const Footer = () => {
               <i className="fa-brands fa-linkedin" />
             </a>
             <a href="https://x.com/romsissoft" target="_blank" rel="noopener noreferrer">
-            <i class="fa-brands fa-x-twitter"></i>
+            <i className="fa-brands fa-x-twitter"></i>
             </a>
           </div>
         </Col>

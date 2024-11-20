@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet'; // Helmet kütüphanesini import et
 import Carousel from 'react-bootstrap/Carousel';
-import { data,  } from "../helper/data";
+
 import { referans } from '../helper/referans';
 import { Link } from 'react-router-dom';
 import wp from "../assets/whatsapp.png";
@@ -15,15 +15,27 @@ function Home() {
     console.log("WhatsApp yönlendirmesi yapılıyor...");
   };
 
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language;
 
-  // Çevirilerin yapıldığı veriler
+  // Dil bilgisine göre video datasını belirle
+  const data = currentLanguage === "tr"
+    ? [
+        { id: 1, image: "./video/giris.mp4" },
+        { id: 2, image: "./video/yazilimvideo.mp4" }
+      ]
+    : [
+        { id: 1, image: "./video/giris.mp4" },
+        { id: 2, image: "./video/uygulamagiff.mp4" }
+      ];
+
+  // Diğer çevirilerin yapıldığı veriler
   const yazilim = [
     {
       id: 1,
       image: "./image/yazilim/car3.jpg",
-      title: t("yazilim.titles"),  // Çeviri burada yapılır
-      link: "/dashboard/byOnBoard"
+      title: t("yazilim.titles"),
+      link: "/byOnBoard"
     }
   ];
 
@@ -31,14 +43,14 @@ function Home() {
     {
       id: 2,
       image: "./image/yazilim/yalinuretmek.jpg",
-      title: t("yazilim2.titlel"),  // Çeviri burada yapılır
-      link: "/dashboard/ozelYazilim/YalinUretim"
+      title: t("yazilim2.titlel"),
+      link: "/ozelYazilim/YalinUretim"
     },
     {
       id: 3,
       image: "./image/yazilim/wms.jpg",
-      title: t("yazilim2.titlew"),  // Çeviri burada yapılır
-      link: "/dashboard/ozelYazilim/Wms"
+      title: t("yazilim2.titlew"),
+      link: "/ozelYazilim/Wms"
     }
   ];
 
@@ -46,20 +58,20 @@ function Home() {
     {
       id: 4,
       image: "./image/yazilim/webbyazilim.jpg",
-      title: t("yazilim3.titleww"),  // Çeviri burada yapılır
-      link: "/dashboard/ozelYazilim/WebYazilim"
+      title: t("yazilim3.titleww"),
+      link: "/ozelYazilim/WebYazilim"
     },
     {
       id: 6,
       image: "./image/yazilim/mobiluygulama.jpg",
-      title: t("yazilim3.titlem"),  // Çeviri burada yapılır
-      link: "/dashboard/ozelYazilim/MobilUygulama"
+      title: t("yazilim3.titlem"),
+      link: "/ozelYazilim/MobilUygulama"
     },
     {
       id: 7,
       image: "./image/yazilim/ui-ux-tasarim.png",
-      title: t("yazilim3.titleu"),  // Çeviri burada yapılır
-      link: "/dashboard/ozelYazilim/UIUX"
+      title: t("yazilim3.titleu"),
+      link: "/ozelYazilim/UIUX"
     }
   ];
 
@@ -70,11 +82,10 @@ function Home() {
         t("steps.contentp1"),
         t("steps.contentp2"),
         t("steps.contentp3")
-      ], // İçerik kısmını ayrı öğelerle dizi halinde kullanıyoruz
+      ],
       img: "/image/planning.png",
       alt: "Planlama ve Araştırma",
     },
-  
     {
       title: t("steps.titled"),
       content: [
@@ -84,7 +95,6 @@ function Home() {
       img: "/image/software.png",
       alt: "Tasarım",
     },
-  
     {
       title: t("steps.titlec"),
       content: [
@@ -94,7 +104,6 @@ function Home() {
       img: "/image/web-development.png",
       alt: "Geliştirme",
     },
-  
     {
       title: t("steps.titlet"),
       content: [
@@ -105,7 +114,6 @@ function Home() {
       img: "/image/design-software.png",
       alt: "Test Etme",
     },
-  
     {
       title: t("steps.titlew"),
       content: [
@@ -115,7 +123,6 @@ function Home() {
       img: "/image/ux.png",
       alt: "Yayınlama",
     },
-  
     {
       title: t("steps.titlemm"),
       content: [
@@ -126,8 +133,6 @@ function Home() {
       alt: "Bakım ve Güncelleme",
     },
   ];
-  
-  
 
   return (
     <div>

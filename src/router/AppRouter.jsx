@@ -21,22 +21,22 @@ import Dil from '../components/Dil';
 const AppRouter = () => {
   return (
     <BrowserRouter>
-      <Dil/>
+      <Dil />
       <Navbar />
       <ScrollToTop />
       <Routes>
-        <Route path='/dashboard' element={<Home />} />
-        <Route path='/dashboard/byOnBoard' element={<ByOnBoard />} />
-        <Route path='/dashboard/ozelYazilim/MobilUygulama' element={<MobilUygulama />} />
-        <Route path='/dashboard/ozelYazilim/UIUX' element={<UIUX />} />
-        <Route path='/dashboard/ozelYazilim/YalinUretim' element={<Yalin />} />
-        <Route path='/dashboard/ozelYazilim/WebYazilim' element={<WebYazilim />} />
-        <Route path='/dashboard/ozelYazilim/Wms' element={<Wms />} />
-        <Route path='/dashboard/kurumsal' element={<Kurumsal />} />
-        <Route path='/dashboard/hakkımızda' element={<Hakkımızda />} />
-        <Route path='/dashboard/iletisim' element={<Iletisim />} />
-        <Route path='/dashboard/teklif' element={<Teklif />} />
-        <Route path='/dashboard/sorular' element={<Sorular />} />
+        <Route path='/' element={<Home />} />
+        <Route path='/byOnBoard' element={<ByOnBoard />} />
+        <Route path='/ozelYazilim/MobilUygulama' element={<MobilUygulama />} />
+        <Route path='/ozelYazilim/UIUX' element={<UIUX />} />
+        <Route path='/ozelYazilim/YalinUretim' element={<Yalin />} />
+        <Route path='/ozelYazilim/WebYazilim' element={<WebYazilim />} />
+        <Route path='/ozelYazilim/Wms' element={<Wms />} />
+        <Route path='/kurumsal' element={<Kurumsal />} />
+        <Route path='/hakkımızda' element={<Hakkımızda />} />
+        <Route path='/iletisim' element={<Iletisim />} />
+        <Route path='/teklif' element={<Teklif />} />
+        <Route path='/sorular' element={<Sorular />} />
         <Route path='*' element={<Home />} />
       </Routes>
       <Footer />
@@ -46,6 +46,7 @@ const AppRouter = () => {
 };
 
 export default AppRouter;
+
 
 
 
