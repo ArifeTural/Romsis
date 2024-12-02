@@ -186,6 +186,15 @@ const WebYazilim = () => {
         <title>Web Yazılım Hizmetleri</title>
         <meta name="description" content="Modern web yazılım hizmetlerimiz ile işletmeniz için frontend, backend ve veritabanı çözümleri sunuyoruz. Profesyonel ve ölçeklenebilir yazılım geliştirme hizmetleri hakkında detaylı bilgiler edinin." />
         <meta name="keywords" content="web yazılım, frontend, backend, veritabanı yönetimi, web geliştirme, yazılım çözümleri, web tasarım" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-03WTTC42DV"></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-03WTTC42DV');
+          `}
+        </script>
       </Helmet>
 
 

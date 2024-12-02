@@ -14,6 +14,15 @@ const Iletisim = () => {
         <title>İletişim</title>
         <meta name="description" content="Romsis Yazılım ile iletişim kurun. Ofislerimizin adresleri ve iletişim formu ile bize ulaşabilirsiniz. İstanbul, Edirne, Antalya ve Ankara'daki şubelerimiz." />
         <meta name="keywords" content="Romsis, iletişim, yazılım, ofis adresleri, iletişim formu, yazılım firması" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-03WTTC42DV"></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-03WTTC42DV');
+          `}
+        </script>
       </Helmet>
       <div>
         <Row className='flex justify-center m-5 p-5 ofis'>

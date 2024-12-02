@@ -52,7 +52,7 @@ const Navbar = () => {
                                 {!item.subpages ? (
                                     <NavLink 
                                         className={`nav-link ${
-                                            item.title === "Size Nasıl Yardımcı Olabiliriz?"
+                                            item.title === t("nav.tit14") 
                                                 ? "teklif-nav btn btn-danger text-light px-3 py-2 fw-bolder"
                                                 : "nav-text text-secondary fw-bolder fs-5"
                                         } ${
@@ -104,6 +104,8 @@ const Navbar = () => {
 }
 
 export default Navbar;
+
+
 
 
 

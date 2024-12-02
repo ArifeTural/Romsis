@@ -7,8 +7,9 @@ import i18n from "../i18next";
 
 
 const dillerTablo = [
-  { name: "TR", code: "tr" },
+ 
   { name: "EN", code: "en" },
+  { name: "TR", code: "tr" },
 
 ];
 
@@ -37,6 +38,7 @@ const Dil = () => {
     display: "flex",
     alignItems: "center",
     justifyContent: "end",
+  
   }}
 >
   {dillerTablo.map((dil, index) => (
@@ -50,6 +52,8 @@ const Dil = () => {
         borderLeft: "2px solid black",
         backgroundColor: "rgba(0, 0, 0, 0.0)", // Burada opaklık eklendi
         zIndex: "100",
+        color: "red",
+        fontWeight: "bold"
       }}
     >
       {dil.name}

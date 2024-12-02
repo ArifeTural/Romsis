@@ -59,6 +59,15 @@ function Yalin() {
       <Helmet>
         <title>Yalın Üretim - Verimlilik ve Süreç İyileştirme</title>
         <meta name="description" content="Yalın üretim süreçleri ile üretim verimliliğinizi artırın. Eksik süreçleri tamamlayın, gereksiz süreçleri kaldırın." />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-03WTTC42DV"></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-03WTTC42DV');
+          `}
+        </script>
       </Helmet>
       
       <Row className='p-5 w-100 d-flex flex-wrap align-items-center justify-content-center '>

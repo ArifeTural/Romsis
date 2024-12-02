@@ -43,6 +43,15 @@ const ByOnBoard = () => {
       <Helmet>
         <title>Buy on Board Hizmetleri | Romsis</title>
         <meta name="description" content="Romsis olarak modern havayolu deneyimini zenginleştiriyoruz. Buy on Board hizmetleri ile yolculara çeşitli yiyecek ve içecek seçenekleri sunuyoruz." />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-03WTTC42DV"></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-03WTTC42DV');
+          `}
+        </script>
       </Helmet>
 
       <Carousel interval={5000}>

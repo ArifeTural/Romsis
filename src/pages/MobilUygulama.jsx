@@ -1,19 +1,21 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Card, Button, Collapse } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
-import giris from "../assets/mobil-giris.png"
+import girisTr from "../assets/mobil-giris.png"
+import girisEn from "../assets/ingmobil.png"
 import { mobilgif } from '../helper/data';
 import { referans } from '../helper/referans';
 import { useTranslation } from "react-i18next";
 import "../css/web.css"
 
 const MobilUygulama = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
     const [openIos, setOpenIos] = useState(false);
     const [openAndroid, setOpenAndroid] = useState(false);
     const [openCrossPlatform, setOpenCrossPlatform] = useState(false);
     const [openWatch, setOpenWatch] = useState(false);
     const [openUiux, setOpenUiux] = useState(false);
+    const selectedImage = i18n.language === 'en' ? girisEn : girisTr;
   
 
     return (
@@ -25,27 +27,36 @@ const MobilUygulama = () => {
             content="Mobil uygulama geliştirme hizmetleri: iOS, Android, çapraz platform uygulamaları, akıllı saat uygulamaları ve mobil arayüz tasarımları. Kullanıcı odaklı çözümler."
           />
           <meta name="keywords" content="mobil uygulama, iOS uygulama, Android uygulama, çapraz platform, akıllı saat uygulaması, UI UX mobil, mobil arayüz, mobil yazılım" />
+
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-03WTTC42DV"></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-03WTTC42DV');
+          `}
+        </script>
         </Helmet>
 
   
-       
-        <section >
-  <Container className="first-img-text mt-5 ">
-    <Row className="row-img-text d-flex flex-wrap justify-content-between text-center align-items-center ">
-      {/* Resim */}
-      <Col md={6} className="d-flex justify-content-center">
-        <img className='first-img' src={giris} alt="Mobil uygulama resmi" />
-      </Col>
+        <section>
+<Container className="first-img-text mt-5">
+    <Row className="row-img-text d-flex flex-wrap justify-content-between text-center align-items-center">
+        {/* Resim */}
+        <Col md={6} className="d-flex justify-content-center">
+            <img className="first-img" src={selectedImage} alt="Mobil uygulama resmi" />
+        </Col>
 
-      {/* Metin */}
-      <Col md={6} className="first-text ">
-        <h2 className='fs-1'>{t("mobil.baslik1")}</h2>
-        <p className='first-par text-center text-secondary'>
-        {t("mobil.par")}
-        </p>
-      </Col>
+        {/* Metin */}
+        <Col md={6} className="first-text">
+            <h2 className="fs-1">{t("mobil.baslik1")}</h2>
+            <p className="first-par text-center text-secondary">
+                {t("mobil.par")}
+            </p>
+        </Col>
     </Row>
-  </Container>
+</Container>
 </section>
 
   
@@ -240,4 +251,7 @@ const MobilUygulama = () => {
 };
 
 export default MobilUygulama;
+
+
+
 

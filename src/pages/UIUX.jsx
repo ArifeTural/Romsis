@@ -35,6 +35,15 @@ const techTools = [
         <title>UI/UX Tasarımı</title>
         <meta name="description" content="UI/UX tasarım sürecimiz ile kullanıcı deneyimini en üst düzeye çıkarın. Projeleriniz için en iyi tasarım çözümlerini sunuyoruz." />
         <meta name="keywords" content="UI/UX, kullanıcı deneyimi, tasarım, prototipleme, kullanıcı testleri, tasarım araçları" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-03WTTC42DV"></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-03WTTC42DV');
+          `}
+        </script>
       </Helmet>
 
 

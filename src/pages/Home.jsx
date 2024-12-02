@@ -18,7 +18,7 @@ function Home() {
   const { t, i18n } = useTranslation();
   const currentLanguage = i18n.language;
 
-  // Dil bilgisine göre video datasını belirle
+  
   const data = currentLanguage === "tr"
     ? [
         { id: 1, image: "./video/giris.mp4" },
@@ -26,7 +26,7 @@ function Home() {
       ]
     : [
         { id: 1, image: "./video/giris.mp4" },
-        { id: 2, image: "./video/uygulamagiff.mp4" }
+        { id: 2, image: "./video/inggris.mp4"}
       ];
 
   // Diğer çevirilerin yapıldığı veriler
@@ -143,6 +143,16 @@ function Home() {
         <meta name="keywords" content="buy on board hizmetleri, yazılım, web tasarım, mobil uygulama, özel yazılım, WMS, UI/UX" />
         <meta name="author" content="Romsis" />
         <link rel="canonical" href="https://www.romsis.com" />
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-03WTTC42DV"></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-03WTTC42DV');
+          `}
+        </script>
       </Helmet>
 
       {/* SLAYT */}

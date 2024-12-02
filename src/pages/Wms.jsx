@@ -29,7 +29,16 @@ const Wms = () => {
         <meta name="description" content="WMS Depo Yönetim Sistemleri ile uluslararası depolama süreçlerinizi optimize edin, müşteri ihtiyaçlarına göre özelleştirilebilir çözümler sunun." />
         <meta name="keywords" content="WMS, Depo Yönetimi, Romsis, Akıllı Depo Çözümleri, Depo Sevkiyatı, Depo Yönetim Yazılımı" />
         <meta name="author" content="Romsis" />
-        <link rel="canonical" href="https://www.romsis.com.tr/dashboard/ozelYazilim/Wms" />
+        <link rel="canonical" href="https://www.romsis.com.tr/ozelYazilim/Wms" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-03WTTC42DV"></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-03WTTC42DV');
+          `}
+        </script>
       </Helmet>
 
       <div>

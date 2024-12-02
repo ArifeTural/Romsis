@@ -81,24 +81,25 @@ const Hakkımızda = () => {
     },
     {
       id: 4,
-      image: "/image/ekip/st.jpeg",
-      title1: "Selim TURAL",
-      title2: "CTO",
-      linkedin: "https://www.linkedin.com/in/selim-tural-executive-mba-b34235161/"
-    },
-    {
-      id: 5,
-      image: "/image/ekip/abdurrahman.jpeg",
-      title1: "Abdurrahman ELIKARA",
-      title2: t("hakkimizda.title5"),
-      linkedin: "https://www.linkedin.com/in/abdurrahman-e-91276b45/"
-    },
-    {
-      id: 6,
       image: "/image/ekip/ayse.jpeg",
       title1: "Ayşe Gül GÜÇLÜ",
       title2: t("hakkimizda.title6"),
       linkedin: "https://www.linkedin.com/in/romsis-yaz%C4%B1l%C4%B1m-581048115/"
+     
+    },
+    {
+      id: 5,
+      image: "/image/ekip/st.jpeg",
+      title1: "Selim TURAL",
+      title2: "PMO Director",
+      linkedin: "https://www.linkedin.com/in/selim-tural-executive-mba-b34235161/"
+    },
+    {
+      id: 6,
+      image: "/image/ekip/abdurrahman.jpeg",
+      title1: "Abdurrahman ELIKARA",
+      title2: t("hakkimizda.title5"),
+      linkedin: "https://www.linkedin.com/in/abdurrahman-e-91276b45/"
     }
   ];  
 
