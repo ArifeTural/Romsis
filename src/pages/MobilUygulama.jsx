@@ -16,8 +16,8 @@ const MobilUygulama = () => {
     const [openWatch, setOpenWatch] = useState(false);
     const [openUiux, setOpenUiux] = useState(false);
     const selectedImage = i18n.language === 'en' ? girisEn : girisTr;
-  
 
+    
     return (
       <div>
         <Helmet>

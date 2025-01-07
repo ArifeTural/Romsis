@@ -257,7 +257,7 @@
   
   .referans-card:hover{
     opacity: 1;
-  }
+  } 
 
   @media (max-width:1200px) {
     .first-img{  

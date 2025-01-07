@@ -246,6 +246,7 @@ function Home() {
         <h2>
           <a href="#" className='h-refe fw-bolder fs-1 text-danger'>{t("giris.baslik3")}</a>
         </h2>
+        
       </div>
       <div className='home-referans'>
         <div className='home-referans-content'>
